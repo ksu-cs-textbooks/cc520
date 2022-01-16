@@ -1,7 +1,7 @@
 ---
 title: "MS SQL Server Access"
-weight: 10
-pre: "0. "
+weight: 15
+pre: "1. "
 ---
 
 In order to complete homework assignments and practice on your own,  you will need access to SQL Server. Your access requires a client tool and a server.
