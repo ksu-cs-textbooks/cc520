@@ -61,29 +61,24 @@ Installing your own copy of Microsoft SQL Server is *highly* encouraged. Most ve
 
   2. Now you can run one of the above client tools to connect to your local instance of SQL Server. You need to use the following  information to connect in a query window:
 
-     **
-     **Server Type: **Database Engine
-     **Server Name: **localhost\SQLEXPRESS
-     **Authentication Type: **Windows Authentication
-
-     **
-
+        - **Server Type:** Database Engine
+        - **Server Name:** localhost\SQLEXPRESS
+        - **Authentication Type:** Windows Authentication
+  
   3. Install the **WideWorldImporters** database. It it is hosted on [github.com](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers). For for our use, you can download the [WideWorldImporters-Standard.bak](https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Standard.bak) copy of the database. Once the backup file is downloaded, move it to  your user directory and issue the following SQL to restore the backup:
 
-     ```
-     RESTORE DATABASE [WideWorldImporters]
-     FROM DISK = N'THEPATH\WideWorldImporters-Standard.bak'
-     WITH FILE = 1,
-     MOVE N'WWI_Primary' TO N'THEPATH\WideWorldImporters.mdf',
-     MOVE N'WWI_UserData' TO N'THEPATH\WideWorldImporters_UserData.ndf',
-     MOVE N'WWI_Log' TO N'THEPATH\WideWorldImporters.ldf';
-     ```
-
-     {{% notice info %}}
-
-     Note that since SQL Server Express typically runs under its own user in Windows, you may run into some file permission issues (Access Denied errors) when trying to run the above commands.  If this is the case, move the **.bak** file to the Data folder inside your SQL Server install location.  In most cases, this would be where that folder is located: `C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA`.  Try running the commands above again, but now with the **.bak** file at this location.
-
-     {{% /notice %}}
+    ```sql
+    RESTORE DATABASE [WideWorldImporters]
+    FROM DISK = N'THEPATH\WideWorldImporters-Standard.bak'
+    WITH FILE = 1,
+    MOVE N'WWI_Primary' TO N'THEPATH\WideWorldImporters.mdf',
+    MOVE N'WWI_UserData' TO N'THEPATH\WideWorldImporters_UserData.ndf',
+    MOVE N'WWI_Log' TO N'THEPATH\WideWorldImporters.ldf';
+    ```
+  
+    {{% notice info %}}
+    Note that since SQL Server Express typically runs under its own user in Windows, you may run into some file permission issues (Access Denied errors) when trying to run the above commands.  If this is the case, move the **.bak** file to the Data folder inside your SQL Server install location.  In most cases, this would be where that folder is located: `C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA`.  Try running the commands above again, but now with the **.bak** file at this location.
+    {{% /notice %}}
 
 - **Docker Container Option:** A full-featured database engine running in a Linux container.
   To build your own image, the container and the sample database are both  installed by following the steps of the online Microsoft article [Restore a SQL Server database in a Linux Docker container](https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-2017). Walk through the steps described until you complete the section of the online article named [*Verify the restored database*](https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-2017#verify-the-restored-database).
