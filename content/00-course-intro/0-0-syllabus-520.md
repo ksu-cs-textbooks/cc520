@@ -1,3 +1,9 @@
+---
+title: "Syllabus"
+weight: 10
+pre: "0. "
+---
+
 ## CC 520 - Database Fundamentals - Syllabus
 
 {{% notice info %}}
