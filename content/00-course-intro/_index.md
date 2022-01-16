@@ -8,6 +8,6 @@ pre = "<b>0. </b>"
 
 ### Chapter 0
 
-# Introduction
+# Course Details
 
-Welcome to CC 110!
+Welcome to CC 520!
