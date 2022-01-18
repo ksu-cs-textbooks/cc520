@@ -22,32 +22,27 @@ A database server is needed to host a database. In this course, we will use Micr
 
 ### Option 1: Provided Database Server
 
-Using the following information, you connect to our SQL Server instance from one of the aforementioned client tools. *Depending on the tool, not all of this information may be requested.* If you are accessing from your own computer, you will need to connect to the [campus network via VPN](https://www.k-state.edu/it/security/secure-data/vpn/) first.
-
 {{% notice info %}}
 
 If you are connecting to the remote MS SQL Server instance for the first time, you will need to use SQL Server Management Studio once to reset your password.  After you have set your password, you can then use Azure Data Studio to connect.
 
 {{% /notice %}}
 
+Using the following information, you connect to our SQL Server instance from one of the aforementioned client tools. *Depending on the tool, not all of this information may be requested.* If you are accessing from your own computer, you will need to connect to the [campus network via VPN](https://www.k-state.edu/it/security/secure-data/vpn/) first.
+
 - Server Type: **Database Engine**
-
 - Server Name: **mssql.cs.ksu.edu**
+- Authentication Type: **SQL Server Authentication**
+- Login: *Your eID*
+- Password: *Instructor will provide your initial password, then you will be prompted to change it.*
 
-- Authentication Type: 
+Once connected, we will most often use the database **WideWorldImporters**.  You should also have a database named after your EID that you can utilize to explore other examples.  
 
-  SQL Server Authentication
+{{% notice info %}}
 
-  - Login: *Your eID*
-  - Password: *Instructor will provide your initial password, then you will be prompted to change it.*
+Your access to the WideWorldImporters database on the remote server is read only.  If you would like to modify tables, insert, or delete data, you will need to use your own personal installation (see option 2).
 
-- Once connected, we will most often use the database **WideWorldImporters**.  You should also have a database named after your EID that you can utilize to explore other examples.  
-
-  {{% notice info %}}
-
-  Your access to the WideWorldImporters database on the remote server is read only.  If you would like to modify tables, insert, or delete data, you will need to use your own personal installation (see option 2).
-
-  {{% /notice %}}
+{{% /notice %}}
 
 ### Option 2: Install Your Own
 
