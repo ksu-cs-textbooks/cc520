@@ -71,9 +71,9 @@ Installing your own copy of Microsoft SQL Server is *highly* encouraged. Most ve
     MOVE N'WWI_Log' TO N'THEPATH\WideWorldImporters.ldf';
     ```
   
-    {{% notice info %}}
-    Note that since SQL Server Express typically runs under its own user in Windows, you may run into some file permission issues (Access Denied errors) when trying to run the above commands.  If this is the case, move the **.bak** file to the Data folder inside your SQL Server install location.  In most cases, this would be where that folder is located: `C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA`.  Try running the commands above again, but now with the **.bak** file at this location.
-    {{% /notice %}}
+{{% notice info %}}
+Note that since SQL Server Express typically runs under its own user in Windows, you may run into some file permission issues (Access Denied errors) when trying to run the above commands.  If this is the case, move the **.bak** file to the Data folder inside your SQL Server install location.  In most cases, this would be where that folder is located: `C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA`.  Try running the commands above again, but now with the **.bak** file at this location.
+{{% /notice %}}
 
 - **Docker Container Option:** A full-featured database engine running in a Linux container.
   To build your own image, the container and the sample database are both  installed by following the steps of the online Microsoft article [Restore a SQL Server database in a Linux Docker container](https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-2017). Walk through the steps described until you complete the section of the online article named [*Verify the restored database*](https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-2017#verify-the-restored-database).
