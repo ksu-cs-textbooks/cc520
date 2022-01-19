@@ -40,7 +40,7 @@ These books are **not** required.  I will be providing notes, videos, and walk t
 
 ### Required Software
 
-We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access](https://k-state.instructure.com/courses/116923/pages/sql-server-access). 
+We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access](/cc520/00-course-intro/0-1-mssqlserver). 
 
 ### Course Overview
 
