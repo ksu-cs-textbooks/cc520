@@ -1,7 +1,7 @@
 ---
 title: "CASE"
 weight: 60
-pre: "11. "
+pre: "2. "
 ---
 
 {{< youtube f62hAdrOcZU >}}

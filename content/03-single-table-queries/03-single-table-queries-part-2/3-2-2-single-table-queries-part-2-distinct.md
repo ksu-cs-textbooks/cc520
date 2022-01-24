@@ -1,7 +1,7 @@
 ---
 title: "DISTINCT"
 weight: 40
-pre: "7. "
+pre: "2. "
 ---
 
 {{< youtube GqWXsdbB5m4 >}}

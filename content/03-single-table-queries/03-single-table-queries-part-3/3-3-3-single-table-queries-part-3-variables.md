@@ -1,7 +1,7 @@
 ---
 title: "Variables"
-weight: 70
-pre: "13. "
+weight: 65
+pre: "3. "
 ---
 
 {{< youtube TJAcOJwigvk >}}

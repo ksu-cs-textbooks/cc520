@@ -1,7 +1,7 @@
 ---
 title: "OFFSET-FETCH"
 weight: 50
-pre: "9. "
+pre: "4. "
 ---
 
 {{< youtube Fg_bPdhSWHg >}}
