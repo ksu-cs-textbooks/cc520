@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 2 - DISTINCT"
+title: "DISTINCT"
 weight: 40
 pre: "7. "
 ---

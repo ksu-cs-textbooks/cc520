@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 2 - TOP Results"
+title: "TOP Results"
 weight: 45
 pre: "8. "
 ---

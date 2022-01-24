@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 1 - Processing Order"
+title: "Processing Order"
 weight: 30
 pre: "5. "
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 3 - Date Time"
+title: "Date Time"
 weight: 75
 pre: "14"
 ---

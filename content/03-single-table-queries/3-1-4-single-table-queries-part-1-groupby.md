@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 1 - GROUP BY - HAVING"
+title: " GROUP BY - HAVING"
 weight: 30
 pre: "4. "
 ---

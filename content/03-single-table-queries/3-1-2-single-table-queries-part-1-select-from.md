@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 1 - SELECT FROM"
+title: "SELECT FROM"
 weight: 20
 pre: "2. "
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 1 - WHERE"
+title: "WHERE"
 weight: 25
 pre: "3. "
 ---

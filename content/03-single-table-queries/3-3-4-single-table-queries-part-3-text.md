@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 3 - Character Types"
+title: "Character Types"
 weight: 65
 pre: "12. "
 ---

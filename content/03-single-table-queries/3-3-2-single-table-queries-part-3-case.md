@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 3 - CASE"
+title: "CASE"
 weight: 60
 pre: "11. "
 ---

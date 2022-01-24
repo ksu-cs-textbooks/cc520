@@ -1,5 +1,5 @@
 ---
-title: "Single Table Queries Part 2 - OFFSET-FETCH"
+title: "OFFSET-FETCH"
 weight: 50
 pre: "9. "
 ---
