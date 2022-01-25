@@ -8,4 +8,13 @@ pre = "<b>3.1 </b>"
 
 # Single Table Queries Part 1
 
-![Selection](/cc520/images/03-single-table-queries/syntax.png)
+- Schemas & Objects
+- Minimum Table Requirements
+- DDL vs. DML
+- Booleans
+- SELECT Statement
+    - SELECT
+    - FROM
+    - WHERE
+    - GROUP BY
+    - HAVING

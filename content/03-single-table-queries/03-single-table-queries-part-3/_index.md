@@ -8,4 +8,10 @@ pre = "<b>3.3 </b>"
 
 # Single Table Queries Part 3
 
-![Selection](/cc520/images/03-single-table-queries/syntax.png)
+- Predicates IN, BETWEEN, and LIKE
+- Operator Precedence
+- CASE Expression
+- Variables
+- Converting Data Types
+- Character Data Types
+- Date/Time Data Types

@@ -8,4 +8,9 @@ pre = "<b>3.2 </b>"
 
 # Single Table Queries Part 2
 
-![Selection](/cc520/images/03-single-table-queries/syntax.png)
+- HAVING
+- ORDER BY
+- DISTINCT
+- TOP
+- OFFSET…FETCH…
+- Logical Processing Order
