@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "The Apply Operator"
 weight: 25
 pre: "5. "
 ---
