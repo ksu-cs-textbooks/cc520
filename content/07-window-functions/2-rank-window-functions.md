@@ -4,7 +4,7 @@ weight: 10
 pre: "2. "
 ---
 
-{{< youtube jncMO6EDpM >}}
+{{< youtube -jncMO6EDpM >}}
 
 ## Video Transcription
 
