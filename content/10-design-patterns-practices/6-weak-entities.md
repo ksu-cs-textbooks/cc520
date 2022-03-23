@@ -1,0 +1,13 @@
+---
+title: "Weak Entities"
+weight: 30
+pre: "6. "
+---
+
+{{< youtube 0knUaRMtpgU >}}
+
+## Video Transcription
+
+Welcome back everyone, In this video, we're gonna be talking about weak entity types. So weak entities are entities where their keys come from other classes. So this example comes from things like order lines, or tracks for an album. So even with a wide world importers database, we've seen a lot of examples where the keys, for example, or her lines come from another table. And so typically, we tend to the sets are often used in one to many relationships, where, where we have a minimum of one rather than zero, or many, so one, or many versus zero, or many. Logically, we can only we can enforce that situation, right, we can't actually enforce that we have exactly one of the other. So for example, we can't enforce that an album has one track, we can't physically enforce that fat. While Chicly we can represent that here. But physically we cannot. So this is referred to as a weak entity set. Because our key over here depends on a key from another table. So typically, what we'll have here, we have Track ID. And then our we have a foreign key album ID unique key for album ID, that goes over here. And the unique not unique key is also combined with the track number as well, because we can't have duplicate track numbers for album. But this type of relationship here is weak at best, because like I mentioned, logically, we can represent this here easily enough with an album can have one or more tracks. 
+
+But an album, an album can't have zero tracks, but has to have one or more, but physically within our database we cannot represent. And we can't force the album to have at least one track. Now, this also brings up a little bit more of discussion into applications, because I can enforce this relationship and with application logic, but I cannot enforce it on the database side. So within the database database itself, so Microsoft SQL Server, Postgres, MySQL, I can't actually force this relationship to exist. But I can force this so I can force the one or more for a during with the application. So if an album is only entered through an application, so let's say a front end user interface, for example, I can actually force the user to also enter at least one track before the album is saved. So I can force that, but that relationship cannot be forced on the database side. So that is one of the weaknesses of this type of relationship here. So the one to one or many, the one or many side of this relationship is the weak entity, right? Because this depends on the album existing first. And the fact that we can't, we can only represent this logically or through an application and not force it or we cannot force it on the database side.
