@@ -1,5 +1,5 @@
 +++
-title = "Chapter 4 Joins"
+title = "Joins"
 date = 2018-08-24T10:53:05-05:00
 weight = 20
 chapter = true
