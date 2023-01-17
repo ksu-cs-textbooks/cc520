@@ -1,0 +1,614 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>The Multiple Path Problem :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/yalhqXyMt94" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. And in this video, we&rsquo;ll be talking about the multi path problem. So we&rsquo;ve already talked about multi way relationships where we have multiple relationships between one or more tables. But the multiple path problem can come out of this type of relationship. So when there is more than one path between a single entity to another, we get an issue, right? This provides multiple different ways to do our joins, when we write our SQL queries, and when we have multiple ways of performing our joins when writing our queries, we can actually get different results depending on which direction we actually started joining first. So this provides an issue, right, because if we if we aren&rsquo;t aware of this issue ahead of time, this provides an interesting problem that our queries are not going to provide consistent results, depending on which direction we start to join first. So there are a couple ways we can fix this issue. The first one is going to be taking out the foreign key reference entirely. And this makes it so that the person who is writing the query only has one and only one option to joining the tables together, right. So if there aren&rsquo;t multiple ways of joining the same information together, then there&rsquo;s not going to ever be the inconsistent issue with results. And so the problem here, though, attributes from the reference table would have to be duplicated in order to get that relationship across. The second option, second solution here is going to be duplicating the key and then use composite foreign keys instead, by using composite foreign keys, then no matter which direction we actually join, the results will always be the same, the result is always going to be the same. And so in this, I&rsquo;m going to show a couple different examples of this, it&rsquo;s all going to be based off of the same, the same set of tables, but I&rsquo;ll show it in UML first, and the issue where where it arises. And then I&rsquo;ll show an example in SQL as well. So here are two examples, right. So the first one on the left, right, this side, this is the multi path problem over here. And then it is fixed. Oops. On the right hand side, I fixed the multi path problem. And so let&rsquo;s take a look at some of the distinct differences between the two. But first, I&rsquo;m going to highlight why a multi path problem exists.</p>
+<p>So here there is more than one way to get from an invoice back to the order, right? So I can get to from the invoice I can get the order here, right foreign key, but I can also get it through the invoice line through here, but I can also get through the order line through here. And so there&rsquo;s different paths that I can take to get back to our my original order I can go this way I can go this way. So both directions, so I can go I can go that way. I can go that way, right. So two directions that I can actually perform my joints, I can join my invoice with invoice line, then order line and then back to order, or I can join invoiced order both of those are going to result or could potentially result in different data sets as a result, right. And so if I go over here now with my my fixed solution here, multiple paths still exist. But what now and what the same exact result, this is due to the composite keys, this is due to composite keys. And so in particular, this line here, okay, and this line here, and this line here, now, invoice ID is not unique over here anymore. So invoice ID is just the the foreign key over back to the invoice. And my order ID right is now a foreign key. Right? Foreign Key reference Seeing both write foreign key referencing both this order and that order. And so what this actually enforces is that the invoice, invoice line and order line are all synced up to be the exact same order, right, they all link back to the same order. Now over here, you notice that this order, the invoice is synced with that order, the order line is synced that order, right? But in theory, right, this order this order here, and this order here could be different, because there is no synchronization of the Order ID between each of the tables.</p>
+<p>And so that&rsquo;s why this, this side, on the left, this is a problem because the order ID is not synced up to the same order. But over here on the right hand side, since I&rsquo;m using a composite key with the Order ID. That becomes right, that becomes synced up. And so when I joined, no matter which direction I joined, if I joined invoice, invoice line order line, or invoice order or invoice line order line, or vice versa, whichever direction actually joined, the result of my query will be the same, right, the result of my query will be the same. So let&rsquo;s take a look at what this might look like an SQL open up a new query here. So I&rsquo;m actually going to do a couple of couple of things here. First, I&rsquo;m going to set up my tables just like I just like what with how, initially, I&rsquo;m going to set it up like the multi path problem here. So my table is going to represent this issue right here. And so I have my order table, order line, invoice invoice line. And then I just have some basic data to actually insert here just to represent the problem. And so notice, I don&rsquo;t have any composite foreign keys here, I have no composite foreign keys, I have a unique key order ID or line number unique key here. But that&rsquo;s pretty much it, I have no composite foreign key, I do have my foreign keys linked here, but no composite foreign key. Okay. And so let&rsquo;s let us actually showcase the query that will highlight this problem. So first, let&rsquo;s go ahead and connect to my database. All right, and then I&rsquo;m going to use CC 520 here. So again, all of my tables that I all of my tables that I had shown as part of the UML diagram on the left hand side, so this one over here. We&rsquo;ll be and then some associated data with each of those tables. And this query. I am pulling out all of the information. So invoice line, invoice ID, order ID, product quantity, quantity, invoice or invoice quantity from invoice joined on invoice line, joined on order line joined on order and then down. And then let us execute. Okay, so I&rsquo;ll run this once.</p>
+<p>So invoice 345, invoice ID 2121, order ID 2020 and 10. Okay, and package a cool beans bean roaster packet of Cool beans, quantity, and so on and so forth. Now if I go down here Alright, so now that we have our base data, our base data inserted into our tables with the multi path problem existing in there. Let&rsquo;s check out these two sequel SQL queries. So both of these queries are going to pull invoice invoice information along with the order information and the product quantity the so the amount ordered And the invoice quantity. And at face value, they both look to be about the same. But the line that I want to highlight here is this last one. So with this line, right invoice ID, invoice line ID five, I get order ID 10 For package of Cool beans here. But down here, I get order ID 20 are the exact same invoice ID and invoice line Id still the same products order quantity and invoice quantity but a different order ID. So this, this provides an issue. And really the only change that I actually made here is here. So I have entered joined demo dot order on order ID O dot order ID equals O L dot order ID. And then here is O dot order ID equals AI dot order ID. And so the IDs are not syncing up properly between each of the entities with our join. The entities are not, they&rsquo;re not a sinking together with the correct order ID, because I now joined on a different predicate. So the order of information is dere. Same joints just ended up with some slightly different information as a result. So how would we have fixed this issue? Oh, I&rsquo;m going to make the here a new page here. And well, you see see 520. So same exact tables, same tables.</p>
+<p>But now instead, I am actually representing this fixed, fixed table over here. So the primary changes are gone that I&rsquo;m going to represent are now this composite key, this composite foreign key here, along with the unique key order ID and invoice, invoice line and order line. So let&rsquo;s take a look at that. So here is a few new things. Here&rsquo;s the new unique constraint. So the order ID and the order LINE ID must be unique together. Here are the new unique constraints. Order ID and invoice ID must be unique together. And now down here, here is a composite foreign key. So order ID and order LINE ID must reference order ID and order LINE ID in the order line table from the invoice line table. So invoice line to order line. And order ID is synced now between invoice line and invoice. So not only is inside my invoice line table, not only am I syncing my orders, but I&rsquo;m also syncing the order lines as well. Right. So let&rsquo;s take a look at this as part of our database. Run this again here real quick. Let me drop. If we look at this issue, right, if we look at this issue, oh sorry, I can&rsquo;t actually zoom in here. So if you squint really hard or zoom in really sitting really close in your screen says insert statement conflicted with the foreign key constraint in voiceline the conflict occurred and database CC five pony table demo order line.</p>
+<p>So let&rsquo;s go down and look at our order line. And so scroll down here. So we&rsquo;re in our invoice. We have a composite foreign key order ID and order line, order ID, order LINE ID. And then we also have our composite foreign key here with our order ID and order ID invoice ID and the invoice. So if we go back over here, we have our sorry, this should also sorry, I do have an error here. Okay, one so this should also be Sorry, not or so I have a my foreign key here fk one fk one. So these two together, these two together. So that&rsquo;s my reference. That&rsquo;s my reference here. And so what happened is that when I inserted when I tried to actually insert into my order line table here, I violated oops, sorry, I violated my foreign key, I violated my foreign key constraint in my invoice line. Because if I scroll down here, we got these three, these three insert statements happened because these three here, three rows, six rows, four rows, here&rsquo;s my four rows. But this failed, right? Primarily because of this line here. This should actually be 201 instead of 101. Right. But that violated the key constraint because of this, right? This has to. So this should be to a one, not one to one. So this is a typo, right, this is a typo from me entering the data, or whoever is entering the data, whatever it may be. This is a user error. This and this could be either user error, or programmatically whatever it may be. But now with our composite constraints with our composite foreign keys and unique keys, this is prevented now through the error that&rsquo;s generated from the database. So this doesn&rsquo;t have to be prevented from on the application side, it can be prevented through the database design itself. So nonetheless, right, this is more a more complicated, sorry, this in particular is more of a complicated problem that we are probably used to as far as our design. But issues like this do come up. The multi path problem is something that is doesn&rsquo;t happen often. But when you have this complicated relationship here, between a bunch of tables referencing each other, now you can get into issues like this. So just be aware of this is one possible way that we can use to correct and fix this problem and our database design</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

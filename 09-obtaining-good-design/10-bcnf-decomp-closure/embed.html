@@ -1,0 +1,615 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>BCNF Decomposition with Closure Sets :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/3r_X5Ic1mUA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. In this video, we&rsquo;re going to be taking a look at Boyce Codd Normal Form decomposition again. But instead of using functional dependencies for the basis of our decomposition, we&rsquo;re going to use Closure sets. Now in general, I find closure closure sets to be a little bit more complicated to use for decomposition. So I typically lean on using functional dependencies as the basis for decomposing my tables and normalizing them. But closure sets can be a very consistent way to find all of our functional dependencies and therefore have a more guaranteed normalization results at the end. But I&rsquo;ll show an example here in a little bit where the decomposition using Closure sets actually can generate more than one set of resulting tables. But what does the algorithm actually look like? So we have this is going to be like said, this is going to be a little bit complicated to rebel, try to read this, read this out slowly here. Find the x such that remember S T stands for such that. So find x such that x is not equal to the closure set. And the closure set is not equal to all attributes. So x is not a super key. And remember, x here is referring to a set of attributes, right? Just like what we had before, right, so x is a set of attributes. So if not found, then r is in Boyce Codd Normal Form. Okay. So this is essentially kind of work kind of going back to our like bad functional dependencies that we use last time to be composed. But here instead, functional dependency, that is not a super key. So let&rsquo;s keep on breaking this down then. Okay. So if, if we did find a set of attributes, right, if we did find a set of attributes, that is not the full closure set, and not a super key, then let&rsquo;s create a new set of attributes. That is the that is all attributes in the relation minus the closure set.</p>
+<p>And then we get to lynoral decompose our relation r into r one, which is the closure set of x and our two, which is x union y. So very similar to how we how we broke things down with our functional dependency, right? Remember our one before, was, our one before was the just using the functional dependency left and right hand side of the functional dependency. And said here, we&rsquo;re just using the full closure set of x. And then our two is going to be x union with everything else, right. So the attributes x that we use, that we use to compute the closure set, combined with the rest of the attributes from the relation that we&rsquo;re decomposing, that are not included in the closure set that are not included in the closure set. And we repeat this until no X is found. So meaning that there is no more closure sets that are not the super key. So this is complicated. In general, this is kind of hard to follow. Let&rsquo;s take a look at this an example. So here we have this relation student that has a name, ID age, hair color and phone number. We have these two functional dependencies here ID implies name and age, and age implies hair color. So we&rsquo;ll do our algorithm here. So we&rsquo;ll we&rsquo;ll have a couple different iterations here. So we find x such that the closure set of x is not all attributes. So the closure set of ID is name, age, and hair color. Along with ID, of course, the trivial. And that is not all attributes because it excludes phone number, we can imply phone number here. So that&rsquo;s what we&rsquo;re referring to the ID is not a super key. So we decompose that into two, call our two tables, right? decompose that into two tables.</p>
+<p>So this here is our one. This here is our two. And remember, r one is the closure set of x. And r two is x union y. Right? Where Y, in this case is ID, name and age. So this is IB plus minus the rest. Right? So that would be ID name, age, hair color minus name, ID, age hair color phone number. So why is actually going to be just phone number, right. So the closure set of ID minus the entire minus all attributes. Sorry, let&rsquo;s realize let me let me rewrite this here real quick. So for our two, then we have x, which is ID, and then y, which is phone number for our two. Now, we don&rsquo;t we can&rsquo;t reduce phone any farther than what we had it right, we can&rsquo;t reduce vote any farther than we have it because there is no set of attributes x here, that is not a super key, right? You have no set of attributes here that we can&rsquo;t we can&rsquo;t decompose this any farther. Remember, a table that has two attributes is guaranteed to be in Boyce Codd Normal Form. And so we can&rsquo;t break that down any farther. But we can break down student one farther, right, we can break down student one farther. Particularly, we&rsquo;re going to pick on age here. Because age implies hair color. Age implies hair color here. And so an age itself is not a super key. Because we can only get age and hair color out of age. So let&rsquo;s break this down again. Let&rsquo;s break this down again. We have r1 Here are two here. Why? In this case is age and hair color. So age, plus minus all which is equal to id a name, right? Because all being all, all here is going to be the attributes from student one, right the attributes from student one. So we have age and hair color minus IB, name, age and hair color.</p>
+<p>So if we take out age and hair color, from students, one we we are left with ID and Name. So we have ID and Name. That&rsquo;s why union x so we have ID name and age. And so in this case now, right, in this case, now, we hair is broken down into everything that we can, because age implies hair color, that&rsquo;s a super key hair color does not imply anything else. And so therefore that is in Boyce Codd Normal Form. And then Student Two is in Boyce Codd Normal Form. Because name does not imply anything. Age does not imply anything here. Because we don&rsquo;t have hair color anymore. We don&rsquo;t have hair color here. So age does not imply anything else. And Id ID is going to imply name and age. So that is our super key. So this is our example here using Boyce Codd Normal Form decomposition using Closure sets. Now I could have done this using functional dependencies. So this relation here, basically using our functional dependencies, right, we have age and hair color. This is one of our functional dependencies. This is our other functional dependency. So we could have decomposed this using functional dependencies But this is just another methodology for getting a relation down in down to Boyce Codd Normal Form. I&rsquo;ll show a bigger example here. But this instead using more functional dependencies here. So we have a large relation ABCDE and F, and we have these functional dependencies up here, A, B implies c, c implies d, f implies B and D implies a.</p>
+<p>So I&rsquo;m going to start picking on my first functional dependency here, a B, the closure set of A B A, B is not a super key. And so therefore, I can decompose R into R one and R two. So we have R one and R two, R one being the closure sets of a b, r to being the closure set minus all attributes. And so that would be a B, A, B, E, and F. Let&rsquo;s see, let&rsquo;s see here, we can, we can break down our one further, because we have c, c implies d, and d implies a. So we have a C, D, which is not a super key. And so therefore, we can break our one down into r1, one and r1 two, which gives us a D, or a CD, a CD, which is the closure set of C, and then our one two, which is just c b, which is AC D minus A, B, C, D, and that leaves us with just the C union y which is BC. So that gives us sorry, not CB just B. And we won&rsquo;t break down r1 to any farther because that is in Boyce Codd Normal Form, we&rsquo;re down to two attributes. Over here we have the closure set of D is 80, which is not this not a super key. So in theory, we could also break that down farther. So gives us a d and d see if we broke that down. And then over here, over here, we can break down a B, E, F, and to FB and fa e because the closures that have F which is just b and f is not a super key. So we break that down into the closure set of f and then F union y, y being a and e so FB minus all attributes. And this is this are two one is in Boyce Codd Normal form because we have two attributes.</p>
+<p>Our two two is in Boyce Codd Normal Form, because we don&rsquo;t have any any other functional dependencies here because f we don&rsquo;t have B here anymore. We don&rsquo;t have a does it A by itself does it imply anything and he by itself doesn&rsquo;t imply anything. So therefore we&rsquo;re in Boyce Codd Normal Form. And then we could also identify all the keys here. So in our one, one, D is our key, D is our key, because D implies a C is our key and our 112 because c implies d our two one f implies B has F is the super key and an AR T one. There is no functional dependency here to base this off of and so all three are our super key. So the general question here is the schema that we have unique right are the tables that I broke everything down into a unique decomposition? Well, the answer to that question is no, it is not unique. So if you spend some, you know take a pause of the video here and follow this trace here. Everything is roughly the same except r 22. r two two is broken down into FC E instead of fa e right. And so this decomposition can be different. The decomposition can be different depending on the functional dependencies that we use and The order that we break things down in. So which solution is better? Which solution is better? Well, we have two, two schemas or two sets of relations or tables that we use, or that we found as a result.</p>
+<p>So my first example here, and my second example here, well, seemingly, you know, at first glance, well, we have 1234 tables here and 12345 tables here. And so we have fewer tables here. But does that necessarily mean we have better or better tables? Not necessarily, right? Not necessarily, which solution is better? From a theoretical point of view? Both solutions are good, because they&rsquo;re both in Boyce Codd Normal Form. From a practical sense, it depends, right? It really depends. In practice, you&rsquo;ll take a look at how the tables are actually being used. So what are the common ways common things that you&rsquo;re actually querying for? What are the most common attributes being inserted together looked for together, query together, those sorts of things. And so you want to break those things down into if you have multiple ways you can decompose a relationship relation into you&rsquo;ll want to decompose it such that you have the fewest number of joins that you actually have to, you have to actually run. So if you&rsquo;re most commonly using or pulling information from common attributes together, and you decompose that table to make it in Boyce Codd Normal Form, but that separates those two attributes. If you have a decomposition that keeps those two attributes together and still maintains Boyce Codd Normal Form, that that would be the preferred way to go because right, those two things are commonly queried together. And that would over time, increase the efficiency of your database. But both solutions are good because we still maintain Boyce Codd Normal Form</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

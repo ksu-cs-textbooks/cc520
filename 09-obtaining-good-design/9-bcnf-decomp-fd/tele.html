@@ -1,0 +1,613 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>BCNF Decomposition with Functional Depenencies :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989074" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989074" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989074"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989074" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989074" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>BCNF Decomposition with Functional Depenencies</h1>
+
+<a href="https://www.youtube.com/watch?v=pNS-8DGKbN4">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. In this video, we&rsquo;re going to be taking a look at how we might start improving our database design. And in particular, decomposing our tables trying to achieve Boyce Codd Normal Form. But first off, how do we use the information that we have now about Super keys to eliminate anomalies in our database design. So, one, one key fact that I&rsquo;m going to try to hammer home here is that each attributes must provide a fact about the key, the whole key and nothing but the key. This is a an adaptation to William Kent, who is a famous database researcher. But in general, when we start writing our or deciding on our keys, right, all attributes in a relation should provide information about that key, and nothing else. And so we&rsquo;re trying to reduce our table a reduce a relation to the minimal number of attributes that can be represented using that key and, and transforming the other attributes down into their other into their own relation. This is what we do when we try to normalize a database. So remember, Boyce Codd, normal form a relation, or table R is in Boyce Codd Normal form if and only if, for every functional dependency x implies a. x implies a is a trivial functional dependency, or x is a super key. And so this is where we bring back that super key information. We&rsquo;ve talked about Boyce Codd Normal Form in the past, but we really didn&rsquo;t have all of the necessary definitions to go for it. And if you&rsquo;re looking for the relational algebra definition here, for all, so that&rsquo;s what this upside down a is. for all for all x, where x is a set of attributes, either the, the closure set of x is x, or the closure set of x is all attributes. So this is this is this is the trivial trivial functional dependency. And then this here, right? Remember, this is a super key.</p>
+<p>So let&rsquo;s take a look at an example. Because it makes a little bit more sense, trying to look at this in a little bit more concrete manner. So we have this relation here that has name ID, phone and department. We&rsquo;ve seen this before, when we are talking about anomalies, and how we might have bad functional dependencies. So here we have a functional dependency ID implies name and department. So Id implies name and department. So 123, Fred, and C is right, and C is 987. Is Joe and math and Joe and Matt. So this all works out just fine. But what is the key here? What is the key? Well, it can&rsquo;t just be ID by itself, right? Because we have the situation here with Fred and Joe, who have two different phone numbers for the same ID. And so Id by itself won&rsquo;t work. We&rsquo;ll have to tack on phone along with that. So most likely the other the other functional dependency here is phone implies department. But that really makes ID implies name department a bad dependency, right? Because we have another dependency inside here, right? We have we&rsquo;re missing phone right? For one, right? We&rsquo;re and Id implies name department has a bad functional dependency, because it doesn&rsquo;t really capture this right? We have this issue where the ID produces a different phone number for for the individual people. So how do we correct this right? How do we help fix this anomaly and our relation? So I&rsquo;m going to show this algorithm. It&rsquo;s a lot easier than what this initially looks like here. But we can decompose our tables using boys Normal Form, particularly using functional dependencies. So Boyce Codd Normal Form decomposition using functional dependencies.</p>
+<p>So we&rsquo;re going to choose a set of attributes a one through a m, such that it implies b one through B in. So this is just a fancy way of saying a functional dependency, right. So we&rsquo;re going to choose a functional dependency that violates Boyce Codd Normal form looks like I have a typo there BCNF. And then we&rsquo;re going to split our table into R one, and R two, r one is going to be just the functional dependency. And r two is going to be the left hand side, the left hand side of our functional dependency and the other attributes that were not included. And we&rsquo;re going to repeat this with R one and R two until we have no more violations of Boyce Codd Normal Form. So this is what it looks like with a Venn diagram. So r1 is going to be his r1 is going to have all of a so this here, right all of a and then the let the right hand side of our functional dependency. And then our two is going to have a and all the other attributes that were not included in our one. Generally speaking, a if a relation has only two attributes, it is always in Boyce Codd Normal form because either right, either there are no trivial functional dependencies, meaning that the two columns imply themselves or the two columns imply the other, or the two columns imply each other. And then otherwise, we have A implies B, but B does not determine a sort of A implies B, but B does not imply a so A is the key. Or three we have it the other way around, we have b implies A, but A does not determine B, so B is the key, and so on and so forth. So or we or we have both right, a implies b and b implies a. So both are the keys.</p>
+<p>So if you&rsquo;re if you get your tables down into two columns, then your table is guaranteed to be in Boyce Codd Normal Form. But this here looks a little bit more complicated than it really is. So let&rsquo;s take a look at an example of this in action. So here is our table that we had earlier. Remember, we determined that Id implies named department has a bad functional dependency. Because we have this issue with the phone number, we have this issue with the phone number. And so we want to decompose this relation, right. So we&rsquo;ll have two tables here we&rsquo;ll have name, ID and department as one. And then we&rsquo;ll have phone and ID as the second phone and ID as our second, remember, because we are decomposing into r1. So if we let&rsquo;s go, I&rsquo;ll go ahead and shift this over here. Right. So this is our decomposition. And then this is our r1. This is our our two, right. So r1 is based off of just the functional dependency, right? And then r two is the left hand side of the functional dependency plus the rest. Okay, so r1 is the functional dependency, the left hand side and the right hand side of our functional dependency. And then our two is the left hand side of our functional dependency, and then the rest. The rest of that meaning all the other attributes that were not included in our one. And now in this case, now we don&rsquo;t have that weird issue with phone number. Over here, we can just have our ID as our primary key because Id implies name and department. And then over here we have that same same thing that we had before we have ID implies phone, which doesn&rsquo;t actually work, right because we have 123 but 123 has two different phone numbers. So the primary key here is ID and phone right so I ID and phone the both columns together. But this is now in Boyce Codd Normal Form. This is a now this is now in Boyce Codd Normal form so that decomposition helped us remove the anomaly from our table</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989074" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1673989074 defer"></script>
+    
+  </body>
+</html>

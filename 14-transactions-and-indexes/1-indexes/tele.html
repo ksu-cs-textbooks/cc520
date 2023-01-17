@@ -1,0 +1,626 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Indexes :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989074" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989074" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989074"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989074" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989074" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Indexes</h1>
+
+<a href="https://www.youtube.com/watch?v=gY0yiN87TYs">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>What are indexes? So, this is a topic that I, I&rsquo;ve mentioned indexes in passing a couple times in class, but we never really talked about what they do. Indexes are going to allow are really what allow the really fast lookups for your data. So anytime you have a let&rsquo;s traditionally, by default, if you do not specify an index, most of the time, your index is going to be your primary key. Because your primary key is your primary, primary column or columns. If it&rsquo;s a multi key, or multi column key, that is going to uniquely identify a row, and that&rsquo;s the trickier but these allow very fast lookups for your information that are stored in your database. Think of like a, you know, an array index, right or a dictionary key, those allow very fast lookups of data inside of an array list or dictionary because it can almost instantaneously find that particular position in the data structure and return the value that is stored there. That is the idea here with indexes.</p>
+<p>Now indexes, use B trees, physically speaking anyways, that&rsquo;s the data structure that they actually use to store them. I&rsquo;ve done it, you may or may not have done B trees in CIS 300, when you took if you took it with me, I&rsquo;ve offered B trees a couple times as a homework assignment and 300. But it&rsquo;s not a primary data structure that we cover. Ah, yes, B, B stands for binary. But B trees are a mutation of a binary tree. And I&rsquo;ll show you what they look like here in just a minute. B trees are very much like a binary tree, but they&rsquo;re much flatter. Because I can each, we can store more than just two, a node can have more than two children. But so index is our index keys are stored are used for basically, each of the pages that are that store your database structure. So your database is stored and pages in memory, right in theory pages or pages of data. And those pages are organized based off of that index. So your keys themselves are stored in root at the root of the tree, and intermediate levels of the tree, and then all of the data. So all other columns that are not the index are stored in the leafs of the tree. So that&rsquo;s the kind of trick with B trees is an A B tree, your key of the tree is going to be stored in all nodes. But the data itself is only going to be stored in the leaf.</p>
+<p>So that&rsquo;s kind of the trick, right is that when I&rsquo;m actually looking up data, the B tree itself, the instead of so when I do a binary search tree, right, your the value in each node determines if you go left or right, right, less than the roots, you go left bigger than the root you go right. But now the value that I&rsquo;m actually into keying on is whatever the index is, an index could be more than one column. So at the root node here, the index, so the index is stored at the root node and intermediate levels, and then all other columns. So the actual rows of data in your database are stored in your leaf nodes. And now the interesting thing about a B tree is that I can have more than one child, right. But the reason I can have more than one child is that that each element, each node on a level will have three pointers write a pointer to the the node, the child node that is less than me that has data that is less than me, a pointer that has that points to a node that has that has data equal to me. And then a pointer that has a to the child node that has data that is greater than me, and the data greater than me less than me as the index value. Okay. And so that&rsquo;s what makes it different than a binary no binary tree, and then a binary tree, it&rsquo;s strictly less than strictly greater than n. It&rsquo;s only pointing to one thing, right one node that has one piece of data that is bigger or less than me, but here I can have more than one L element in one single node, I could have in theory 1000s upon 1000s of indexes or data elements or pages, in this case of your database, I could have 1000s of pages in one single node in the B tree.</p>
+<p>Because inside that node has basically kind of like a linked list, it has a next and previous pointer. And so the next pointer points to the next element inside of that node. And so what the what this up here, right, this, this pointer here, this line here is going to showcase let me turn on my little laser pointer here. This note, this line here, this is a pointer to the page that has an index less than the index that is at the root. This here, this line here is the page that has an index that is equal to the root and theory, kind of how it works. And then this line here is points to the page that has data that is greater than the index of the root. So that is, what&rsquo;s going on here. And we could have more stuff to the left. And we can have more stuff to the right and more stuff in between. And in between the each of these is that if I basically what this allows me to do is I can scan anything at any point, I don&rsquo;t have to traverse back up the tree, because once I get to a node, it&rsquo;s a linked list. So I can go horizontally back and forth, in any direction. Right, that is the big benefit.</p>
+<p>And so then once I get down to the bottom here, this would in theory point to any of these pages, if I go to any of these spots down here in the bottom, this index will point to exactly one row that matches the index. Right? Because an index must be unique in general, right. So if your index, if the index that you create by hand is not unique SQL Server will actually make it unique, because that is a requirement of an index. While specific kinds of indexes clustered index is exact. But this is a B tree, as you can see in in here, right? This is a binary tree, in the sense that we start off with a node that has one one data element, one index has a left pointer and a right pointer. But then each of these nodes have more than one data element inside of it. And this is where it differs from a regular binary tree. And you see each of these data values have a has two pointers, one to the to the set of David has less than me. So C C&rsquo;s left pointer is a B, which is less than C and C has a right pointer that is bigger than it def, that&rsquo;s also G&rsquo;s left pointer, which is def, so less than g.</p>
+<p>So they do share pointers between each they can share pointers between each other. But this is essentially how I this is a little bit easier to visualize and then the database version that I have on my slides but right but simple data structure very, very, very useful for storing data or for storing indexes for a database. Because B trees are much much much flatter than a regular binary tree. A binary tree by itself fans out very very quickly and gets very very large in terms of number of nodes, which also increases the amount of time it takes to actually search it because the bigger it is the more time to take search even though a binary search tree is actually fairly efficient. But when we&rsquo;re talking about 1000s upon 1000s upon 1000s even millions of records that begins to slow down significantly in terms of database searches. Okay. So, then let us let&rsquo;s take a look at a type of index let me shift the screen out of the way okay. So a a clustered index is so basically defines how your data is being stored in the in the database. So you&rsquo;re again leaf data, the leafs of your B tree are going to contain all of the all data of your date all all data of that table and intermediate notes and the root note are only going to detai only going to contain the actual index you But restriction here is that you can only have one clustered index per table. A, a table without a clustered index is referred to as a heap. Just as it sounds, because it&rsquo;s all heaped together, right? Because we have no specified structure to it. Now, sometimes, like I mentioned, depending on the database management system, the the database management system will actually sometimes automatically create a clustered index based off of your primary key. But it doesn&rsquo;t always do that. It just depends. So if you want an index, a specific clustered index, it is very good practice to explicitly define that clustered index.</p>
+<p>So this is the fake data that I generated, I just have an order table. We&rsquo;ve got order ID, source, order ID, order date, customer ID, customer purchase number and order subtotal. And this is all just generated fake data. But I also wanted to show you. So I&rsquo;ve got so here is my I have a customers table. And here&rsquo;s my orders table, got an identity column, some simple, some constraints. But notice here, here is my primary key. And I specified that I want this to be clustered, this is my clustered index. Okay. So this is just one way for me to say, Oh, well, this is my primary key. And I also want this to be a clustered index. And so that is what I&rsquo;m looking at over here. And so all I&rsquo;m doing here is I&rsquo;m taking a look at the database objects, sales dot orders, and I&rsquo;m pulling out, I&rsquo;m pulling out all of the information about that table. So it gives me a couple a bunch of extra stuff. It gives me the index, index depth. So index depth, this is how deep that B tree goes. Right? How many levels deep in my tree, that this clustered index was forced to go. Now notice, here I have 18 million rows, right? 18 million rows. And so I was able to store 18 million records, and a tree that is only three deep, which is kind of crazy, right? There is no way that we could store a in a binary tree, that much data at that depth. And just be it&rsquo;s impossible. Right. And so this is also this also shows you the amount of pages that that that has is required to actually store that amount of data. So and then, of course, record sizes and stuff like that. But the important part here is this bit here, right? Where it shows the number of records and the the depth of our actual beat tree. Right? So this is really important.</p>
+<p>Okay, so a big point here, right is that for any record that we search for, that is based solely off of our clustered index, so our order ID, it maximum, we only have to search three nodes in our tree, right, it has to go only three deep in order to get to the spot where that row is being stored. And that is huge. That is huge. Okay, so also notice here where I&rsquo;ve got a little a little cheat here. DBCC drop clean buffers, remember, we talked about that the database management system will actually store stuff in the buffer to make your queries run faster. So you can actually clear out that buffer. If you&rsquo;re trying to verify the speed of your SQL queries, you can clear that buffer and run your query again to verify that the amount of time it actually takes if it was running from scratch. Alright, so here we go. So notice how slow this query is, alright. So this query, and let me Alright, so this query took about five seconds, right? And so notice, that it also is doing Have a clustered index scan, right clustered index scan, meaning that it&rsquo;s going to scan it, it has an output. So it&rsquo;s outputting.</p>
+<p>All the columns that we that we want it, it&rsquo;s applying the predicate that we have. So customer purchase order number on every single row, right. And so remember that we have a whole bunch of rows, right? A whole bunch of rows. So we have, right million, a couple of million, couple million records. So that&rsquo;s a lot. But if we take this, and run only that, see how quick that that happened. It was almost instantaneous, right? is almost instantaneous. And so this only took, right. This only took a few seconds to actually run versus a few minutes, or a few minutes, but, you know, 510 seconds versus the other one. All right. So this is big, this is really big. And actually, let me let me open up SQL Server Management Studio because it may be a little bit more helpful. I&rsquo;ll get that open while while we go here. Okay. So how do we create an actual end? index. So this was just an example of the clustered index, which is the base one that we want to create. And remember, clustered index must be unique. Otherwise, it&rsquo;s going to make it unique for you. So moral story here is just when you&rsquo;re when you&rsquo;re creating a clustered index, just make sure it&rsquo;s on a set of rows that is unique, non clustered indexes. Okay. So we can only have one clustered index per table, but we can have multiple non clustered indexes. Non clustered indexes are very useful because for Well, remember, leaf nodes are going to contain four non clustered indexes, a leaf node is going to contain the row data, and the clustered index.</p>
+<p>And it may also contain copies of other columns, which are referred to as include columns. But what this is going to do is the leaf node, and the non clustered index is going to have a pointer all the way over to the clustered index. Alright, so the leaf node, and the non clustered is going to have a pointer to the leaf node in the clustered index. Okay, so the clustered index is how your data is stored physically. And so all the non clustered index is going to do is going to be the same kind of B tree structure. But instead of having the all of the row data stored in the leaf node, it&rsquo;s going to have a pointer to where that clustered index is stored, and the clustered index B tree. So how does this look, so let us clear our cache real quick. So create non clustered index. And you can do the same thing to create a clustered index. And this is the column that I&rsquo;m creating my clustered or my non clustered index on. So customer purchase order number. And so now, if I rerun this exact same query, while that is running, I&rsquo;m going to talk about other variations. So we can can make a little bit of progress here, other variations of it, index or cluster or indexes. So there are unique indexes, filtered indexes, which are non clustered only, and then unique and filtered. So to do so, there are these vary a little less likely. So basically, unique, unique indexes. So clustered indexes are unique by default. All right, clustered indexes are unique by default. Non clustered indexes don&rsquo;t have to be unique.</p>
+<p>So you can enforce them to be unique, if you would like to, and of course unique indexes are going to be more efficient. As far as read go. was okay. And then filtered index operate in a similar manner, I&rsquo;ll show what that looks like here in just a little bit. But the benefit of this is that we can, basically. So if you have an index is going to do an index for all rows, all values, including non including Knowles, if you don&rsquo;t want it to include, if you don&rsquo;t want your index to index a specific kind of value, you can filter those values out and exclude it from your index. Okay, and that is what that filtered is going to do. And then the unique is just as it sounds. Okay. Let&rsquo;s check back in. Okay, cool. So it took about a minute to actually create that index. This also brings up a good point, right? An index is expensive to create, and therefore to when you create a new record, insert a new row, or update a row or delete a row, that B tree has to be updated. And so that is expected that can be expensive, right? It can be expensive, depending on the number of rows that are modified, that that simple update or insert could cost you a lot of time.</p>
+<p>And so there are some cost trade offs there as a result. So if we run our query plan, now our query, notice that this query, instead of taking five or 10 seconds, it&rsquo;s instantaneous now, now that that clustered index, or that that non clustered index is in place, and if we actually look at the query plan here, notice that we have an a non clustered index here, non clustered index, that then goes into a clustered index. So both indexes are employed here, because the non clustered index points to the clustered index, because we&rsquo;re looking at the order ID. So the non clustered index takes out the customer purchase order number, which then pulls the full order, right, because all the data is stored at the clustered index. Right? Remember, all the data is stored in the clustered index. But now, if you look at this, if this this non clustered one, it&rsquo;s a seek operation, instead of a scan, this is a big deal, because a scan is going to be applied to each and every single row, I out all 13 million rows would be scanned for this value. But now that those values are indexed, I don&rsquo;t have to scan all rows, I know where those values are actually stored. And so I just have to seek, I have to just jump through the tree to get to that specific spot where those values are at.</p>
+<p>That is why this is so much faster, is instead of having to scan all rows, I know exactly where that data is stored. And so I don&rsquo;t have to search the entire table to find that data, I know exactly where it&rsquo;s at. That is the beauty of those B trees for indexes and databases. Okay, so you can take a look at the physical aspect of it here. Notice now this is a non clustered index. Again, 18 million records. But now I have four, I&rsquo;m at depth for now. Right? So it&rsquo;s not one, it&rsquo;s not 100% arbitrary of how deep these things go, it&rsquo;s all depends on it&rsquo;s how B trees are actually implemented. It depends on the values associated here, which determines how far the B trees have to be split out. But what can we do better? So, notice, here I&rsquo;ve got include, okay, so I can actually add columns to this. And again, this is going to take a minute or two to actually run. And so I&rsquo;m going to start that. And then I&rsquo;m going to flip back to the slides while that&rsquo;s running. Because we&rsquo;ve only got five minutes left, okay, so some general recommendations here for indexes. So, clustered keys, right clustered clustered index is used as the reference and all non clustered leafs, right. So if you have a non clustered index, they are all going to utilize that clustered index, right? It&rsquo;s just how things work, right?</p>
+<p>So in that sense, make sure you choose your clustered index wisely. Right. Since everything is going to utilize that it needs to me, it needs to be efficient, it needs to be useful information. So don&rsquo;t Create an index on something that is just arbitrary. Right? You should be creating an index on data on a column that you&rsquo;re going to be searching through searching by very frequently, right? Otherwise, there&rsquo;s no point into it right? If it&rsquo;s not going to be used as part of a query, then there&rsquo;s no reason to actually index it. If it&rsquo;s very used very rarely, right? So clustered keys, in that sense, should be ideally, not changed very often. That&rsquo;s why it&rsquo;s usually the primary key, because their primary key for each row does not change very often, once it&rsquo;s been inserted, it usually doesn&rsquo;t get updated. Right, because it&rsquo;s the primary key, of course, it must be unique. And if it&rsquo;s not, SQL Server will make it unique. But in that sense, make sure the columns unique. That&rsquo;s why we use the primary key here, because otherwise, it&rsquo;s extra cost, because SQL server has to take the time to create a unique value for it and place of the value that was there. Be sure that it is not a lot of data associated with it. So a clustered index shouldn&rsquo;t be five columns long, it should be as few columns as possible, because it&rsquo;s referenced in and pretty much everything, right? And so it should be small amounts of data associated with it. Okay. So incremented data works very well, for this sort of thing, right?</p>
+<p>Remember, our incremented surrogate keys that we create all the time, right, the 1234, the identity columns, identity columns work fantastic for this, right? Because typically, they&rsquo;re sequential, and they&rsquo;re automatically incremented by themselves, so you don&rsquo;t have to mess with them. And so those are one of the best things that you can actually do a clustered index bite, because it&rsquo;s very little data, it is unique. And it is typically a primary key. Not all the time, but typically, right. So that that is a very big benefit there. So just some, just some general considerations here. Indexes are here to make your queries run faster. That is their goal, alright, that is the reason why they exist, you do not have to specify one as part of your database. But the main trade offs here that you need to consider are are for your use case, or do you value fast writes, or fast reads, if you would rather have faster reads, indexes are the way to go, alright, because that is going to significantly speed up your queries. But if you write more than you read, then indexes should be used lightly because writing more more and more data at a time, it will make those writes very slow, because it has to update the index each time. So that is a big downfall of that. So notice before we&rsquo;re not when I did this over here, there was actually an internal join.</p>
+<p>Because I actually have order date and customer ID. And so since I have ordered date and customer ID, I had to look back at the clustered index in order to pull that data because the non clustered index only contained customer purchase order number, that&rsquo;s all it contained. But now that I added customer ID and order date as an include, for the customer purchase order number index, this query now does not have to actually go back and look at the clustered index, because it already contains a reference to order ID, which is the clustered index key. And now it also includes order date and customer ID, because I added those include columns for the non clustered index. This takes up more space, mind you, right, it takes up more space because that data is now duplicated in two different pages. It has customer ID order date is in the non clustered index, and it&rsquo;s also in the clustered index. So it does take up more space. But if our query is being ran frequently, it becomes much faster, much, much faster.</p>
+<p>But that is all I have time for today as far as the tutorial, running the examples here go. So I encourage you run take my setup, query, run it, and then you can go through here and and create and see the differences between the indexes. All of these indexes down here are doing is I&rsquo;m just showing you how to create unique indexes, how to create filtered indexes and that sort of thing. That&rsquo;s all I&rsquo;m actually doing down here. That&rsquo;s really the only example that I haven&rsquo;t been able to get to today.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989074" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1673989074 defer"></script>
+    
+  </body>
+</html>

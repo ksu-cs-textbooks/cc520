@@ -1,0 +1,616 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Views &amp; User Defined Functions :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/skH61H3ed7s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. In this video, we&rsquo;re going to be taking another look at views and user defined functions. So remember, a view is a logical construct only. And it is considered also a table expressions. So remember, views are just queries that we created and stored as part of our database. But the data that the view actually pulls from is not actually stored. Again, as part of the view, the view is nothing more than just a query that retrieves data from other tables. But it is a very useful construct, to allow users to interact with the database in a more secure way. Because they don&rsquo;t have access to the they don&rsquo;t have direct access to the original tables. Views in general, give a false sense of performance increase, even though views themselves have no benefit at all, towards performance of your of the queries that are actually executing. So I mean, views are very commonly misused in general, in terms in terms of databases. So a lot of times people get the false sense of performance increase. And a lot of times views are kind of abused in that way. And so we have to really do be careful when we&rsquo;re working with working with views. Views, in general are a good way to abstract the database away, and to allow your users to interact with your database, and directly, but nonetheless, it&rsquo;s not a bulletproof solution. So when when we actually use views, views are, as I mentioned, right, very easy to do securely.</p>
+<p>And so if you want to prevent users from gaining access directly to an individual table, a view can provide that interface between between your user and the actual table itself. So you can provide security to a view, which is a little bit easier to actually conduct, then providing security, you know, access directly to an individual table. Views also help migration plans. So if you have a database that is going to be updated to a new version, whether that be the actual database server version is being updated, or maybe you are transitioning to a different schema structure. And so you want to provide some backwards compatibility between the new version of your database and the old version of your database. Views are a good way to achieve that. However, again, this is where we get in trouble with views, a lot of times views are treated as as a permanent construct here. And if we&rsquo;re trying to provide backwards compatibility, we don&rsquo;t want to provide that permanently. Because there&rsquo;s if you provide that permanently, there&rsquo;s really no reason to actually upgrade or update to a new version of your database. So we have to really be careful there, when we use views in that way.</p>
+<p>Views also can be used to hide some complexity. So if a particular query is requires a significant number of joins, and complex SQL, then we can use a view to abstract that complexity away from your user. So they can interact with a more simplified version of all that data being joined together for them already. So that can be very useful. And it can also be useful when interfacing with a third party applications, which makes the process for programming those a little bit easier to do. And so let&rsquo;s go back to our examples here real quick. And just to kind of refresh our syntax here of our view syntax. So our syntax here, create view as and then the query that is going to represent the view, and then we need to execute this as part of a batch. So execute this. Now we have our view, and then we can select from NOC view. So this does, you know, abstract the complexity, right, I can pull select star from this view, versus running this big query here that requires a join. So that is a good benefit there as part of it. But again, views are logical constructs only remember that as well. And do be careful when utilizing views because they can be a common pitfall and be misused in a lot of scenarios.</p>
+<p>So primarily, just be careful when working with those other things that we&rsquo;ve covered so far. So we&rsquo;ve hit views before and we&rsquo;ve also hit user defined functions before as well. Again, remember inline table valued functions. These we discussed when we talked about before per table expressions. And there are two primary types of user defined functions scalar valued, and table valued. These serve as routines, meaning that those are actually stored physically in your database, the actual function is stored in your database, just like what a view is that that query is stored there in your database. But user defined functions do provide a limit there are there is a limitation here, meaning that we cannot change the state of the database using a user defined function. So that means user defined functions cannot insert, update, delete or create anything as part of your database. Because that changes the state and user defined function. user defined functions are not eligible to change that.</p>
+<p>So let&rsquo;s refresh our memory here about our user defined functions. So these are created very similar to our views. So create, and here I&rsquo;m doing create or alter in case I already have this function defined as part of my database. If you&rsquo;re creating this, for the first time, the or alter part doesn&rsquo;t actually do anything. But here is the name of our user defined function and my demo schema and my demo schema and my parameters for this function. My return value here, this is a scalar user defined function because it&rsquo;s returning numeric, not a table, and then begin. So here is my actual function, body, and my return. And so all that it is doing here, give us a run, it&rsquo;s just converting the current time and to milliseconds, current time in milliseconds, a silly silly function, but kind of showcases the the syntax and useful or the use of a scalar user defined function. Also remember that we can create a table valued user defined function as well, this one in particular is a little bit larger. So create or alter function demo.int sequence returns result, that is a table and it takes a that table itself has a column called value, that can&rsquo;t be null, and it is the primary key. And so we have a couple of a variety of CTS here. So we have power to CTE. And we have power for CTE power, eight power 16, power, 32, and so on. And so what we are going to actually return here is, so here, demo, and sequence 111 100. And then up here. What I&rsquo;m going to return here, from here, I&rsquo;m using power 32 CTE and essentially going to res, whatever my, whatever my integer sequence starts as all the way up to.</p>
+<p>So if we scroll all the way down, all the way down to 100. This is a very, a very roundabout way of creating a sequence, starting at a starting point. So starting at value, so one, and then going up to our max value here. We&rsquo;re achieving this through a series of cross joints, right? We&rsquo;re achieving this through a series of cross joints. And so all of this here, this is the start one through four. And if we this one here is that raised to power four. And so that would continue starting off at five, and so on and so forth. And so we would eventually run out of numbers here to our max number that we can actually represent as part of this, but this is a interesting way. So why create our integer sequence? Well, most of our sequences that we actually do are done as a sequence object, or done as a identity field identity column. But one common use in practice is to include all dates within a certain range, and all dates within a certain range. So one interesting way to involve this integer sequence is this here.</p>
+<p>So let me go and run this. And so now we have this initial one here, by the way, I run this one, sorry, this one here is going to be four rows, four rows, and then down here. So here&rsquo;s our transpose. Here&rsquo;s our transposition. So our two tables that we actually have as a result, so we have all a values zero through five with the date. And so here&rsquo;s, here&rsquo;s where our integer sequence comes into play. Right, here comes our integer sequence. So we&rsquo;re actually doing a neat little trick up here. And our CTE is, is that we&rsquo;re actually counting instead of just counting directly by just an integer sequence here. So here&rsquo;s our integer sequence. But we&rsquo;re actually adding that to our our date, right? And we&rsquo;re transforming that with our, our people. Right? So value, Mike, John, Mark, and Colton. And then once those get once those get joined, so transposed, that gets combined with our, our full information here. So this is kind of a very neat little way to create a lot of a lot of powerful expressions to include sequences of dates, or all dates and range, along with some other data. So just a more advanced usage of a user defined function here. But nonetheless, right, we have user defined functions that return tables, and user defined functions that return scalar values.</p>
+<p>If you do have more questions about this particular user defined function, I&rsquo;m not going to spend too much time in this particular video in diving and detail into each of these CTS. We do have some set operations that we&rsquo;re executing here, along with some window functions and substring functions. So this is a relatively complex, user defined function here. But if you do have questions, please reach out and we&rsquo;ll be happy to fully answer those that will go ahead and conclude this video on views and user defined functions. Again, this is first and foremost, primarily a review, to prepare ourselves for talking about more routines that we can store in our database, like stored procedures</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

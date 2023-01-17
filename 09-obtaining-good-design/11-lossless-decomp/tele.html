@@ -1,0 +1,612 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Lossless Decomposition :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989074" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989074" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989074"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989074" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989074" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Lossless Decomposition</h1>
+
+<a href="https://www.youtube.com/watch?v=2f_Ixxkoui8">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone, we&rsquo;re going to continue our discussion on database normalization and obtaining good database design. So previously, what we&rsquo;ve seen, we&rsquo;ve talked about third normal form and Boyce Codd Normal Form, how we could calculate the functional dependencies and the super keys, and how we can use those to find that or how we can use those to decompose our relation to break it down into Boyce Codd Normal Form. We&rsquo;ve defined our functional dependencies, and how we can find all functional dependencies using Closure sets. And whether or not a dependency violates Boyce Codd. Normal Form. We also defined a super key, which is just a set of attributes that imply all other attributes. So a primary key. A super key is a minimal super key when there is no other super key in that set of attributes. So you have so we have no subset of attributes that also is a super key. And that minimal super key is what we use as our primary key for our database, or for our tables. And then we also learned that we can decompose our tables into Boyce Codd Normal Form relations or tables, using those bad functional dependencies as well if we have a bad functional dependency. So Boyce Codd Normal Form as a refresher as well, it&rsquo;s in a relation R is in Boyce Codd Normal form if and only if for all functional dependencies. x implies a x implies a as a funk as a trivial dependency, or x is a super key. So for all x, either the closure set of x is x, or the closure set of x is all attributes.</p>
+<p>So we have trivial functional dependency and the super key right so trivial, super key. Now, let&rsquo;s take a deeper dive into decomposition. So So we&rsquo;ve shown the example with our ID, name, and department and phone number. Here we have our name price category table that we&rsquo;ve seen before. And so we can actually decompose this into name and price and name and category. But because we have a functional dependency name implies price. But this is a problem, right? This is a problem. Because if we do decompose it, well, not necessarily problem. When we decompose it, we have iPad 529 twice here. So this is actually a good thing because we do lose, we lose a row. But we we actually D duplicate, right, we d do D duplicate, we don&rsquo;t actually have to have iPad 529 twice now, because we have different categories, right? We just have iPad 5.9. So this is last less decomposition. Last less decomposition. But let&rsquo;s take a look at this example. If we decompose this into name, category and price category what&rsquo;s incorrect here? What&rsquo;s incorrect? So we have iPad, tablets, iPhone gadget, iPad gadget, we have 529 tablet for 29 Gadget 529 gadget. Uh huh. Okay. But how do we actually get this information back? Right? So the individual tables are okay, we didn&rsquo;t lose rows of data. But can we re can we recombine our tables back into the original? Can we recombine this back into the original? Well, the short answer is no, no, we can&rsquo;t.</p>
+<p>Because if we look at if we look at this here, iPad 529 tablet, iPad 5.9 gadget, we can actually pair these back with the correct rows can no longer pair these back with the correct rows. So this is something that is in Boyce Codd. This isn&rsquo;t normal form right this is a normal form, but this is loss he decomposition. So a decomposition is lost less if and only if we can recover the exact information we started with. So if we start off with a table ABC, and we decompose that into a, b and AC, if we can recover a, b, c, then we have achieved last less decomposition is lossy if we cannot recover ABC as a result of combining those tables again after they&rsquo;ve been decomposed. So we don&rsquo;t want that we don&rsquo;t want to decompose our table, but lose the relationship that we had originally started with, right. So we do have to be careful when we start decomposing our tables. So, in general, if we have a relation are such that we have attributes a one through a n b, one through B M and C one through CP, we decompose that into our one a one through a n u one through BM and a one through a n c one through CP. If a one through a n implies b one through BM, then the decomposition is lossless, because then we can actually re compose the original relation, right? If that is not the case, then we have lossy decomposition. If we are doing Boyce Codd Normal Form, right Boyce Codd Normal Form decomposition is always lossless because they&rsquo;re based off of our functional dependencies, our closure sets. So keep that in mind. We&rsquo;re doing our decompositions we can&rsquo;t just decompose our tables to try to make them better. We do have to be careful because if we decompose arbitrarily, we can have a situation where we actually lose the information we actually lose the related the relation, which is what we&rsquo;re trying to leverage as part of SQL</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989074" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1673989074 defer"></script>
+    
+  </body>
+</html>

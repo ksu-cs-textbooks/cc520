@@ -1,0 +1,1054 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Transactions &amp; Concurrency 1 :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989072" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989072" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989072" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989072" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989072" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989072" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989072" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989072" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989072" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989072" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989072" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989072" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989072" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989072" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989072" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/format-print.css?1673989072" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989072"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989072" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989072" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/" title="Transactions &amp; Concurrency 2 (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/" title="Indexes (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/cc/520/generic/cc520-textbook14-transactions-and-indexes/2-transactions-concurrency-1.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/"><span itemprop="name">CC 520</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/"><span itemprop="name">Transactions and Indexes</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/" aria-disabled="true"><span itemprop="name">Transactions &amp; Concurrency 1</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#video-transcription">Video Transcription</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <article class="default">
+<h1>Transactions &amp; Concurrency 1</h1>
+
+<a href="https://www.youtube.com/watch?v=iaTT-PPh5kQ">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Let&rsquo;s check out transactions. So as I mentioned before, transactions are kind of like a receipt for any of the queries that you actually execute for your database. Typically, if you&rsquo;re working with data that is just on your local database transactions are a little bit overkill, it must that data is actually very sensitive. And then transactions are needed to prevent any loss of data in transit. But when you have a bunch of people using the same database at the same time, there are more than likely going to be collisions from time to time. So more than one person tried to read or to write, update or delete the same record. And things get a little bit wonky, right, because you can&rsquo;t update if you update a record and try to delete a record at the exact same time. Right, it gets weird. So that&rsquo;s why we need this for multiple users. But the transaction as as a whole is one unit of work.</p>
+<p>So an update a delete an insert. Typically, it is something that is modifying your database, we don&rsquo;t really typically run things Transact transactions really aren&rsquo;t necessarily needed for things like select, although you can wrap pretty much almost anything in a transaction. But it&rsquo;s not necessarily needed for things that aren&rsquo;t modifying, aren&rsquo;t modifying your data. So, so each each SQL statement that you do is a transaction essentially. But we can also define those explicitly as part of our SQL code. And I would err on applying those explicitly. So it&rsquo;s very clear that you&rsquo;re working with a transaction there. And not all database, not all database languages work that way as well. So most most, most languages require you to explicitly define your transaction. So and that&rsquo;s kind of what we primarily focus on here. So if, if my demo was working, I would have a demo to display acid here.</p>
+<p>But acid is a acronym for atomicity. Alright. So essentially, what we&rsquo;re dealing with here is what we&rsquo;re acid allows us to guarantee integrity of our data. And this has nothing to do with the design of the database at this point, right? We&rsquo;re not trying to modify or design the tables in a certain way, this is dealing with actually the sequel that you&rsquo;re running. And so if we&rsquo;re running an update, and that update impacts more than one row, what if you update five rows out of 100, and then something errors out the disk errors? power goes out, internet goes out whatever the connection fails? That&rsquo;s an impartial update, right? Only five of the 100 records actually got updated. And what if you assume as a user that all 100 Records got updated? Because the query ran so? Right? Because a lot of the a lot of errors that can happen that interrupts SQL commands being executed fully, those errors aren&rsquo;t necessarily reported back to the user? Not necessarily, right? So the atomicity here is that all will succeed or nothing at all, right? So for a transaction, everything in that transaction succeeds.</p>
+<p>Or we roll everything back and we reverse, reverse our process. Can consistency. So see, for consistency, this ensures that our data is valid from one state to another, right? Meaning that have like with our updates, right? If we are, if we are openings, opening a connection and working with a table, everything is consistent in terms of that connection, the session, the batch that we&rsquo;re executing, between updates, and deletes, and so on and so forth. Isolation anything that is concurrent, is independent. So if two transactions are running on the system at the same time, those transactions care nothing about the other other transactions that are running. And this is very important, right? Because without isolation, that means each transaction is dependent on another and that would then incur more issues with acid because we&rsquo;re not If we&rsquo;re not ensuring consistency, what if one transaction doesn&rsquo;t finish? And the other one does? Does that mean we have to roll back everything, it becomes a significantly more complicated problem when you have transactions that depend on other transactions. So each transaction should be done in isolation. And then last year durability, so anything that we change should be committed. Right? Anything that we change is changed. And that&rsquo;s it, right?</p>
+<p>Basically, if we make an update, and the transaction succeeds, then that is a committed update, right? This kind of like, when you&rsquo;re committing your code to your repository, Git repository, right? You can you commit your code, you push it to the server, that is your transaction for, uh, for storing your code, right. And once it&rsquo;s committed, that change is not lost. And that&rsquo;s what we&rsquo;re trying to achieve here with these transactions. So acid is extremely an extremely important idea for databases that are going to be especially something that is used for anything more than one user. And, quite honestly, I&rsquo;ve never had a database that hadn&rsquo;t had more than one user, at least in a production sense. Likewise, most databases anymore, are connected to some web web site or web app. And you have hundreds if not 1000s of concurrent users, depending on the site that you&rsquo;re actually working with. And so if all 1000 of those people ran a database update at once, on the same table, things get kind of crazy. And so if you are ensuring acid, then you shouldn&rsquo;t have any issues with any data consistency, as part of that. Cool.</p>
+<p>So locks. So locks are used to control access for a transaction. There are two main modes, for locks, exclusive, and shared. So so the example with a four exclusive, for example, if you are trying to update a table, and you have five users that are trying to update the people table trying to update their addresses, well, maybe maybe person one and person two are trying to both update the same row, you can&rsquo;t have them updating the same row with the exact same time, right, because otherwise, one, one may clash with the other, one may overwrite the other, it just becomes chaos. So we add in an exclusive lock on that table. So that one transaction at a time is actually doing the update. So you kind of the database management system ends up building this queue system. So as multiple transaction comes in, and there&rsquo;s an in the table that they need to modify as lock, they basically have to get in line in order to basically a priority queue Have you seen from 300. So they get in line and to actually execute the code or sequel that&rsquo;s part of their transaction. Shared is just as it is, right? A shared lock is used for primarily reading. So this is your select, right? So you can run transactions with selects. And most of the time, if it&rsquo;s a read only operation, then you only need a shared lock.</p>
+<p>So you basically, you can share access from one transaction can share access to another transaction to a table at a time. But it is kind of important for shared locks. Because if a if a if someone is let&rsquo;s say we are reading we wanted to read from a database read from a table, and then you have another transaction over here that is trying to update that table. Well, if they update the table in the middle of your read, then all of a sudden your read your SELECT statement becomes invalid because your data that you get is not correct. And it&rsquo;s either not up to date or partial part of it may not be up to date and some of It may. And so it&rsquo;s not current with the with the current state of your table. And so that&rsquo;s why we do use shared locks for select clauses for read statements, because you don&rsquo;t want updates to happen while it&rsquo;s being read from, but multiple reads can happen at the same time. That is okay, because 500 Different reads are not going to impact each other when you&rsquo;re reading from the same table. Right? That&rsquo;s kind of the benefit of a database, but updates can and interfere there.</p>
+<p>So the exclusive locks in in nature are held until the transaction is fully completed. And once that transaction is complete, then that lock is released. And if there&rsquo;s another transaction in the queue, that needs to also lock that table, then that lock is then passed on to the next transaction. But share locks are very similar. Shared locks are the table is locked, until all re all transactions that are reading from that table have been completed. And then once all all those read transactions have completed, then the shared lock is released. And then an exclusive lock or another shared lock could be placed on that table. So if you have or have not taken 520, you may have learned a little bit of this sort of of parallelism and 450. A little bit maybe. But operating systems do this sort of stuff all the time. Specifically for threads that are executing under computer fighting for memory and disk resources and things like that. So there&rsquo;s queues and locks and everything is set up because you can&rsquo;t have you can&rsquo;t have more than one thread accessing the same data at the same time. If the if some of them are or reading and writing at the same time. And so a lot of a lot of things in computer science use this technique to control access to data and and the modification of that data.</p>
+<p>So for a shared lock, a shared lock will block all other transactions that are requesting a read a shared lock, right, so any other if there&rsquo;s any other transaction was trying to read from a table that has a exclusive or a a nother transaction that is requesting another shared lock? is good, right? But if it is an exclusive lock, right? That will be blocked, right? So a shared lock will allow other transactions that need a shared lock. So if there&rsquo;s a shared lock on a table, and one transaction is reading, and then a few seconds later, another transaction comes in and wants to read from that table. That&rsquo;s okay. But then if an if another transaction comes in and requests an exclusive lock in order to update or delete, that is not okay. The exclusive lock will block all things, right. So basically, no transactions can modify the same rows at the same time. Right? Kind of we talked about as it is, right? Readers, readers, block writers and writers block everything. So anytime you&rsquo;re trying to do a read, you can&rsquo;t do a write. And anytime you are writing, you can&rsquo;t do anything else.</p>
+<p>Blocks happen at the table level. Yep, yep. And that also implies that let&rsquo;s say, you are updating the people table. And but you have a different query that is updating the address table. But that update requires a join to the people table, that is not going to be allowed that will be blocked, because the people table is in modify, as in is beginning to be modified. And therefore if you join on that table, that join becomes invalid because the data is inconsistent. It&rsquo;s in the process of being updated. And so that join can&rsquo;t happen until that lock is released on that table. So yeah, so locks are not just single table queries, but they also impact queries that do joins. And as soon as you start to have consistency issues, that&rsquo;s when your database becomes. I mean, I shouldn&rsquo;t say useless, but for that user, it becomes invalid. Right? You have to go in there and I I&rsquo;ve run run into this many times before. And in early days, when you get a database that is inconsistent. Fixing it, you have to fix it by hand and fixing it by hand can be very painful, depending on how big your database is.</p>
+<p>It it&rsquo;s just not fun at all. So transactions are awesome. Okay, so consistency issues, what can what can what can happen? Well, reading data that is not yet committed. So what if you do an update, but that update has not fully finished yet. So you could, without a transaction, do an update the date the table is partially updated, you do a select, and it pulls all of the data, maybe the Select runs faster, and it pulls the entire table really quickly. But only that update has only impacted the first five rows, and it&rsquo;s still working on the rest? Well, that&rsquo;s the data at poll is now inconsistent with what the what the update is actually trying to finish. And so that is a data that has not yet been committed. Secondly, what that too, right, what if that update updates five rows, you read it, but then the update fails. And so and so you want that transaction to roll back, reverse what it updated, because that would be an so the data stays consistent. And so then you have, you still have a dirty read because you&rsquo;ve read data that was not committed and rolled back. So basically, you&rsquo;re you&rsquo;re sharing code with with a friend that has not yet been pushed into your remote repository. That&rsquo;s kind of the issue there. And then when he tried to merge, then all your merges fail, because you have conflicts and yeah, dirty reads, not very fun. You have non what we call non repeatable reads. So you read the same row, two different times, but get two different values. Right. So you do a select, and you do a select again. And the data is different. That is an inconsistent read, because an update may have happened in between, or during your read. And so you did a read. And then an update happened while you are reading the table. But the records weren&rsquo;t there yet. And so then you go back and do it again. And things are different, right? Or maybe maybe data roll back. There&rsquo;s a lot of issues with that.</p>
+<p>And then you get what we call phantom rows. So you read a set of rows, but you get different sets each time. So this involves issues with transaction if you don&rsquo;t use transactions for things like deletes and inserts, right, so you read from a table in the middle of an insert or delete. And so you get extra rows or less rows than what you should two times after you&rsquo;ve read it. So definitely all issues, less of an issue for general user data, but even more of an issue for a web app that is dealing with financial information, ecommerce, shopping, that sort of thing. Transactions are extremely important. So you have something so you, your website says that you have 10 of this item in stock, and you add it to your cart and go check out. And by the time you check out you find that oh, well, there&rsquo;s really not any that it&rsquo;s out of stock now, right? Because when you added it to your cart, there&rsquo;s five other people who tried to add it to their cart and ran out. So issues with that. So transactions are extremely important in that sense. So each of these, each of these elements here on my slide here, I&rsquo;m going to have a demo a demo for you.</p>
+<p>But we&rsquo;ll talk about these in theory. So you isolation levels. So there&rsquo;s a lot of different levels that we want to treat as far as our SQL and isolation that we talked about earlier and acid right. So the eye and asset is isolation. So we read uncommitted data. So basically this is issue with data consistency. be reading committed data, which prevents dirty reads repeatable reads which prevents dirty and non repeatable reads. And serializable, which prevents all consistency issues, including phantom rows. So these are different levels of isolation that you can, you can employ while creating your transactions and running your SQL code. So basically read uncommitted is a select without any sort of transaction involved. And then you have different levels of transactions that you can enforce as part of this, right. So but again, I will show keys, I will showcase each one of these, hopefully it will make sense or more sense, once you see some code examples. And you can see the sequel that I&rsquo;m going to show you is already online. But it&rsquo;s just not going to be able to run because I couldn&rsquo;t get it set up on the remote server yet. Okay. So let&rsquo;s see here. So a little bit more detail here. Right, for your uncommitted read yet no locks, right. So the transaction that you the transaction itself, the select, you read from a table without locking the table first. And so without a lock on the table, there is no way you&rsquo;re going to be able to ensure consistency of data. On the other hand, you can do a read.</p>
+<p>So READ COMMITTED read uses a shared lock, but releases once the read has been completed. So right, that prevents dirty reads, which is perfectly fine, right? But it doesn&rsquo;t prevent non repeatable reads. Right? Because I could, once I released the lock, then another another transaction has the capability of going in and updating that table. And so therefore, if I read that table again, then it is non repeatable, right? Because the data has changed. So a shared lock does not guarantee all consistency. But it does guarantee consistency within that single read. But it does not prevent consistency issues across multiple reads. If that lock is released, right? So if you have the same query, but you really Slock there&rsquo;s a gap. And so if you have a if you have a gap sandwiched between there, again, right, you can have an update or insert or delete in between. So Repeatable Read, this is shared locks, but the lock is held until the transaction is complete. So difference between these two, right? What if we have a transaction that has more than one read as part of it, which is okay, right. So but if if the lock is released between the reads, that becomes an issue consistently within the read but not consistent within two reads. If you hold if you have two reads within one transaction, and you hold that lock until the transaction is done, then you can guarantee consistency between all reads for that data within that transaction. Just better, better. Serializable is a little bit more complicated.</p>
+<p>This uses what we call shared locks and what we call key range locks. So this is going to prevent anything from being inserted or deleted from your table. So this is the kind of the top level that we&rsquo;re looking for here. And for the most part I committed read is going to be a committed read or repeatable read or is going to be more than enough for most cases. Serializable isn&rsquo;t really necessary unless you&rsquo;re doing a large transaction with multiple things in between. So, but again, I will I will show examples of these. Hopefully it will make a little bit more sense. And so what I asked for you On Friday, I know, Friday&rsquo;s classes not as well attended the past few weeks. If you wouldn&rsquo;t mind, please do come to class, or join me live on Zoom. But we have to have five or 10 people actually show up live, whether it be on Zoom or in person. So we can run multiple transactions at the same time.</p>
+<p>So we can simulate these sorts of things. What was just me doing the demo? It does nothing. So we&rsquo;ll have to have Yes, I will have you run queries with me. So if you do have a laptop, please do bring it to lecture in person. Or if you&rsquo;re at home, you&rsquo;re already on your computer on Zoom, unless you&rsquo;re on your phone. And otherwise, please use your laptop presume that time. Yeah, yeah. So cool. snapshotting, I just have a couple more slides left here. And then I&rsquo;ll talk about the exam. So snapshots are the same consistency as serializable. But writers don&rsquo;t block readers, and readers don&rsquo;t block writers. And so in general, we have much improved concurrency as part of snapshots. So what we get with snapshots, right, what we get with snapshots is really, really kind of cool. And this is, not all databases do this. But most do. So snapshots, snapshots are going to allow riders to go and readers to go without blocking each other.</p>
+<p>And so how does this actually happen? Well, rather than using so most of what happens with locks is that we are locking based off of row by row, right, because that&rsquo;s how we tell what records or records are in a table. So the lock happens at the table. So basically prevents any, a exclusive lock, for example, is going to prevent any row from being modified, or being modified from anyone else other than whoever holds the lock gets an exclusive lock. Shared lock works in a similar way, it has a lock on the tables, rows itself, so all rows, but with a snapshot, we&rsquo;re going to attach a version to these rows. And so the readers, if we&rsquo;re using a shared lock here, readers get a version of the data that existed at the start of the transaction. So the table itself is snapshotted. And that snapshot is given to the reader that&rsquo;s doing a transaction. So the reader gets a copy of a version of that table.</p>
+<p>Okay. And so this is this is expensive, right? That&rsquo;s it&rsquo;s not cheap, right? If you do a snapshot of a table, and your tables, hundreds of 1000s of rows. It&rsquo;s a lot, right. So it is this, this perfect, this, this better version of concurrency does come with a price. Okay. So the versions of each of these rows are then tracked in the system, temporary database. So we did we looked at Temp DB, we&rsquo;ve already played around with that a little bit. And so when a when a row is modified, then a new version of that row was created. And so basically, what we get here is consistency within that snapshot. consistency within that snapshot. Although, of course, this is expensive, right? A lot more disk IO. And disk I O is is the worst part, right? CPU is of course expensive. But disk reads and writes is by far the slowest thing on your computer, or any server, right? And so if you have a lot of those, if you&rsquo;re snapshotting an entire table, it can get quite expensive. So there&rsquo;s always trade offs, right? Snapshots give you extreme concurrency, right not well, I shouldn&rsquo;t say extreme but much better concurrency versus the SERIALIZABLE isolation levels. But it is very expensive it is it requires a lot more CPU and a lot more disk IO Um, that being said, there are different types of databases out there. And I&rsquo;m hoping we have enough time to cover it this semester. I would like to try to cover no SQL for you. But we&rsquo;ll see if we&rsquo;ve got time at the end of the semester, I&rsquo;m not sure.</p>
+<p>But things like no SQL, a lot of times is treated as a distributed database like MongoDB, and things like that. And distributed databases do this sort of thing extremely well, right? concurrency. And so no SQL is banking on hundreds of 1000s of our 1000s of reads and writes are hundreds of reads and writes. At the same time, it&rsquo;s designed for that in mind. And with the database being distributed, you don&rsquo;t necessarily have to take a snapshot of the entire table, you could take a snapshot of a section of the table that that query is actually working with. So there are some improvements and certain kinds of database management systems depending on on the technology you&rsquo;re using.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/520/ms-sql/cc520-sql-server-textbook/-/commits/c22ca3866d51883a355cf57b7362f9e7400d089e">Apr 27, 2022</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<img src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/cc520/images/core-logo-on-purple.svg">
+
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/auto-complete.js?1673989072" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.min.js?1673989072" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.stemmer.support.min.js?1673989072" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.multi.min.js?1673989072" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.en.min.js?1673989072" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/search.js?1673989072" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/00-course-intro/" title="Introduction" class="dd-item"><input type="checkbox" id="section-63769e11a76d897b7506c9f5292958d1" class="toggle"/><label for="section-63769e11a76d897b7506c9f5292958d1" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/"><b>0. </b>Introduction</a><ul>
+          <li data-nav-id="/00-course-intro/0-0-syllabus-520/" title="Syllabus" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-0-syllabus-520/">0. Syllabus</a></li>
+          <li data-nav-id="/00-course-intro/0-1-mssqlserver/" title="MS SQL Server Access" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-1-mssqlserver/">1. MS SQL Server Access</a></li></ul></li>
+          <li data-nav-id="/01-introduction-to-databases/" title="Introduction to Databases" class="dd-item"><input type="checkbox" id="section-917e184e7d9eba86e32fa216064b36b5" class="toggle"/><label for="section-917e184e7d9eba86e32fa216064b36b5" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/"><b>1. </b>Introduction to Databases</a><ul>
+          <li data-nav-id="/01-introduction-to-databases/1-introduction-to-databases/" title="Database Overview" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/">1. Database Overview</a></li>
+          <li data-nav-id="/01-introduction-to-databases/2-example-database-and-terms/" title="What is a Database?" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/">2. What is a Database?</a></li></ul></li>
+          <li data-nav-id="/02-introduction-to-tables-and-constraints/" title="Introduction to Tables and Constraints" class="dd-item"><input type="checkbox" id="section-e92406b997f8c8c51489125985e1aeeb" class="toggle"/><label for="section-e92406b997f8c8c51489125985e1aeeb" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/"><b>2. </b>Introduction to Tables and Constraints</a><ul>
+          <li data-nav-id="/02-introduction-to-tables-and-constraints/1-introduction-to-tables-and-constraints/" title="Introduction to Tables and Constraints" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/1-introduction-to-tables-and-constraints/">1. Introduction to Tables and Constraints</a></li>
+          <li data-nav-id="/02-introduction-to-tables-and-constraints/2-key-check-default-constraints/" title="Key, Check, and Default Constraints" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/2-key-check-default-constraints/">2. Key, Check, and Default Constraints</a></li></ul></li>
+          <li data-nav-id="/03-single-table-queries/" title="Single Table Queries" class="dd-item"><input type="checkbox" id="section-27864afe96e32f78f5c8b9352cd63bc0" class="toggle"/><label for="section-27864afe96e32f78f5c8b9352cd63bc0" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/"><b>3. </b>Single Table Queries</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/" title="Single Table Queries Part 1" class="dd-item"><input type="checkbox" id="section-e7761aedd0dc794fccd751813d1a1d89" class="toggle"/><label for="section-e7761aedd0dc794fccd751813d1a1d89" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/"><b>3.1 </b>Single Table Queries Part 1</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/" title="Single Table Queries Part 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/">1. Single Table Queries Part 1</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/" title="SELECT FROM" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/">2. SELECT FROM</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/" title="WHERE" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/">3. WHERE</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/" title=" GROUP BY - HAVING" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/">4.  GROUP BY - HAVING</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/" title="Processing Order" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/">5. Processing Order</a></li></ul></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/" title="Single Table Queries Part 2" class="dd-item"><input type="checkbox" id="section-a51855b5b2641138dadc11819e10f13a" class="toggle"/><label for="section-a51855b5b2641138dadc11819e10f13a" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/"><b>3.2 </b>Single Table Queries Part 2</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/" title="Single Table Queries Part 2" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/">1. Single Table Queries Part 2</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/" title="DISTINCT" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/">2. DISTINCT</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/" title="TOP Results" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/">3. TOP Results</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/" title="OFFSET-FETCH" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/">4. OFFSET-FETCH</a></li></ul></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/" title="Single Table Queries Part 3" class="dd-item"><input type="checkbox" id="section-f15553cee3388e30b8fb19794352dce4" class="toggle"/><label for="section-f15553cee3388e30b8fb19794352dce4" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/"><b>3.3 </b>Single Table Queries Part 3</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/" title="Single Table Queries Part 3" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/">1. Single Table Queries Part 3</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/" title="CASE" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/">2. CASE</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/" title="Variables" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/">3. Variables</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/" title="Character Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/">4. Character Types</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/" title="Date Time" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/">5. Date Time</a></li></ul></li></ul></li>
+          <li data-nav-id="/04-joins/" title="Joins" class="dd-item"><input type="checkbox" id="section-57a6281ed8299a810afa200ff6a57ceb" class="toggle"/><label for="section-57a6281ed8299a810afa200ff6a57ceb" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/"><b>4. </b>Joins</a><ul>
+          <li data-nav-id="/04-joins/1-introduction-to-joins/" title="Introduction to Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/1-introduction-to-joins/">1. Introduction to Joins</a></li>
+          <li data-nav-id="/04-joins/2-cross-joins/" title="Cross Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/">2. Cross Joins</a></li>
+          <li data-nav-id="/04-joins/3-inner-joins/" title="Inner Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/">3. Inner Joins</a></li>
+          <li data-nav-id="/04-joins/4-join-variation/" title="Join Variations" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/4-join-variation/">4. Join Variations</a></li>
+          <li data-nav-id="/04-joins/5-join-review/" title="Join Review" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/5-join-review/">5. Join Review</a></li>
+          <li data-nav-id="/04-joins/6-outer-joins/" title="Outer Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/6-outer-joins/">6. Outer Joins</a></li></ul></li>
+          <li data-nav-id="/05-subqueries/" title="Subqueries" class="dd-item"><input type="checkbox" id="section-5039b4fbfaf74415e8caddbc4ecf3fd9" class="toggle"/><label for="section-5039b4fbfaf74415e8caddbc4ecf3fd9" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/"><b>5. </b>Subqueries</a><ul>
+          <li data-nav-id="/05-subqueries/1-introduction-to-subqueries/" title="Introduction to Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/1-introduction-to-subqueries/">1. Introduction to Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/2-scalar-self-contained-subqueries/" title="Scalar Self-contained Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/2-scalar-self-contained-subqueries/">2. Scalar Self-contained Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/3-multivalue-self-contained-subqueries/" title="Multi-value Self-contained Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/3-multivalue-self-contained-subqueries/">3. Multi-value Self-contained Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/4-correlated-subqueries/" title="Correlated Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/4-correlated-subqueries/">4. Correlated Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/5-multivalue-correlated-subqueries/" title="Multi-value Correlated Subqueries Part 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/5-multivalue-correlated-subqueries/">5. Multi-value Correlated Subqueries Part 1</a></li>
+          <li data-nav-id="/05-subqueries/6-multivalue-correlated-subqueries-part-2/" title="Multivalue Correlated Subqueries Part 2" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/6-multivalue-correlated-subqueries-part-2/">6. Multivalue Correlated Subqueries Part 2</a></li></ul></li>
+          <li data-nav-id="/06-table-expressions/" title="Table-valued Expressions" class="dd-item"><input type="checkbox" id="section-82297e73ab159fe0b032c4448c83bff7" class="toggle"/><label for="section-82297e73ab159fe0b032c4448c83bff7" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/"><b>6. </b>Table-valued Expressions</a><ul>
+          <li data-nav-id="/06-table-expressions/1-introduction-to-table-expressions/" title="Introduction to Table-valued Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/1-introduction-to-table-expressions/">1. Introduction to Table-valued Expressions</a></li>
+          <li data-nav-id="/06-table-expressions/2-derived-tables/" title="Derived Tables" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/2-derived-tables/">2. Derived Tables</a></li>
+          <li data-nav-id="/06-table-expressions/3-common-table-expressions/" title="Common Table Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/3-common-table-expressions/">3. Common Table Expressions</a></li>
+          <li data-nav-id="/06-table-expressions/4-views-and-inline-table-valued-functions/" title="Views and Inline Table-valued Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/">4. Views and Inline Table-valued Functions</a></li>
+          <li data-nav-id="/06-table-expressions/5-apply-operator/" title="The Apply Operator" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/5-apply-operator/">5. The Apply Operator</a></li></ul></li>
+          <li data-nav-id="/07-window-functions/" title="Window Functions" class="dd-item"><input type="checkbox" id="section-0729b6bdbbc208f2fe085bd0ef82654d" class="toggle"/><label for="section-0729b6bdbbc208f2fe085bd0ef82654d" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/"><b>7. </b>Window Functions</a><ul>
+          <li data-nav-id="/07-window-functions/1-introduction-to-window-functions/" title="Introduction to Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/">1. Introduction to Window Functions</a></li>
+          <li data-nav-id="/07-window-functions/2-rank-window-functions/" title="Rank Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/">2. Rank Window Functions</a></li>
+          <li data-nav-id="/07-window-functions/3-aggregate-window-functions/" title="Aggregate Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/">3. Aggregate Window Functions</a></li>
+          <li data-nav-id="/07-window-functions/4-offset-window-functions/" title="Offset Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/4-offset-window-functions/">4. Offset Window Functions</a></li></ul></li>
+          <li data-nav-id="/08-sets/" title="Set Operators" class="dd-item"><input type="checkbox" id="section-1d139fe485e91bfda83fe4a7487eaa3d" class="toggle"/><label for="section-1d139fe485e91bfda83fe4a7487eaa3d" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/"><b>8. </b>Set Operators</a><ul>
+          <li data-nav-id="/08-sets/1-introduction-to-set-operators/" title="Introduction to Set Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/1-introduction-to-set-operators/">1. Introduction to Set Operators</a></li>
+          <li data-nav-id="/08-sets/2-union/" title="Union" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/2-union/">2. Union</a></li>
+          <li data-nav-id="/08-sets/3-intersect/" title="Intersect" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/3-intersect/">3. Intersect</a></li>
+          <li data-nav-id="/08-sets/4-except/" title="Except" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/4-except/">4. Except</a></li></ul></li>
+          <li data-nav-id="/09-obtaining-good-design/" title="Obtaining Good Design" class="dd-item"><input type="checkbox" id="section-583fe94f45349165a93dbb4a82efb856" class="toggle"/><label for="section-583fe94f45349165a93dbb4a82efb856" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/"><b>9. </b>Obtaining Good Design</a><ul>
+          <li data-nav-id="/09-obtaining-good-design/1-database-design-principles/" title="Database Design Principles" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/1-database-design-principles/">1. Database Design Principles</a></li>
+          <li data-nav-id="/09-obtaining-good-design/2-database-design-example/" title="Database Design Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/2-database-design-example/">2. Database Design Example</a></li>
+          <li data-nav-id="/09-obtaining-good-design/3-obtaining-good-db-design/" title="Obtaining Good Database Design" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/3-obtaining-good-db-design/">3. Obtaining Good Database Design</a></li>
+          <li data-nav-id="/09-obtaining-good-design/4-functional-dependencies/" title="Functional Dependencies" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/4-functional-dependencies/">4. Functional Dependencies</a></li>
+          <li data-nav-id="/09-obtaining-good-design/5-fd-examples/" title="Functional Dependency Examples" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/5-fd-examples/">5. Functional Dependency Examples</a></li>
+          <li data-nav-id="/09-obtaining-good-design/6-anomolies-armstrong-rules/" title="Anomolies and Armstrong Rules" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/6-anomolies-armstrong-rules/">6. Anomolies and Armstrong Rules</a></li>
+          <li data-nav-id="/09-obtaining-good-design/7-closure-sets/" title="Closure Sets" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/7-closure-sets/">7. Closure Sets</a></li>
+          <li data-nav-id="/09-obtaining-good-design/8-super-keys/" title="Super Keys" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/8-super-keys/">8. Super Keys</a></li>
+          <li data-nav-id="/09-obtaining-good-design/9-bcnf-decomp-fd/" title="BCNF Decomposition with Functional Depenencies" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/">9. BCNF Decomposition with Functional Depenencies</a></li>
+          <li data-nav-id="/09-obtaining-good-design/10-bcnf-decomp-closure/" title="BCNF Decomposition with Closure Sets" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/">10. BCNF Decomposition with Closure Sets</a></li>
+          <li data-nav-id="/09-obtaining-good-design/11-lossless-decomp/" title="Lossless Decomposition" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/">11. Lossless Decomposition</a></li>
+          <li data-nav-id="/09-obtaining-good-design/12-bcnf-decomp-limits/" title="Limitations of BCNF Decomposition" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/12-bcnf-decomp-limits/">12. Limitations of BCNF Decomposition</a></li>
+          <li data-nav-id="/09-obtaining-good-design/13-other-normal-forms/" title="Other Normal Forms" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/13-other-normal-forms/">13. Other Normal Forms</a></li>
+          <li data-nav-id="/09-obtaining-good-design/14-third-vs-bcnf/" title="Third Normal Form vs BCNF" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/14-third-vs-bcnf/">14. Third Normal Form vs BCNF</a></li></ul></li>
+          <li data-nav-id="/10-design-patterns-practices/" title="Design Patterns and Practices" class="dd-item"><input type="checkbox" id="section-d993def3cc4e8d58ce60fcc02746b9ee" class="toggle"/><label for="section-d993def3cc4e8d58ce60fcc02746b9ee" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/"><b>10. </b>Design Patterns and Practices</a><ul>
+          <li data-nav-id="/10-design-patterns-practices/1-general-design-practices/" title="General Database Design Practices" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/">1. General Database Design Practices</a></li>
+          <li data-nav-id="/10-design-patterns-practices/2-relationship-types/" title="Database Relationship Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/2-relationship-types/">2. Database Relationship Types</a></li>
+          <li data-nav-id="/10-design-patterns-practices/3-relationship-variants/" title="Relationship Variants" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/3-relationship-variants/">3. Relationship Variants</a></li>
+          <li data-nav-id="/10-design-patterns-practices/4-subclasses/" title="Database Subclasses" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/4-subclasses/">4. Database Subclasses</a></li>
+          <li data-nav-id="/10-design-patterns-practices/5-union-types/" title="Union Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/">5. Union Types</a></li>
+          <li data-nav-id="/10-design-patterns-practices/6-weak-entities/" title="Weak Entities" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/6-weak-entities/">6. Weak Entities</a></li>
+          <li data-nav-id="/10-design-patterns-practices/7-multi-path-problem/" title="The Multiple Path Problem" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/">7. The Multiple Path Problem</a></li></ul></li>
+          <li data-nav-id="/11-data-modification/" title="Data Modification" class="dd-item"><input type="checkbox" id="section-ba9c38562b93cb7698e25021aa1c9159" class="toggle"/><label for="section-ba9c38562b93cb7698e25021aa1c9159" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/"><b>11. </b>Data Modification</a><ul>
+          <li data-nav-id="/11-data-modification/1-insert/" title="Insert" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/1-insert/">1. Insert</a></li>
+          <li data-nav-id="/11-data-modification/2-identity-sequence/" title="Identity &amp; Sequence Objects" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/">2. Identity &amp; Sequence Objects</a></li>
+          <li data-nav-id="/11-data-modification/3-delete-truncate/" title="Delete &amp; Truncate" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/">3. Delete &amp; Truncate</a></li>
+          <li data-nav-id="/11-data-modification/4-update/" title="Update" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/4-update/">4. Update</a></li>
+          <li data-nav-id="/11-data-modification/5-merge/" title="Merge" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/5-merge/">5. Merge</a></li>
+          <li data-nav-id="/11-data-modification/6-output/" title="Output" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/6-output/">6. Output</a></li></ul></li>
+          <li data-nav-id="/12-programmable-objects/" title="Programmable Objects" class="dd-item"><input type="checkbox" id="section-9d577309ca3fbf6ae9beb09ffe73dbd3" class="toggle"/><label for="section-9d577309ca3fbf6ae9beb09ffe73dbd3" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/"><b>12. </b>Programmable Objects</a><ul>
+          <li data-nav-id="/12-programmable-objects/1-batches/" title="Batches" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/1-batches/">1. Batches</a></li>
+          <li data-nav-id="/12-programmable-objects/2-temporary-table-constructs/" title="Temporary Table Constructs" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/2-temporary-table-constructs/">2. Temporary Table Constructs</a></li>
+          <li data-nav-id="/12-programmable-objects/3-views-user-defined-functions/" title="Views &amp; User Defined Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/">3. Views &amp; User Defined Functions</a></li>
+          <li data-nav-id="/12-programmable-objects/4-stored-procedures/" title="Stored Procedures" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/4-stored-procedures/">4. Stored Procedures</a></li>
+          <li data-nav-id="/12-programmable-objects/5-triggers/" title="Triggers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/5-triggers/">5. Triggers</a></li>
+          <li data-nav-id="/12-programmable-objects/6-error-handling/" title="Error Handling" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/6-error-handling/">6. Error Handling</a></li></ul></li>
+          <li data-nav-id="/13-databases-and-applications/" title="Databases and Applications" class="dd-item"><input type="checkbox" id="section-2f803faa4f80656ba276fa3ba331db9a" class="toggle"/><label for="section-2f803faa4f80656ba276fa3ba331db9a" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/"><b>13. </b>Databases and Applications</a><ul>
+          <li data-nav-id="/13-databases-and-applications/1-apps-and-databases/" title="Applications &amp; Databases" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/">1. Applications &amp; Databases</a></li>
+          <li data-nav-id="/13-databases-and-applications/2-example/" title="Applications &amp; DB Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/">2. Applications &amp; DB Example</a></li></ul></li>
+          <li data-nav-id="/14-transactions-and-indexes/" title="Transactions and Indexes" class="dd-item parent"><input type="checkbox" id="section-f47d365c07f6488cdb0acb460ad79e0e" class="toggle" checked/><label for="section-f47d365c07f6488cdb0acb460ad79e0e" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/"><b>14. </b>Transactions and Indexes</a><ul>
+          <li data-nav-id="/14-transactions-and-indexes/1-indexes/" title="Indexes" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/">1. Indexes</a></li>
+          <li data-nav-id="/14-transactions-and-indexes/2-transactions-concurrency-1/" title="Transactions &amp; Concurrency 1" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/">2. Transactions &amp; Concurrency 1</a></li>
+          <li data-nav-id="/14-transactions-and-indexes/3-transactions-concurrency-2/" title="Transactions &amp; Concurrency 2" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/">3. Transactions &amp; Concurrency 2</a></li>
+          <li data-nav-id="/14-transactions-and-indexes/4-transaction-log/" title="Transaction Log" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/4-transaction-log/">4. Transaction Log</a></li></ul></li>
+          <li data-nav-id="/15-potpourri/" title="Potpourri" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/15-potpourri/"><b>15. </b>Potpourri</a></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><p>Built using <a href="http://gohugo.io/">Hugo</a>
+  and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>
+  with assistance from Josh Weese and Russ Feldhausen.</p>
+<br/>
+<p><strong><i>© Copyright 2022, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+
+
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989072" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989072" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989072" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989072" defer></script>
+  </body>
+</html>

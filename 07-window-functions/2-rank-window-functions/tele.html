@@ -1,0 +1,616 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Rank Window Functions :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989073" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989073" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989073"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989073" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989073" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Rank Window Functions</h1>
+
+<a href="https://www.youtube.com/watch?v=-jncMO6EDpM">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone, In this video, we&rsquo;re going to be taking a look at rank window functions. So this is the first out of the three types of window functions that we&rsquo;ll be covering. And you can see the syntax here, where we have our general function. So we have our function here over. And we have three different options that we&rsquo;ll we can include as part of our window, our of our over clause. So partition, which is going to define how we group our window, our rows into our windows, order by is the ordering of the rows within those windows. And then we have the rows clause, which is the framing portion here. And so that&rsquo;s how we define what rows inside of the window we actually include, as part of that we include to apply to our window function. So in our case, what we&rsquo;re going to focus on in this video here is what kind of functions that we can apply here on the left hand side of the over clause. So for ranking window functions, we have four primary functions that we&rsquo;ll utilize here, we have rank, DENSE RANK, row number and n tile. So rank and dense rake, operate mostly the same. So it&rsquo;ll rank the rows within a window. So starting out, typically, like 1234, with with the rows inside, now, rank is a true ranking system. And then if there is a tie, the rank, the numbering system actually skips the number. So if we have a tie, for third place, for example, will it&rsquo;ll go 123. And let&rsquo;s say there&rsquo;s a two way tie for three, it&rsquo;ll skip four, and then go to five, and also show an example here in a few minutes. DENSE RANK is a little bit different in that matter, where DENSE RANK is actually not going to skip those numbers. And so with DENSE RANK, you&rsquo;ll actually see, three show up twice. For example, if we had a two way tie for three, where rank would actually skip the number, row number is going to just be a sequential number within side inside of the window. So rank is not necessarily going to be a straight 1234, depending on if we have time ties, for example, or depending on what we&rsquo;re actually ranking on, right. So if we&rsquo;re ranking on sales, right, the person who has, let&rsquo;s say, the highest sales is going to go is going to be rank one, and the lowest sales is going to be the last rank, where as the row number isn&rsquo;t necessarily going to be correlated to that particular value. So just a straight sequential numbering.</p>
+<p>And then in tile is going to be doing a similar manner of of these, but we&rsquo;re going to be assigning row numbers based off of a subdivision of n. So let&rsquo;s say we wanted to do a quartile ranking. So and this may be for like a year, right, because we have quarters, and within each quarter, we want to analyze our sales. And so we can analyze our sales within every quarter by using in tile of four. So subdivides, our our window and two, or main chunks, or our windows into four main chunks. And then along with our ranking functions here, the over clause is going to have a little bit of different functionality here. So partitioning is supported. Ordering is actually required here in this situation. Because if you think about rank, DENSE RANK, row, numbered and tile, all of these will have different results depending on the ordering of the rows within each of the windows. And so without that ordering, this is non determinant. And so we want to make sure that those are ordered in order to get a consistent result here. So ordering is required. But framing is allowed, but he relevant in this situation. And now I can show an example of how that works. So let&rsquo;s look at a few things here. But first off, I actually do want to take a brief moment here to show the benefit of why we actually include a window function versus No window function. So in this little example here, I just have, I mean, connect to a rope. So now we&rsquo;re connected to our database. But here is just, you know, grouping orders and getting the order totals, right. We&rsquo;ve done this query before already. But what if I wanted to also include the lot the actual lines from the order, so all the order line information, so we can calculate a line total for each item that was actually ordered. And so that becomes a little bit more of a difficult query. But we can achieve that with a sub query. More specifically, we can achieve that with multiple sub queries. So this becomes a little bit more chaotic.</p>
+<p>So we can actually get within an order. So here is customer ID eight. Out here, here&rsquo;s an order that has multiple lines. So we can actually calculate the line price. So how much did this particular item cost with the number of items that they purchased of it, the order total, and then the total for, for the customer itself. So we can actually start out by, we can expand what we can do with just the base grouping by adding sub queries, but with the sub queries, notice that I&rsquo;m actually pulling from orders and order lines and multiple multiple cases. And so the sub query solution for this particular problem is not as not very efficient overall. But we can achieve better results or, or more efficient results using window functions. So with window functions, let&rsquo;s go ahead and showcase our first example here. This is a simple ranking function or an example of utilizing a simple rank window function. So we have a order total CTE here. So let me go ahead and run that. So simply justice, just the exact same query that I had before, that just groups by the order ID and gets the total amount for that particular order. And then, with the ranking, what we actually do is, we pull the order ID and order total. And then we have four different window functions here. So we have row number, rank, DENSE RANK, and quartile. And just this is just primarily to show you how the how each of these ranking functions work. So let me expand that real quick. Cool. Alright. So over here, and I&rsquo;m actually going to highlight a couple of examples. So as we start to go on we row number is purely sequential right? Row number is going to start at one and then increase as we go from our table results. Rank is going to increase as we go as well, an order of our rows that we have here. So order total. And it happens to be the same same ordering as our resulting query, because I&rsquo;m ordering by order total here and ordering by order total here, just as an example. And I&rsquo;m not actually partitioning here yet, either. So keep that in mind, I just have the window function applied over all rows. So since I&rsquo;m not partitioning, my window is the entire result of the query, right? So that that&rsquo;s a something that we can achieve and do with this window function. So partitioning not required but is an optional feature that we can add in here. But nonetheless, let&rsquo;s keep on going here. DENSE RANK. You can see here it is, apparently, so far, the same as rank and row number. And quartile is all one here.</p>
+<p>Now if we look over here in our messages, we can see that we have 96 rows, and since we are doing in tile of four so we&rsquo;re doing core tiles that means roughly speaking, since we have 96 rows, roughly speaking to one every 2423 24 ish rows, our quartile will increase. So if we scroll down here, we can see that here&rsquo;s our separation of our quartiles. So row number 24. And row number 25. Or number 25. This is where we increase into quartile number two. So the first 24 rows, and so on and so forth. And so that&rsquo;ll be the similar issue, similar case for our third and fourth quartiles. But I want to skip down to rows number 40, and 41. Particularly, because here is where we have our first tie. So our order total here is 19 $1,944. And so our row number is still sequential. So regardless of the tie, our row number keeps on increasing within our window. And remember, here, we&rsquo;re not partitioning so our window is the entire result set of the query. But with our rank and DENSE RANK, you can see that both are listed as 40. So when we have a tie, the ranking or the rankings are going to be the same. But the important difference is what happens in the in the row after. So after that tie is broken. So we have a different order total. Notice the difference between rank and DENSE RANK now. So with rank, we actually skipped 41, because there was a tie here. So there was one tie. So 40, and this would be the 41 row. But since this is a tie, it actually skips 40, the rank 41 and goes straight to 42. DENSE RANK, however, does not skip numbers. So if there is a tie, it still does 4040. But then in the next order total, we actually just increase to the next rank, which would be 41. Instead of skipping the number of ranks that were actually tied for here, we can actually go and see another example down here for rows 47 through 49. So you can see here, same order, total 4748 49 row number, then rank and DENSE RANK are all the same. So 4747 47. And remember, we skipped, we skipped a rank. And so the rank here is one higher than DENSE RANK, because DENSE RANK did not skip a number.</p>
+<p>But you see here now, rank increases by three in the next order total, because we have a three way tie here. So we skip three numbers, we go up a couple of numbers before when we increase to our next rank, whereas here with a dense rank, we just increase by one because we don&rsquo;t skip the ties. That&rsquo;s the primary difference here between rank and DENSE RANK. And I quartile is relatively self explanatory, right where we&rsquo;re chunking our windows into an N in number of groups. So we can do this by threes. We can do this by twos any in that is one or more. And then the quartiles will be numbered within within such general thought that comes to mind here. What comes first in processing order with window functions. So does the grouping or window function happen first? Well, window functions are going to primarily exist inside of our select clause for most of our use cases. And so our group by when we consider our CTE up here is actually going to execute this group is actually going to execute first before we get to our select clause. And so group by the CTE in general is not necessary here. Now, if we were utilizing this as part of if we&rsquo;re utilizing this in with things like sub queries, CTE would make a little bit more sense here. But with our particular case, for this scenario, we can rewrite this same query without using the CTE. So here is that exact same one. But we just do our join orders, order lines here, and are grouped by and then we have our rankings up here. And remember, in this case, I&rsquo;m using group by because my window function is being applied. applied across all rows, instead of partitioning, each partitioning the rows into smaller subsets, but we can use partitions, right, we can use partitions. So let&rsquo;s go back to an example with our CTE here, because I&rsquo;m going to change things up a little bit. So we have our group by again here, but now I&rsquo;m actually going to group by the salesperson.</p>
+<p>So we&rsquo;re going to get the order, order date, and the salesperson ID in sales total. So if we actually run this real quick, so you can see the results of that salesperson ID order date, and then the amount of sales. So the for every order date, how much did each salesperson actually make in that day. So that&rsquo;s what that CTE covers, and then our query down here, we&rsquo;re applying a window function to actually calculate the rank of every salesperson for that particular day. So we can expand this here just a little bit. So here is all ranked by Okay, so here is here is our first window. Because we are actually partitioning by the order date. So our original CTE here is grouping. But then we can actually apply a partitioning over all of those groups, which makes things a lot more expressive, we can calculate more interesting bits of information apart from using group by by itself. So partition by order date, order by sales total, and then we&rsquo;re going to rank. So rank is going to be applied over these windows, right for every window, rank the rows inside of it. So here&rsquo;s our first window, our first order date, one 520 15. And then our sales total is ordered in descending order, and then our ranking as applied as such, right, so the person with the highest sales total is ranked one, all the way down to rank 10. This is different than the sequencing, right? Because the row numbering is a sequential sequential selection, so always 12345, so on and so forth.</p>
+<p>Here, the rank is going to reset within each row or within each window function. So if we once we go down here to our second window, here&rsquo;s our 10 salespeople. And we have or we have 10. Salespeople that sold things on the sixth, and so again, ordered our sales totals and then we have our salesperson ranks here. But that is how the partitioning is going to work here. So our rows are first. So if we think about the order of operations here, our rows are partitioned first, and then those partitions, those windows are ordered by the specified columns. And then the ranking function is then applied over that window. The third step of the over clause, if we had framing included here, the framing would actually reduce what rows within that window are actually included when applying the rank the function that we&rsquo;re actually applying. So in this case rank. But if we do not include the framing clause, by default includes all rows within a window. And remember with with ranking type functions, ranking type window functions, framing is irrelevant. That concludes our examples on ranking window functions. So we have our four different ranking functions that we have here rank DENSE RANK, row number and tile over and then we can include we can do partitioning and ordering which ordering is required partitioning is optional. If partitioning is not included here, it applies the ranking function over all rows, and then framing in this case, is he relevant to our ranking functions because the ranks are going to apply to the entire window, regardless of the framing. Next video, we&rsquo;re going to talk about our other types of window function</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989073" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989073" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989073" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989073" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1673989073 defer"></script>
+    
+  </body>
+</html>

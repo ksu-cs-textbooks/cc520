@@ -1,0 +1,836 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Rank Window Functions :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989068" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989068" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989068" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989068" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989068" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989068" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989068" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989068" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989068" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989068" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989068" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989068" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989068" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989068" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989068" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989068"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989068" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989068" defer></script>
+
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/" title="Aggregate Window Functions (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/" title="Introduction to Window Functions (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="https://gitlab.cs.ksu.edu/cc/520/generic/cc520-textbook07-window-functions/2-rank-window-functions.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/"><span itemprop="name">CC 520</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/"><span itemprop="name">Window Functions</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/" aria-disabled="true"><span itemprop="name">Rank Window Functions</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#video-transcription">Video Transcription</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Rank Window Functions</h1>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/-jncMO6EDpM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone, In this video, we&rsquo;re going to be taking a look at rank window functions. So this is the first out of the three types of window functions that we&rsquo;ll be covering. And you can see the syntax here, where we have our general function. So we have our function here over. And we have three different options that we&rsquo;ll we can include as part of our window, our of our over clause. So partition, which is going to define how we group our window, our rows into our windows, order by is the ordering of the rows within those windows. And then we have the rows clause, which is the framing portion here. And so that&rsquo;s how we define what rows inside of the window we actually include, as part of that we include to apply to our window function. So in our case, what we&rsquo;re going to focus on in this video here is what kind of functions that we can apply here on the left hand side of the over clause. So for ranking window functions, we have four primary functions that we&rsquo;ll utilize here, we have rank, DENSE RANK, row number and n tile. So rank and dense rake, operate mostly the same. So it&rsquo;ll rank the rows within a window. So starting out, typically, like 1234, with with the rows inside, now, rank is a true ranking system. And then if there is a tie, the rank, the numbering system actually skips the number. So if we have a tie, for third place, for example, will it&rsquo;ll go 123. And let&rsquo;s say there&rsquo;s a two way tie for three, it&rsquo;ll skip four, and then go to five, and also show an example here in a few minutes. DENSE RANK is a little bit different in that matter, where DENSE RANK is actually not going to skip those numbers. And so with DENSE RANK, you&rsquo;ll actually see, three show up twice. For example, if we had a two way tie for three, where rank would actually skip the number, row number is going to just be a sequential number within side inside of the window. So rank is not necessarily going to be a straight 1234, depending on if we have time ties, for example, or depending on what we&rsquo;re actually ranking on, right. So if we&rsquo;re ranking on sales, right, the person who has, let&rsquo;s say, the highest sales is going to go is going to be rank one, and the lowest sales is going to be the last rank, where as the row number isn&rsquo;t necessarily going to be correlated to that particular value. So just a straight sequential numbering.</p>
+<p>And then in tile is going to be doing a similar manner of of these, but we&rsquo;re going to be assigning row numbers based off of a subdivision of n. So let&rsquo;s say we wanted to do a quartile ranking. So and this may be for like a year, right, because we have quarters, and within each quarter, we want to analyze our sales. And so we can analyze our sales within every quarter by using in tile of four. So subdivides, our our window and two, or main chunks, or our windows into four main chunks. And then along with our ranking functions here, the over clause is going to have a little bit of different functionality here. So partitioning is supported. Ordering is actually required here in this situation. Because if you think about rank, DENSE RANK, row, numbered and tile, all of these will have different results depending on the ordering of the rows within each of the windows. And so without that ordering, this is non determinant. And so we want to make sure that those are ordered in order to get a consistent result here. So ordering is required. But framing is allowed, but he relevant in this situation. And now I can show an example of how that works. So let&rsquo;s look at a few things here. But first off, I actually do want to take a brief moment here to show the benefit of why we actually include a window function versus No window function. So in this little example here, I just have, I mean, connect to a rope. So now we&rsquo;re connected to our database. But here is just, you know, grouping orders and getting the order totals, right. We&rsquo;ve done this query before already. But what if I wanted to also include the lot the actual lines from the order, so all the order line information, so we can calculate a line total for each item that was actually ordered. And so that becomes a little bit more of a difficult query. But we can achieve that with a sub query. More specifically, we can achieve that with multiple sub queries. So this becomes a little bit more chaotic.</p>
+<p>So we can actually get within an order. So here is customer ID eight. Out here, here&rsquo;s an order that has multiple lines. So we can actually calculate the line price. So how much did this particular item cost with the number of items that they purchased of it, the order total, and then the total for, for the customer itself. So we can actually start out by, we can expand what we can do with just the base grouping by adding sub queries, but with the sub queries, notice that I&rsquo;m actually pulling from orders and order lines and multiple multiple cases. And so the sub query solution for this particular problem is not as not very efficient overall. But we can achieve better results or, or more efficient results using window functions. So with window functions, let&rsquo;s go ahead and showcase our first example here. This is a simple ranking function or an example of utilizing a simple rank window function. So we have a order total CTE here. So let me go ahead and run that. So simply justice, just the exact same query that I had before, that just groups by the order ID and gets the total amount for that particular order. And then, with the ranking, what we actually do is, we pull the order ID and order total. And then we have four different window functions here. So we have row number, rank, DENSE RANK, and quartile. And just this is just primarily to show you how the how each of these ranking functions work. So let me expand that real quick. Cool. Alright. So over here, and I&rsquo;m actually going to highlight a couple of examples. So as we start to go on we row number is purely sequential right? Row number is going to start at one and then increase as we go from our table results. Rank is going to increase as we go as well, an order of our rows that we have here. So order total. And it happens to be the same same ordering as our resulting query, because I&rsquo;m ordering by order total here and ordering by order total here, just as an example. And I&rsquo;m not actually partitioning here yet, either. So keep that in mind, I just have the window function applied over all rows. So since I&rsquo;m not partitioning, my window is the entire result of the query, right? So that that&rsquo;s a something that we can achieve and do with this window function. So partitioning not required but is an optional feature that we can add in here. But nonetheless, let&rsquo;s keep on going here. DENSE RANK. You can see here it is, apparently, so far, the same as rank and row number. And quartile is all one here.</p>
+<p>Now if we look over here in our messages, we can see that we have 96 rows, and since we are doing in tile of four so we&rsquo;re doing core tiles that means roughly speaking, since we have 96 rows, roughly speaking to one every 2423 24 ish rows, our quartile will increase. So if we scroll down here, we can see that here&rsquo;s our separation of our quartiles. So row number 24. And row number 25. Or number 25. This is where we increase into quartile number two. So the first 24 rows, and so on and so forth. And so that&rsquo;ll be the similar issue, similar case for our third and fourth quartiles. But I want to skip down to rows number 40, and 41. Particularly, because here is where we have our first tie. So our order total here is 19 $1,944. And so our row number is still sequential. So regardless of the tie, our row number keeps on increasing within our window. And remember, here, we&rsquo;re not partitioning so our window is the entire result set of the query. But with our rank and DENSE RANK, you can see that both are listed as 40. So when we have a tie, the ranking or the rankings are going to be the same. But the important difference is what happens in the in the row after. So after that tie is broken. So we have a different order total. Notice the difference between rank and DENSE RANK now. So with rank, we actually skipped 41, because there was a tie here. So there was one tie. So 40, and this would be the 41 row. But since this is a tie, it actually skips 40, the rank 41 and goes straight to 42. DENSE RANK, however, does not skip numbers. So if there is a tie, it still does 4040. But then in the next order total, we actually just increase to the next rank, which would be 41. Instead of skipping the number of ranks that were actually tied for here, we can actually go and see another example down here for rows 47 through 49. So you can see here, same order, total 4748 49 row number, then rank and DENSE RANK are all the same. So 4747 47. And remember, we skipped, we skipped a rank. And so the rank here is one higher than DENSE RANK, because DENSE RANK did not skip a number.</p>
+<p>But you see here now, rank increases by three in the next order total, because we have a three way tie here. So we skip three numbers, we go up a couple of numbers before when we increase to our next rank, whereas here with a dense rank, we just increase by one because we don&rsquo;t skip the ties. That&rsquo;s the primary difference here between rank and DENSE RANK. And I quartile is relatively self explanatory, right where we&rsquo;re chunking our windows into an N in number of groups. So we can do this by threes. We can do this by twos any in that is one or more. And then the quartiles will be numbered within within such general thought that comes to mind here. What comes first in processing order with window functions. So does the grouping or window function happen first? Well, window functions are going to primarily exist inside of our select clause for most of our use cases. And so our group by when we consider our CTE up here is actually going to execute this group is actually going to execute first before we get to our select clause. And so group by the CTE in general is not necessary here. Now, if we were utilizing this as part of if we&rsquo;re utilizing this in with things like sub queries, CTE would make a little bit more sense here. But with our particular case, for this scenario, we can rewrite this same query without using the CTE. So here is that exact same one. But we just do our join orders, order lines here, and are grouped by and then we have our rankings up here. And remember, in this case, I&rsquo;m using group by because my window function is being applied. applied across all rows, instead of partitioning, each partitioning the rows into smaller subsets, but we can use partitions, right, we can use partitions. So let&rsquo;s go back to an example with our CTE here, because I&rsquo;m going to change things up a little bit. So we have our group by again here, but now I&rsquo;m actually going to group by the salesperson.</p>
+<p>So we&rsquo;re going to get the order, order date, and the salesperson ID in sales total. So if we actually run this real quick, so you can see the results of that salesperson ID order date, and then the amount of sales. So the for every order date, how much did each salesperson actually make in that day. So that&rsquo;s what that CTE covers, and then our query down here, we&rsquo;re applying a window function to actually calculate the rank of every salesperson for that particular day. So we can expand this here just a little bit. So here is all ranked by Okay, so here is here is our first window. Because we are actually partitioning by the order date. So our original CTE here is grouping. But then we can actually apply a partitioning over all of those groups, which makes things a lot more expressive, we can calculate more interesting bits of information apart from using group by by itself. So partition by order date, order by sales total, and then we&rsquo;re going to rank. So rank is going to be applied over these windows, right for every window, rank the rows inside of it. So here&rsquo;s our first window, our first order date, one 520 15. And then our sales total is ordered in descending order, and then our ranking as applied as such, right, so the person with the highest sales total is ranked one, all the way down to rank 10. This is different than the sequencing, right? Because the row numbering is a sequential sequential selection, so always 12345, so on and so forth.</p>
+<p>Here, the rank is going to reset within each row or within each window function. So if we once we go down here to our second window, here&rsquo;s our 10 salespeople. And we have or we have 10. Salespeople that sold things on the sixth, and so again, ordered our sales totals and then we have our salesperson ranks here. But that is how the partitioning is going to work here. So our rows are first. So if we think about the order of operations here, our rows are partitioned first, and then those partitions, those windows are ordered by the specified columns. And then the ranking function is then applied over that window. The third step of the over clause, if we had framing included here, the framing would actually reduce what rows within that window are actually included when applying the rank the function that we&rsquo;re actually applying. So in this case rank. But if we do not include the framing clause, by default includes all rows within a window. And remember with with ranking type functions, ranking type window functions, framing is irrelevant. That concludes our examples on ranking window functions. So we have our four different ranking functions that we have here rank DENSE RANK, row number and tile over and then we can include we can do partitioning and ordering which ordering is required partitioning is optional. If partitioning is not included here, it applies the ranking function over all rows, and then framing in this case, is he relevant to our ranking functions because the ranks are going to apply to the entire window, regardless of the framing. Next video, we&rsquo;re going to talk about our other types of window function</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Josh Weese
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/520/ms-sql/cc520-sql-server-textbook/-/commits/0be7c8e69c9b788efaf4eb85e8b6f6198a2e260c">Mar 1, 2022</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<img src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/cc520/images/core-logo-on-purple.svg">
+
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/auto-complete.js?1673989068" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.min.js?1673989068" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.stemmer.support.min.js?1673989068" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.multi.min.js?1673989068" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/lunr.en.min.js?1673989068" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/search.js?1673989068" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/00-course-intro/" title="Introduction" class="dd-item"><input type="checkbox" id="section-63769e11a76d897b7506c9f5292958d1" class="toggle"/><label for="section-63769e11a76d897b7506c9f5292958d1" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/"><b>0. </b>Introduction</a><ul>
+          <li data-nav-id="/00-course-intro/0-0-syllabus-520/" title="Syllabus" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-0-syllabus-520/">0. Syllabus</a></li>
+          <li data-nav-id="/00-course-intro/0-1-mssqlserver/" title="MS SQL Server Access" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-1-mssqlserver/">1. MS SQL Server Access</a></li></ul></li>
+          <li data-nav-id="/01-introduction-to-databases/" title="Introduction to Databases" class="dd-item"><input type="checkbox" id="section-917e184e7d9eba86e32fa216064b36b5" class="toggle"/><label for="section-917e184e7d9eba86e32fa216064b36b5" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/"><b>1. </b>Introduction to Databases</a><ul>
+          <li data-nav-id="/01-introduction-to-databases/1-introduction-to-databases/" title="Database Overview" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/">1. Database Overview</a></li>
+          <li data-nav-id="/01-introduction-to-databases/2-example-database-and-terms/" title="What is a Database?" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/">2. What is a Database?</a></li></ul></li>
+          <li data-nav-id="/02-introduction-to-tables-and-constraints/" title="Introduction to Tables and Constraints" class="dd-item"><input type="checkbox" id="section-e92406b997f8c8c51489125985e1aeeb" class="toggle"/><label for="section-e92406b997f8c8c51489125985e1aeeb" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/"><b>2. </b>Introduction to Tables and Constraints</a><ul>
+          <li data-nav-id="/02-introduction-to-tables-and-constraints/1-introduction-to-tables-and-constraints/" title="Introduction to Tables and Constraints" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/1-introduction-to-tables-and-constraints/">1. Introduction to Tables and Constraints</a></li>
+          <li data-nav-id="/02-introduction-to-tables-and-constraints/2-key-check-default-constraints/" title="Key, Check, and Default Constraints" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/2-key-check-default-constraints/">2. Key, Check, and Default Constraints</a></li></ul></li>
+          <li data-nav-id="/03-single-table-queries/" title="Single Table Queries" class="dd-item"><input type="checkbox" id="section-27864afe96e32f78f5c8b9352cd63bc0" class="toggle"/><label for="section-27864afe96e32f78f5c8b9352cd63bc0" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/"><b>3. </b>Single Table Queries</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/" title="Single Table Queries Part 1" class="dd-item"><input type="checkbox" id="section-e7761aedd0dc794fccd751813d1a1d89" class="toggle"/><label for="section-e7761aedd0dc794fccd751813d1a1d89" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/"><b>3.1 </b>Single Table Queries Part 1</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/" title="Single Table Queries Part 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/">1. Single Table Queries Part 1</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/" title="SELECT FROM" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/">2. SELECT FROM</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/" title="WHERE" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/">3. WHERE</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/" title=" GROUP BY - HAVING" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/">4.  GROUP BY - HAVING</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/" title="Processing Order" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/">5. Processing Order</a></li></ul></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/" title="Single Table Queries Part 2" class="dd-item"><input type="checkbox" id="section-a51855b5b2641138dadc11819e10f13a" class="toggle"/><label for="section-a51855b5b2641138dadc11819e10f13a" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/"><b>3.2 </b>Single Table Queries Part 2</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/" title="Single Table Queries Part 2" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/">1. Single Table Queries Part 2</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/" title="DISTINCT" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/">2. DISTINCT</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/" title="TOP Results" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/">3. TOP Results</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/" title="OFFSET-FETCH" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/">4. OFFSET-FETCH</a></li></ul></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/" title="Single Table Queries Part 3" class="dd-item"><input type="checkbox" id="section-f15553cee3388e30b8fb19794352dce4" class="toggle"/><label for="section-f15553cee3388e30b8fb19794352dce4" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/"><b>3.3 </b>Single Table Queries Part 3</a><ul>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/" title="Single Table Queries Part 3" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/">1. Single Table Queries Part 3</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/" title="CASE" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/">2. CASE</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/" title="Variables" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/">3. Variables</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/" title="Character Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/">4. Character Types</a></li>
+          <li data-nav-id="/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/" title="Date Time" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/">5. Date Time</a></li></ul></li></ul></li>
+          <li data-nav-id="/04-joins/" title="Joins" class="dd-item"><input type="checkbox" id="section-57a6281ed8299a810afa200ff6a57ceb" class="toggle"/><label for="section-57a6281ed8299a810afa200ff6a57ceb" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/"><b>4. </b>Joins</a><ul>
+          <li data-nav-id="/04-joins/1-introduction-to-joins/" title="Introduction to Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/1-introduction-to-joins/">1. Introduction to Joins</a></li>
+          <li data-nav-id="/04-joins/2-cross-joins/" title="Cross Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/">2. Cross Joins</a></li>
+          <li data-nav-id="/04-joins/3-inner-joins/" title="Inner Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/">3. Inner Joins</a></li>
+          <li data-nav-id="/04-joins/4-join-variation/" title="Join Variations" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/4-join-variation/">4. Join Variations</a></li>
+          <li data-nav-id="/04-joins/5-join-review/" title="Join Review" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/5-join-review/">5. Join Review</a></li>
+          <li data-nav-id="/04-joins/6-outer-joins/" title="Outer Joins" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/6-outer-joins/">6. Outer Joins</a></li></ul></li>
+          <li data-nav-id="/05-subqueries/" title="Subqueries" class="dd-item"><input type="checkbox" id="section-5039b4fbfaf74415e8caddbc4ecf3fd9" class="toggle"/><label for="section-5039b4fbfaf74415e8caddbc4ecf3fd9" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/"><b>5. </b>Subqueries</a><ul>
+          <li data-nav-id="/05-subqueries/1-introduction-to-subqueries/" title="Introduction to Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/1-introduction-to-subqueries/">1. Introduction to Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/2-scalar-self-contained-subqueries/" title="Scalar Self-contained Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/2-scalar-self-contained-subqueries/">2. Scalar Self-contained Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/3-multivalue-self-contained-subqueries/" title="Multi-value Self-contained Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/3-multivalue-self-contained-subqueries/">3. Multi-value Self-contained Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/4-correlated-subqueries/" title="Correlated Subqueries" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/4-correlated-subqueries/">4. Correlated Subqueries</a></li>
+          <li data-nav-id="/05-subqueries/5-multivalue-correlated-subqueries/" title="Multi-value Correlated Subqueries Part 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/5-multivalue-correlated-subqueries/">5. Multi-value Correlated Subqueries Part 1</a></li>
+          <li data-nav-id="/05-subqueries/6-multivalue-correlated-subqueries-part-2/" title="Multivalue Correlated Subqueries Part 2" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/6-multivalue-correlated-subqueries-part-2/">6. Multivalue Correlated Subqueries Part 2</a></li></ul></li>
+          <li data-nav-id="/06-table-expressions/" title="Table-valued Expressions" class="dd-item"><input type="checkbox" id="section-82297e73ab159fe0b032c4448c83bff7" class="toggle"/><label for="section-82297e73ab159fe0b032c4448c83bff7" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/"><b>6. </b>Table-valued Expressions</a><ul>
+          <li data-nav-id="/06-table-expressions/1-introduction-to-table-expressions/" title="Introduction to Table-valued Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/1-introduction-to-table-expressions/">1. Introduction to Table-valued Expressions</a></li>
+          <li data-nav-id="/06-table-expressions/2-derived-tables/" title="Derived Tables" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/2-derived-tables/">2. Derived Tables</a></li>
+          <li data-nav-id="/06-table-expressions/3-common-table-expressions/" title="Common Table Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/3-common-table-expressions/">3. Common Table Expressions</a></li>
+          <li data-nav-id="/06-table-expressions/4-views-and-inline-table-valued-functions/" title="Views and Inline Table-valued Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/">4. Views and Inline Table-valued Functions</a></li>
+          <li data-nav-id="/06-table-expressions/5-apply-operator/" title="The Apply Operator" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/5-apply-operator/">5. The Apply Operator</a></li></ul></li>
+          <li data-nav-id="/07-window-functions/" title="Window Functions" class="dd-item parent"><input type="checkbox" id="section-0729b6bdbbc208f2fe085bd0ef82654d" class="toggle" checked/><label for="section-0729b6bdbbc208f2fe085bd0ef82654d" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/"><b>7. </b>Window Functions</a><ul>
+          <li data-nav-id="/07-window-functions/1-introduction-to-window-functions/" title="Introduction to Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/">1. Introduction to Window Functions</a></li>
+          <li data-nav-id="/07-window-functions/2-rank-window-functions/" title="Rank Window Functions" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/">2. Rank Window Functions</a></li>
+          <li data-nav-id="/07-window-functions/3-aggregate-window-functions/" title="Aggregate Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/">3. Aggregate Window Functions</a></li>
+          <li data-nav-id="/07-window-functions/4-offset-window-functions/" title="Offset Window Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/4-offset-window-functions/">4. Offset Window Functions</a></li></ul></li>
+          <li data-nav-id="/08-sets/" title="Set Operators" class="dd-item"><input type="checkbox" id="section-1d139fe485e91bfda83fe4a7487eaa3d" class="toggle"/><label for="section-1d139fe485e91bfda83fe4a7487eaa3d" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/"><b>8. </b>Set Operators</a><ul>
+          <li data-nav-id="/08-sets/1-introduction-to-set-operators/" title="Introduction to Set Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/1-introduction-to-set-operators/">1. Introduction to Set Operators</a></li>
+          <li data-nav-id="/08-sets/2-union/" title="Union" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/2-union/">2. Union</a></li>
+          <li data-nav-id="/08-sets/3-intersect/" title="Intersect" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/3-intersect/">3. Intersect</a></li>
+          <li data-nav-id="/08-sets/4-except/" title="Except" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/4-except/">4. Except</a></li></ul></li>
+          <li data-nav-id="/09-obtaining-good-design/" title="Obtaining Good Design" class="dd-item"><input type="checkbox" id="section-583fe94f45349165a93dbb4a82efb856" class="toggle"/><label for="section-583fe94f45349165a93dbb4a82efb856" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/"><b>9. </b>Obtaining Good Design</a><ul>
+          <li data-nav-id="/09-obtaining-good-design/1-database-design-principles/" title="Database Design Principles" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/1-database-design-principles/">1. Database Design Principles</a></li>
+          <li data-nav-id="/09-obtaining-good-design/2-database-design-example/" title="Database Design Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/2-database-design-example/">2. Database Design Example</a></li>
+          <li data-nav-id="/09-obtaining-good-design/3-obtaining-good-db-design/" title="Obtaining Good Database Design" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/3-obtaining-good-db-design/">3. Obtaining Good Database Design</a></li>
+          <li data-nav-id="/09-obtaining-good-design/4-functional-dependencies/" title="Functional Dependencies" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/4-functional-dependencies/">4. Functional Dependencies</a></li>
+          <li data-nav-id="/09-obtaining-good-design/5-fd-examples/" title="Functional Dependency Examples" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/5-fd-examples/">5. Functional Dependency Examples</a></li>
+          <li data-nav-id="/09-obtaining-good-design/6-anomolies-armstrong-rules/" title="Anomolies and Armstrong Rules" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/6-anomolies-armstrong-rules/">6. Anomolies and Armstrong Rules</a></li>
+          <li data-nav-id="/09-obtaining-good-design/7-closure-sets/" title="Closure Sets" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/7-closure-sets/">7. Closure Sets</a></li>
+          <li data-nav-id="/09-obtaining-good-design/8-super-keys/" title="Super Keys" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/8-super-keys/">8. Super Keys</a></li>
+          <li data-nav-id="/09-obtaining-good-design/9-bcnf-decomp-fd/" title="BCNF Decomposition with Functional Depenencies" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/">9. BCNF Decomposition with Functional Depenencies</a></li>
+          <li data-nav-id="/09-obtaining-good-design/10-bcnf-decomp-closure/" title="BCNF Decomposition with Closure Sets" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/">10. BCNF Decomposition with Closure Sets</a></li>
+          <li data-nav-id="/09-obtaining-good-design/11-lossless-decomp/" title="Lossless Decomposition" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/">11. Lossless Decomposition</a></li>
+          <li data-nav-id="/09-obtaining-good-design/12-bcnf-decomp-limits/" title="Limitations of BCNF Decomposition" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/12-bcnf-decomp-limits/">12. Limitations of BCNF Decomposition</a></li>
+          <li data-nav-id="/09-obtaining-good-design/13-other-normal-forms/" title="Other Normal Forms" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/13-other-normal-forms/">13. Other Normal Forms</a></li>
+          <li data-nav-id="/09-obtaining-good-design/14-third-vs-bcnf/" title="Third Normal Form vs BCNF" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/14-third-vs-bcnf/">14. Third Normal Form vs BCNF</a></li></ul></li>
+          <li data-nav-id="/10-design-patterns-practices/" title="Design Patterns and Practices" class="dd-item"><input type="checkbox" id="section-d993def3cc4e8d58ce60fcc02746b9ee" class="toggle"/><label for="section-d993def3cc4e8d58ce60fcc02746b9ee" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/"><b>10. </b>Design Patterns and Practices</a><ul>
+          <li data-nav-id="/10-design-patterns-practices/1-general-design-practices/" title="General Database Design Practices" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/">1. General Database Design Practices</a></li>
+          <li data-nav-id="/10-design-patterns-practices/2-relationship-types/" title="Database Relationship Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/2-relationship-types/">2. Database Relationship Types</a></li>
+          <li data-nav-id="/10-design-patterns-practices/3-relationship-variants/" title="Relationship Variants" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/3-relationship-variants/">3. Relationship Variants</a></li>
+          <li data-nav-id="/10-design-patterns-practices/4-subclasses/" title="Database Subclasses" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/4-subclasses/">4. Database Subclasses</a></li>
+          <li data-nav-id="/10-design-patterns-practices/5-union-types/" title="Union Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/">5. Union Types</a></li>
+          <li data-nav-id="/10-design-patterns-practices/6-weak-entities/" title="Weak Entities" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/6-weak-entities/">6. Weak Entities</a></li>
+          <li data-nav-id="/10-design-patterns-practices/7-multi-path-problem/" title="The Multiple Path Problem" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/">7. The Multiple Path Problem</a></li></ul></li>
+          <li data-nav-id="/11-data-modification/" title="Data Modification" class="dd-item"><input type="checkbox" id="section-ba9c38562b93cb7698e25021aa1c9159" class="toggle"/><label for="section-ba9c38562b93cb7698e25021aa1c9159" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/"><b>11. </b>Data Modification</a><ul>
+          <li data-nav-id="/11-data-modification/1-insert/" title="Insert" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/1-insert/">1. Insert</a></li>
+          <li data-nav-id="/11-data-modification/2-identity-sequence/" title="Identity &amp; Sequence Objects" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/">2. Identity &amp; Sequence Objects</a></li>
+          <li data-nav-id="/11-data-modification/3-delete-truncate/" title="Delete &amp; Truncate" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/">3. Delete &amp; Truncate</a></li>
+          <li data-nav-id="/11-data-modification/4-update/" title="Update" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/4-update/">4. Update</a></li>
+          <li data-nav-id="/11-data-modification/5-merge/" title="Merge" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/5-merge/">5. Merge</a></li>
+          <li data-nav-id="/11-data-modification/6-output/" title="Output" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/6-output/">6. Output</a></li></ul></li>
+          <li data-nav-id="/12-programmable-objects/" title="Programmable Objects" class="dd-item"><input type="checkbox" id="section-9d577309ca3fbf6ae9beb09ffe73dbd3" class="toggle"/><label for="section-9d577309ca3fbf6ae9beb09ffe73dbd3" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/"><b>12. </b>Programmable Objects</a><ul>
+          <li data-nav-id="/12-programmable-objects/1-batches/" title="Batches" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/1-batches/">1. Batches</a></li>
+          <li data-nav-id="/12-programmable-objects/2-temporary-table-constructs/" title="Temporary Table Constructs" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/2-temporary-table-constructs/">2. Temporary Table Constructs</a></li>
+          <li data-nav-id="/12-programmable-objects/3-views-user-defined-functions/" title="Views &amp; User Defined Functions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/">3. Views &amp; User Defined Functions</a></li>
+          <li data-nav-id="/12-programmable-objects/4-stored-procedures/" title="Stored Procedures" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/4-stored-procedures/">4. Stored Procedures</a></li>
+          <li data-nav-id="/12-programmable-objects/5-triggers/" title="Triggers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/5-triggers/">5. Triggers</a></li>
+          <li data-nav-id="/12-programmable-objects/6-error-handling/" title="Error Handling" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/6-error-handling/">6. Error Handling</a></li></ul></li>
+          <li data-nav-id="/13-databases-and-applications/" title="Databases and Applications" class="dd-item"><input type="checkbox" id="section-2f803faa4f80656ba276fa3ba331db9a" class="toggle"/><label for="section-2f803faa4f80656ba276fa3ba331db9a" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/"><b>13. </b>Databases and Applications</a><ul>
+          <li data-nav-id="/13-databases-and-applications/1-apps-and-databases/" title="Applications &amp; Databases" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/">1. Applications &amp; Databases</a></li>
+          <li data-nav-id="/13-databases-and-applications/2-example/" title="Applications &amp; DB Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/">2. Applications &amp; DB Example</a></li></ul></li>
+          <li data-nav-id="/14-transactions-and-indexes/" title="Transactions and Indexes" class="dd-item"><input type="checkbox" id="section-f47d365c07f6488cdb0acb460ad79e0e" class="toggle"/><label for="section-f47d365c07f6488cdb0acb460ad79e0e" ></label><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/"><b>14. </b>Transactions and Indexes</a><ul>
+          <li data-nav-id="/14-transactions-and-indexes/1-indexes/" title="Indexes" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/">1. Indexes</a></li>
+          <li data-nav-id="/14-transactions-and-indexes/2-transactions-concurrency-1/" title="Transactions &amp; Concurrency 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/">2. Transactions &amp; Concurrency 1</a></li>
+          <li data-nav-id="/14-transactions-and-indexes/3-transactions-concurrency-2/" title="Transactions &amp; Concurrency 2" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/">3. Transactions &amp; Concurrency 2</a></li>
+          <li data-nav-id="/14-transactions-and-indexes/4-transaction-log/" title="Transaction Log" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/4-transaction-log/">4. Transaction Log</a></li></ul></li>
+          <li data-nav-id="/15-potpourri/" title="Potpourri" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/15-potpourri/"><b>15. </b>Potpourri</a></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><p>Built using <a href="http://gohugo.io/">Hugo</a>
+  and <a href="https://github.com/russfeld/ksucs-hugo-theme">ksucs-hugo-theme</a>
+  with assistance from Josh Weese and Russ Feldhausen.</p>
+<br/>
+<p><strong><i>© Copyright 2022, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+
+
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989068" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989068" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989068" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989068" defer></script>
+  </body>
+</html>

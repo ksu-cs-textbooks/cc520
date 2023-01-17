@@ -1,0 +1,615 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Inner Joins :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/nm13a1qJ9pk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back, everyone. So we&rsquo;ve already started to take a look at some of the joints that are available to us and SQL. So the cross joins is what we first started with. But now we&rsquo;re going to continue on and explore enter joints. Now, the syntax for an inner join is very similar to the cross join. So from Table A, and then enter, join table B on some condition. And do note that the inner part here is optional. So you can just say from table a join on Table B, generally speaking, I&rsquo;m going to encourage leaving the keyword enter there. So again, it&rsquo;s more obvious to which join we&rsquo;re actually using. So what is an inner join. So inner joins are very similar to the cross join. And since that the first phase of an inner join is the cross join, so it produces the Cartesian product. So remember, the Cartesian product is all the different combinations of rows that you can make between the two tables. But with the inner join, we actually add a filtering phase along with that. So step two of the inner join is going to filter based off of whatever the predicate is, or the join, right, so join a table, a inner join table be on condition. So that predicate, that condition that we&rsquo;re actually doing typically is going to be some, you know, column XYZ equals column ABC, or something like that, is probably the most common, but I&rsquo;ll show some examples here in a few minutes. And again, there are two syntaxes that are supported here, SQL 89, and SQL 92. But again, I typically Lin, lean one towards one versus the other. And I&rsquo;ll show the difference between the two here in just a few moments. Enter join here. So let&rsquo;s see an example of this as a general table first.</p>
+<p>So same tables that I tried to join last time. So Table A which I have the ID and Name, and if we do the inner join, so the inner join symbol, if you&rsquo;re looking at set theory, is symbol there. And then we have Table B, which has three rows in it as well, pickles, fish and ice cream. And so before we had a whole bunch of different rows, right, we had nine, nine rows, right, we had Jim Kim and Alice paired with pickles, fish and ice cream. So there&rsquo;s three rows per name inside Table A. But what if I wanted to do an inner join on ID, so table a.id equals table b.id. And so in that sense, we filter out all of the other rows that we actually have, except for the ones where the two table IDs match, or the two ID columns match. So for Jim, Jim&rsquo;s not included here at all, because Jim&rsquo;s ID, which is one has no association here in table B. So Id one does not actually occur here. Kim Kim has one record on the right hand side here on Table B. So Kim gets paired with pickles. And then the two records for Kim fish and ice cream that were initially created with the cross join get filtered out because, again, the IDS don&rsquo;t match. Alice here gets paired again with pickles fish and ice cream. So we have three rows for Alice, except that we want to then filter out the rows that don&rsquo;t have a matching ID.</p>
+<p>So I the only row that gets kept here is fish, and pickles and ice cream get filtered out. Because both of those rows don&rsquo;t have a match with the IDs. So this is an inner join in its most basic form. So inner join on a simple predicate where two columns match. And this is going to be one of the most common joins, you actually execute. Because it&rsquo;s very useful for joining two tables that have relationship between them. So if we have a foreign key connecting to different tables, we can do an inner join on that on that foreign key to extract all the connected information that is directly related and ignore all of the other all the other records that may not be directly related. But with that, let&rsquo;s take a look at a few examples. The last time this was my cross join, right so remember, we have a lot of different supplier or a lot of different suppliers. So 13 suppliers, nine categories. But what if we start to strip out a few of those things with inner join, because right now there&rsquo;s a lot of different records. And we may not necessarily need all of these. So what if we did an inner join. So let&rsquo;s change this real quick to do inner join on purchasing dots supplier categories, and then we need to add a predicate here. So the condition at which we actually are doing the join for, so on, and I&rsquo;m going to do sc, I&rsquo;m actually going to zoom out just a little bit here. So I can fit all this on here.</p>
+<p>This is going to be supplier category ID equals s dot supplier category ID, enter joins the we&rsquo;re joining the same two tables as we did last time, except now we are only keeping the records where the supplier category IDs match. So before we were joining all the suppliers with all of the different categories, but the suppliers may not actually have that category, they may not be that kind of supplier. And so we want to actually filter the ones that don&rsquo;t match. So then, let&rsquo;s go ahead and give this a run. Haha. So now last time, we had 100, and over 100 rows, and now this time, we only have 13. So we actually just only, we only have the suppliers with their associated supplier category, and not all the different combinations of now we can do a different, a different style of inner join here as well. The one that I list here that the has the key word INNER JOIN is the ancy SQL 92 standard. So just like with the cross join, I&rsquo;m going to lean more towards these, the 92 style syntax versus the 89 syntax, which is actually is just a cross join. So let&rsquo;s find my mouse here, I&rsquo;m going to take out the inner join here. And then if I add in a where clause to this, this is identical to the let me out this Sorry. There we go. So this query is identical to the one that I just ran before the how the inner the inner join keyword. But this particular syntax is be fancy sequel 89 style of syntax, but as I mentioned earlier, I am going to push more towards using the 92 syntax because it is a lot more clear what type of join is actually happening.</p>
+<p>So INNER JOIN and then on. But just remember, the inner join is nothing more than having a cross join, and then filtering out the rows only the rows that match the predicate. So this on and then this predicate here, this is just like what we used with the where clause. So one last thing here to talk briefly about the inner join is the direction of the relationship between the two tables. So an inner join is going to have a bi directional relationship, meaning that we are matching only the rows between the two tables that match. So we&rsquo;re excluding we&rsquo;re excluding records in table A and Table B that don&rsquo;t match our predicate. Here in the next couple videos we&rsquo;re actually explored will actually explore a join called an outer join, which will change the direction of that relationship. So that part is important to remember. But let&rsquo;s take a look at a few other examples here with our inner join. So in this query, I have order ID order date. And then we have a line count and then we have a subtotal. So now we&rsquo;re going to actually start exploring orders and order line so before we&rsquo;ve already done a little bit with the orders with the salespersons and things like that, but now we can actually join the orders with the actual items that that order actually contained as part of it. So order lines is just each of the if you ever looked at it invoice is just essentially each item from the that invoice along with our cost.</p>
+<p>So we are joining our inner join between orders and order lines on order IDs So matching the order from the order table with the order lines in the order lines table, and then we&rsquo;re grouping by the order ID, because we could have imagined with an order we might have, we might have purchased more than one item. And so we want to group all of those items together. And then we&rsquo;re going to group also by the date because I particularly want to lead to output the date as part of the SQL query. So we want to include that as part of the group by because remember, if it&rsquo;s, if the column is not listed in the group by, we can&rsquo;t include it in the SELECT clause, unless it is an aggregate or it&rsquo;s been listed in the group by here, I am only giving orders that have a have a cost of more than 25,000. And then we&rsquo;re ordering by the subtotal. So let&rsquo;s give this a run real quick, just so we can see what outputs are real. So here is our order ID order date, the number of items that were purchased, well, not the number of items that were purchased, but the number of different items that were purchased, because these are the order lines. And then we also output the total cost of that order. But the primary reason why I want to show you this query is to to pause and think about what things are included or what the data looks like at each phase, or each step of execution of the query.</p>
+<p>So remember that our FROM clause executes first, right, so we need to pick our data source. And so within that FROM clause, we see we have the we select the Orders table, then we join that with order lines. And remember, it&rsquo;s a cross join first. And then we filter based off of our predicate order ID or o l order ID equals our order ID. And then we group those together. So this is, these are just all of the rows, the resulting rows of the join. And then we group those, and then we filter those groups. And then we select the columns that we want out of those groups. So we want order ID, which we can do because it&rsquo;s in the group by, we can do order dates, which is also in the group by and then we have to aggregates count and sum. And then we order. So think, take a pause and think about the order of operations here the logical processing phases, and then what the data looks like as the output of each phase. So that is really important, because each each row after the front clause executes is individual rows. But the row a row after the grouping happens is a an aggregate a group of so all of the rows that that meets that particular group, that group matching. So that is essentially the basics of our inner join operation. And now we&rsquo;ll see a lot of different examples of the inner join actually working because we&rsquo;ll be using INNER JOIN quite a lot throughout the course. But I&rsquo;ll go ahead and stop this here for now with the inner join. I might have a few extra examples as part of the notes, but next time we&rsquo;ll take a look at some more complicated examples using joins.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

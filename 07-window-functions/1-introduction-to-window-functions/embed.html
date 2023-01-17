@@ -1,0 +1,612 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Introduction to Window Functions :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/9HX0GjbrOmc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. And in this video series, we&rsquo;re going to be taking a look at window functions. So with window functions, we&rsquo;re actually going to be applying a function or an expression over a subset of rows from your query. And so the subset is actually referred to as the window. So hence the term window functions because we&rsquo;re feeding the that small window of rows that saw a small subset of rows, and applying a function on top of that to calculate some value. But up to this point, we can actually accomplish some of this functionality using things like group by and sub queries. But window functions do allow us some added flexibility and some added expression that we can&rsquo;t get otherwise. So when comparing this to group by, we can like said we can accomplish similar results, except for the fact that with group by we actually lose some of the detail, meaning that when we actually do the groupings, the all the rows that belong to a group, all those details are actually lost, because the only values that are retained are the columns that belong as part of the group. And of course, we can add the aggregates, as well. But all of the other details, the individual row information is not included as part of the grouping. Then we can also, with window functions, we can also calculate things across groups, were grouped by when we do aggregates, those aggregates belong to that group only. And so we can&rsquo;t do an aggregate or calculations between groups where with window functions, we can achieve that functionality, similar ideas, similar story that we achieve with sub queries. But the primary benefit here with window functions with sub queries is that all of the the actual query that the underlying query, so in this case, like the outer query, all of those filters and rows are preserved. And so we don&rsquo;t actually have to, to, to actually achieve some of the similar functionality. With sub queries versus window functions, we actually have to duplicate our sub query.</p>
+<p>And so we have, we have to have multiple polls of the tables, multiple joins, multiple filters, and all those sorts of things to actually achieve the same result, as a window function, where the window function, we only have to pull those things exactly once. And I&rsquo;ll show an example of these here in a few minutes. But nonetheless, we get a lot of benefit from window functions, reducing the amount of sequel that we need to achieve certain tasks, and overall making our query a little bit more efficient as a result. So also with window functions, ordering is kind of weird, in the sense that ordering within a window function is not necessarily going to be the ordering, and the overall results of the query. Meaning so if you order by a specific column, outside and then in the primary query, and then when the when you do the window function, certain window functions allow you to order within the window itself. So within that subset of rows, but the ordering of the subset of rows is not going to be you know, that same column that you order those subsets by the results of the query won&rsquo;t necessarily be ordered by that same set. So, or the, or that same column. So order by is a little weird with window functions. And I can mention as well, only certain window functions allow ordering. But we&rsquo;ll talk about those here in a few. So inside of a SQL query, what does a window function contain? So the syntax of a window function is going to typically have your window function over and then these three parts. So our over clause is going to be the really big keyword here as part of our what kind of helps define our window function. But this over clause contains three different parts partitioning, ordering and framing. So the partitioning is actually going to be what defines our window.</p>
+<p>So how do we group our subsets of rows? So are we going to partition by for example, customers or order IDs? What is the condition that we&rsquo;re actually going to group those rows into? ordering of course, is the ordering of the rows within the window. So the ordering here is not the overall ordering of the results of my query, but it&rsquo;s going to be the ordering with In the actual window itself, and then within a window, we have frames. And so let&rsquo;s say we have a window that has 10 rows as part of it. Well, we can frame that window such that it excludes a certain number of rows. So we can actually specify a range of rows inside of that window, that that the function the window function is actually applied to. So for example, if we want to skip the first and last row of our window, we can do that with framing. I&rsquo;ll show some, I&rsquo;ll show some examples of what this looks like here in a few minutes as well. As far as window functions go over all we have three different categories of window functions that will utilize ranking window functions, analytic window functions, and aggregate window functions. So ranking window functions, sound as they are, we can actually ranking functions or going to more or less number our rows.</p>
+<p>So let&rsquo;s say we wanted to rank all of our salespeople by month. All right, so let&rsquo;s say I, you know, Bob, Jill and Jane are salespeople, and who came out on top every month. So in order of sales, right, so maybe Bob was first in January, and then Bill and then maybe and February, Jane was first and then Bob. So that&rsquo;s what we can achieve with the ranking function. And there&rsquo;s a couple different types of ranks with that will show case in the following videos and some examples, analytic window functions, this is primarily going to be a form of an offset. So we&rsquo;ve done offset fetch so far, right, which simulates kind of like a top 10 sort of thing. But we can also do offsets with inside window functions and subsets so we can get, let&rsquo;s say, we can lead or lag so we can get the previous row or next row, that sort of thing very similar to what we did with the offset fetch. aggregates are very sound very similar to what we&rsquo;ve actually achieved so far with group by, so sums counts, that sort of thing. Those are going to be the kind of functions that we can apply using aggregate window functions. But nonetheless, we&rsquo;ll cover partitioning, ordering and framing and the three different types of window functions in the following videos.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

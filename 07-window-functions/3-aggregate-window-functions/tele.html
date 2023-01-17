@@ -1,0 +1,616 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Aggregate Window Functions :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989073" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989073" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989073" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989073" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989073" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989073"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989073" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989073" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Aggregate Window Functions</h1>
+
+<a href="https://www.youtube.com/watch?v=Qhiri3uzjOs">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. And in this video, we&rsquo;re going to be taking a look at aggregate window functions, aggregate window functions are going to have similar syntax as previous window functions. So you have the function applied over and then we can specify and define our windows that the function is being applied over the window being defined using the partition by clause, order of the rows within that window. And then which rows within that window are actually where what the function is actually being applied to. So we have a variety of different aggregate window functions. Typical the typical aggregate functions that we used as part of our previous sequel experiences apply just the same. So all of the group, all the experience that we have writing group by statements, so max, min, average count, some, all those sorts of things will apply here with aggregate window functions, although distinct is one of the clauses that are qualifiers that is not allowed as part of an aggregate window function. Although you can do a simple workaround here that will will show so as part of our aggregate window function, what is actually supported. So using the over clause, we can actually utilize both all three partitioning, ordering and framing as a result. So none of these are we can have all of these, or actually none of them for aggregate window functions, which is a really powerful, expressive way of utilizing these, the use cases for aggregate window functions are probably more common when compared to the other types of window functions. Although I would probably rank, you know, Agria as being the most common, and then you have rank and then offset. But aggregate window functions are very useful for things like running totals, period totals or quartile, things like that. So monthly totals year to date totals, moving averages, all of those calculations that require subdividing our results and things that we apply our functions on to. But nonetheless, let&rsquo;s take a look at some examples of these inaction. So I have a quite a large query up here. Our CTE that we have been using so far, and our window function examples is the same thing here, we just have our order total CTE. But I also have an additional column here that I did last time I have salesperson ID, along with the Order ID, but I don&rsquo;t have customer here. Now, if I go back down here to my actual query that&rsquo;s utilizing utilizing the CTE, we have a salesperson order ID order total.</p>
+<p>And then we have a couple of different window functions. So we have count over. So total order count, count over and then salesperson order. Order counts, total sales in the salesperson sales. But notice here, I have a few of my over clauses that are empty, I don&rsquo;t define a window at all. So no window and no framing, no ordering within there. And so when you have an empty over clause, the window that is actually included as part of that is actually going to include all rows, and it&rsquo;s going to it&rsquo;s not going to have any order as well, in order in that sense, especially when you&rsquo;re doing things like count and sum and average, things like that order doesn&rsquo;t necessarily matter. For the end result of the calculation, this line here, it would be just equivalent to just a normal count star when so select count star from table. So that&rsquo;s essentially what we&rsquo;re doing here with the empty overbuy. But I can do counts based off of a can do account and apply that to a specific window instead of just all rows. So if I want to define a window, remember I use the partition by and so count star over and then my window is being defined as the salesperson ID. So this counts the number of rows per salesperson, right? So partitioned by the salesperson ID. So this is the total number of orders that a salesperson has. So if we look at salesperson to salesperson to actually has two orders, and so they have a order count of two here, and then we have the total sales. So some Have all orders, over right all orders, meaning all rows because my window from my window is empty. And then we have a. And then we have the total of sales just for the salesperson, right, so total sales across all salespeople, and then total sales for just this salesperson.</p>
+<p>So if we go down here and look at our first salesperson, salesperson two, we can see that the total sales across everybody doesn&rsquo;t, doesn&rsquo;t change, right? But the salesperson totals do change, right? We have 3307, for salesperson 25647 For salesperson three, and you can see that actually salesperson three has quite a few orders. So here is salesperson three, we have six rows, so salesperson order count is six, the total number of orders that we have across all of the salespeople in on 2016, one one is 47. And we have again, the total sales, which is all rows. So that doesn&rsquo;t change between windows or between salespeople, but the salesperson sales actually does. Now, you may be thinking here, like what&rsquo;s the point here, because a lot of these columns don&rsquo;t actually change from row to row. So it doesn&rsquo;t actually provide a lot of extra detail. But if you actually start to apply these, as part of other aggregate expressions, things become a little bit more expressive and more meaningful. So this is the identical query that I had before same CTE same slot clause. But now instead of having the just plain total sales, I&rsquo;m actually converting that to percentages. So that makes it a little bit more interesting to compare to the total sales that were done. So here is my total sales, sorry, here&rsquo;s the total sales, total sales over all orders. And then we can actually get the, then we can actually get the percent or the percent of this one particular order compared to over over all sales. And then we can also do that for the salesperson. So for salesperson to this is easiest to apply to their first order that they did here on that day, that first order was 90% of their daily sales for that particular date, then the second order was little over 9% of their sales. And so with this, converting it to a percentage actually starts to make a little bit more meaningful impact as the results of the query and stuff, reporting just the raw values.</p>
+<p>But the point of this is that we can actually use window functions as part of other expressions as as as other calculations, particularly here as shown with our select clause, we can do this same thing as well with framing. So let&rsquo;s take a look at example of that. This one not any different right here we&rsquo;re calculating sales person running total running total, excluding the current row. And then the running total overall interesting thing here running is this one right here, because this framing, and this framing are not as different before, but notice that we have unbounded preceding and current row. We don&rsquo;t have unbounded here again, because if we had unbounding here on the right hand side, then that would include all rows in my window from in my window beneath the current row. But I go everything before the current row including the current one. So that&rsquo;s what we have there. Now here we have unbounded preceding and one preceding so all rows from the beginning of my window up to one preceding the current row. So since I&rsquo;m doing one proceeding the current row it excludes the current row from the application of the function so the sum excludes the value of the current row total. And then here, with my last run, running total, this gives me all rows in the window function including the current row, but no rows after the current row. And that&rsquo;s the important part here with these two here, these are not the default behavior, because the default behavior would include all rows in the window. But here, we only include up to the current row. And here we include are up to and including the current row. And then here we include up to the row, but excluding the current row. But let&rsquo;s take a look at what this means for our values here. So it&rsquo;s a little less meaningful here to show for.</p>
+<p>So let me run this again, it&rsquo;s a little less meaningful here to show on salesperson two, but we can go ahead and go through here, we still have order total, the first three columns are the same. But here we have the salesperson running total. So the first order is 3005. The second order is 302. So the running total is 3005, plus that order total, which gets us there. And that&rsquo;s why also, this row is actually this value is actually no because there&rsquo;s nothing up to that point. And so there&rsquo;s nothing that we can include there, because it excludes the current row excludes the current row. Here, we include the current row and the running total. But notice that this running total, is unbounded, preceding unbounded preceding, but it continues to go right and continues to go. Because my window Ah, that&rsquo;s one thing I didn&rsquo;t actually note here, right? What&rsquo;s the window here? Right, what&rsquo;s the window here? Well, my first window, my first window was the salesperson ID, my second window for for my, my window for the salesperson running total is exclude and current is also based off of the salesperson ID, but just the running total. I&rsquo;m not partitioning anything. And so this includes all rows. So this is kind of the neat thing with that we can kind of bring out with window functions, because we can apply this window function across groupings across Windows. And this is how it can be much more expressive than the traditional group by because with group by, we can&rsquo;t do any calculations between groups very easily like this. So our running total just keeps as as you normally would calculate in something like Excel, we have a running total that just keeps on going up as we go down as orders keep getting added on. But the other two columns, you can see here with order, what salesperson three, the salesperson total, keeps going up and up and up and up until we hit salesperson six, and then it resets because the salesperson running total is restricted to just the that window which is defined by the salesperson. Same thing with the salesperson total salesperson running total excluding the current row. But this is just an example that is a little bit more expressive and a little bit more meaningful kind of showcases some more of the powerful things that you can achieve using the window functions, particularly with aggregates and playing around with how you define the windows. And how you define the framing order by the ordering here also does matter as well, right?</p>
+<p>Because the order if depending on which rows are flipped, which way the running totals are going to be different for those rows. So just something to keep in mind as you&rsquo;re working with these. But let&rsquo;s take a look at our last example here. So our last example is going to do this, using this daily total CTE. So this is going to give me the total amount of sales per day across all order across our entire table. But the kind of reason is this in general, including the including the order year and order month doesn&rsquo;t initially make a whole lot of sense, because I have the order date there already as it is. But it makes a little bit more sense as I go down here and to my main function, which is going to calculate month to date sales and year to date sales, including the total for that day. So this is the this is the primary two columns that I was kind of pulling verbatim from my CTE and then these two columns here are my window functions. So We have a sum over and sum over my first partition. This is something that we haven&rsquo;t done before, we have so far, we&rsquo;ve only defined our windows our partitions using one column. But now we can actually also define our windows using two columns, which is kind of neat. So, partition by order year and order month. So within a year, partition by month, right, and then here is just partitioned by year. So this is a year to date total. And this is a month to date total. So if we go down here, my total on month to date and year to date will all be the same. Until let&rsquo;s see, here, we scroll down just enough here. There we go. So you can see where the windows actually stop, and the next window begins. So my first column, my first window function month to date, sales, increases, increases, increases and increases as we go until we get to the end of the month. When that window in so my first window stops here on 131 2013. And then you can see my month to date, sales, resets.</p>
+<p>And so that the total the total and month to date sales for row 28 match because that&rsquo;s when the window got reset into a new window. And our year to date continues, right, our year to date continues. Because now, my my window that I&rsquo;ve defined for my year to date sales, actually just goes and goes all the way through 2013. So this highlights that I can actually have windows that overlap with each other. So I can have Windows within Windows or Windows that overlap. And that is also something that is a lot more expressive that we can achieve here with window functions that we can&rsquo;t achieve. With group by because group by we&rsquo;re not kind of, we can do groups within groups, if we do sub queries and things like that. But that becomes very complicated. And it&rsquo;s really not very expressive. We can&rsquo;t do a whole lot of things with sub queries in that sense. But here, when we can allow Windows to overlap with each other, we can do a lot of expressive things here, particularly around things like running totals and aggregate functions. But that is going to conclude our examples for aggregate window functions. We showcased a bunch of different aggregate functions being applied over a slew of different kinds of partitions, Windows and frames. And the lack thereof, right, we can apply these aggregate functions over over all rows, we can specify a particular we can specify a particular window. We also saw the framing and a more meaningful action here where we specified what that function is actually being applied over. So all rows within a window or rows up to the current row excluding the current row preceding that sort of thing. Said and like we showed here, the common use cases for aggregate functions primarily include things like running totals, and moving averages. And we did period running totals, where we show that we can actually overlap our windows that we apply our functions over, but this will conclude our video series on window functions.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989073" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989073" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989073" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989073" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1673989073 defer"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,612 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>General Database Design Practices :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Rs1vruLxFAA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. In this video, we&rsquo;re going to be continuing our discussion on database design. And so to start out, we&rsquo;re going to really focus on some general best practices when we talk about designing our tables apart from general database theory. So, first off table names should be nouns. And this sounds kind of odd at first, but when we actually start talking about the logical representation of a lot of our data, right, the we typically don&rsquo;t always talk about our data in just nouns. So for example, we&rsquo;ve talked about this, you know, albums being produced by certain artists before and naming that table. In conceptual model, right, and a conceptual model, an album is produced and produced, is a fairly well, good descriptor for an album. But as far as our database is concerned, when we talking about storing that information, produced album is a better representation. So it gives a lot more information and exactly what it is, right produces the action, not the thing. And so we want to name our data table our tables, after now, and that represents the data that&rsquo;s being stored inside of it. Other general recommendations, same thing kind of goes for columns and our tables as well. So columns should be nounce, just like our tables. There are some general exceptions here, though, particularly when we have two valued columns. So this generally is referring to a true false yes, no type answer. This would be things like, if we have a user table, right, typically will have some indicator whether or not this user is active or inactive. Just in case like if a user is deleted, or decides to stop subscribing to our service, whatever it may be. And usually, we don&rsquo;t really want to delete that information. And so we tag it with a column that is active or is removed, or something of that nature. And when we have this these types of columns, typically we describe it as the positive side, so is active instead of is inactive, or is removed versus is not removed.</p>
+<p>Generally speaking, this is just a way that we typically think about these types of questions, we typically don&rsquo;t think about a true false question on the negative, we typically refer to it as a positive side. And then, of course, it can be false. Other general recommendations that we have here, along with column names, they should not be redundant. So we want to try not to repeat the name of the table in the name of the column, unless it is a key. Okay, so we&rsquo;re talking about things like if we have a car table, well, we would name the price of that car, the data that represents the price that car just price rather than car price, it may initially feel like you should name it car price is more information. As a whole, you think about when we referenced these columns inside of our queries will typically access those columns through the table itself. So we already have the information of what that price is associated with. So car dot price. So car car price is redundant. So try to keep the name of the table out of the name unless it is a key that is very useful for when we reference things from outside of the table, particularly when we do things like joints. So sometimes we can use different names for different references of the same thing. So in the second table, if we have like a foreign key or something like that, we can rename that foreign key to be more associated with what it represents in the in the foreign table. But usually speaking, it&rsquo;s better practice to keep the same name of the key in the foreign table as it was in the in the original table. But overall, just be consistent in your naming scheme. We have things like Person ID versus Person ID, so all caps ID versus lowercase. Generally speaking, it doesn&rsquo;t really matter either way here as long as you are concerned. Since throughout your database design as far as which capitalization you use, and similar thing goes with the naming of your keys as well, as long as you are consistent with how you reference them. That is what really matters there. And as far as readability goes, but keeping those names as particularly along with foreign keys, that can help improve that readability as well. And you&rsquo;ll see some of these examples as I show some better design patterns later on. And you can kind of make note of how I named the keys inside of each of those tables as well, you can kind of see the best practices being put in action.</p>
+<p>But what other kind of recommendations do we have here? So think twice before using delete, think twice before using Delete. When we create our tables, we can allow or disallow deletion of that data, particularly when we run things like updates, deletes, which will be a topic in another video. But typically speaking, in the real world, Once data is created, it&rsquo;s never truly ever deleted. Any Once data is created, it&rsquo;s almost never truly deleted. This is because it&rsquo;s good record keeping as well, you know, we if a user decides to stop subscribing to our service, we don&rsquo;t want to delete that user and all of that person&rsquo;s history, because what if they decide to resubscribe at a later date, we want to be able to pull all of that information back to, you know, enable that process and make that transition a lot easier for that user. And this also helps, again, with record keeping, and data analysis and reporting and things like that. Users can also make mistakes. And so if you use your accident, when we delete something, then hopefully we can actually recover that information as well. And if we do, so, if we do this well enough, we can restore all of that information. So we will also have another video fully on this process as well. This can typically be resolved using things like history tables. So tables that are designed just to keep track of historical records when a record is deleted or updated. But you can also do this with just a column indicating whether or not a a record is active or inactive or is removed or is is not removed. That&rsquo;s a the low hanging fruit. And there are some pros and cons between each solution. But as I mentioned, we will have a full video on that topic and another time, other things that we want to consider. And regarding two keys, typically you want to use something called a surrogate key versus a natural key. Natural keys are what we see in real life that are naturally unique, like a social security number or an email address, right? So if we have, let&rsquo;s say, a user table here, we have email, oops.</p>
+<p>So email is a typically a good way to indicate uniqueness, right? Because our emails are all unique. So if a user name, for example, is just their email, we can guarantee that that user is going to be unique, and we don&rsquo;t have to worry about any anything conflicting with that when another user comes along. However, the problem here is that when we run things like updates, if we run our queries, deletions, insertions, all those all the different operations that we actually use, involving this user, working with a natural key is actually more expensive than doing something like a surrogate key. And so usually, what we do in this situation is we will have a surrogate key. So let&rsquo;s say in this case, user ID. And again, since this is a key, I&rsquo;m repeating the name of the table inside of my column name. So we&rsquo;ll make our user the user ID our primary key here, and then our email address is just going to be a unique key now. Or just to kind of enforce the uniqueness property there since it&rsquo;s no longer a primary key, but this way, right this way, if our email changes for whatever reason, our performance is not actually impacted because all primary keys here, all primary keys are actually indexed. And so that indexing actually improves the speed of our queries. And when our primary key changes, that index has to be recomputed. And so that&rsquo;s one of the reasons why the performance can get hit, if we are using a natural key as our primary key. But in general, this user ID, this surrogate key will never actual change never actually change. But again, we&rsquo;ll talk more about the performance implications when we talk about indexes, along with the impact of having primary keys as well. But that will conclude all my general real world practice, best practices recommendations here. Of course, there are more out there. These are just some really easy ones to remember and general rules of thumb that can really make your life&rsquo;s a lot easier when you&rsquo;re working with your database design.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

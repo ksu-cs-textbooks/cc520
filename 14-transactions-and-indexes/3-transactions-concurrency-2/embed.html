@@ -1,0 +1,624 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Transactions &amp; Concurrency 2 :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/WbceV6s81mQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>We&rsquo;re gonna do a class activity today. And so what you need to do this is on the lecture 27 transactions and concurrency, you just need to download the transactions in currency dash participate dot SQL, zoom in here. So the transactions and currency dash participate dot SQL, that&rsquo;s the one you need. And it will look like this. So this is the participate dot SQL file. First, the first example that I&rsquo;m going to showcase is the blocking issues. So the fact that we have remember shared blocks, which are specifically for a read operation, and so multiple transactions can share that lock. And multiple reads can happen at the same time. Or multiple reads can happen within that within that. And then exclusive lock blocks all so an exclusive lock will block all reads and all other rights. So that is what we&rsquo;ll start off with. Okay, so on the left here is just my my demo as far as what we&rsquo;re trying to showcase acid for. And you can also download this too, if you want, but you won&rsquo;t be able to run one of these particular commands. So. So I&rsquo;m just emptying out my table, from what I had from us testing this.</p>
+<p>So remember, that&rsquo;s the truncate, truncate drops all the things, it doesn&rsquo;t drop the table, but it drops all the data in the table. What what will actually have as part of our table here, so I have this table called transaction test. This is just going to showcase records. So when I when I create a transaction, it&rsquo;s going to low write a row to this table, so you can see what transactions are actually being current. So that&rsquo;s kind of the point of that. So let&rsquo;s do this with a transaction. So we&rsquo;re going to execute this. Okay. So there is the begin try, right. So I&rsquo;m actually doing a catch, right. So this is like a standard, a standard issue, right? Because remember, this, this throws an issue because I can&rsquo;t insert No, it doesn&rsquo;t allow no because the column column constraints. Okay. So if I tried, if I wrap things into a transaction, and any of my sequel actually throws an exception, I can actually do a rollback, right? So a rollback allows me to reverse what I actually tried to insert. So now, if I check out my transaction test now, even though I did initially insert a row, there&rsquo;s nothing there. Because the row was inserted, this one errored out. And so I hit my begin catch, block my catch block. And so I rolled back my transaction, my transaction was not committed.</p>
+<p>Yes. Well, it does. It does, right. Well, because it did go to the cache right right away, but this is the sequel that that through it. Yeah. So it didn&rsquo;t it didn&rsquo;t commit the transaction. And if it committed the transaction, then all the all of the operations that were done as part of the transaction would be finalized. That&rsquo;s what we do with commit. So the rollback, well, no, none doesn&rsquo;t go to the previous commit, but it reverses all of the statements that happened in this transaction. So any rows that were modified, updated, deleted, inserted etc, will be reversed back to the original state before the transaction started. Or when the transaction started sorry. So that this is the My Favorite, like the best thing about transactions. Locking is great, but rollback is is awesome. It will save it will save a lot of headaches with inconsistency of data. Yeah. You over again with locking. I understand that so so locking, so a transaction will lock a table that it&rsquo;s working with. And so when we lock a table we have two types of locks, shared locks and exclusive locks.</p>
+<p>Shared locks are tip are for Anything that is for reading, so select clauses. And so a shared lock will allow more than the same. So it&rsquo;ll allow multiple reads on that same table. So that table is locked using a shared lock. It&rsquo;ll allow it allow reads, but it will not allow rights. An exclusive lock will block all the things. So an exclusive lock is for when a table needs to be written to or updated or deleted. And so that will block any other any external reads or writes or updates. next little bit here. So let us let me empty out the transaction table. Okay, so now, I&rsquo;m going to start my transaction, I&rsquo;m not going to finish it. So I&rsquo;m gonna start my transaction here. So my transaction has begun. And so I can actually showcase here. Ah, so notice, notice my query has started to execute. Right started to execute, but it hasn&rsquo;t finished yet. Right. And so you can also if you want, go ahead, and you can actually run this stored procedure too. And so if you run that stored procedure, I can actually look at in theory, everyone who is actually running that stored procedure at this time.</p>
+<p>And so here are all the people running that particular stored procedure, this is the number of transactions you actually have running right now. And this is how long you have that transaction has been active, but no one can actually access. So this, this query, or this, if we go show, show transaction tests here, here we are. So all this is, is a transaction that basically this is just capturing you as the participant, and then selecting everything from the transaction test table. But I can&rsquo;t select from that table, because I have locked that table due to my transaction here. Because I am inserting into that table, an exclusive lock is automatically placed on that table. So you don&rsquo;t have to explicitly say, lock this table. If you start a transaction and execute a SQL statement, the the unnecessary lock to do that statement in a transaction will be placed on that table by automatically. So now, if I Oh, yeah, question, so you don&rsquo;t have to worry. So now, if now I commit, right, which will allow the results of my inserts to be released to the world, right. So I&rsquo;ve been working on doing some updates to the transaction test table. And when I commit my transaction, my lock gets released. And so the locks are released when the transaction is completed. So either committed or rollback.</p>
+<p>So if I run my commit, everyone should now have this row show up for them. The message that I sent here with Hello. And so if I, if I delete that, and I&rsquo;m going to run this transaction, again, with a different message, and then again, you can run that show transaction tests. And then if I again show, so we&rsquo;ve got another four people. And now if I roll back, you shouldn&rsquo;t see hello to because this is this has been inserted into the table. But it&rsquo;s that table is not accessible by anybody yet. But when I do roll back, the insert is reversed. So the the record the record records that are inserted or removed, records that are modified are returned to their original state. So if I roll back, we get no rows as a result, right? That is because our Insert was not committed. Let&rsquo;s do some now issues with consistency, right? Because consistency is a pretty big deal. Especially when you&rsquo;re dealing with sensitive data and transactions and information that is being displayed and utilized on the web, ecommerce banking, that sort of thing. Lots of lots of reasons why we want consistency with data. So, here I am going to run this live query that is going to again, working with the transaction test table, I&rsquo;m going to insert a row. And then I&rsquo;m also going to update a row, right. So I&rsquo;m going, I want to insert this test inserted row. And then I want to update that same row to a different value. So let&rsquo;s go and start this transaction here. One row affected, total execution time, right. But the, but it has begun.</p>
+<p>And so if we now run the consistency issues one, so run with READ UNCOMMITTED, and your again, welcome to view this, okay, so we get, notice that you can actually run that query, you can actually run that stored procedure, right? It doesn&rsquo;t really showcase, no one&rsquo;s actually even locked out as part of it. Okay. But if I roll back and run this, right, everything goes away. But the problem here, right, with the dirty read is that when we actually run our statements over here, we don&rsquo;t actually get the latest, the latest result, right, we get the record. But two things have actually happened as part of this, we&rsquo;ve had an insert and an update happen. But notice that the value is not updated value yet. It has not updated value yet. So this is a issue with a concern with consistent data, right? An update has been ran. But you don&rsquo;t get the latest update. Hey, so this is a big issue as far as data consistency goes so well, it was technically yes, because I haven&rsquo;t committed the transaction and the transaction hasn&rsquo;t finished yet. And so you were allowed. So the table gets locked, right, the table gets locked.</p>
+<p>And well, partially, but the data gets inserted. But when you actually run this read uncommitted, I have not actually committed my updates yet. And so when you read the read from that table, it&rsquo;s not locked. And so then you can actually pull the date the old data that was there. But the data that we have updated is not there yet that is available to be read. So that is the issue here with the with the consistency consistency with reads. And so this is what we call the dirty read, right? You read data from the database that was not consistent with what is actually in the database, or what is current in the database. So So with this one. And I forgot I forgot to take one name out there. So if you so if you&rsquo;re connected to my database, again, I don&rsquo;t think this should have to run. I&rsquo;m not sure why this was working last night. Last laws of demos. Anyway, so I&rsquo;m going to begin this transaction. So this is a transaction for a update. So run this There we go. So now we&rsquo;re blocked. Okay. So now if you want to run the fix with the run with READ COMMITTED. So we&rsquo;ve got a few people, few people running now.</p>
+<p>So now that we&rsquo;ve got the the read committed. So now if I roll back, right, so in theory, if I roll back here, you don&rsquo;t actually get so we have we have we don&rsquo;t have the value, right, so this is the value that I was trying to update. But it didn&rsquo;t, right. So I had a row that was Test for Update test updated row. But since I actually rolled back my transaction, you did not get the updated data, which is okay because that is now consistent with actually the with the actual data. And so why is and so why is why does this fix the issue with repeatable reads or dirty reads? Well, if we navigate oops, navigate to that stored procedure. Notice this line here, for that stored procedure. We&rsquo;ve set the isolation level to READ COMMITTED So that takes care of that dirty read issue, as part. So the isolation level is where you&rsquo;re going to be able to fix consistency issues.</p>
+<p>Transactions do not guarantee fixing the fix of consistency, right transactions don&rsquo;t guarantee consistency. You have to set that with isolation levels, different isolation levels provide different benefits as well as limited levels of concurrency as well as cost, right, which will show with snapshotting. Okay, so that&rsquo;s what we just did the the, we showed how a uncommitted the, the isolation level of READ UNCOMMITTED, get gives you dirty reads. How READ COMMITTED fixes that issue. And now let&rsquo;s do repeatable reads. So, issues with repeatable reads, the next step here is the repeatable read. So all this, all this stored procedure is doing is doing one read after another, right. And so you can take a look at that here. So run Repeatable Read, notice that we are setting the isolation level two repeatable read. And I&rsquo;m actually delaying for 15 seconds, and then doing another, another read. Okay, and so I do one read, and then I do another one after 15 seconds. And so let us do that. And so if we run if I start start my transaction here. So execution time, but let&rsquo;s do the run with repeatable reads.</p>
+<p>So do that started inserting. So you can run this, you can run this non repeatable reads here. And then see how many. Okay, cool. So if you run that, and then now if I roll back, finish my transaction, but 15 seconds, give or take, there it goes. Cool. So because because I was locked, right, we were locked out. And so this is this allows a repeatable read, right? This allows a repeatable read. But the problem is, so the problem here, that down here is going to be a little bit different. So up here, this was just one single row that was updated and changed. And he ran two reads after so it was was prevented from actually being different. So the idea behind a repeatable read is that you should be able to run the read in one single transaction anyways, in one transaction, if you have more than one read, both of those should be should have the same results. Right, that&rsquo;s what we&rsquo;re after here, go ahead and do the run with repeatable read again. So I&rsquo;m going to start running mine. So that started running, and then I&rsquo;m going to actually go over here and run an insert and update while that is going. So let&rsquo;s see what happens here. Ah. So the repeatable read in part still. So I&rsquo;ve got here&rsquo;s my before, here&rsquo;s my after 15 seconds. All right. So both of those are accurate.</p>
+<p>But now I have a phantom, what we call a phantom row. So within a single transaction, to read to read to two identical reads, produced different number of rows, right. And so that extra row is what we call a phantom row, right? Data that was inserted in between our rows, but I didn&rsquo;t have the proper lock associated with it to prevent that from being inserted. Or sorry, proper isolation level. So so let us fix that issue. So I actually have a run with Serializable is the next one that will do. But let me execute my initialize data. And so now we&rsquo;ll want to run our different level here. So you want to run to the run with serializable, which is the isolation level. If we go down here, the isolation level is serializable. So we&rsquo;re down into the next level, the last isolation level here, right? So this is preventing all consistency issues, including phantom row.</p>
+<p>So this is basically the, the most isolated we can get, right? Because this is the idea when we&rsquo;re running with SQL, right, we&rsquo;re running SQL on a shared server. And so if we want things to be consistent, we want to run our stuff in isolation without anybody else interfering with our stuff. And that is the idea of the isolation levels. Okay. So go ahead and run the run with serializable. And then as you&rsquo;re running that, I&rsquo;m going to do another insert, right? For for this? Uh, huh. No more phantom rows, no more phantom rows. So this is good. This is good, right. So our isolation level was done in a way that changes that happened outside of me did not impact what I was doing inside of my little, my little bubble, right. And that is important for consistency. We do have kind of the ultimate tier of snapshot isolation level. And remember, snapshot isolation is very expensive, because it takes snapshots of your database at the time it&rsquo;s actually done. And so it&rsquo;s, it&rsquo;s good, depending on what you&rsquo;re working with. So if you have something that is very, very sensitive, very important, that sort of thing. Snapshots work very well for that. Okay. Snapshots work very well, for that. Yeah. Essentially, essentially, right, they get more Yeah. So as you increase your isolation, then you have you.</p>
+<p>You can lose things like, you know, some some things require more more resources to actually accomplish, especially snapshotting. snapshotting, is the one that&rsquo;s really expensive. And that&rsquo;s most of the other isolation levels don&rsquo;t you don&rsquo;t see too much of an impact. But they can be slower, in general to actually execute because everything is done in isolation, right? So. But that also is, in some degree to some degree, concurrency can take a hit, depending on what isolation level you&rsquo;re actually working with. So especially with this particular, right, right, we have serializable, locks a lot more locks a lot more things as part of it. And so that is, that is, one of the reasons why it is so useful is that it does use you shared locks, but still allows things to be the consistent consistency that it actually losses, each of these actually do share locks, right, because you want to have be able to run more than one thing at one time. But the important part here with repeatable reads, And Serializable is it holds that lock until the transaction is fully done, not after the actual SQL has been completed.</p>
+<p>That&rsquo;s the big difference between these. So and then snapshots are better in this sense, because all of those are still having locks, locks placed on tables. And so concurrency can&rsquo;t happen. Because when that lock is on that table, you all can&rsquo;t use it, right? Because I have it locked down. So that&rsquo;s where we get more benefit out of the snapshots is if concurrency matters, right? If concurrency matters, then snapshots are the way to go. But they are expensive. They are expensive. So So let&rsquo;s, let&rsquo;s run that. So if you do the run with snapshotting here, and then I will run my insert. Notice that my insert happened instantly. And my my run was snapshot still going. But because it was snapshotted. Right? Because it was snapshotted. It has its own copy of the data. So it doesn&rsquo;t need to block anybody. Right? And this is where things are really beneficial. Because if you have a long running query that takes 15 seconds to run, which is not necessarily completely abnormal, depending on the size of your database. Then if you&rsquo;re running that query underneath the transaction and high isolation, then you&rsquo;re blocking everything from happening, right. So imagine if you if I added something to my cart and on Amazon, and you couldn&rsquo;t buy anything on Amazon because I was buying something right.</p>
+<p>That&rsquo;s the big issue. right with some of these isolation levels. So snapshotting prevents that sort of thing. But of course, with really large production databases like Amazon, it&rsquo;s a distributed database. And so these things are spread across very large servers and have it&rsquo;s the sheer size of these databases that run those sorts of commerce sites. is quite impressive, but yeah,</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

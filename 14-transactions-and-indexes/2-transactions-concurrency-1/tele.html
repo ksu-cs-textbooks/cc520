@@ -1,0 +1,628 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Transactions &amp; Concurrency 1 :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989074" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989074" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989074" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989074" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989074"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989074" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989074" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Transactions &amp; Concurrency 1</h1>
+
+<a href="https://www.youtube.com/watch?v=iaTT-PPh5kQ">YouTube Video</a>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Let&rsquo;s check out transactions. So as I mentioned before, transactions are kind of like a receipt for any of the queries that you actually execute for your database. Typically, if you&rsquo;re working with data that is just on your local database transactions are a little bit overkill, it must that data is actually very sensitive. And then transactions are needed to prevent any loss of data in transit. But when you have a bunch of people using the same database at the same time, there are more than likely going to be collisions from time to time. So more than one person tried to read or to write, update or delete the same record. And things get a little bit wonky, right, because you can&rsquo;t update if you update a record and try to delete a record at the exact same time. Right, it gets weird. So that&rsquo;s why we need this for multiple users. But the transaction as as a whole is one unit of work.</p>
+<p>So an update a delete an insert. Typically, it is something that is modifying your database, we don&rsquo;t really typically run things Transact transactions really aren&rsquo;t necessarily needed for things like select, although you can wrap pretty much almost anything in a transaction. But it&rsquo;s not necessarily needed for things that aren&rsquo;t modifying, aren&rsquo;t modifying your data. So, so each each SQL statement that you do is a transaction essentially. But we can also define those explicitly as part of our SQL code. And I would err on applying those explicitly. So it&rsquo;s very clear that you&rsquo;re working with a transaction there. And not all database, not all database languages work that way as well. So most most, most languages require you to explicitly define your transaction. So and that&rsquo;s kind of what we primarily focus on here. So if, if my demo was working, I would have a demo to display acid here.</p>
+<p>But acid is a acronym for atomicity. Alright. So essentially, what we&rsquo;re dealing with here is what we&rsquo;re acid allows us to guarantee integrity of our data. And this has nothing to do with the design of the database at this point, right? We&rsquo;re not trying to modify or design the tables in a certain way, this is dealing with actually the sequel that you&rsquo;re running. And so if we&rsquo;re running an update, and that update impacts more than one row, what if you update five rows out of 100, and then something errors out the disk errors? power goes out, internet goes out whatever the connection fails? That&rsquo;s an impartial update, right? Only five of the 100 records actually got updated. And what if you assume as a user that all 100 Records got updated? Because the query ran so? Right? Because a lot of the a lot of errors that can happen that interrupts SQL commands being executed fully, those errors aren&rsquo;t necessarily reported back to the user? Not necessarily, right? So the atomicity here is that all will succeed or nothing at all, right? So for a transaction, everything in that transaction succeeds.</p>
+<p>Or we roll everything back and we reverse, reverse our process. Can consistency. So see, for consistency, this ensures that our data is valid from one state to another, right? Meaning that have like with our updates, right? If we are, if we are openings, opening a connection and working with a table, everything is consistent in terms of that connection, the session, the batch that we&rsquo;re executing, between updates, and deletes, and so on and so forth. Isolation anything that is concurrent, is independent. So if two transactions are running on the system at the same time, those transactions care nothing about the other other transactions that are running. And this is very important, right? Because without isolation, that means each transaction is dependent on another and that would then incur more issues with acid because we&rsquo;re not If we&rsquo;re not ensuring consistency, what if one transaction doesn&rsquo;t finish? And the other one does? Does that mean we have to roll back everything, it becomes a significantly more complicated problem when you have transactions that depend on other transactions. So each transaction should be done in isolation. And then last year durability, so anything that we change should be committed. Right? Anything that we change is changed. And that&rsquo;s it, right?</p>
+<p>Basically, if we make an update, and the transaction succeeds, then that is a committed update, right? This kind of like, when you&rsquo;re committing your code to your repository, Git repository, right? You can you commit your code, you push it to the server, that is your transaction for, uh, for storing your code, right. And once it&rsquo;s committed, that change is not lost. And that&rsquo;s what we&rsquo;re trying to achieve here with these transactions. So acid is extremely an extremely important idea for databases that are going to be especially something that is used for anything more than one user. And, quite honestly, I&rsquo;ve never had a database that hadn&rsquo;t had more than one user, at least in a production sense. Likewise, most databases anymore, are connected to some web web site or web app. And you have hundreds if not 1000s of concurrent users, depending on the site that you&rsquo;re actually working with. And so if all 1000 of those people ran a database update at once, on the same table, things get kind of crazy. And so if you are ensuring acid, then you shouldn&rsquo;t have any issues with any data consistency, as part of that. Cool.</p>
+<p>So locks. So locks are used to control access for a transaction. There are two main modes, for locks, exclusive, and shared. So so the example with a four exclusive, for example, if you are trying to update a table, and you have five users that are trying to update the people table trying to update their addresses, well, maybe maybe person one and person two are trying to both update the same row, you can&rsquo;t have them updating the same row with the exact same time, right, because otherwise, one, one may clash with the other, one may overwrite the other, it just becomes chaos. So we add in an exclusive lock on that table. So that one transaction at a time is actually doing the update. So you kind of the database management system ends up building this queue system. So as multiple transaction comes in, and there&rsquo;s an in the table that they need to modify as lock, they basically have to get in line in order to basically a priority queue Have you seen from 300. So they get in line and to actually execute the code or sequel that&rsquo;s part of their transaction. Shared is just as it is, right? A shared lock is used for primarily reading. So this is your select, right? So you can run transactions with selects. And most of the time, if it&rsquo;s a read only operation, then you only need a shared lock.</p>
+<p>So you basically, you can share access from one transaction can share access to another transaction to a table at a time. But it is kind of important for shared locks. Because if a if a if someone is let&rsquo;s say we are reading we wanted to read from a database read from a table, and then you have another transaction over here that is trying to update that table. Well, if they update the table in the middle of your read, then all of a sudden your read your SELECT statement becomes invalid because your data that you get is not correct. And it&rsquo;s either not up to date or partial part of it may not be up to date and some of It may. And so it&rsquo;s not current with the with the current state of your table. And so that&rsquo;s why we do use shared locks for select clauses for read statements, because you don&rsquo;t want updates to happen while it&rsquo;s being read from, but multiple reads can happen at the same time. That is okay, because 500 Different reads are not going to impact each other when you&rsquo;re reading from the same table. Right? That&rsquo;s kind of the benefit of a database, but updates can and interfere there.</p>
+<p>So the exclusive locks in in nature are held until the transaction is fully completed. And once that transaction is complete, then that lock is released. And if there&rsquo;s another transaction in the queue, that needs to also lock that table, then that lock is then passed on to the next transaction. But share locks are very similar. Shared locks are the table is locked, until all re all transactions that are reading from that table have been completed. And then once all all those read transactions have completed, then the shared lock is released. And then an exclusive lock or another shared lock could be placed on that table. So if you have or have not taken 520, you may have learned a little bit of this sort of of parallelism and 450. A little bit maybe. But operating systems do this sort of stuff all the time. Specifically for threads that are executing under computer fighting for memory and disk resources and things like that. So there&rsquo;s queues and locks and everything is set up because you can&rsquo;t have you can&rsquo;t have more than one thread accessing the same data at the same time. If the if some of them are or reading and writing at the same time. And so a lot of a lot of things in computer science use this technique to control access to data and and the modification of that data.</p>
+<p>So for a shared lock, a shared lock will block all other transactions that are requesting a read a shared lock, right, so any other if there&rsquo;s any other transaction was trying to read from a table that has a exclusive or a a nother transaction that is requesting another shared lock? is good, right? But if it is an exclusive lock, right? That will be blocked, right? So a shared lock will allow other transactions that need a shared lock. So if there&rsquo;s a shared lock on a table, and one transaction is reading, and then a few seconds later, another transaction comes in and wants to read from that table. That&rsquo;s okay. But then if an if another transaction comes in and requests an exclusive lock in order to update or delete, that is not okay. The exclusive lock will block all things, right. So basically, no transactions can modify the same rows at the same time. Right? Kind of we talked about as it is, right? Readers, readers, block writers and writers block everything. So anytime you&rsquo;re trying to do a read, you can&rsquo;t do a write. And anytime you are writing, you can&rsquo;t do anything else.</p>
+<p>Blocks happen at the table level. Yep, yep. And that also implies that let&rsquo;s say, you are updating the people table. And but you have a different query that is updating the address table. But that update requires a join to the people table, that is not going to be allowed that will be blocked, because the people table is in modify, as in is beginning to be modified. And therefore if you join on that table, that join becomes invalid because the data is inconsistent. It&rsquo;s in the process of being updated. And so that join can&rsquo;t happen until that lock is released on that table. So yeah, so locks are not just single table queries, but they also impact queries that do joins. And as soon as you start to have consistency issues, that&rsquo;s when your database becomes. I mean, I shouldn&rsquo;t say useless, but for that user, it becomes invalid. Right? You have to go in there and I I&rsquo;ve run run into this many times before. And in early days, when you get a database that is inconsistent. Fixing it, you have to fix it by hand and fixing it by hand can be very painful, depending on how big your database is.</p>
+<p>It it&rsquo;s just not fun at all. So transactions are awesome. Okay, so consistency issues, what can what can what can happen? Well, reading data that is not yet committed. So what if you do an update, but that update has not fully finished yet. So you could, without a transaction, do an update the date the table is partially updated, you do a select, and it pulls all of the data, maybe the Select runs faster, and it pulls the entire table really quickly. But only that update has only impacted the first five rows, and it&rsquo;s still working on the rest? Well, that&rsquo;s the data at poll is now inconsistent with what the what the update is actually trying to finish. And so that is a data that has not yet been committed. Secondly, what that too, right, what if that update updates five rows, you read it, but then the update fails. And so and so you want that transaction to roll back, reverse what it updated, because that would be an so the data stays consistent. And so then you have, you still have a dirty read because you&rsquo;ve read data that was not committed and rolled back. So basically, you&rsquo;re you&rsquo;re sharing code with with a friend that has not yet been pushed into your remote repository. That&rsquo;s kind of the issue there. And then when he tried to merge, then all your merges fail, because you have conflicts and yeah, dirty reads, not very fun. You have non what we call non repeatable reads. So you read the same row, two different times, but get two different values. Right. So you do a select, and you do a select again. And the data is different. That is an inconsistent read, because an update may have happened in between, or during your read. And so you did a read. And then an update happened while you are reading the table. But the records weren&rsquo;t there yet. And so then you go back and do it again. And things are different, right? Or maybe maybe data roll back. There&rsquo;s a lot of issues with that.</p>
+<p>And then you get what we call phantom rows. So you read a set of rows, but you get different sets each time. So this involves issues with transaction if you don&rsquo;t use transactions for things like deletes and inserts, right, so you read from a table in the middle of an insert or delete. And so you get extra rows or less rows than what you should two times after you&rsquo;ve read it. So definitely all issues, less of an issue for general user data, but even more of an issue for a web app that is dealing with financial information, ecommerce, shopping, that sort of thing. Transactions are extremely important. So you have something so you, your website says that you have 10 of this item in stock, and you add it to your cart and go check out. And by the time you check out you find that oh, well, there&rsquo;s really not any that it&rsquo;s out of stock now, right? Because when you added it to your cart, there&rsquo;s five other people who tried to add it to their cart and ran out. So issues with that. So transactions are extremely important in that sense. So each of these, each of these elements here on my slide here, I&rsquo;m going to have a demo a demo for you.</p>
+<p>But we&rsquo;ll talk about these in theory. So you isolation levels. So there&rsquo;s a lot of different levels that we want to treat as far as our SQL and isolation that we talked about earlier and acid right. So the eye and asset is isolation. So we read uncommitted data. So basically this is issue with data consistency. be reading committed data, which prevents dirty reads repeatable reads which prevents dirty and non repeatable reads. And serializable, which prevents all consistency issues, including phantom rows. So these are different levels of isolation that you can, you can employ while creating your transactions and running your SQL code. So basically read uncommitted is a select without any sort of transaction involved. And then you have different levels of transactions that you can enforce as part of this, right. So but again, I will show keys, I will showcase each one of these, hopefully it will make sense or more sense, once you see some code examples. And you can see the sequel that I&rsquo;m going to show you is already online. But it&rsquo;s just not going to be able to run because I couldn&rsquo;t get it set up on the remote server yet. Okay. So let&rsquo;s see here. So a little bit more detail here. Right, for your uncommitted read yet no locks, right. So the transaction that you the transaction itself, the select, you read from a table without locking the table first. And so without a lock on the table, there is no way you&rsquo;re going to be able to ensure consistency of data. On the other hand, you can do a read.</p>
+<p>So READ COMMITTED read uses a shared lock, but releases once the read has been completed. So right, that prevents dirty reads, which is perfectly fine, right? But it doesn&rsquo;t prevent non repeatable reads. Right? Because I could, once I released the lock, then another another transaction has the capability of going in and updating that table. And so therefore, if I read that table again, then it is non repeatable, right? Because the data has changed. So a shared lock does not guarantee all consistency. But it does guarantee consistency within that single read. But it does not prevent consistency issues across multiple reads. If that lock is released, right? So if you have the same query, but you really Slock there&rsquo;s a gap. And so if you have a if you have a gap sandwiched between there, again, right, you can have an update or insert or delete in between. So Repeatable Read, this is shared locks, but the lock is held until the transaction is complete. So difference between these two, right? What if we have a transaction that has more than one read as part of it, which is okay, right. So but if if the lock is released between the reads, that becomes an issue consistently within the read but not consistent within two reads. If you hold if you have two reads within one transaction, and you hold that lock until the transaction is done, then you can guarantee consistency between all reads for that data within that transaction. Just better, better. Serializable is a little bit more complicated.</p>
+<p>This uses what we call shared locks and what we call key range locks. So this is going to prevent anything from being inserted or deleted from your table. So this is the kind of the top level that we&rsquo;re looking for here. And for the most part I committed read is going to be a committed read or repeatable read or is going to be more than enough for most cases. Serializable isn&rsquo;t really necessary unless you&rsquo;re doing a large transaction with multiple things in between. So, but again, I will I will show examples of these. Hopefully it will make a little bit more sense. And so what I asked for you On Friday, I know, Friday&rsquo;s classes not as well attended the past few weeks. If you wouldn&rsquo;t mind, please do come to class, or join me live on Zoom. But we have to have five or 10 people actually show up live, whether it be on Zoom or in person. So we can run multiple transactions at the same time.</p>
+<p>So we can simulate these sorts of things. What was just me doing the demo? It does nothing. So we&rsquo;ll have to have Yes, I will have you run queries with me. So if you do have a laptop, please do bring it to lecture in person. Or if you&rsquo;re at home, you&rsquo;re already on your computer on Zoom, unless you&rsquo;re on your phone. And otherwise, please use your laptop presume that time. Yeah, yeah. So cool. snapshotting, I just have a couple more slides left here. And then I&rsquo;ll talk about the exam. So snapshots are the same consistency as serializable. But writers don&rsquo;t block readers, and readers don&rsquo;t block writers. And so in general, we have much improved concurrency as part of snapshots. So what we get with snapshots, right, what we get with snapshots is really, really kind of cool. And this is, not all databases do this. But most do. So snapshots, snapshots are going to allow riders to go and readers to go without blocking each other.</p>
+<p>And so how does this actually happen? Well, rather than using so most of what happens with locks is that we are locking based off of row by row, right, because that&rsquo;s how we tell what records or records are in a table. So the lock happens at the table. So basically prevents any, a exclusive lock, for example, is going to prevent any row from being modified, or being modified from anyone else other than whoever holds the lock gets an exclusive lock. Shared lock works in a similar way, it has a lock on the tables, rows itself, so all rows, but with a snapshot, we&rsquo;re going to attach a version to these rows. And so the readers, if we&rsquo;re using a shared lock here, readers get a version of the data that existed at the start of the transaction. So the table itself is snapshotted. And that snapshot is given to the reader that&rsquo;s doing a transaction. So the reader gets a copy of a version of that table.</p>
+<p>Okay. And so this is this is expensive, right? That&rsquo;s it&rsquo;s not cheap, right? If you do a snapshot of a table, and your tables, hundreds of 1000s of rows. It&rsquo;s a lot, right. So it is this, this perfect, this, this better version of concurrency does come with a price. Okay. So the versions of each of these rows are then tracked in the system, temporary database. So we did we looked at Temp DB, we&rsquo;ve already played around with that a little bit. And so when a when a row is modified, then a new version of that row was created. And so basically, what we get here is consistency within that snapshot. consistency within that snapshot. Although, of course, this is expensive, right? A lot more disk IO. And disk I O is is the worst part, right? CPU is of course expensive. But disk reads and writes is by far the slowest thing on your computer, or any server, right? And so if you have a lot of those, if you&rsquo;re snapshotting an entire table, it can get quite expensive. So there&rsquo;s always trade offs, right? Snapshots give you extreme concurrency, right not well, I shouldn&rsquo;t say extreme but much better concurrency versus the SERIALIZABLE isolation levels. But it is very expensive it is it requires a lot more CPU and a lot more disk IO Um, that being said, there are different types of databases out there. And I&rsquo;m hoping we have enough time to cover it this semester. I would like to try to cover no SQL for you. But we&rsquo;ll see if we&rsquo;ve got time at the end of the semester, I&rsquo;m not sure.</p>
+<p>But things like no SQL, a lot of times is treated as a distributed database like MongoDB, and things like that. And distributed databases do this sort of thing extremely well, right? concurrency. And so no SQL is banking on hundreds of 1000s of our 1000s of reads and writes are hundreds of reads and writes. At the same time, it&rsquo;s designed for that in mind. And with the database being distributed, you don&rsquo;t necessarily have to take a snapshot of the entire table, you could take a snapshot of a section of the table that that query is actually working with. So there are some improvements and certain kinds of database management systems depending on on the technology you&rsquo;re using.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989074" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989074" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1673989074 defer"></script>
+    
+  </body>
+</html>

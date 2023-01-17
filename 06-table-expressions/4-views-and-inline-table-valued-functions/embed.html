@@ -1,0 +1,616 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Views and Inline Table-valued Functions :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/jrxtclSfHL0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone. In this video, we&rsquo;re going to be taking a look at views and table valued functions. And so up here I have both of the syntax for each. So have the syntax for review and the syntax for inline table valued functions. And I will show the Show More examples of these and will hopefully make a little bit more sense then views and inline table valued functions are provide an extra benefits when compared to derive tables and CTS. So when we were using CTS and derived tables Previously, we had to use them within the same outer, the outer query, right, so the the life of a derive table or a CT exists only within the query, it actually executes. Otherwise, that CTE or derive table doesn&rsquo;t actually exist. So views and inline table valued functions have a much broader scope. And so they provide the benefit that these are actually stored in the database itself. And so we can reference these in multiple queries in multiple occasions without having to recreate them every single time. So that&rsquo;s the primary benefit here. So they&rsquo;re available and stay in the database until they&rsquo;re actually directly dropped from it. So you can really think of these are, from a view, it&rsquo;s mostly just similar to a derive table, that we can actually reference more than once. And then similar to inline table functions, we can reference those more than once as well. But we can actually pass parameters to them. So they start to behave exactly as they sound, they start to behave more like functions than just something that we can call. So view is basically a function without parameters.</p>
+<p>And then the inline table valued function is essentially the same thing as a view, but we can actually provide parameters to it. So remember, though, just like with our derive tables and CTE, they are logical constructs only, meaning that the actual data that represents a view or table valued function, just the same as a derive table or a CTE, that derived information is not actually physically stored as a table in the database. Now with a view or an inline table valued function, the actual construct of the view or the inline table valued function is stored in the database. But the data that though that those actually present or give access to that&rsquo;s not separated out from the tables and stored as a unique table is just a logical construct only. So that means that these are actually every time we utilize a view, or an inline table valued function, we actually execute queries as a result of that. But let&rsquo;s take a look at an example of a few of these. So initially, here, as we start off, I&rsquo;m actually going to use our just our throwaway database, cc 520. If you haven&rsquo;t created that already, you can just say, create database, do a database. So you can just say, create database if you don&rsquo;t have the CC 520 database on your local machine. Otherwise, I&rsquo;m gonna backspace that out, since I&rsquo;m already connected to it, but I am going to first create a new schema for our database demo. So let&rsquo;s go ahead and run this. Oh, sorry, I already looks like I already have already have this schema, then I want to then create a view. But first, let me I want to delete the view that I had for so execute that. But our actual view looks like this.</p>
+<p>So here we are, CREATE VIEW demo dot United States as this query here. So as a essentially what we get here with a view is a stored query, write a query that we would normally execute. So I can execute this here, right? This these are the results of that individual query there. But if I wanted to reuse this query in multiple locations, or are on multiple occasions, I can store this as a view and use that. Use that to recall out another time So execute this, now that view is actually created. And to utilize that view, I access it just like I would a table. So from demo dot United States, so United States was my, my view there. So execute this, and voila, there we go, all of the states along with their names. So that&rsquo;s the that&rsquo;s a view in its very bare nature, right? The view object is actually physically stored in our database. So if we actually connect to our database over here, I can dive into our cc 520 database here. And then if I expand my views, ah, there&rsquo;s my view that I created demo dot United States. So this is something that&rsquo;s actually stored in our database. But the information this data here, the rows of information is not physically stored here. Right, it has columns and everything, just like a table would. But the actual data is pulled at runtime, from the tables that are tables that it&rsquo;s actually pulling from, right. So just keep that in mind. Right? Our, our view is not storing information, as part of it, our view is not storing information as part of it. And also notes back here with my view, let me pull this back up here. We had this here, right, even though I&rsquo;m in my CC 520 database, I&rsquo;m actually pulling from Wide World importers. And so here&rsquo;s another big benefit that I can actually pull out here.</p>
+<p>Now, from our, our query in general, right, we can execute and pull data from not just the current database were connected to, but we can pull from any database that is on the server we&rsquo;re connected from, or connected to. And so my fully qualify, this is a fully qualified name. So our a fully qualified to table name or object, database objects name is going to be the database, right? So if I, if I hover over here, it&rsquo;ll say, database, wide road importers, schema, wide world importers dot application. And then if I hover over countries, it says table. Now, this is in contrast to the view that I have. So if I, even though my view is being put where I would normally expect the table to be by hover over that it&rsquo;s a view object, not a table object. So the data that the view is actually pulling is not physically stored. As part of it. It&rsquo;s just storing the query. And that query is then executed when this view is utilized. So this works similar to our table or inline table valued functions. So let&rsquo;s showcase that. Yeah. There we go. Okay. So again, I&rsquo;m just dropping, dropping what I had before, before it actually runs. So I&rsquo;m creating this database object that is demo dot state provinces for country. So and we can actually expand these here. So I have no tables here. Yeah, there we go. Okay, so let&rsquo;s go ahead and give this a run. So create function, demo dot state provinces for country. So this is the name of the function. And then we define the parameters for that function. So the name of the parameter, and then the type. So this is defined just like a variable would be, except that we don&rsquo;t have to do define, and then the variable name, but we still need the app symbol, then the return type of this function, so returns and it returns a table. And so then as and then here is the value, the thing that we actually return. So we return, we execute this query and return the results of that. So this is similar to what we just did earlier.</p>
+<p>But now, actually, actually run this all as one chunk and that&rsquo;s why I&rsquo;m actually using these go statements here. These are the batch processing operators. So I tell this is all one single chunk of code that I&rsquo;m running in at once but It runs this first, and then it creates my inline table valued function. And then it runs this last SQL statement. So let&rsquo;s go ahead and give this a run here. And there we go, we get our state provinces, our state abbreviations along with the state names. So if I hover over, hover over these here, you can see that it is a indeed a table valued function. And it can run without this. So if I delete all of this stuff here, just like my view, it highlights it in red, because it doesn&rsquo;t. The IntelliSense doesn&rsquo;t pick it up. But it&rsquo;s still valid, right? It&rsquo;s still valid, that inline table valued function does exist as part of our database. But nonetheless, we get the results out just the same. Okay, so I&rsquo;m going to clean this up real quick. I want to remove that from my database. So if I run this, again, it doesn&rsquo;t produce any errors. But in general, right, I do want to highlight the fact that the inline table valued functions and the views just like derived tables, and CTs are logical constructs only, right? Meaning that the the data that they return is not stored in concert with them. So let&rsquo;s go ahead and create our view here. So here is the view I&rsquo;m creating. So demo dot United States cities. So this is pairing all of the cities with the state pairing cities with the states from the wide world importers database. But again, though, I&rsquo;m still creating this view as part of CC 520. Right. So let&rsquo;s go ahead and give this a run. That created my view. And so let&rsquo;s take a look at what this view returns Oops, here we go. So let&rsquo;s pull this up here. And give this query a run. So this is our previous one that we had. This is the just the United States, the States, along with the state abbreviation and state name. And then we also have our new one here. You using the United State cities. So run this right?</p>
+<p>I&rsquo;m actually joining on two views in this case here. But let&rsquo;s save this for just a few minutes here. Let&rsquo;s take a look at our original view first. So here, I just have my view, cc 520. Demo, United States. And if I run this again, right, it&rsquo;s just our CB abbreviations with the state names, but a handy dandy little feature. And this is this exists, and Azure Data Studio, as well as SQL Server Management Studio. But if I highlight the query, and I say explain, ah, so it actually shows every logical processing step that actually happens as part of this query. So the things that happen first are on the far most right hand side here. So I have a clustered what we call clustered index scans. I&rsquo;ll we&rsquo;ll save clustered indexes and things like that for a future topic. But essentially, what&rsquo;s happening here is it is having a join an inner join between the results of our two views. But what essentially happens here is we are having an inner join, that actually happens, but I have no inner join here and my single view that we have, right, so it&rsquo;s just United States. But if I remember, if you remember what our view looked like, right, remember, our this is the, this is the sequel that my view runs. So this is the sequel that my view runs. Notice we have an inner join here, right we have an inner join between two tables, country C and state provinces. So this is that inner join. So this is the this is the two tables. And if you actually dived in here, you can look at very way way down there at the bottom you see the output list, you can actually see the tables for the table. that is part of this, this database object.</p>
+<p>So you can see Wide World importers dot application dot state province for this one. And then for this one, you can see the countries table. So here are the two tables that we&rsquo;re doing an inner join on. And then we sort them, we&rsquo;re sorting them, and then running them through, and then they are actually selected. So our select clause, and then we are pulling from our, to our inner join, right, this is our view. All of this chunk right here is our view. And then that is ordered and returned as a result, right. So again, this is the primary the primary reason why I&rsquo;m showing showcasing this is if this was a physical construct in the database, we wouldn&rsquo;t have a join here, right, because I have no join as part of this query that I&rsquo;m running. But since this is a logical construct, when I actually access our view, that SQL query that has the join with it executes as part. So there&rsquo;s a lot more going on behind the scenes, that happens with views. And that&rsquo;s actually gets some people in trouble with views and inline table valued functions, and CTS and things like that. But particularly with views, views, and inline table valued functions, a lot of people think that they are, they improve performance, and they&rsquo;re optimized and things like that. And while the queries themselves that represent or that the views represent might be optimized, but this query is no better than this query here. Right? There is no logical difference between the two, this is still being executed as the result. And so a view does not necessarily give you any form of optimization, they&rsquo;re just something to be careful about with that. But let&rsquo;s take a look at our second view that we had.</p>
+<p>So our second view we had, we had one to enter joins as part of that. So between three tables, so we have three tables and two joints. So if we execute here, right, we have demo dot United States. That&rsquo;s our previous one, right? And remember, that had two tables. And then where&rsquo;s my mouse here, then, and this one, I&rsquo;m joining United States with United States cities. And so this table here, or this view here has is joining joining two tables. And then this query here is joining three tables. And then those are joined together to form our final results. So let&rsquo;s go ahead and execute this. And so this gives me all of the cities along with the state abbreviation and state name. And then if I click the EXPLAIN button here, ha, well, on the surface, this query looks really simple. But underneath the hood, we can see that there is a significant amount of extra work that&rsquo;s happening behind the scenes. So you can see the actual query, query here, and then the all of the different joins that have to happen. So here&rsquo;s two joins. Here&rsquo;s the third join, right of the result of that query. And then here is our, our last join, to combine the two views. And so there&rsquo;s a lot of things happening here as part of this query. So just really driving this home here that our views and inline table valued functions are logical constructs only. And so when we actually utilize them as part of the query, it&rsquo;s just simply for better readability and reuse of code, just like functions are but again, write the code inside of the function, or the code or the SQL inside of the view or inline table valued function gets executed every single time that it&rsquo;s utilized.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>

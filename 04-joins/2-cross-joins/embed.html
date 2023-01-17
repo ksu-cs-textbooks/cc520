@@ -1,0 +1,612 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 520 Textbook">
+    <meta name="author" content="Joshua Weese">
+    <title>Cross Joins :: CC 520 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/" rel="canonical" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1673989070" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1673989070" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1673989070" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1673989070" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1673989070"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1673989070" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1673989070" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/embed.html">
+    <div id="body" class="default-animation" data-iframe-height="yes">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
+        <div class="flex-block-wrapper" data-iframe-height="yes">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/K_8dlELb24A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="video-transcription">Video Transcription</h2>
+<p>Welcome back everyone, In this video, we&rsquo;re going to start taking a look at cross join. So cross joins are going to be the first join out of the three that we&rsquo;re going to be covering. So on here, the syntax is listed on the slide. So from Table A cross join table B. And so the table source is listed here and a little bit of a generic sense, because the table source itself can actually be the result of another join. So let&rsquo;s take a look at what cross joins involve. So cross joins are one of the simplest versions of a join between two tables. So it does have only one single processing phase. And that process, that processing phase is the Cartesian product. If you&rsquo;ve never taken a look at a Cartesian product before, all, all we&rsquo;re actually doing here is taking each row in table A and combining it with Table B, and then going down to the next. So row one with combined with each of the rows in table B and then row two and Table A each of the rows in table B and keep on going like that until we run out of rows in the first table. Now, the syntax here is listed in two different forms sequel 89, and SQL 92. And I&rsquo;ll show examples of both. For this class. In general, I&rsquo;m going to lean more towards one versus the other. But just be aware that there are two ways that we can actually list joins and our SQL queries. But nonetheless, let&rsquo;s take a look at a cross join of the Cartesian product between two tables. And it&rsquo;s a little bit easier to see this and an example.</p>
+<p>So here&rsquo;s my table A, we&rsquo;ve got Jim, Kim and Alice. So we have two, two columns here ID and name. And then in our other Table, Table B, we have, we also have an ID. And then we also have food, pickles fish and ice cream. And so the relationship between table A and Table B is this ID. So this is ID here as a foreign key to Table A ID in both cases are the primary key. And then the two tables are linked together with a foreign key R as a foreign key constraint with that ID. So what happens when we actually do the cross join here. So the cross join as combine all of the rows from Table A with all of the rows with Table B. And if I step out of the way here for just a second, you can see that the number of actual rows that are produced here kind of exploded, right. So we have each table in table A from row one. So with Jim, Jim gets paired with pickles, fish and ice cream, and then Ken gets paired with pickles fish and ice cream. And then Alice also gets paired with pickles fish and ice cream. And the order here isn&rsquo;t in any particular order. It&rsquo;s not always guaranteed. Just remember that, but this is the result of a cross join. And it cross joins are really helpful. But you can actually see here that in some, in some scenarios, you might end up with a lot of duplicate data or or data that isn&rsquo;t necessarily something that you&rsquo;re looking for.</p>
+<p>But let&rsquo;s take a look at an example. These two queries here are just simply showing the number of suppliers and number of supplier categories. And this is again in the wide world importers database that we&rsquo;ve been working with so far in this class. But I&rsquo;m just grouping by or just counting the number of of each. So we have 13, suppliers and nine categories. And so remember, a cross join is going to produce all combinations of rows between the two tables. And so we&rsquo;re going to do all the combinations of the 13 suppliers with each of the nine categories. So if we pull this out here, and by the way, this particular syntax here is going to be the ancy, standard 92. And this in particular is my preferred my preferred syntax, because it&rsquo;s explicit to what join you&rsquo;re actually using there. But you can see here I just have supplier ID name, category ID and category name. And also notice here this is where table aliases have become super handy, because otherwise I would have to use purchasing dot suppliers and purchasing dot supplier categories up here, when I&rsquo;m talking about the column, the column name, so using an alias here helps us out a lot when we&rsquo;re writing our SQL queries, and it helps condense things down significantly.</p>
+<p>But we&rsquo;re cross joining suppliers with this supplier categories. And so that means each of the 13 suppliers will have nine different categories associated with them. And so let&rsquo;s go ahead and run this. Sorry, I need to highlight that. And so if we look here, we have 117 rows as a result of this cross join. And so we have supplier one, which is a date and Corporation, which eat with each of the supplier categories. So there&rsquo;s all those and then we are all nine of those. And then all 13 are all nine rows associated with this particular supplier. And we can keep on scrolling down here until we get to supplier 13. And you can see we have nine suppliers linked with Woodgrove bank. This is pretty much it the THE CROSS JOIN is a relatively simple join and grand scheme of things. But all of the other joins we work with here are going to be building off of the idea of the cross join. Just remember that a cross join is all the different rows of Table A with all the combination of rows with Table B. But I did mention before that we had two forms of cross join, at least as far as this syntax goes. But notice with the this tax, which is ancy SQL 89. I don&rsquo;t actually use the word cross join here, I just use a comma. And so by default, SQL Server will, if you just use a comma and you don&rsquo;t specify the join between the two tables, it will do a cross join by default. But as I mentioned, I generally prefer to actually specify the word CROSS JOIN there, primarily because it makes the sequel a lot easier to read because you instantly know what kind of join that is being used as part of that query. That was the cross join and in the next video, we&rsquo;ll start taking a look at INNER JOIN what&rsquo;s built off of the cross join</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1673989070" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1673989070" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1673989070 defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
+    
+  </body>
+</html>
