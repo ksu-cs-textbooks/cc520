@@ -534,42 +534,42 @@
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/1-introduction-to-joins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/1-introduction-to-joins/</guid>
-      <description>Video Transcription Welcome back everyone. In this video series, we&amp;rsquo;re going to be talking about joins with databases. So up to this point, we&amp;rsquo;ve focused on single table queries. But now we can start working on bringing in data from multiple, multiple tables and more or multiple data sources. joins, we&amp;rsquo;re going to be talking about overall in this set of videos, cross joins, Inner Joins, and pretty much variations of those.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video series, we&amp;rsquo;re going to be talking about joins with databases. So up to this point, we&amp;rsquo;ve focused on single table queries. But now we can start working on bringing in data from multiple, multiple tables and more or multiple data sources. joins, we&amp;rsquo;re going to be talking about overall in this set of videos, cross joins, Inner Joins, and pretty much variations of those.</description>
     </item>
     <item>
       <title>Cross Joins</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/</guid>
-      <description>Video Transcription Welcome back everyone, In this video, we&amp;rsquo;re going to start taking a look at cross join. So cross joins are going to be the first join out of the three that we&amp;rsquo;re going to be covering. So on here, the syntax is listed on the slide. So from Table A cross join table B. And so the table source is listed here and a little bit of a generic sense, because the table source itself can actually be the result of another join.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone, In this video, we&amp;rsquo;re going to start taking a look at cross join. So cross joins are going to be the first join out of the three that we&amp;rsquo;re going to be covering. So on here, the syntax is listed on the slide. So from Table A cross join table B. And so the table source is listed here and a little bit of a generic sense, because the table source itself can actually be the result of another join.</description>
     </item>
     <item>
       <title>Inner Joins</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/</guid>
-      <description>Video Transcription Welcome back, everyone. So we&amp;rsquo;ve already started to take a look at some of the joints that are available to us and SQL. So the cross joins is what we first started with. But now we&amp;rsquo;re going to continue on and explore enter joints. Now, the syntax for an inner join is very similar to the cross join. So from Table A, and then enter, join table B on some condition.</description>
+      <description>YouTube Video Video Transcription Welcome back, everyone. So we&amp;rsquo;ve already started to take a look at some of the joints that are available to us and SQL. So the cross joins is what we first started with. But now we&amp;rsquo;re going to continue on and explore enter joints. Now, the syntax for an inner join is very similar to the cross join. So from Table A, and then enter, join table B on some condition.</description>
     </item>
     <item>
       <title>Join Variations</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/4-join-variation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/4-join-variation/</guid>
-      <description>Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at some more complicated joins. So we&amp;rsquo;ve covered cross joins and Inner Joins so far. And remember, the inner join is just a cross join, but with a filter. But we haven&amp;rsquo;t really added a whole lot to these queries yet. So let&amp;rsquo;s take a look at a few different things that we can actually accomplish with them.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at some more complicated joins. So we&amp;rsquo;ve covered cross joins and Inner Joins so far. And remember, the inner join is just a cross join, but with a filter. But we haven&amp;rsquo;t really added a whole lot to these queries yet. So let&amp;rsquo;s take a look at a few different things that we can actually accomplish with them.</description>
     </item>
     <item>
       <title>Join Review</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/5-join-review/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/5-join-review/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at our last and final join outer joins. Outer Joins in particular have three different variations for left and right. But before we get into a new joint, let&amp;rsquo;s take a look at the material that we&amp;rsquo;ve covered so far. So last time, we covered a lot of cross joins and inner joins, which are both table operators, that we can utilize to have queries that pull from more than one table.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at our last and final join outer joins. Outer Joins in particular have three different variations for left and right. But before we get into a new joint, let&amp;rsquo;s take a look at the material that we&amp;rsquo;ve covered so far. So last time, we covered a lot of cross joins and inner joins, which are both table operators, that we can utilize to have queries that pull from more than one table.</description>
     </item>
     <item>
       <title>Outer Joins</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/6-outer-joins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/6-outer-joins/</guid>
-      <description>Video Transcription Welcome back everyone, this video, we&amp;rsquo;re gonna be taking a look at our last and final type of join the outer join. So here on the slide here actually shows some of the syntax that we&amp;rsquo;ve had so far, where we have our FROM clause. And we can join two different tables, two tables to and I say table source, because it doesn&amp;rsquo;t actually have to be a table from the database, right, it could be the result of a another join as well.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone, this video, we&amp;rsquo;re gonna be taking a look at our last and final type of join the outer join. So here on the slide here actually shows some of the syntax that we&amp;rsquo;ve had so far, where we have our FROM clause. And we can join two different tables, two tables to and I say table source, because it doesn&amp;rsquo;t actually have to be a table from the database, right, it could be the result of a another join as well.</description>
     </item>
   </channel>
 </rss>

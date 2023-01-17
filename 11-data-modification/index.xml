@@ -534,42 +534,42 @@
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/1-insert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/1-insert/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to start talking about data modification queries in SQL. So data modification, if remember, is one of two major parts of the SQL language. So we have data manipulation language, or DML, and Data Definition Language, or DDL. So far, we&amp;rsquo;ve been focusing on learning the SELECT clause and all of the other statements that go along with it. That is one of the six statements that we have in the data manipulation language.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to start talking about data modification queries in SQL. So data modification, if remember, is one of two major parts of the SQL language. So we have data manipulation language, or DML, and Data Definition Language, or DDL. So far, we&amp;rsquo;ve been focusing on learning the SELECT clause and all of the other statements that go along with it.</description>
     </item>
     <item>
       <title>Identity &amp; Sequence Objects</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to continue our discussion on data modification. And in particular, what happens when we use Insert on a table that has columns that are identity or sequence objects. So, in general, a lot of our tables are going to have an identity column or a sequence object, because a lot of what our keys are based off of our primary keys are usually going to be a surrogate key that is, generally speaking, auto numbered.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to continue our discussion on data modification. And in particular, what happens when we use Insert on a table that has columns that are identity or sequence objects. So, in general, a lot of our tables are going to have an identity column or a sequence object, because a lot of what our keys are based off of our primary keys are usually going to be a surrogate key that is, generally speaking, auto numbered.</description>
     </item>
     <item>
       <title>Delete &amp; Truncate</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be starting our discussion into the Delete clause and our data modification series. So remember, our SQL language has two primary parts, the data manipulation language, which is what we&amp;rsquo;ve been working with primarily so far, and the data definition language, which involves things like the CREATE TABLE statement, we primarily worked with the SELECT clause for most of this course.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be starting our discussion into the Delete clause and our data modification series. So remember, our SQL language has two primary parts, the data manipulation language, which is what we&amp;rsquo;ve been working with primarily so far, and the data definition language, which involves things like the CREATE TABLE statement, we primarily worked with the SELECT clause for most of this course.</description>
     </item>
     <item>
       <title>Update</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/4-update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/4-update/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at data modification again, but in particular, how we might update data that exists already inside of our database, updating data is going to be achieved using the update statements. And again, this is an atomic operation, meaning that either all rows are updated, or none of them are updated. So it&amp;rsquo;s an all or nothing statement, it cannot be interrupted there.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at data modification again, but in particular, how we might update data that exists already inside of our database, updating data is going to be achieved using the update statements. And again, this is an atomic operation, meaning that either all rows are updated, or none of them are updated. So it&amp;rsquo;s an all or nothing statement, it cannot be interrupted there.</description>
     </item>
     <item>
       <title>Merge</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/5-merge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/5-merge/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at the MERGE statement as part of our data modification video series. So what data modification, remember, we&amp;rsquo;ve covered so far inserts, updates, and delete. But now we&amp;rsquo;re going to look at a way to combine those operations, The MERGE statement is going to allow you to both insert and update in a single statement.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at the MERGE statement as part of our data modification video series. So what data modification, remember, we&amp;rsquo;ve covered so far inserts, updates, and delete. But now we&amp;rsquo;re going to look at a way to combine those operations, The MERGE statement is going to allow you to both insert and update in a single statement.</description>
     </item>
     <item>
       <title>Output</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/6-output/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/6-output/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at how we might see the results of any data modifications that happen as part of our SQL queries. So, in order to see more fine grained details of what happens when we update, delete, or inserts will use the output command, or the output clause is going to return information about anything that was affected as a result of our queries.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at how we might see the results of any data modifications that happen as part of our SQL queries. So, in order to see more fine grained details of what happens when we update, delete, or inserts will use the output command, or the output clause is going to return information about anything that was affected as a result of our queries.</description>
     </item>
   </channel>
 </rss>
