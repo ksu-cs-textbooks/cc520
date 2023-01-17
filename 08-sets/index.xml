@@ -534,28 +534,28 @@
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/1-introduction-to-set-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/1-introduction-to-set-operators/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be talking about sets. So everything that we&amp;rsquo;ve been doing so far in databases has been primarily working with sets. If you remember from data structures, sets are pretty much just an unordered list. But operations on sets work a little bit differently when comparing to other data structures. So set operators that we&amp;rsquo;ll be covering today, take in on the left side, a query and the right side a query.</description>
+      <description>Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be talking about sets. So everything that we&amp;rsquo;ve been doing so far in databases has been primarily working with sets. If you remember from data structures, sets are pretty much just an unordered list. But operations on sets work a little bit differently when comparing to other data structures. So set operators that we&amp;rsquo;ll be covering today, take in on the left side, a query and the right side a query.</description>
     </item>
     <item>
       <title>Union</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/2-union/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/2-union/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at our first set operator union. So the syntax looks very similar to the generic syntax that I&amp;rsquo;ve shown so far. We have an input query on the left union with an optional all a qualifier. And the right hand side was, which is the input query to add an optional ORDER BY clause.</description>
+      <description>Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at our first set operator union. So the syntax looks very similar to the generic syntax that I&amp;rsquo;ve shown so far. We have an input query on the left union with an optional all a qualifier. And the right hand side was, which is the input query to add an optional ORDER BY clause.</description>
     </item>
     <item>
       <title>Intersect</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/3-intersect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/3-intersect/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at our next set operator intersect. So the the query syntax is very similar to what we&amp;rsquo;ve seen so far, we have an input query on the left and input query on the right the set operator in between, and an optional order by at the end. But do note that intersect does not have an intersect all option.</description>
+      <description>Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at our next set operator intersect. So the the query syntax is very similar to what we&amp;rsquo;ve seen so far, we have an input query on the left and input query on the right the set operator in between, and an optional order by at the end. But do note that intersect does not have an intersect all option.</description>
     </item>
     <item>
       <title>Except</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/4-except/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/4-except/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at the Accept set operator. So accept is going to have similar syntax as we&amp;rsquo;ve seen so far. Again, input to query one on the left input query two on the right with the except operator in between, and an optional order by to end with. So what does the except operator actually do?</description>
+      <description>Video Transcription Welcome back everyone. And in this video, we&amp;rsquo;re going to be taking a look at the Accept set operator. So accept is going to have similar syntax as we&amp;rsquo;ve seen so far. Again, input to query one on the left input query two on the right with the except operator in between, and an optional order by to end with. So what does the except operator actually do?</description>
     </item>
   </channel>
 </rss>
