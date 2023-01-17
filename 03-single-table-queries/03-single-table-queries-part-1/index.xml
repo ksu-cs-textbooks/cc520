@@ -534,35 +534,35 @@
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/</guid>
-      <description>Video Transcription Hello everyone, In this video series, we&amp;rsquo;re going to be taking a look at some simple queries. Now, in this, in this video series, we&amp;rsquo;ll cover quite a few things, everything you need to know about a full simple query, including how to how to select columns, pick tables out the table that you want to actually pull data from, and filtering those results from those tables. Now, in a lot of programming languages, like Python, for example, everything is an object.</description>
+      <description>YouTube Video Video Transcription Hello everyone, In this video series, we&amp;rsquo;re going to be taking a look at some simple queries. Now, in this, in this video series, we&amp;rsquo;ll cover quite a few things, everything you need to know about a full simple query, including how to how to select columns, pick tables out the table that you want to actually pull data from, and filtering those results from those tables.</description>
     </item>
     <item>
       <title>SELECT FROM</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/</guid>
-      <description>Video Transcription Alright, so now that we have reviewed some of the basics, let&amp;rsquo;s go back to writing some actual queries. So we&amp;rsquo;ve already ran some basic select queries before, but we didn&amp;rsquo;t really break them down into into what each part actually contains. So we&amp;rsquo;ll start out first by looking at a select, but without the from clause. So the from clause is actually optional. But the Select is required.</description>
+      <description>YouTube Video Video Transcription Alright, so now that we have reviewed some of the basics, let&amp;rsquo;s go back to writing some actual queries. So we&amp;rsquo;ve already ran some basic select queries before, but we didn&amp;rsquo;t really break them down into into what each part actually contains. So we&amp;rsquo;ll start out first by looking at a select, but without the from clause. So the from clause is actually optional. But the Select is required.</description>
     </item>
     <item>
       <title>WHERE</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/</guid>
-      <description>Video Transcription So now that we have actually worked a little bit with select and from So specifying which tables we want to pull data from, and which columns from those from those tables we want. Now we can actually filter which rows that we want. So the from clause is again, right the selection operation, right. So it is all of the rows, all of the rows of data that we want to pull as part of our query.</description>
+      <description>YouTube Video Video Transcription So now that we have actually worked a little bit with select and from So specifying which tables we want to pull data from, and which columns from those from those tables we want. Now we can actually filter which rows that we want. So the from clause is again, right the selection operation, right. So it is all of the rows, all of the rows of data that we want to pull as part of our query.</description>
     </item>
     <item>
       <title> GROUP BY - HAVING</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/</guid>
-      <description>Video Transcription Welcome back everyone. Now in this video we are going to be taking a look at group by and having. So before we took a look at simple SELECT FROM clause or from query, along with where so remember, we select columns from our table, and where is there to filter out the rows. So remember that we have the selection and projection operation. So the selection being the from and where clause.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. Now in this video we are going to be taking a look at group by and having. So before we took a look at simple SELECT FROM clause or from query, along with where so remember, we select columns from our table, and where is there to filter out the rows. So remember that we have the selection and projection operation. So the selection being the from and where clause.</description>
     </item>
     <item>
       <title>Processing Order</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/</guid>
-      <description>Video Transcription Welcome back, everyone. So this will be our last little video for our single table queries part one series. But in this video, we&amp;rsquo;ll talk about processing order of our query. Now, before I talked a little bit about how our SQL language is not a procedural language, so we&amp;rsquo;re not going step by step, line by line from line one to line x, in order that they actually happen.</description>
+      <description>YouTube Video Video Transcription Welcome back, everyone. So this will be our last little video for our single table queries part one series. But in this video, we&amp;rsquo;ll talk about processing order of our query. Now, before I talked a little bit about how our SQL language is not a procedural language, so we&amp;rsquo;re not going step by step, line by line from line one to line x, in order that they actually happen.</description>
     </item>
   </channel>
 </rss>
