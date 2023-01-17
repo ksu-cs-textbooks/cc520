@@ -11,6 +11,8 @@ In order to complete homework assignments and practice on your own,  you will ne
 For this course, you will need to use a SQL client tool to access a SQL Server instance.
 
 - All resources are available via remote access on **remote.cs.ksu.edu**.  See [https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access](https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access) for more information on how to utilize the remote resources.
+- If you do not have a CS account, one can be requested here: [https://selfserv.cs.ksu.edu/](https://selfserv.cs.ksu.edu/)
+  - To reset a forgotten password (or unlock an accound after too many failed login attempts), see [https://password.cs.ksu.edu/](https://password.cs.ksu.edu/)
 - We will be using two client tools throughout the semester. It is highly encouraged to also install a client on your own computer.
   - **Azure Data Studio** - Windows, macOS, or Linux: [https://docs.microsoft.com/en-us/sql/azure-data-studio/download](https://docs.microsoft.com/en-us/sql/azure-data-studio/download)
   - **SQL Server Management Studio** *(aka SSMS)* - Windows Only: [https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)

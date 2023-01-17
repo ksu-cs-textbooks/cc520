@@ -18,12 +18,8 @@ Communication can also be done through Microsoft Teams.  If you have not been in
 
 - **Office:** 2214 Engineering Hall (DUE)  
 - **Phone:** Office - (785) 317-3353  
-- **Office  Hours:** See my [calendar](http://weeser.net/calendar/).     
-    - **Want  to meet with me? [https://calendly.com/weeser](https://calendly.com/weeser)**  
-
-{{% notice info %}}
-After Spring break, I will be going on paternity leave to welcome my second kiddo into the world.  During this time, I will be mostly unavailable, but Russ Feldhaussen will be taking over management of the course in my stead. I will provide more details on the transition as we get closer to Spring break.
-{{% /notice %}}
+- **Office  Hours:** See my [calendar](http://weeser.net/calendar/). Office hours are always available online and in-person. For online help during office hours, please send a direct message in MS Teams (busy times will utilize [https://officehours.cs.ksu.edu/](https://officehours.cs.ksu.edu/)).
+    - **Want  to meet with me outside office hours? [https://calendly.com/weeser](https://calendly.com/weeser)**  
 
 ### Prerequisites
 
@@ -79,6 +75,18 @@ There will be three exams for the course. Students will be evaluated based on ex
 - Homework assignments: 25%
 - Final Project: 30%
 
+#### Assignments
+
+{{% notice warning %}}
+All work is expected to be done individually unless otherwise stated. A violation of the Honor Code Policy (see below) will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course. The sanctions will apply to **ALL** parties involved in the violation.
+
+**Note that depending on the severity of the first violation, the sanction may be worse than just a 0 for the assignment**
+
+{{% /notice %}}
+There will be some programming and written assignments (majority will be SQL-based, but may involve some coding like the final project). It is acceptable to communicate with other students about the **concepts** in the assignment if you do not understand it, but you should not discuss the details of how the assignment should be completed (never share your code/work with another student!). Your submission should be your own work, or the work of your small group if allowed by the instructor. ***When in doubt, ask!\***
+
+In order to avoid turning in code or SQL that does not work (or maybe even the wrong file) please double check your solution after you submitted it to Canvas. **Redownload** what you submitted from Canvas and run it again to assure that the program you submitted is working as intended.
+
 #### Late Work
 
 {{% notice warning%}}
@@ -87,33 +95,13 @@ Poor planning/procrastination on your part does not constitute as an emergency o
 
 {{% /notice %}}
 
-Every student should strive to turn in work on time. **Late work will receive penalty of 10% of the possible points for each day its late**. Some assignments will NOT be accepted late! Others will be limited to a maximum of three days late (not always 3 days). Note that this penalty is applied on a per hour basis (*i.e. if your assignment is 12 hours late, it will receive a ~5% deduction*)
+Every student should strive to turn in work on time. **Late work will receive penalty of 10% of the possible points for each day its late**. Some assignments will NOT be accepted late! Others will be limited to a maximum of three days late (not always 3 days). Note that this penalty is applied on a **per hour basis** (*i.e. if your assignment is 12 hours late, it will receive a ~5% deduction*)
 
 <hr/>
 
 ## Subject to Change
 
 The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the K-State Canvas page for this course and emailed to all students.
-
-## Academic Honesty
-Kansas State University has an Honor & Integrity System based on  personal integrity which is presumed to be sufficient assurance in  academic matters one's work is performed honestly and without  unauthorized assistance. Undergraduate and graduate students, by  registration, acknowledge the jurisdiction of the Honor & Integrity  System. The policies and procedures of the Honor System apply to all  full and part-time students enrolled in undergraduate and graduate  courses on-campus, off-campus, and via distance learning.
-
-A component vital to the Honor & Integrity System is the inclusion of the [Honor Pledge](https://www.k-state.edu/honor/basics/pledge.html) which applies to all assignments, examinations, or other course work undertaken by students. The Honor Pledge is implied, *whether or not* it is stated: **"On my honor, as a student, I have neither given nor received unauthorized aid on this academic work."**
-
-The default in this class is that ALL work will be accomplished  individually, UNLESS my permission is given in advance of an  assignment/quiz/exam/take-home exam/final. If you are in doubt, please  ask
-
-A [grade of XF](https://www.k-state.edu/honor/faculty-tips/policy-agreement.html) can result from a breach of academic honesty. The F indicates failure  in the course; the X indicates the reason is an Honor Pledge violation.
-
-For more information, visit the Honor & Integrity System home web page at: [http://www.k-state.edu/honor/](https://www.k-state.edu/honor/)
-
-{{% notice warning %}}
-
-The standard policy for this course, a violation of the Honor Pledge will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course. The sanctions will apply to **ALL** parties involved in the violation.
-
-**Note that depending on the severity of the first violation, the sanction may be worse than just a 0 for the assignment**
-
-{{% /notice %}}
-
 
 ## Safe Zone Statement
 
@@ -123,4 +111,4 @@ I am part of the SafeZone community network of trained K-State  faculty/staff/st
 
 ##  Copyright Notification
 
-Copyright 2021(Joshua L. Weese) as to this syllabus and all lectures. During  this course students are prohibited from selling notes to or being paid  for taking notes by any person or commercial firm without the express  written permission of the professor teaching this course. In addition,  students in this class are not authorized to provide class notes or  other class-related materials to any other person or entity, other than  sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor  teaching this course. The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course.  The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites.  Likewise, mentioned brands (products and services) do not suggest endorsement.  Students own copyright to what they create.
+Copyright 2023(Joshua L. Weese) as to this syllabus and all lectures. During  this course students are prohibited from selling notes to or being paid  for taking notes by any person or commercial firm without the express  written permission of the professor teaching this course. In addition,  students in this class are not authorized to provide class notes or  other class-related materials to any other person or entity, other than  sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor  teaching this course. The digital materials included here come with the legal permissions and releases of the copyright holders.  These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course.  The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites.  Likewise, mentioned brands (products and services) do not suggest endorsement.  Students own copyright to what they create.
