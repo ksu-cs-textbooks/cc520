@@ -1,5 +1,5 @@
 # Base URL where the site will be hosted
-baseURL = "https://testbooks.cs.ksu.edu/cc520"
+baseURL = "https://textbooks.cs.ksu.edu/cc520"
 
 # Default language for the site
 languageCode = "en-us"
