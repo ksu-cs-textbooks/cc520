@@ -22,5 +22,6 @@
 				"--recursive", 
 				"--remote" ]
 		  }
-	]
+	],
+	"explorer.sortOrder": "mixed"
 }

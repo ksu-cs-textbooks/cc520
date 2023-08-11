@@ -1,12 +1,9 @@
 +++
-title = "CC 520"
+title = "CC 520 Textbook"
 date = 2021-02-26T00:53:05-05:00
 weight = 60
-chapter = true
-section = true
+archetype = "home"
 +++
-
-### CC 520
 
 # Database Essentials
 
