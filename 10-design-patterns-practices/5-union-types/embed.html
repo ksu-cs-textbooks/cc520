@@ -521,36 +521,36 @@
 	
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="description" content="CC 520 Textbook">
     <meta name="author" content="Joshua Weese">
     <title>Union Types :: CC 520 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/" rel="canonical" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/index.html" rel="canonical" type="text/html" title="Union Types :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/index.xml" rel="alternate" type="application/rss+xml" title="Union Types :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/index.print.html" rel="alternate" type="text/html" title="Union Types :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/tele.html" rel="alternate" type="text/html" title="Union Types :: CC 520 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1674061689" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1674061689" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1674061689"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-auto.css?1691783142" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1691783142" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1691783142" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/url.js?1691783142"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1691783142"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -558,24 +558,23 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1674061689" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1674061689" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1691783142" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/embed.html">
-    <div id="body" class="default-animation" data-iframe-height="yes">
+    <div id="body" class="default-animation">
       
       
       
-      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
-        <div class="flex-block-wrapper" data-iframe-height="yes">
-          <div id="head-tags">
-          </div>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
           <article class="default">
     
     
@@ -591,6 +590,7 @@
 <p>Before I had group ID and user ID as part of the folder, right? What should our properties right? But the ownership now, instead of having both included US foreign keys here, only the owner ID is included, only the owner ID is included. And so we enforce mutual exclusivity by allowing only one owner type ID here for what the same owner so owner type and Owner ID are unique together. And so only one owner can exist for a folder now, through this process. Only one owner can now exist through this process. So I&rsquo;m going to include as part and Canvas I&rsquo;m gonna include these images as well as part of This lecture. So please do take some time to kind of look through this. And please ask if you have questions. This is more of one of our more complicated UML diagrams that we have done so far in terms of relationships. So, this here is kind of a mixture of er, we have multi way relationship and self referencing. So, those are the types of relationships here that I&rsquo;ve represented. And so, and again, remember this, this one here on the bottom is the general better approached represent the idea that we were trying to do with this with with this. So, this up here, I can&rsquo;t actually enforce everything that I need to properly as far as the relationship goes. But down here, I can actually enforce that relationship in the database itself, without having to rely on application logic.</p>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
@@ -599,13 +599,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1674061689" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1674061689" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1674061689" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1674061689 defer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
-    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1691783143" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1691783143" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1691783143" defer></script>
   </body>
 </html>

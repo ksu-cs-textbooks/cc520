@@ -524,24 +524,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Databases and Applications on CC 520 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/</link>
+    <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/index.html</link>
     <description>Recent content in Databases and Applications on CC 520 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Aug 2018 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Applications &amp; Databases</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be talking about how we might use a database and programming application to use it. And first off as well, I do apologize for my voice. I&amp;rsquo;m kind of losing it today. But please bear with me, as we get through this things that we&amp;rsquo;ve covered. So far, we&amp;rsquo;ve covered quite a few things, running from single table and multi table queries, updates, deletes, and a lot of things in between.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/index.html</guid>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be talking about how we might use a database and programming application to use it. And first off as well, I do apologize for my voice. I&amp;rsquo;m kind of losing it today. But please bear with me, as we get through this things that we&amp;rsquo;ve covered. So far, we&amp;rsquo;ve covered quite a few things, running from single table and multi table queries, updates, deletes, and a lot of things in between.</description>
     </item>
     <item>
       <title>Applications &amp; DB Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/</guid>
-      <description>Video Transcription Hello, everyone, welcome back. In this video, we&amp;rsquo;re going to be going through a coded example of the repository pattern in Python, and how we might write an application to communicate back and forth with our database. So if you remember this repository layer pattern or repository pattern, where we have our application up here, this is, this could be our unit tests in this case, or if you have a user interface, or application, any any form of application here, and then that application can then communicate to our database through the repository, which then has all of the behavior logic that is needed to query the person table or the address table or whichever tables that you actually contained here in the database through our access layer, which is the only class or the only layer that actually has a direct connection to our database, the repository layer it once a query has been executed, and when returned from the data access layer, the data being returned is then then transformed into the domain model, representing either a person object or address object in this case, and then that those objects then can be passed back to the application layer and be consumed.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/index.html</guid>
+      <description>YouTube Video Video Transcription Hello, everyone, welcome back. In this video, we&amp;rsquo;re going to be going through a coded example of the repository pattern in Python, and how we might write an application to communicate back and forth with our database. So if you remember this repository layer pattern or repository pattern, where we have our application up here, this is, this could be our unit tests in this case, or if you have a user interface, or application, any any form of application here, and then that application can then communicate to our database through the repository, which then has all of the behavior logic that is needed to query the person table or the address table or whichever tables that you actually contained here in the database through our access layer, which is the only class or the only layer that actually has a direct connection to our database, the repository layer it once a query has been executed, and when returned from the data access layer, the data being returned is then then transformed into the domain model, representing either a person object or address object in this case, and then that those objects then can be passed back to the application layer and be consumed.</description>
     </item>
   </channel>
 </rss>

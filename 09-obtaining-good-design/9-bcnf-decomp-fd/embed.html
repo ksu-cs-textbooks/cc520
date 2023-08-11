@@ -521,36 +521,36 @@
 	
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="description" content="CC 520 Textbook">
     <meta name="author" content="Joshua Weese">
     <title>BCNF Decomposition with Functional Depenencies :: CC 520 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/" rel="canonical" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.html" rel="canonical" type="text/html" title="BCNF Decomposition with Functional Depenencies :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.xml" rel="alternate" type="application/rss+xml" title="BCNF Decomposition with Functional Depenencies :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.print.html" rel="alternate" type="text/html" title="BCNF Decomposition with Functional Depenencies :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/tele.html" rel="alternate" type="text/html" title="BCNF Decomposition with Functional Depenencies :: CC 520 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061689" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1674061689" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1674061689" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1674061689" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1674061689"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-auto.css?1691783142" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1691783142" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1691783142" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/url.js?1691783142"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1691783142"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -558,24 +558,23 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1674061689" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1674061689" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1691783142" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/embed.html">
-    <div id="body" class="default-animation" data-iframe-height="yes">
+    <div id="body" class="default-animation">
       
       
       
-      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
-        <div class="flex-block-wrapper" data-iframe-height="yes">
-          <div id="head-tags">
-          </div>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
           <article class="default">
     
     
@@ -592,6 +591,7 @@
 <p>So if you&rsquo;re if you get your tables down into two columns, then your table is guaranteed to be in Boyce Codd Normal Form. But this here looks a little bit more complicated than it really is. So let&rsquo;s take a look at an example of this in action. So here is our table that we had earlier. Remember, we determined that Id implies named department has a bad functional dependency. Because we have this issue with the phone number, we have this issue with the phone number. And so we want to decompose this relation, right. So we&rsquo;ll have two tables here we&rsquo;ll have name, ID and department as one. And then we&rsquo;ll have phone and ID as the second phone and ID as our second, remember, because we are decomposing into r1. So if we let&rsquo;s go, I&rsquo;ll go ahead and shift this over here. Right. So this is our decomposition. And then this is our r1. This is our our two, right. So r1 is based off of just the functional dependency, right? And then r two is the left hand side of the functional dependency plus the rest. Okay, so r1 is the functional dependency, the left hand side and the right hand side of our functional dependency. And then our two is the left hand side of our functional dependency, and then the rest. The rest of that meaning all the other attributes that were not included in our one. And now in this case, now we don&rsquo;t have that weird issue with phone number. Over here, we can just have our ID as our primary key because Id implies name and department. And then over here we have that same same thing that we had before we have ID implies phone, which doesn&rsquo;t actually work, right because we have 123 but 123 has two different phone numbers. So the primary key here is ID and phone right so I ID and phone the both columns together. But this is now in Boyce Codd Normal Form. This is a now this is now in Boyce Codd Normal form so that decomposition helped us remove the anomaly from our table</p>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
@@ -600,13 +600,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1674061689" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1674061689" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1674061689" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1674061689 defer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
-    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1691783143" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1691783143" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1691783143" defer></script>
   </body>
 </html>

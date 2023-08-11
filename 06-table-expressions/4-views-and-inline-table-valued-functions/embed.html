@@ -521,36 +521,36 @@
 	
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="description" content="CC 520 Textbook">
     <meta name="author" content="Joshua Weese">
     <title>Views and Inline Table-valued Functions :: CC 520 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/" rel="canonical" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/tele.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.html" rel="canonical" type="text/html" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.xml" rel="alternate" type="application/rss+xml" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.print.html" rel="alternate" type="text/html" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/tele.html" rel="alternate" type="text/html" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061688" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061688" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061688" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061688" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061688" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061688" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1674061688" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1674061688" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061688" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061688" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1674061688" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1674061688" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1674061688" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1674061688" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1674061688" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1674061688"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783142" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783142" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-auto.css?1691783142" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1691783142" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1691783142" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1691783142" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/url.js?1691783142"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1691783142"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -558,24 +558,23 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1674061688" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1674061688" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1691783142" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/embed.html">
-    <div id="body" class="default-animation" data-iframe-height="yes">
+    <div id="body" class="default-animation">
       
       
       
-      <main id="body-inner" class="highlightable default" tabindex="-1" data-iframe-height="yes" style="padding-bottom: 0px">
-        <div class="flex-block-wrapper" data-iframe-height="yes">
-          <div id="head-tags">
-          </div>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
           <article class="default">
     
     
@@ -596,6 +595,7 @@
 <p>So our second view we had, we had one to enter joins as part of that. So between three tables, so we have three tables and two joints. So if we execute here, right, we have demo dot United States. That&rsquo;s our previous one, right? And remember, that had two tables. And then where&rsquo;s my mouse here, then, and this one, I&rsquo;m joining United States with United States cities. And so this table here, or this view here has is joining joining two tables. And then this query here is joining three tables. And then those are joined together to form our final results. So let&rsquo;s go ahead and execute this. And so this gives me all of the cities along with the state abbreviation and state name. And then if I click the EXPLAIN button here, ha, well, on the surface, this query looks really simple. But underneath the hood, we can see that there is a significant amount of extra work that&rsquo;s happening behind the scenes. So you can see the actual query, query here, and then the all of the different joins that have to happen. So here&rsquo;s two joins. Here&rsquo;s the third join, right of the result of that query. And then here is our, our last join, to combine the two views. And so there&rsquo;s a lot of things happening here as part of this query. So just really driving this home here that our views and inline table valued functions are logical constructs only. And so when we actually utilize them as part of the query, it&rsquo;s just simply for better readability and reuse of code, just like functions are but again, write the code inside of the function, or the code or the SQL inside of the view or inline table valued function gets executed every single time that it&rsquo;s utilized.</p>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
@@ -604,13 +604,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1674061688" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1674061688" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1674061688" defer></script>
-    
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/embed-iframe.js?1674061688 defer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.contentWindow.min.js"></script>
-    
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1691783143" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1691783143" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1691783143" defer></script>
   </body>
 </html>

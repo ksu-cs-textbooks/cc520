@@ -521,36 +521,36 @@
 	
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="description" content="CC 520 Textbook">
     <meta name="author" content="Joshua Weese">
     <title>Identity &amp; Sequence Objects :: CC 520 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/" rel="canonical" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.html" rel="canonical" type="text/html" title="Identity &amp; Sequence Objects :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.xml" rel="alternate" type="application/rss+xml" title="Identity &amp; Sequence Objects :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.print.html" rel="alternate" type="text/html" title="Identity &amp; Sequence Objects :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/embed.html" rel="alternate" type="text/html" title="Identity &amp; Sequence Objects :: CC 520 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1674061692" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1674061692" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1674061692"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783144" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783144" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783144" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-auto.css?1691783144" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1691783144" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1691783144" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/url.js?1691783144"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1691783144"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -558,16 +558,17 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1674061692" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1674061692" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1691783144" rel="stylesheet">
 
   </head>
-  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/">
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.html">
     
     <div id="tele" class="tele mirror">
     
@@ -577,10 +578,11 @@
       
       <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <div id="head-tags">
-          </div>
           <article class="default">
-<h1>Identity &amp; Sequence Objects</h1>
+            <header class="headline">
+            </header>
+<h1 id="identity--sequence-objects">Identity &amp; Sequence Objects</h1>
+
 
 <a href="https://www.youtube.com/watch?v=9VMNVwVhekQ">YouTube Video</a>
 
@@ -594,23 +596,23 @@
 <p>So just like an identity, they call me now don&rsquo;t have to define a value for that column when you insert data. And so we can execute a, let me scroll up here, we can execute this and get our next person ID. And so then if we wanted to also, you can also apply this as a window function. Right? So again, we can we can have it as a default value as part of our constraints here. Just like an identity column would be or we can also use this as part of a window function, which is pretty cool. So let&rsquo;s run that. Here we go. So the same sequence over and then we&rsquo;re, we&rsquo;re separating our, our, we&rsquo;re framing up our window and ordering it by full name. So if we run this here, so here is our window function being apply over our query here. So something that we can use, this is particularly used to define an order to our rows and our query. And we can also, if we want to, this is super handy. Something that is a little bit more flexible when compared to the identity column. But it&rsquo;s very easy to restart our sequence. So if we force our sequence to restart, right, that becomes something a little bit easier to do. And if we sort, ascending here, you can see all of our sequence object values there. But if we sort by Person ID. That&rsquo;s, that&rsquo;s that. So just some different options that you can have when using sequence objects, particularly when inserting data into our database. So we have the identity columns, which are Microsoft, or T SQL specific. So Microsoft SQL Server, those are typically typically very easy to implement, because there&rsquo;s a lot less that you have to do to actually attach that to a column. But we can also use anti standard syntax and use a sequence object, which is a lot more flexible. It&rsquo;s not tied to necessarily one and only one table inside and one and only one column. And that sequence object can be used across multiple instances, multiple queries, and multiple different tables or even multiple databases at that as we shown. So generally speaking, a sequence object is going to be a little bit more flexible, and it is standard identity is going to be very quick and easy to use. If you&rsquo;re using Microsoft SQL Server. I&rsquo;ll leave into this video here on the general syntax that we&rsquo;ve seen so far for the insert statement, but that will conclude our coverage on inserting data into your tables.</p>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
       </main>
     </div>
     
-  </div>
+    </div>
     
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1674061692" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1674061692" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1674061692" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1674061692" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1691783144" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1691783144" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1691783144" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1674061692 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1691783144 defer"></script>
     
   </body>
 </html>

@@ -524,31 +524,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Single Table Queries on CC 520 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/</link>
+    <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/index.html</link>
     <description>Recent content in Single Table Queries on CC 520 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Aug 2018 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Single Table Queries Part 1</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/</guid>
-      <description>Single Table Queries Part 1 Schemas &amp;amp; Objects Minimum Table Requirements DDL vs. DML Booleans SELECT Statement SELECT FROM WHERE GROUP BY HAVING </description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/index.html</guid>
+      <description> Schemas &amp;amp; Objects Minimum Table Requirements DDL vs. DML Booleans SELECT Statement SELECT FROM WHERE GROUP BY HAVING </description>
     </item>
     <item>
       <title>Single Table Queries Part 2</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/</guid>
-      <description>Single Table Queries Part 2 HAVING ORDER BY DISTINCT TOP OFFSET…FETCH… Logical Processing Order </description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/index.html</guid>
+      <description> HAVING ORDER BY DISTINCT TOP OFFSET…FETCH… Logical Processing Order </description>
     </item>
     <item>
       <title>Single Table Queries Part 3</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/</guid>
-      <description>Single Table Queries Part 3 Predicates IN, BETWEEN, and LIKE Operator Precedence CASE Expression Variables Converting Data Types Character Data Types Date/Time Data Types </description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/index.html</guid>
+      <description> Predicates IN, BETWEEN, and LIKE Operator Precedence CASE Expression Variables Converting Data Types Character Data Types Date/Time Data Types </description>
     </item>
   </channel>
 </rss>

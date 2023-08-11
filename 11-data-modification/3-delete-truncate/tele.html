@@ -521,36 +521,36 @@
 	
 		
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0">
-    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Relearn 5.18.0">
     <meta name="description" content="CC 520 Textbook">
     <meta name="author" content="Joshua Weese">
     <title>Delete &amp; Truncate :: CC 520 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/" rel="canonical" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.xml" rel="alternate" type="application/rss+xml" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.print.html" rel="alternate" type="text/html" title="CC 520 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/embed.html" rel="alternate" type="text/html" title="CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.html" rel="canonical" type="text/html" title="Delete &amp; Truncate :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.xml" rel="alternate" type="application/rss+xml" title="Delete &amp; Truncate :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.print.html" rel="alternate" type="text/html" title="Delete &amp; Truncate :: CC 520 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/embed.html" rel="alternate" type="text/html" title="Delete &amp; Truncate :: CC 520 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/featherlight.min.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1674061692" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-light-theme.css?1674061692" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1674061692" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1674061692" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1674061692"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fontawesome-all.min.css?1691783144" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/nucleus.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/auto-complete.css?1691783144" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/perfect-scrollbar.min.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/fonts.css?1691783144" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/theme-auto.css?1691783144" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/variant.css?1691783144" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/print.css?1691783144" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/ie.css?1691783144" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/url.js?1691783144"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/variant.js?1691783144"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      var index_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.json";
+      window.index_js_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.search.js";
       var root_url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/";
       var baseUri=root_url.replace(/\/$/, '');
       // translations
@@ -558,16 +558,17 @@
       window.T_Copied_to_clipboard = 'Copied to clipboard!';
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
       // some further base stuff
       var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc520-sql-server-textbook/';
-      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1674061692" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/jquery.min.js?1674061692" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/css/custom.css?1691783144" rel="stylesheet">
 
   </head>
-  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/">
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.html">
     
     <div id="tele" class="tele mirror">
     
@@ -577,10 +578,11 @@
       
       <main id="body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <div id="head-tags">
-          </div>
           <article class="default">
-<h1>Delete &amp; Truncate</h1>
+            <header class="headline">
+            </header>
+<h1 id="delete--truncate">Delete &amp; Truncate</h1>
+
 
 <a href="https://www.youtube.com/watch?v=qqtwHf8HvE4">YouTube Video</a>
 
@@ -593,23 +595,23 @@
 <p>So we&rsquo;ve covered both of these syntax here, the standard deletion, and the non standard deletion. Remember, the primary difference here between standard and non standard is that in the standard, we can&rsquo;t use the full from clauses just from table. But and the non standard delete supports the full, the full FROM clause. So we can use table sources, we can do joins, all of those sorts of things can be included here in the from clause, and the standard is just from table and then in non standard we can do from and then anything that goes into your standard FROM clause, as if it was a SELECT clause. Then we also are going to talk about our truncate here, as well. So truncate, just like our so truncate, just like where we deleted all rows, we can very quickly say truncate and truncate is going to remove everything from the demo address table. And so what is also nice about this is that if we see if we look at the identity column, the current ID ID is going to be one, because we have completely refreshed our table. So I can show you what happens here. And a little bit more detail. If we reset our tables, and then execute this again, you can see before the truncate our identity column is six after the truncate is one. This is again faster than saying this is faster than saying just this delete here. And as well. I load this back up. And this, you can see that my identity column, when I do delete results in the same identity, right, the identity doesn&rsquo;t get reset. So six would be the next value that would be inserted for that identity column as a result of inserting a new record, but truncate here resets it back to wherever, whatever it started to. And you&rsquo;re not going to really see the execution time here is is you know, I have very, very little data to deal with. But you can see that the total execution time is not going to be really it&rsquo;s not going to match. This one is technically faster at the moment, because there&rsquo;s just not enough rows here. But truncate in general for larger sets of data are going to be are going to be faster statements to just completely remove everything inside of our inside of our table. But that will conclude all of our statements that we have listed here to remove data from our database</p>
 
             <footer class="footline">
+
             </footer>
           </article>
         </div>
       </main>
     </div>
     
-  </div>
+    </div>
     
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1674061692" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1674061692" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/featherlight.min.js?1674061692" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1674061692" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/clipboard.min.js?1691783144" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/perfect-scrollbar.min.js?1691783144" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/theme.js?1691783144" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1674061692 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/js/tele-scroll.js?1691783144 defer"></script>
     
   </body>
 </html>

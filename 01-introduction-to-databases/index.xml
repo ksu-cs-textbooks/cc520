@@ -524,24 +524,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction to Databases on CC 520 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/</link>
+    <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/index.html</link>
     <description>Recent content in Introduction to Databases on CC 520 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Aug 2018 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Database Overview</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/</guid>
-      <description>Overview Databases are essentially everywhere with modern technology. We live in a digital age, far more connected online than ever, and utilizing a number of smart devices that generate thousands of data points just for a single person. Our digital foot print is always growing&amp;hellip;even more so for companies that are able to store far more data than they used to about their operation. Almost every application or smart device we use is connected to some form of database to store information it creates/collects.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/index.html</guid>
+      <description>YouTube Video Overview Databases are essentially everywhere with modern technology. We live in a digital age, far more connected online than ever, and utilizing a number of smart devices that generate thousands of data points just for a single person. Our digital foot print is always growing&amp;hellip;even more so for companies that are able to store far more data than they used to about their operation. Almost every application or smart device we use is connected to some form of database to store information it creates/collects.</description>
     </item>
     <item>
       <title>What is a Database?</title>
-      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/</guid>
-      <description>Example Data Here we can see some basic information about universities in a table. Much of the data we use in relational databases resemble this format, except the information is typically at a much larger scale. A lot of situations find this data being stored in spreadsheets, comma separated value (csv) files, and alike; however, these formats have limited capability in manipulating and storing data. Spreadsheet applications can do some of this type of work, but there are limits&amp;hellip;particularly in terms of scalability, accessibility, and reliability.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/index.html</guid>
+      <description>YouTube Video Example Data Here we can see some basic information about universities in a table. Much of the data we use in relational databases resemble this format, except the information is typically at a much larger scale. A lot of situations find this data being stored in spreadsheets, comma separated value (csv) files, and alike; however, these formats have limited capability in manipulating and storing data. Spreadsheet applications can do some of this type of work, but there are limits&amp;hellip;particularly in terms of scalability, accessibility, and reliability.</description>
     </item>
   </channel>
 </rss>

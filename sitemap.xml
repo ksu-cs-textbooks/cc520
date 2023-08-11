@@ -523,425 +523,425 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/</loc>
-    <lastmod>2022-01-16T11:25:27-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/1-apps-and-databases/index.html</loc>
     <lastmod>2022-04-13T13:17:47-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/1-batches/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/1-batches/index.html</loc>
     <lastmod>2022-04-01T10:03:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/1-database-design-principles/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/1-database-design-principles/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/1-general-design-practices/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/1-indexes/index.html</loc>
     <lastmod>2022-04-27T15:05:52-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/1-insert/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/1-insert/index.html</loc>
     <lastmod>2022-03-28T16:03:11-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/1-introduction-to-joins/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/1-introduction-to-joins/index.html</loc>
     <lastmod>2022-01-31T16:06:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/1-introduction-to-set-operators/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/1-introduction-to-set-operators/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/1-introduction-to-subqueries/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/1-introduction-to-subqueries/index.html</loc>
     <lastmod>2022-02-08T11:34:24-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/1-introduction-to-table-expressions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/1-introduction-to-table-expressions/index.html</loc>
     <lastmod>2022-02-15T09:14:13-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/1-introduction-to-window-functions/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/2-example/index.html</loc>
     <lastmod>2022-04-13T13:17:47-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/2-cross-joins/index.html</loc>
     <lastmod>2022-01-31T16:06:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/2-database-design-example/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/2-database-design-example/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/2-relationship-types/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/2-relationship-types/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/2-derived-tables/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/2-derived-tables/index.html</loc>
     <lastmod>2022-02-15T09:14:13-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/2-identity-sequence/index.html</loc>
     <lastmod>2022-03-28T16:03:11-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/2-rank-window-functions/index.html</loc>
     <lastmod>2022-03-01T22:19:10-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/2-scalar-self-contained-subqueries/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/2-scalar-self-contained-subqueries/index.html</loc>
     <lastmod>2022-02-08T11:34:24-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-0-syllabus-520/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-0-syllabus-520/index.html</loc>
     <lastmod>2023-01-17T15:45:04-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/2-temporary-table-constructs/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/2-temporary-table-constructs/index.html</loc>
     <lastmod>2022-04-01T10:03:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/2-transactions-concurrency-1/index.html</loc>
     <lastmod>2022-04-27T15:05:52-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/2-union/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/2-union/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/</loc>
-    <lastmod>2022-01-24T21:48:20-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/3-aggregate-window-functions/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/3-common-table-expressions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/3-common-table-expressions/index.html</loc>
     <lastmod>2022-02-15T09:14:13-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/1-introduction-to-databases/index.html</loc>
     <lastmod>2022-01-15T13:52:12-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/3-delete-truncate/index.html</loc>
     <lastmod>2022-03-28T16:03:11-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/3-inner-joins/index.html</loc>
     <lastmod>2022-01-31T16:06:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/3-intersect/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/3-intersect/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/1-introduction-to-tables-and-constraints/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/1-introduction-to-tables-and-constraints/index.html</loc>
     <lastmod>2022-01-15T13:52:12-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-1-mssqlserver/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/0-1-mssqlserver/index.html</loc>
     <lastmod>2023-01-18T11:07:41-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/3-multivalue-self-contained-subqueries/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/3-multivalue-self-contained-subqueries/index.html</loc>
     <lastmod>2022-02-08T11:34:24-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/3-obtaining-good-db-design/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/3-obtaining-good-db-design/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/3-relationship-variants/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/3-relationship-variants/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-1-single-table-queries-part-1-intro/index.html</loc>
     <lastmod>2022-01-24T16:31:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/3-transactions-concurrency-2/index.html</loc>
     <lastmod>2022-04-27T15:05:52-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/3-views-user-defined-functions/index.html</loc>
     <lastmod>2022-04-01T10:03:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/</loc>
-    <lastmod>2022-01-24T21:48:20-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/4-correlated-subqueries/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/4-correlated-subqueries/index.html</loc>
     <lastmod>2022-02-08T11:34:24-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/4-subclasses/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/4-subclasses/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/4-except/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/4-except/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/4-functional-dependencies/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/4-functional-dependencies/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/4-join-variation/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/4-join-variation/index.html</loc>
     <lastmod>2022-01-31T16:06:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/2-key-check-default-constraints/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/02-introduction-to-tables-and-constraints/2-key-check-default-constraints/index.html</loc>
     <lastmod>2022-01-15T13:52:12-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/4-offset-window-functions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/4-offset-window-functions/index.html</loc>
     <lastmod>2022-03-01T13:51:49-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-2-single-table-queries-part-1-select-from/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/4-stored-procedures/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/4-stored-procedures/index.html</loc>
     <lastmod>2022-04-01T10:03:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/4-transaction-log/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/4-transaction-log/index.html</loc>
     <lastmod>2022-04-27T15:05:52-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/4-update/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/4-update/index.html</loc>
     <lastmod>2022-03-28T16:03:11-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/4-views-and-inline-table-valued-functions/index.html</loc>
     <lastmod>2022-02-21T12:35:03-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/01-introduction-to-databases/2-example-database-and-terms/index.html</loc>
     <lastmod>2022-01-16T17:00:26-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/5-fd-examples/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/5-fd-examples/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/</loc>
-    <lastmod>2022-01-24T21:48:20-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/6-anomolies-armstrong-rules/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/6-anomolies-armstrong-rules/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/5-join-review/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/5-join-review/index.html</loc>
     <lastmod>2022-01-31T16:06:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/5-merge/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/5-merge/index.html</loc>
     <lastmod>2022-03-28T16:03:11-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/5-multivalue-correlated-subqueries/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/5-multivalue-correlated-subqueries/index.html</loc>
     <lastmod>2022-02-08T11:34:24-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/5-apply-operator/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/5-apply-operator/index.html</loc>
     <lastmod>2022-02-15T09:28:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/5-triggers/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/5-triggers/index.html</loc>
     <lastmod>2022-04-01T10:03:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/5-union-types/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-3-single-table-queries-part-1-where/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/06-table-expressions/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-4-single-table-queries-part-1-groupby/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/7-closure-sets/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/7-closure-sets/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/6-error-handling/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/6-error-handling/index.html</loc>
     <lastmod>2022-04-01T10:03:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/6-multivalue-correlated-subqueries-part-2/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/05-subqueries/6-multivalue-correlated-subqueries-part-2/index.html</loc>
     <lastmod>2022-02-08T11:34:24-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/6-outer-joins/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/04-joins/6-outer-joins/index.html</loc>
     <lastmod>2022-01-31T16:06:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/6-output/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/6-output/index.html</loc>
     <lastmod>2022-03-28T16:03:11-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-1/3-1-5-single-table-queries-part-1-processing-order/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/6-weak-entities/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/6-weak-entities/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/07-window-functions/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/8-super-keys/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/8-super-keys/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/7-multi-path-problem/index.html</loc>
     <lastmod>2022-03-23T11:46:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/08-sets/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/9-bcnf-decomp-fd/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/10-bcnf-decomp-closure/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/10-design-patterns-practices/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/11-lossless-decomp/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/11-data-modification/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/12-bcnf-decomp-limits/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/12-bcnf-decomp-limits/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/</loc>
-    <lastmod>2022-01-15T13:52:12-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/12-programmable-objects/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/13-other-normal-forms/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/13-other-normal-forms/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/13-databases-and-applications/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/14-third-vs-bcnf/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/09-obtaining-good-design/14-third-vs-bcnf/index.html</loc>
     <lastmod>2022-03-08T11:51:59-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/14-transactions-and-indexes/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/15-potpourri/</loc>
-    <lastmod>2022-03-28T16:03:11-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/15-potpourri/index.html</loc>
+    <lastmod>2023-08-11T14:45:18-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/index.html</loc>
     <lastmod>2022-01-24T21:48:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/categories/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/categories/index.html</loc>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/tags/</loc>
+    <loc>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/tags/index.html</loc>
   </url>
 </urlset>
