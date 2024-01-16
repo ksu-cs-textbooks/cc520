@@ -17,7 +17,6 @@ For this course, you will need to use a SQL client tool to access a SQL Server i
   - **Azure Data Studio** - Windows, macOS, or Linux: [https://docs.microsoft.com/en-us/sql/azure-data-studio/download](https://docs.microsoft.com/en-us/sql/azure-data-studio/download)
   - **SQL Server Management Studio** *(aka SSMS)* - Windows Only: [https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
 - Windows Computer Labs: All Windows workstations in the Computer Science department have these client tools available.
-- **Note**: If you are connecting to any department resource from off-campus, you need to connect to the campus VPN before connecting to the department SQL server. Instructions on how to access the VPN can be found here: [https://www.k-state.edu/it/cybersecurity/vpn/](https://www.k-state.edu/it/cybersecurity/vpn/)
 
 ## Database Server
 
