@@ -544,35 +544,35 @@
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-1-single-table-queries-part-3/index.html</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video series, we&amp;rsquo;re going to be taking our last look at single table queries, and primarily introducing some more operations and expressions that we can utilize as part of them, as well as a little bit of discussion on variables and different data types that we can work with. But before we work with that, let&amp;rsquo;s quickly review what we covered last time.</description>
+      <description>Video Transcription Welcome back everyone. In this video series, we&amp;rsquo;re going to be taking our last look at single table queries, and primarily introducing some more operations and expressions that we can utilize as part of them, as well as a little bit of discussion on variables and different data types that we can work with. But before we work with that, let&amp;rsquo;s quickly review what we covered last time.</description>
     </item>
     <item>
       <title>CASE</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/index.html</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at the case statement in SQL. So the case statement is very, very much like the switch statements in Java, although in Python, they don&amp;rsquo;t have the language to have a switch statement. But just like a chained if else clause. So in its simple form, it&amp;rsquo;s going to compare scalar values, so like numbers and things like that, and return a value with its first match.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be taking a look at the case statement in SQL. So the case statement is very, very much like the switch statements in Java, although in Python, they don&amp;rsquo;t have the language to have a switch statement. But just like a chained if else clause. So in its simple form, it&amp;rsquo;s going to compare scalar values, so like numbers and things like that, and return a value with its first match.</description>
     </item>
     <item>
       <title>Variables</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-3-single-table-queries-part-3-variables/index.html</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to take a look at variables and SQL. So variables are a little bit different than compared to your normal programming languages, primarily just the way they syntax that they&amp;rsquo;re, that they&amp;rsquo;re declared their scope and things like that. And we&amp;rsquo;ll be covering variables briefly in this video. And then we&amp;rsquo;ll cover them a little bit more in depth as we get to more some more complicated SQL examples.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to take a look at variables and SQL. So variables are a little bit different than compared to your normal programming languages, primarily just the way they syntax that they&amp;rsquo;re, that they&amp;rsquo;re declared their scope and things like that. And we&amp;rsquo;ll be covering variables briefly in this video. And then we&amp;rsquo;ll cover them a little bit more in depth as we get to more some more complicated SQL examples.</description>
     </item>
     <item>
       <title>Character Types</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/index.html</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be exploring a little bit more into different data types in SQL. So this first bit is going to be mostly on just text. So text comes in a variety of a couple different forms and databases, little bit more so in SQL Server, but we have a fixed length type, so char, and then in char, so in char being Unicode type, and we&amp;rsquo;ll talk about that here in just a minute.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we&amp;rsquo;re going to be exploring a little bit more into different data types in SQL. So this first bit is going to be mostly on just text. So text comes in a variety of a couple different forms and databases, little bit more so in SQL Server, but we have a fixed length type, so char, and then in char, so in char being Unicode type, and we&amp;rsquo;ll talk about that here in just a minute.</description>
     </item>
     <item>
       <title>Date Time</title>
       <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/index.html</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone, this is going to be our last video for the single table queries part three series. And in this video, we&amp;rsquo;re going to be looking at some date time data types. There are a lot of different functions and functionality that you can leverage as far as date and date times, I&amp;rsquo;m not going to cover all of them, I will cover a few and explore a little bit more or have a little bit more and actual written notes, as well as links to official documentation for you to read through as well if you&amp;rsquo;d like to explore in a deeper sense.</description>
+      <description>Video Transcription Welcome back everyone, this is going to be our last video for the single table queries part three series. And in this video, we&amp;rsquo;re going to be looking at some date time data types. There are a lot of different functions and functionality that you can leverage as far as date and date times, I&amp;rsquo;m not going to cover all of them, I will cover a few and explore a little bit more or have a little bit more and actual written notes, as well as links to official documentation for you to read through as well if you&amp;rsquo;d like to explore in a deeper sense.</description>
     </item>
   </channel>
 </rss>
