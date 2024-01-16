@@ -70,7 +70,7 @@ If you need help getting started with the platform, please go through the follow
 - [Student guide to Ed Discussion](https://edstem.org/us/help/student-discussion)
 - [Content Editor Guide](https://edstem.org/us/help/content-editor)
 - [Push Notifications](https://edstem.org/us/help/push-notifications)
-- 
+  
 <hr/>
 
 ### Course Overview
