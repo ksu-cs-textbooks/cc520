@@ -556,5 +556,13 @@ All emails for the course should be sent to cc520-help@KSUemailProd.onmicrosoft.
 Client Tools For this course, you will need to use a SQL client tool to access a SQL Server instance.
 All resources are available via remote access on remote.cs.ksu.edu. See https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access for more information on how to utilize the remote resources. If you do not have a CS account, one can be requested here: https://selfserv.</description>
     </item>
+    <item>
+      <title>Previous Syllabi</title>
+      <link>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/old-syllabi/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc520-sql-server-textbook/00-course-intro/old-syllabi/index.html</guid>
+      <description>Previous Versions of this page:
+Syllabus </description>
+    </item>
   </channel>
 </rss>
