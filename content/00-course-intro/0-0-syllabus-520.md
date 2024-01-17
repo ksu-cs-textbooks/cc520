@@ -52,7 +52,7 @@ Here are the 5 **recommended ways to get help** in this course:
 - Review the course materials posted on K-State Canvas and the course website 
 - Check the [Edstem Discussion board](https://k-state.instructure.com/courses/155242/external_tools/19962?display=borderless) to see if a similar question has been asked, otherwise, post a new question.
 - Visit your professor's office hours, or the office hours for your TA if available  
-- Send a message to the CIS 115 Help email ([cc520-help@KSUemailProd.onmicrosoft.com](mailto:cc520-help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help))).
+- Send a message to the CIS 520 Help email ([cc520-help@KSUemailProd.onmicrosoft.com](mailto:cc520-help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help))).
 - Ask your teammates for help or advice on assignments or projects (be mindful of the honor code!)
 - Schedule a one-on-one meeting with your professor/TA  
 
@@ -142,7 +142,7 @@ The details in this syllabus are not set in stone. Due to the flexible nature of
 
 I am part of the SafeZone community network of trained K-State  faculty/staff/students who are available to listen and support you. As a SafeZone Ally, I can help you connect with resources on campus to  address problems you face that interfere with your academic success,  particularly issues of sexual violence, hateful acts, or concerns faced  by individuals due to sexual orientation/gender identity. My goal is to  help you be successful and to maintain a safe and equitable campus.
 
-{{% include "themes/ksucs-hugo-theme/static/files/syllabus-no-copyright.md" %}}
+{{< syllabus exclude="copyright facecoverings" >}}
 
 ##  Copyright Notification
 
