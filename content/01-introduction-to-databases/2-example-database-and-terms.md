@@ -7,7 +7,7 @@ pre: "2. "
 
 ## Example Data
 
-![Example Data Table](/cc520/images/01-introduction-to-databases/full-table.png)
+![Example Data Table](images/01-introduction-to-databases/full-table.png)
 
 Here we can see some basic information about universities in a table.  Much of the data we use in relational databases resemble this format, except the information is  typically at a much larger scale.  A lot of situations find this data being stored in spreadsheets, comma separated value (csv) files, and alike; however, these formats have limited capability in manipulating and storing data.  Spreadsheet applications can do some of this type of work, but there are limits...particularly in terms of scalability, accessibility, and reliability.  That is where relational databases come into play!
 
@@ -22,13 +22,13 @@ The term **entity** may be used interchangeably with *records* and *rows* in cer
 {{% /notice %}}
 
 - **Selection** is used to extract a specific subset of **rows** that match a certain predicate (condition).  This operation acts like a *filter* for querying data. The highlighted rows below are from *selecting* universities where the 'Year Established' is on or before 1863.
-  ![Selection](/cc520/images/01-introduction-to-databases/selection.png)
+  ![Selection](images/01-introduction-to-databases/selection.png)
 
 - **Projection** is used to extract a specific subset of **columns**.  This operation chooses which parts of the data are used.  The columns that are chosen based off of the provided column names.  The highlighted columns in the table below represent the *projection* of the columns 'Name', 'Nickname', 'Website', and 'Location'.  Note that when *projection* is used without *selection*, all rows of data are included.
-  ![Projection](/cc520/images/01-introduction-to-databases/projection.png)
+  ![Projection](images/01-introduction-to-databases/projection.png)
 
 - **Join** is used to combine data from multiple datasets.  There are different types of joins that we will talk about...but when tables are joined, not all data has to be included in the operation.  In the example below, you can see how the 'School' dataset can be joined with parts of the 'Conferences' dataset to create a new dataset all together.
-  ![Joined Data](/cc520/images/01-introduction-to-databases/joined.png)
+  ![Joined Data](images/01-introduction-to-databases/joined.png)
 
 {{% notice info %}}
 
@@ -38,7 +38,7 @@ The operations **selection** and **projection** can be a bit confusing at first.
 
 ## Relational Vocabulary
 
-![Relational Terms](/cc520/images/01-introduction-to-databases/relationalTerms.png)
+![Relational Terms](images/01-introduction-to-databases/relationalTerms.png)
 
 There are a lot of terms that are used when working with databases.  Some words can be used interchangeably.  
 

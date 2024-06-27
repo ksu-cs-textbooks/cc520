@@ -1,32 +1,35 @@
 # K-State CS Hugo Framework
 
-This is a [Hugo](https://gohugo.io/)-based web framework for K-State CS lecture content. It uses a lightly adapted version of the [Hugo-theme-learn](https://learn.netlify.com/en/) theme called [ksucs-hugo-theme](https://github.com/russfeld/ksucs-hugo-theme)
-
-Major added features are the addition of [Reveal.js](https://github.com/hakimel/reveal.js/) slideshow framework, and the creation of an embeddable version of content pages for use with IFrames in [Canvas](https://www.instructure.com/) and other learning management systems.
-
-**[Demo](https://ksucs-hugo.russfeld.me)**
+This is a [Hugo](https://gohugo.io/)-based web framework for K-State CS lecture content. It uses a lightly adapted version of the [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html) theme called [K-State CS Hugo Theme](https://ksucs-hugo.russfeld.me/)
 
 #### Relevant Documentation
 
 * [Hugo Documentation](https://gohugo.io/documentation/)
-* [Hugo-theme-learn Documentation](https://learn.netlify.com/en/)
-* [Reveal.js Documentation](https://github.com/hakimel/reveal.js/)
+* [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html)
+* [K-State CS Hugo Theme](https://ksucs-hugo.russfeld.me/)
 
-## Installation
+## System Requirements
 
-Install Hugo > 0.60 on your system. I recommend using Linux or Windows Subsystem for Linux.
+* [Git](https://github.com/git-guides/install-git)
+* Go 1.22 or later from [Go Downloads](https://go.dev/doc/install)
+* Hugo 0.128.0 or later from [Hugo Releases](https://github.com/gohugoio/hugo/releases)
 
-Clone this repository and edit your content.
+## Cloning for the First Time
 
-To view the content locally, use the `hugo server` command and visit http://localhost:1313 to view a local version of your site
+* Clone the repository using Git: `git clone <url>`
+* Open the directory: `cd <directory>`
+* Run the site using Hugo : `hugo serve`
 
-To deploy the content, use the `hugo` command on the destination server to generate a `public` folder. Then, point your web server of choice to that folder.
+Hugo should automatically download the relevant theme module. No additional configuration is needed.
 
-### Cloning for the first time?
+## Updating the Theme
 
-1. `git clone --recursive [URL to Git repo]`
-2. or `git clone` and:
-    1. `git submodule update --init --recursive`
-       1. `git submodule update --recursive --remote`
-    2. pull all changes in the repo including changes in the submodules `git pull --recurse-submodules`
-    3. pull all changes for the submodules `git submodule update --remote`
+To update the theme to the latest version, run `hugo mod get -u`
+
+## Updating the Hugo Version
+
+To update the Hugo version, install a new version locally for testing and also update the version in `workflows/gh-pages.yml`
+
+## Questions?
+
+Contact [Russell Feldhausen](https://russfeld.me) - russfeld@ksu.edu

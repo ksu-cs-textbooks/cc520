@@ -4,8 +4,8 @@ weight: 10
 pre: "0. "
 ---
 
-- [Link to this Syllabus]({{<ref "./0-0-syllabus-520">}})
-- [Previous Versions]({{<relref "./old-syllabi">}})
+- [Link to this Syllabus]({{% ref "./0-0-syllabus-520" %}})
+- [Previous Versions]({{% relref "./old-syllabi" %}})
 
 {{% notice info %}}
 The **preferred method of contact** for help will be through the [Edstem Discussion board](https://k-state.instructure.com/courses/155242/external_tools/19962?display=borderless). Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
@@ -39,7 +39,7 @@ These books are **not** required.  I will be providing notes, videos, and walk t
 
 ### Required Software
 
-We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access](/cc520/00-course-intro/0-1-mssqlserver). 
+We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access]({{% relref "00-course-intro/0-1-mssqlserver" %}}). 
 
 
 <hr/>

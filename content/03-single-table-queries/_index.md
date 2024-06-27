@@ -8,4 +8,4 @@ pre = "<b>3. </b>"
 +++
 
 
-![Selection](/cc520/images/03-single-table-queries/syntax.png)
+![Selection](images/03-single-table-queries/syntax.png)

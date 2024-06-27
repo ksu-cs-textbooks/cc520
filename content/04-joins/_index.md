@@ -8,4 +8,4 @@ pre = "<b>4. </b>"
 +++
 
 
-![Joins](/cc520/images/04-joins/joinsyntax.png)
+![Joins](images/04-joins/joinsyntax.png)
