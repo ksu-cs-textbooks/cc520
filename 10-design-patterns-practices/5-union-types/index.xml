@@ -535,7 +535,7 @@
   <channel>
     <title>Union Types :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/5-union-types/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to continue talking about various types of entities, and subclasses, including union types. This is also somewhat of a subclass idea. Generally speaking with Union types, sometimes relationships are mutually exclusive, like we showed just a little bit ago, that can involve all sorts of things, right? Folders, with files, users groups, all of these things are mutually exclusive, right?</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to continue talking about various types of entities, and subclasses, including union types. This is also somewhat of a subclass idea. Generally speaking with Union types, sometimes relationships are mutually exclusive, like we showed just a little bit ago, that can involve all sorts of things, right? Folders, with files, users groups, all of these things are mutually exclusive, right?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/5-union-types/index.xml" rel="self" type="application/rss+xml" />

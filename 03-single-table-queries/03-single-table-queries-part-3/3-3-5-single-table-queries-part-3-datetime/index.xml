@@ -535,7 +535,7 @@
   <channel>
     <title>Date Time :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone, this is going to be our last video for the single table queries part three series. And in this video, we’re going to be looking at some date time data types. There are a lot of different functions and functionality that you can leverage as far as date and date times, I’m not going to cover all of them, I will cover a few and explore a little bit more or have a little bit more and actual written notes, as well as links to official documentation for you to read through as well if you’d like to explore in a deeper sense.</description>
+    <description>Video Transcription Welcome back everyone, this is going to be our last video for the single table queries part three series. And in this video, we’re going to be looking at some date time data types. There are a lot of different functions and functionality that you can leverage as far as date and date times, I’m not going to cover all of them, I will cover a few and explore a little bit more or have a little bit more and actual written notes, as well as links to official documentation for you to read through as well if you’d like to explore in a deeper sense.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-3/3-3-5-single-table-queries-part-3-datetime/index.xml" rel="self" type="application/rss+xml" />

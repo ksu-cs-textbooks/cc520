@@ -535,7 +535,7 @@
   <channel>
     <title>Temporary Table Constructs :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/2-temporary-table-constructs/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to continue our discussion on programmable objects. But in turn, we’re going to revisit some things that we’ve already covered around temporary tables. So, temporary table contracts are an important idea because as we get into programmable objects, like stored procedures, we need to understand that not everything that we do with SQL is physical storage, right? A lot of the times, this is logical representation.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to continue our discussion on programmable objects. But in turn, we’re going to revisit some things that we’ve already covered around temporary tables. So, temporary table contracts are an important idea because as we get into programmable objects, like stored procedures, we need to understand that not everything that we do with SQL is physical storage, right? A lot of the times, this is logical representation.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/2-temporary-table-constructs/index.xml" rel="self" type="application/rss+xml" />

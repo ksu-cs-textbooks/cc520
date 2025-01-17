@@ -535,7 +535,7 @@
   <channel>
     <title>Transactions &amp; Concurrency 2 :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/</link>
-    <description>YouTube Video Video Transcription We’re gonna do a class activity today. And so what you need to do this is on the lecture 27 transactions and concurrency, you just need to download the transactions in currency dash participate dot SQL, zoom in here. So the transactions and currency dash participate dot SQL, that’s the one you need. And it will look like this. So this is the participate dot SQL file.</description>
+    <description>Video Transcription We’re gonna do a class activity today. And so what you need to do this is on the lecture 27 transactions and concurrency, you just need to download the transactions in currency dash participate dot SQL, zoom in here. So the transactions and currency dash participate dot SQL, that’s the one you need. And it will look like this. So this is the participate dot SQL file. First, the first example that I’m going to showcase is the blocking issues.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/index.xml" rel="self" type="application/rss+xml" />

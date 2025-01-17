@@ -535,7 +535,7 @@
   <channel>
     <title>Limitations of BCNF Decomposition :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/12-bcnf-decomp-limits/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at some limitations behind decomposition using Boyce Codd Normal Form. So previously, we talked about how we, when we’re decomposing our tables, we need to be careful because if we’re not actually adhering to Boyce Codd Normal Form, and we’re decomposing our tables, ad hoc Li, we could actually have lossy decomposition, meaning we actually lose the original information, or at least, we lose, we don’t lose rows of data.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at some limitations behind decomposition using Boyce Codd Normal Form. So previously, we talked about how we, when we’re decomposing our tables, we need to be careful because if we’re not actually adhering to Boyce Codd Normal Form, and we’re decomposing our tables, ad hoc Li, we could actually have lossy decomposition, meaning we actually lose the original information, or at least, we lose, we don’t lose rows of data.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/12-bcnf-decomp-limits/index.xml" rel="self" type="application/rss+xml" />

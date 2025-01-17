@@ -535,7 +535,7 @@
   <channel>
     <title>OFFSET-FETCH :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. So in this video, we are going to take a look at the offset fetch filter. So the offset fetch filter is the anti standard, equivalent to talk. So before we cover top, but top is going to only be specific to a certain set of database management systems. A SQL Server, for example, supports the top command. But not all, SQL is created equal.</description>
+    <description>Video Transcription Welcome back everyone. So in this video, we are going to take a look at the offset fetch filter. So the offset fetch filter is the anti standard, equivalent to talk. So before we cover top, but top is going to only be specific to a certain set of database management systems. A SQL Server, for example, supports the top command. But not all, SQL is created equal.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/index.xml" rel="self" type="application/rss+xml" />

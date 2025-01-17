@@ -535,7 +535,7 @@
   <channel>
     <title>Common Table Expressions :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/06-table-expressions/3-common-table-expressions/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at common table expressions, otherwise known as CTS. We can see the syntax of a common table expression here on this particular site here, but it’ll show some examples that will make this a little bit easier to read. So, as I mentioned, common table expressions are also known as C, T E’s.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at common table expressions, otherwise known as CTS. We can see the syntax of a common table expression here on this particular site here, but it’ll show some examples that will make this a little bit easier to read. So, as I mentioned, common table expressions are also known as C, T E’s. They’re very similar to derive tables write, similar in nature that the scope is limited to the outer query.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/3-common-table-expressions/index.xml" rel="self" type="application/rss+xml" />

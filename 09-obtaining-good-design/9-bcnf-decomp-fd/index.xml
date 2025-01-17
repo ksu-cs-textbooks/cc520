@@ -535,7 +535,7 @@
   <channel>
     <title>BCNF Decomposition with Functional Depenencies :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/9-bcnf-decomp-fd/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at how we might start improving our database design. And in particular, decomposing our tables trying to achieve Boyce Codd Normal Form. But first off, how do we use the information that we have now about Super keys to eliminate anomalies in our database design. So, one, one key fact that I’m going to try to hammer home here is that each attributes must provide a fact about the key, the whole key and nothing but the key.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at how we might start improving our database design. And in particular, decomposing our tables trying to achieve Boyce Codd Normal Form. But first off, how do we use the information that we have now about Super keys to eliminate anomalies in our database design. So, one, one key fact that I’m going to try to hammer home here is that each attributes must provide a fact about the key, the whole key and nothing but the key.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/9-bcnf-decomp-fd/index.xml" rel="self" type="application/rss+xml" />

@@ -535,7 +535,7 @@
   <channel>
     <title>BCNF Decomposition with Closure Sets :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/10-bcnf-decomp-closure/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at Boyce Codd Normal Form decomposition again. But instead of using functional dependencies for the basis of our decomposition, we’re going to use Closure sets. Now in general, I find closure closure sets to be a little bit more complicated to use for decomposition. So I typically lean on using functional dependencies as the basis for decomposing my tables and normalizing them.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at Boyce Codd Normal Form decomposition again. But instead of using functional dependencies for the basis of our decomposition, we’re going to use Closure sets. Now in general, I find closure closure sets to be a little bit more complicated to use for decomposition. So I typically lean on using functional dependencies as the basis for decomposing my tables and normalizing them.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/10-bcnf-decomp-closure/index.xml" rel="self" type="application/rss+xml" />

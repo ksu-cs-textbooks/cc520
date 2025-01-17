@@ -535,7 +535,7 @@
   <channel>
     <title>Database Design Principles :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/1-database-design-principles/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be starting our discussion on what makes a database a good database. We’ve talked a lot about so far how we might make a SQL query to retrieve data. And later, we’ll also talk about SQL queries that we can use to actually insert and modify and delete data as well. But what makes a database design a good database.</description>
+    <description>Video Transcription Welcome back everyone. And in this video, we’re going to be starting our discussion on what makes a database a good database. We’ve talked a lot about so far how we might make a SQL query to retrieve data. And later, we’ll also talk about SQL queries that we can use to actually insert and modify and delete data as well. But what makes a database design a good database.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/1-database-design-principles/index.xml" rel="self" type="application/rss+xml" />

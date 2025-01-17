@@ -535,7 +535,7 @@
   <channel>
     <title>Database Relationship Types :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/2-relationship-types/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a deeper dive into relationship types between our tables. And we’ve talked about some of these in passing before when we talked about UML diagrams. So we’ve seen these as part of the homework, and throughout our various other videos that we’ve had in this class so far. But let’s take a deeper dive into what these represents.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a deeper dive into relationship types between our tables. And we’ve talked about some of these in passing before when we talked about UML diagrams. So we’ve seen these as part of the homework, and throughout our various other videos that we’ve had in this class so far. But let’s take a deeper dive into what these represents.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/2-relationship-types/index.xml" rel="self" type="application/rss+xml" />

@@ -545,28 +545,28 @@
       <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/1-introduction-to-window-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/07-window-functions/1-introduction-to-window-functions/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. And in this video series, we’re going to be taking a look at window functions. So with window functions, we’re actually going to be applying a function or an expression over a subset of rows from your query. And so the subset is actually referred to as the window. So hence the term window functions because we’re feeding the that small window of rows that saw a small subset of rows, and applying a function on top of that to calculate some value.</description>
+      <description>Video Transcription Welcome back everyone. And in this video series, we’re going to be taking a look at window functions. So with window functions, we’re actually going to be applying a function or an expression over a subset of rows from your query. And so the subset is actually referred to as the window. So hence the term window functions because we’re feeding the that small window of rows that saw a small subset of rows, and applying a function on top of that to calculate some value.</description>
     </item>
     <item>
       <title>Rank Window Functions</title>
       <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/2-rank-window-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/07-window-functions/2-rank-window-functions/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re going to be taking a look at rank window functions. So this is the first out of the three types of window functions that we’ll be covering. And you can see the syntax here, where we have our general function. So we have our function here over. And we have three different options that we’ll we can include as part of our window, our of our over clause.</description>
+      <description>Video Transcription Welcome back everyone, In this video, we’re going to be taking a look at rank window functions. So this is the first out of the three types of window functions that we’ll be covering. And you can see the syntax here, where we have our general function. So we have our function here over. And we have three different options that we’ll we can include as part of our window, our of our over clause.</description>
     </item>
     <item>
       <title>Aggregate Window Functions</title>
       <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/3-aggregate-window-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/07-window-functions/3-aggregate-window-functions/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at aggregate window functions, aggregate window functions are going to have similar syntax as previous window functions. So you have the function applied over and then we can specify and define our windows that the function is being applied over the window being defined using the partition by clause, order of the rows within that window.</description>
+      <description>Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at aggregate window functions, aggregate window functions are going to have similar syntax as previous window functions. So you have the function applied over and then we can specify and define our windows that the function is being applied over the window being defined using the partition by clause, order of the rows within that window.</description>
     </item>
     <item>
       <title>Offset Window Functions</title>
       <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/4-offset-window-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/07-window-functions/4-offset-window-functions/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at offset window functions. So our syntax is very similar to other window functions. So we have our function that we are going to apply over our window that is defined here. And remember, we can define our window using a partition. Without the partition, our window is going to encompass our entire query set, then we can order the rows within our window.</description>
+      <description>Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at offset window functions. So our syntax is very similar to other window functions. So we have our function that we are going to apply over our window that is defined here. And remember, we can define our window using a partition. Without the partition, our window is going to encompass our entire query set, then we can order the rows within our window.</description>
     </item>
   </channel>
 </rss>

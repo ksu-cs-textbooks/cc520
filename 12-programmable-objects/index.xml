@@ -545,42 +545,42 @@
       <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/1-batches/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/1-batches/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion on programmable objects. And we’ll be covering a lot of different topics in this video series. But first, we’re going to talk about batches. So batches aren’t necessarily a programmable object. But we really do need to understand how sequel runs, queries in batches. So we can understand scope, and how programmable objects are actually functioning.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion on programmable objects. And we’ll be covering a lot of different topics in this video series. But first, we’re going to talk about batches. So batches aren’t necessarily a programmable object. But we really do need to understand how sequel runs, queries in batches. So we can understand scope, and how programmable objects are actually functioning.</description>
     </item>
     <item>
       <title>Temporary Table Constructs</title>
       <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/2-temporary-table-constructs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/2-temporary-table-constructs/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to continue our discussion on programmable objects. But in turn, we’re going to revisit some things that we’ve already covered around temporary tables. So, temporary table contracts are an important idea because as we get into programmable objects, like stored procedures, we need to understand that not everything that we do with SQL is physical storage, right? A lot of the times, this is logical representation.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we’re going to continue our discussion on programmable objects. But in turn, we’re going to revisit some things that we’ve already covered around temporary tables. So, temporary table contracts are an important idea because as we get into programmable objects, like stored procedures, we need to understand that not everything that we do with SQL is physical storage, right? A lot of the times, this is logical representation.</description>
     </item>
     <item>
       <title>Views &amp; User Defined Functions</title>
       <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/3-views-user-defined-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/3-views-user-defined-functions/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking another look at views and user defined functions. So remember, a view is a logical construct only. And it is considered also a table expressions. So remember, views are just queries that we created and stored as part of our database. But the data that the view actually pulls from is not actually stored. Again, as part of the view, the view is nothing more than just a query that retrieves data from other tables.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking another look at views and user defined functions. So remember, a view is a logical construct only. And it is considered also a table expressions. So remember, views are just queries that we created and stored as part of our database. But the data that the view actually pulls from is not actually stored. Again, as part of the view, the view is nothing more than just a query that retrieves data from other tables.</description>
     </item>
     <item>
       <title>Stored Procedures</title>
       <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/4-stored-procedures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/4-stored-procedures/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at stored procedures. So so far we have talked about some routines like user defined functions. Routines are nothing more than database objects that are stored as part of your database. But we have some differences here that that start to come out when we start talking about stored procedures. So we’ve seen views and user defined functions with both of them do provide some intermittent level of abstraction, it does insulate your database a little bit from your users, so your users don’t interact directly with the table.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at stored procedures. So so far we have talked about some routines like user defined functions. Routines are nothing more than database objects that are stored as part of your database. But we have some differences here that that start to come out when we start talking about stored procedures. So we’ve seen views and user defined functions with both of them do provide some intermittent level of abstraction, it does insulate your database a little bit from your users, so your users don’t interact directly with the table.</description>
     </item>
     <item>
       <title>Triggers</title>
       <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/5-triggers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/5-triggers/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to start taking a look at another type of stored procedure called triggers. As I mentioned, triggers are a special kind of stored procedure, which is actually attached to an event that happens or occurs in our database. So we typically won’t be actually executing triggers manually, they are automatically executed. Whenever the event occurs. Think like a click event handler when you’re programming a user interface, and Java or Python or a website.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we’re going to start taking a look at another type of stored procedure called triggers. As I mentioned, triggers are a special kind of stored procedure, which is actually attached to an event that happens or occurs in our database. So we typically won’t be actually executing triggers manually, they are automatically executed. Whenever the event occurs. Think like a click event handler when you’re programming a user interface, and Java or Python or a website.</description>
     </item>
     <item>
       <title>Error Handling</title>
       <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/6-error-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/6-error-handling/</guid>
-      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look into error handling and exception handling in our SQL queries. So just like and normal programming languages, like try and try accept or try catch, we can do similar error handling in our SQL queries. So in order to throw a custom error, we’re going to use the word the statement throw, and then we would define an error number message for that error and then state for that error as well.</description>
+      <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look into error handling and exception handling in our SQL queries. So just like and normal programming languages, like try and try accept or try catch, we can do similar error handling in our SQL queries. So in order to throw a custom error, we’re going to use the word the statement throw, and then we would define an error number message for that error and then state for that error as well.</description>
     </item>
   </channel>
 </rss>

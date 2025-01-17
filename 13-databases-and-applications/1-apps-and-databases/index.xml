@@ -535,7 +535,7 @@
   <channel>
     <title>Applications &amp; Databases :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/13-databases-and-applications/1-apps-and-databases/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be talking about how we might use a database and programming application to use it. And first off as well, I do apologize for my voice. I’m kind of losing it today. But please bear with me, as we get through this things that we’ve covered. So far, we’ve covered quite a few things, running from single table and multi table queries, updates, deletes, and a lot of things in between.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be talking about how we might use a database and programming application to use it. And first off as well, I do apologize for my voice. I’m kind of losing it today. But please bear with me, as we get through this things that we’ve covered. So far, we’ve covered quite a few things, running from single table and multi table queries, updates, deletes, and a lot of things in between.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/13-databases-and-applications/1-apps-and-databases/index.xml" rel="self" type="application/rss+xml" />

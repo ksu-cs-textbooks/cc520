@@ -535,7 +535,7 @@
   <channel>
     <title>Relationship Variants :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/3-relationship-variants/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone in this feeder, we’re going to be talking about some variants of our standard relationships that we have inside of our database. So the standard relationships, one, or only 1010, or many, many, many of those sorts of things. So, first one that we’re going to talk about here is how we represent multiple relationships between two tables. So generally speaking, right, we can have a table that has more than one relationship with another.</description>
+    <description>Video Transcription Welcome back everyone in this feeder, we’re going to be talking about some variants of our standard relationships that we have inside of our database. So the standard relationships, one, or only 1010, or many, many, many of those sorts of things. So, first one that we’re going to talk about here is how we represent multiple relationships between two tables. So generally speaking, right, we can have a table that has more than one relationship with another.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/3-relationship-variants/index.xml" rel="self" type="application/rss+xml" />

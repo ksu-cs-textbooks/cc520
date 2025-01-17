@@ -535,7 +535,7 @@
   <channel>
     <title>Multivalue Correlated Subqueries Part 2 :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/05-subqueries/6-multivalue-correlated-subqueries-part-2/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. Let’s continue our discussion on correlated sub queries. So previously, we showed some different examples on how we can rewrite different sub queries with different operations like left join, we compared the differences between or the results of the in operator in the exists operator. But let’s take a look at a deeper example. Or a larger example of a correlated sub query, or at least another common use.</description>
+    <description>Video Transcription Welcome back everyone. Let’s continue our discussion on correlated sub queries. So previously, we showed some different examples on how we can rewrite different sub queries with different operations like left join, we compared the differences between or the results of the in operator in the exists operator. But let’s take a look at a deeper example. Or a larger example of a correlated sub query, or at least another common use.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/05-subqueries/6-multivalue-correlated-subqueries-part-2/index.xml" rel="self" type="application/rss+xml" />

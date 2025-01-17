@@ -535,7 +535,7 @@
   <channel>
     <title>Rank Window Functions :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/2-rank-window-functions/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re going to be taking a look at rank window functions. So this is the first out of the three types of window functions that we’ll be covering. And you can see the syntax here, where we have our general function. So we have our function here over. And we have three different options that we’ll we can include as part of our window, our of our over clause.</description>
+    <description>Video Transcription Welcome back everyone, In this video, we’re going to be taking a look at rank window functions. So this is the first out of the three types of window functions that we’ll be covering. And you can see the syntax here, where we have our general function. So we have our function here over. And we have three different options that we’ll we can include as part of our window, our of our over clause.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/07-window-functions/2-rank-window-functions/index.xml" rel="self" type="application/rss+xml" />

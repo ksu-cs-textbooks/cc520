@@ -535,7 +535,7 @@
   <channel>
     <title>Union :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/08-sets/2-union/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at our first set operator union. So the syntax looks very similar to the generic syntax that I’ve shown so far. We have an input query on the left union with an optional all a qualifier. And the right hand side was, which is the input query to add an optional ORDER BY clause.</description>
+    <description>Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at our first set operator union. So the syntax looks very similar to the generic syntax that I’ve shown so far. We have an input query on the left union with an optional all a qualifier. And the right hand side was, which is the input query to add an optional ORDER BY clause.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/08-sets/2-union/index.xml" rel="self" type="application/rss+xml" />

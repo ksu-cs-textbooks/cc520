@@ -535,7 +535,7 @@
   <channel>
     <title>Weak Entities :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/6-weak-entities/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re gonna be talking about weak entity types. So weak entities are entities where their keys come from other classes. So this example comes from things like order lines, or tracks for an album. So even with a wide world importers database, we’ve seen a lot of examples where the keys, for example, or her lines come from another table.</description>
+    <description>Video Transcription Welcome back everyone, In this video, we’re gonna be talking about weak entity types. So weak entities are entities where their keys come from other classes. So this example comes from things like order lines, or tracks for an album. So even with a wide world importers database, we’ve seen a lot of examples where the keys, for example, or her lines come from another table. And so typically, we tend to the sets are often used in one to many relationships, where, where we have a minimum of one rather than zero, or many, so one, or many versus zero, or many.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/6-weak-entities/index.xml" rel="self" type="application/rss+xml" />

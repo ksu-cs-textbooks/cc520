@@ -535,7 +535,7 @@
   <channel>
     <title>Derived Tables :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/06-table-expressions/2-derived-tables/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at derived tables. So derived tables are actually better known as a table valued sub queries. But with the restriction that a derived table can only be a self contained sub query, it cannot have any relation to the outer query or be a correlated sub query. So, derived tables are always going to be defined in the from clause and the outer of the outer outer query.</description>
+    <description>Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at derived tables. So derived tables are actually better known as a table valued sub queries. But with the restriction that a derived table can only be a self contained sub query, it cannot have any relation to the outer query or be a correlated sub query. So, derived tables are always going to be defined in the from clause and the outer of the outer outer query.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/2-derived-tables/index.xml" rel="self" type="application/rss+xml" />

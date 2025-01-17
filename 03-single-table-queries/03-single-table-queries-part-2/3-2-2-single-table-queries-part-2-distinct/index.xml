@@ -535,7 +535,7 @@
   <channel>
     <title>DISTINCT :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/</link>
-    <description>YouTube Video Video Transcription Welcome back, everyone. So let’s continue diving into adding more and more elements into our single table queries. In this video, we’re going to cover the distinct qualifier. So distinct allows us to guarantee uniqueness and the things that actually come out and are result of our query. So by default, we select all things. So all of the values inside of each of the columns that we actually pick.</description>
+    <description>Video Transcription Welcome back, everyone. So let’s continue diving into adding more and more elements into our single table queries. In this video, we’re going to cover the distinct qualifier. So distinct allows us to guarantee uniqueness and the things that actually come out and are result of our query. So by default, we select all things. So all of the values inside of each of the columns that we actually pick.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/index.xml" rel="self" type="application/rss+xml" />

@@ -535,7 +535,7 @@
   <channel>
     <title>Batches :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/1-batches/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion on programmable objects. And we’ll be covering a lot of different topics in this video series. But first, we’re going to talk about batches. So batches aren’t necessarily a programmable object. But we really do need to understand how sequel runs, queries in batches. So we can understand scope, and how programmable objects are actually functioning.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion on programmable objects. And we’ll be covering a lot of different topics in this video series. But first, we’re going to talk about batches. So batches aren’t necessarily a programmable object. But we really do need to understand how sequel runs, queries in batches. So we can understand scope, and how programmable objects are actually functioning.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/1-batches/index.xml" rel="self" type="application/rss+xml" />

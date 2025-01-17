@@ -535,7 +535,7 @@
   <channel>
     <title>Delete &amp; Truncate :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/11-data-modification/3-delete-truncate/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion into the Delete clause and our data modification series. So remember, our SQL language has two primary parts, the data manipulation language, which is what we’ve been working with primarily so far, and the data definition language, which involves things like the CREATE TABLE statement, we primarily worked with the SELECT clause for most of this course.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion into the Delete clause and our data modification series. So remember, our SQL language has two primary parts, the data manipulation language, which is what we’ve been working with primarily so far, and the data definition language, which involves things like the CREATE TABLE statement, we primarily worked with the SELECT clause for most of this course.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/11-data-modification/3-delete-truncate/index.xml" rel="self" type="application/rss+xml" />

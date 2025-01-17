@@ -535,7 +535,7 @@
   <channel>
     <title>Introduction to Table-valued Expressions :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/06-table-expressions/1-introduction-to-table-expressions/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video series, we’re gonna be taking a look at table expressions. So previously, we talked about sub queries, particularly two types of sub queries self contained and correlated, the self contained sub queries being a sub query that can actually execute in isolation, so on its own without any dependency with the outside query. correlated query is the opposite of that, where we are referencing at least one attribute or column, and the inner query from the outer query.</description>
+    <description>Video Transcription Welcome back everyone. In this video series, we’re gonna be taking a look at table expressions. So previously, we talked about sub queries, particularly two types of sub queries self contained and correlated, the self contained sub queries being a sub query that can actually execute in isolation, so on its own without any dependency with the outside query. correlated query is the opposite of that, where we are referencing at least one attribute or column, and the inner query from the outer query.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/1-introduction-to-table-expressions/index.xml" rel="self" type="application/rss+xml" />

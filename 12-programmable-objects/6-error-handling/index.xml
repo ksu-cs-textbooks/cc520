@@ -535,7 +535,7 @@
   <channel>
     <title>Error Handling :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/6-error-handling/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look into error handling and exception handling in our SQL queries. So just like and normal programming languages, like try and try accept or try catch, we can do similar error handling in our SQL queries. So in order to throw a custom error, we’re going to use the word the statement throw, and then we would define an error number message for that error and then state for that error as well.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look into error handling and exception handling in our SQL queries. So just like and normal programming languages, like try and try accept or try catch, we can do similar error handling in our SQL queries. So in order to throw a custom error, we’re going to use the word the statement throw, and then we would define an error number message for that error and then state for that error as well.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/6-error-handling/index.xml" rel="self" type="application/rss+xml" />

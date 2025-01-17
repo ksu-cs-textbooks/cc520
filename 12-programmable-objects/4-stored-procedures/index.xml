@@ -535,7 +535,7 @@
   <channel>
     <title>Stored Procedures :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/4-stored-procedures/</link>
-    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at stored procedures. So so far we have talked about some routines like user defined functions. Routines are nothing more than database objects that are stored as part of your database. But we have some differences here that that start to come out when we start talking about stored procedures. So we’ve seen views and user defined functions with both of them do provide some intermittent level of abstraction, it does insulate your database a little bit from your users, so your users don’t interact directly with the table.</description>
+    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at stored procedures. So so far we have talked about some routines like user defined functions. Routines are nothing more than database objects that are stored as part of your database. But we have some differences here that that start to come out when we start talking about stored procedures. So we’ve seen views and user defined functions with both of them do provide some intermittent level of abstraction, it does insulate your database a little bit from your users, so your users don’t interact directly with the table.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/12-programmable-objects/4-stored-procedures/index.xml" rel="self" type="application/rss+xml" />
