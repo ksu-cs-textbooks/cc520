@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Outer Joins :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/04-joins/6-outer-joins/</link>
-    <description>Video Transcription Welcome back everyone, this video, we’re gonna be taking a look at our last and final type of join the outer join. So here on the slide here actually shows some of the syntax that we’ve had so far, where we have our FROM clause. And we can join two different tables, two tables to and I say table source, because it doesn’t actually have to be a table from the database, right, it could be the result of a another join as well.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone, this video, we’re gonna be taking a look at our last and final type of join the outer join. So here on the slide here actually shows some of the syntax that we’ve had so far, where we have our FROM clause. And we can join two different tables, two tables to and I say table source, because it doesn’t actually have to be a table from the database, right, it could be the result of a another join as well.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/04-joins/6-outer-joins/index.xml" rel="self" type="application/rss+xml" />

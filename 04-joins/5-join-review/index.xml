@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Join Review :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/04-joins/5-join-review/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at our last and final join outer joins. Outer Joins in particular have three different variations for left and right. But before we get into a new joint, let’s take a look at the material that we’ve covered so far. So last time, we covered a lot of cross joins and inner joins, which are both table operators, that we can utilize to have queries that pull from more than one table.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at our last and final join outer joins. Outer Joins in particular have three different variations for left and right. But before we get into a new joint, let’s take a look at the material that we’ve covered so far. So last time, we covered a lot of cross joins and inner joins, which are both table operators, that we can utilize to have queries that pull from more than one table.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/04-joins/5-join-review/index.xml" rel="self" type="application/rss+xml" />

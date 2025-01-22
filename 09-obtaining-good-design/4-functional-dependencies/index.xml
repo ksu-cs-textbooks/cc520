@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Functional Dependencies :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/4-functional-dependencies/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re gonna be talking about functional dependencies in regard to normal forms. But what is a functional dependency? Well, a functional dependency is a form of a database constraint. functional dependencies in general aren’t always defined as part of a physical constraint on your database or inside of a table, like a unique constraint, or a foreign key or a primary key.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re gonna be talking about functional dependencies in regard to normal forms. But what is a functional dependency? Well, a functional dependency is a form of a database constraint. functional dependencies in general aren’t always defined as part of a physical constraint on your database or inside of a table, like a unique constraint, or a foreign key or a primary key.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/4-functional-dependencies/index.xml" rel="self" type="application/rss+xml" />

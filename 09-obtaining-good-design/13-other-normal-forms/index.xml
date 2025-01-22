@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Other Normal Forms :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/13-other-normal-forms/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’ll be taking a look at other normal forms. So so far we’ve only we focused on primarily Boyce Codd Normal Form. And we’ve mentioned third normal form. But if you remember this image here, there’s a lot of other things that we could actually achieve here. So we have normal forms one through five, as well as Boyce Codd Normal form, which is somewhere here in the middle here.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’ll be taking a look at other normal forms. So so far we’ve only we focused on primarily Boyce Codd Normal Form. And we’ve mentioned third normal form. But if you remember this image here, there’s a lot of other things that we could actually achieve here. So we have normal forms one through five, as well as Boyce Codd Normal form, which is somewhere here in the middle here.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/13-other-normal-forms/index.xml" rel="self" type="application/rss+xml" />

@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,10 +540,17 @@
   <channel>
     <title>Previous Syllabi :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/</link>
-    <description>Previous Versions of this page:&#xA;Syllabus </description>
+    <description>Previous Versions of this page:&#xA;CC 520 Syllabus - Spring 2024 Syllabus </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CC 520 Syllabus - Spring 2024 </title>
+      <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/spring2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/spring2024/</guid>
+      <description>Previous Versions Info The preferred method of contact for help will be through the Edstem Discussion board. Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.&#xA;All emails for the course should be sent to cc520-help@KSUemailProd.onmicrosoft.com (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response).</description>
+    </item>
     <item>
       <title>Syllabus</title>
       <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/spring2023/</link>

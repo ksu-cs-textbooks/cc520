@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Update :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/11-data-modification/4-update/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at data modification again, but in particular, how we might update data that exists already inside of our database, updating data is going to be achieved using the update statements. And again, this is an atomic operation, meaning that either all rows are updated, or none of them are updated. So it’s an all or nothing statement, it cannot be interrupted there.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at data modification again, but in particular, how we might update data that exists already inside of our database, updating data is going to be achieved using the update statements. And again, this is an atomic operation, meaning that either all rows are updated, or none of them are updated. So it’s an all or nothing statement, it cannot be interrupted there.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/11-data-modification/4-update/index.xml" rel="self" type="application/rss+xml" />

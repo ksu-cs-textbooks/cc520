@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Inner Joins :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/04-joins/3-inner-joins/</link>
-    <description>Video Transcription Welcome back, everyone. So we’ve already started to take a look at some of the joints that are available to us and SQL. So the cross joins is what we first started with. But now we’re going to continue on and explore enter joints. Now, the syntax for an inner join is very similar to the cross join. So from Table A, and then enter, join table B on some condition.</description>
+    <description>YouTube Video Video Transcription Welcome back, everyone. So we’ve already started to take a look at some of the joints that are available to us and SQL. So the cross joins is what we first started with. But now we’re going to continue on and explore enter joints. Now, the syntax for an inner join is very similar to the cross join. So from Table A, and then enter, join table B on some condition.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/04-joins/3-inner-joins/index.xml" rel="self" type="application/rss+xml" />

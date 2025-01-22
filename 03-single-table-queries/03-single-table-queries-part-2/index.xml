@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -545,28 +550,28 @@
       <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/</guid>
-      <description>Video Transcription Welcome back everyone. In this video series, we’re going to continue our talk on single table queries. Now last time, we covered a lot about the SELECT clause, which can be paired with from to choose which tables you’re picking from, and the where clause, which can filter which rows are being picked. And then we also did a little bit with group by and the having clause which filters those groups.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video series, we’re going to continue our talk on single table queries. Now last time, we covered a lot about the SELECT clause, which can be paired with from to choose which tables you’re picking from, and the where clause, which can filter which rows are being picked. And then we also did a little bit with group by and the having clause which filters those groups.</description>
     </item>
     <item>
       <title>DISTINCT</title>
       <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-2-single-table-queries-part-2-distinct/</guid>
-      <description>Video Transcription Welcome back, everyone. So let’s continue diving into adding more and more elements into our single table queries. In this video, we’re going to cover the distinct qualifier. So distinct allows us to guarantee uniqueness and the things that actually come out and are result of our query. So by default, we select all things. So all of the values inside of each of the columns that we actually pick.</description>
+      <description>YouTube Video Video Transcription Welcome back, everyone. So let’s continue diving into adding more and more elements into our single table queries. In this video, we’re going to cover the distinct qualifier. So distinct allows us to guarantee uniqueness and the things that actually come out and are result of our query. So by default, we select all things. So all of the values inside of each of the columns that we actually pick.</description>
     </item>
     <item>
       <title>TOP Results</title>
       <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we are going to take a look at how we pick certain specify the number of rows that we actually want to return. And this is without the actual where filter and things like that all the even though, we can actually include that. So the first one that we’re going to talk about here is top. Now, top is not standard in SQL, you will only find it in certain database management systems.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we are going to take a look at how we pick certain specify the number of rows that we actually want to return. And this is without the actual where filter and things like that all the even though, we can actually include that. So the first one that we’re going to talk about here is top. Now, top is not standard in SQL, you will only find it in certain database management systems.</description>
     </item>
     <item>
       <title>OFFSET-FETCH</title>
       <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/</guid>
-      <description>Video Transcription Welcome back everyone. So in this video, we are going to take a look at the offset fetch filter. So the offset fetch filter is the anti standard, equivalent to talk. So before we cover top, but top is going to only be specific to a certain set of database management systems. A SQL Server, for example, supports the top command. But not all, SQL is created equal.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. So in this video, we are going to take a look at the offset fetch filter. So the offset fetch filter is the anti standard, equivalent to talk. So before we cover top, but top is going to only be specific to a certain set of database management systems. A SQL Server, for example, supports the top command. But not all, SQL is created equal.</description>
     </item>
   </channel>
 </rss>

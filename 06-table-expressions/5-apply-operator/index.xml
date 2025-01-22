@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>The Apply Operator :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/06-table-expressions/5-apply-operator/</link>
-    <description>Video Transcription Welcome back everyone. And this video, we’re going to be taking a look at the Apply operator. So this is going to be our last table expression that we’re going to be looking at for this course. But again, the general syntax of the Apply operator is included up here. But I will of course, show some examples of how that looks. But what is the Apply operator.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. And this video, we’re going to be taking a look at the Apply operator. So this is going to be our last table expression that we’re going to be looking at for this course. But again, the general syntax of the Apply operator is included up here. But I will of course, show some examples of how that looks. But what is the Apply operator.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/5-apply-operator/index.xml" rel="self" type="application/rss+xml" />

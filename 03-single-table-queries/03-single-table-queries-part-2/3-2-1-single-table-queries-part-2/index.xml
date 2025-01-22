@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Single Table Queries Part 2 :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/</link>
-    <description>Video Transcription Welcome back everyone. In this video series, we’re going to continue our talk on single table queries. Now last time, we covered a lot about the SELECT clause, which can be paired with from to choose which tables you’re picking from, and the where clause, which can filter which rows are being picked. And then we also did a little bit with group by and the having clause which filters those groups.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video series, we’re going to continue our talk on single table queries. Now last time, we covered a lot about the SELECT clause, which can be paired with from to choose which tables you’re picking from, and the where clause, which can filter which rows are being picked. And then we also did a little bit with group by and the having clause which filters those groups.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-1-single-table-queries-part-2/index.xml" rel="self" type="application/rss+xml" />

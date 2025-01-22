@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Character Types :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be exploring a little bit more into different data types in SQL. So this first bit is going to be mostly on just text. So text comes in a variety of a couple different forms and databases, little bit more so in SQL Server, but we have a fixed length type, so char, and then in char, so in char being Unicode type, and we’ll talk about that here in just a minute.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be exploring a little bit more into different data types in SQL. So this first bit is going to be mostly on just text. So text comes in a variety of a couple different forms and databases, little bit more so in SQL Server, but we have a fixed length type, so char, and then in char, so in char being Unicode type, and we’ll talk about that here in just a minute.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-3/3-3-4-single-table-queries-part-3-text/index.xml" rel="self" type="application/rss+xml" />

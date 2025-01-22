@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Insert :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/11-data-modification/1-insert/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to start talking about data modification queries in SQL. So data modification, if remember, is one of two major parts of the SQL language. So we have data manipulation language, or DML, and Data Definition Language, or DDL. So far, we’ve been focusing on learning the SELECT clause and all of the other statements that go along with it. That is one of the six statements that we have in the data manipulation language.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to start talking about data modification queries in SQL. So data modification, if remember, is one of two major parts of the SQL language. So we have data manipulation language, or DML, and Data Definition Language, or DDL. So far, we’ve been focusing on learning the SELECT clause and all of the other statements that go along with it.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/11-data-modification/1-insert/index.xml" rel="self" type="application/rss+xml" />

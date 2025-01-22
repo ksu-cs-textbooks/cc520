@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Super Keys :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/8-super-keys/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re gonna continue our discussions on how we might design a good database. So last time we talked about third normal form Boyce Codd Normal Form, and how those normal forms can be defined using functional dependencies, and keys. And in particular, we’ve spent a lot of time talking about functional dependencies and what that entails. And we also defined how you might calculate the closure sets, and how those closure sets could help us find all functional dependencies, along with some other techniques for finding those as well.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re gonna continue our discussions on how we might design a good database. So last time we talked about third normal form Boyce Codd Normal Form, and how those normal forms can be defined using functional dependencies, and keys. And in particular, we’ve spent a lot of time talking about functional dependencies and what that entails. And we also defined how you might calculate the closure sets, and how those closure sets could help us find all functional dependencies, along with some other techniques for finding those as well.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/8-super-keys/index.xml" rel="self" type="application/rss+xml" />

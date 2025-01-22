@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Merge :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/11-data-modification/5-merge/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at the MERGE statement as part of our data modification video series. So what data modification, remember, we’ve covered so far inserts, updates, and delete. But now we’re going to look at a way to combine those operations, The MERGE statement is going to allow you to both insert and update in a single statement.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at the MERGE statement as part of our data modification video series. So what data modification, remember, we’ve covered so far inserts, updates, and delete. But now we’re going to look at a way to combine those operations, The MERGE statement is going to allow you to both insert and update in a single statement.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/11-data-modification/5-merge/index.xml" rel="self" type="application/rss+xml" />

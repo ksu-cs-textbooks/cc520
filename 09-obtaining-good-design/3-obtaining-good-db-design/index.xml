@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Obtaining Good Database Design :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/3-obtaining-good-db-design/</link>
-    <description>Video Transcription Welcome back everyone. And in this video, we’re going to start taking a look at some of the fundamental database design theory, that makes a good design better. So we’ve already covered some things that centers are on, on what not to do with a database design, right? primarily centered around inconsistency with data and redundant information. We saw this with the university course example as well. But data redundancy can be a problem with you know, with redundant data, which record is the consistent one, which one is the truth, right?</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to start taking a look at some of the fundamental database design theory, that makes a good design better. So we’ve already covered some things that centers are on, on what not to do with a database design, right? primarily centered around inconsistency with data and redundant information. We saw this with the university course example as well.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/3-obtaining-good-db-design/index.xml" rel="self" type="application/rss+xml" />

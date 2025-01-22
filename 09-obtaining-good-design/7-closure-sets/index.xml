@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Closure Sets :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/7-closure-sets/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to get to our discussion on extracting more functional dependencies from our database. So before we ended on the Armstrong rules, which worked fairly well in pulling out more functional dependencies, but we found that it was a little bit tedious to actually do. And if we applied that to a much larger schema or much larger database becomes a little bit impractical and use.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to get to our discussion on extracting more functional dependencies from our database. So before we ended on the Armstrong rules, which worked fairly well in pulling out more functional dependencies, but we found that it was a little bit tedious to actually do. And if we applied that to a much larger schema or much larger database becomes a little bit impractical and use.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/7-closure-sets/index.xml" rel="self" type="application/rss+xml" />

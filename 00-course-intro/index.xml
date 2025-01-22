@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -538,10 +543,10 @@
     <description>Chapter 0 Course Details Welcome to CC 520!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jun 2024 16:24:55 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 14:19:33 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/00-course-intro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CC 520 Syllabus - Spring 2024 </title>
+      <title>CC 520 Syllabus - Spring 2025</title>
       <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/0-0-syllabus-520/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/00-course-intro/0-0-syllabus-520/</guid>
@@ -552,14 +557,14 @@
       <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/0-1-mssqlserver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/00-course-intro/0-1-mssqlserver/</guid>
-      <description>In order to complete homework assignments and practice on your own, you will need access to SQL Server. Your access requires a client tool and a server.&#xA;Client Tools For this course, you will need to use a SQL client tool to access a SQL Server instance.&#xA;All resources are available via remote access on remote.cs.ksu.edu. See https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access for more information on how to utilize the remote resources. If you do not have a CS account, one can be requested here: https://selfserv.</description>
+      <description>Info With the new policies regarding the K-State VPN, I am working on an alternative for those of you who cannot install MS SQL Server on your own machine. I will post updates as soon as possible!&#xA;In order to complete homework assignments and practice on your own, you will need access to SQL Server. Your access requires a client tool and a server.&#xA;Client Tools For this course, you will need to use a SQL client tool to access a SQL Server instance.</description>
     </item>
     <item>
       <title>Previous Syllabi</title>
       <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/00-course-intro/old-syllabi/</guid>
-      <description>Previous Versions of this page:&#xA;Syllabus </description>
+      <description>Previous Versions of this page:&#xA;CC 520 Syllabus - Spring 2024 Syllabus </description>
     </item>
   </channel>
 </rss>

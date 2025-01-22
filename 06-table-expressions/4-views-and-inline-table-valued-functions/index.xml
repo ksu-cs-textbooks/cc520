@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Views and Inline Table-valued Functions :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at views and table valued functions. And so up here I have both of the syntax for each. So have the syntax for review and the syntax for inline table valued functions. And I will show the Show More examples of these and will hopefully make a little bit more sense then views and inline table valued functions are provide an extra benefits when compared to derive tables and CTS.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at views and table valued functions. And so up here I have both of the syntax for each. So have the syntax for review and the syntax for inline table valued functions. And I will show the Show More examples of these and will hopefully make a little bit more sense then views and inline table valued functions are provide an extra benefits when compared to derive tables and CTS.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/index.xml" rel="self" type="application/rss+xml" />

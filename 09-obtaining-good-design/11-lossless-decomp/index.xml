@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Lossless Decomposition :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/11-lossless-decomp/</link>
-    <description>Video Transcription Welcome back everyone, we’re going to continue our discussion on database normalization and obtaining good database design. So previously, what we’ve seen, we’ve talked about third normal form and Boyce Codd Normal Form, how we could calculate the functional dependencies and the super keys, and how we can use those to find that or how we can use those to decompose our relation to break it down into Boyce Codd Normal Form.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone, we’re going to continue our discussion on database normalization and obtaining good database design. So previously, what we’ve seen, we’ve talked about third normal form and Boyce Codd Normal Form, how we could calculate the functional dependencies and the super keys, and how we can use those to find that or how we can use those to decompose our relation to break it down into Boyce Codd Normal Form.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/11-lossless-decomp/index.xml" rel="self" type="application/rss+xml" />

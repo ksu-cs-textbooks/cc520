@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Identity &amp; Sequence Objects :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/11-data-modification/2-identity-sequence/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to continue our discussion on data modification. And in particular, what happens when we use Insert on a table that has columns that are identity or sequence objects. So, in general, a lot of our tables are going to have an identity column or a sequence object, because a lot of what our keys are based off of our primary keys are usually going to be a surrogate key that is, generally speaking, auto numbered.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to continue our discussion on data modification. And in particular, what happens when we use Insert on a table that has columns that are identity or sequence objects. So, in general, a lot of our tables are going to have an identity column or a sequence object, because a lot of what our keys are based off of our primary keys are usually going to be a surrogate key that is, generally speaking, auto numbered.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/11-data-modification/2-identity-sequence/index.xml" rel="self" type="application/rss+xml" />

@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Aggregate Window Functions :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/3-aggregate-window-functions/</link>
-    <description>Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at aggregate window functions, aggregate window functions are going to have similar syntax as previous window functions. So you have the function applied over and then we can specify and define our windows that the function is being applied over the window being defined using the partition by clause, order of the rows within that window.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at aggregate window functions, aggregate window functions are going to have similar syntax as previous window functions. So you have the function applied over and then we can specify and define our windows that the function is being applied over the window being defined using the partition by clause, order of the rows within that window.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/07-window-functions/3-aggregate-window-functions/index.xml" rel="self" type="application/rss+xml" />

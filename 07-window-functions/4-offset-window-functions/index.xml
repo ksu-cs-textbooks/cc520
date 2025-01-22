@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Offset Window Functions :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/07-window-functions/4-offset-window-functions/</link>
-    <description>Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at offset window functions. So our syntax is very similar to other window functions. So we have our function that we are going to apply over our window that is defined here. And remember, we can define our window using a partition. Without the partition, our window is going to encompass our entire query set, then we can order the rows within our window.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at offset window functions. So our syntax is very similar to other window functions. So we have our function that we are going to apply over our window that is defined here. And remember, we can define our window using a partition. Without the partition, our window is going to encompass our entire query set, then we can order the rows within our window.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/07-window-functions/4-offset-window-functions/index.xml" rel="self" type="application/rss+xml" />

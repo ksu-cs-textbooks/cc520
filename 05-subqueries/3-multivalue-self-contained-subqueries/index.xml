@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Multi-value Self-contained Subqueries :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/05-subqueries/3-multivalue-self-contained-subqueries/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking another look at self contained sub queries. But more specifically, self contained sub queries that return more than one row as a result with one column. So self contained sub queries, remember is a query that can execute in isolation, apart from our outer query. But a multivalued self contained sub query is going to be a sub query that returns one single column, but potentially more than one row.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking another look at self contained sub queries. But more specifically, self contained sub queries that return more than one row as a result with one column. So self contained sub queries, remember is a query that can execute in isolation, apart from our outer query. But a multivalued self contained sub query is going to be a sub query that returns one single column, but potentially more than one row.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/05-subqueries/3-multivalue-self-contained-subqueries/index.xml" rel="self" type="application/rss+xml" />

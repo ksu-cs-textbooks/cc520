@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Introduction to Joins :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/04-joins/1-introduction-to-joins/</link>
-    <description>Video Transcription Welcome back everyone. In this video series, we’re going to be talking about joins with databases. So up to this point, we’ve focused on single table queries. But now we can start working on bringing in data from multiple, multiple tables and more or multiple data sources. joins, we’re going to be talking about overall in this set of videos, cross joins, Inner Joins, and pretty much variations of those.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video series, we’re going to be talking about joins with databases. So up to this point, we’ve focused on single table queries. But now we can start working on bringing in data from multiple, multiple tables and more or multiple data sources. joins, we’re going to be talking about overall in this set of videos, cross joins, Inner Joins, and pretty much variations of those.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/04-joins/1-introduction-to-joins/index.xml" rel="self" type="application/rss+xml" />

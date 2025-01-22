@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>TOP Results :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we are going to take a look at how we pick certain specify the number of rows that we actually want to return. And this is without the actual where filter and things like that all the even though, we can actually include that. So the first one that we’re going to talk about here is top. Now, top is not standard in SQL, you will only find it in certain database management systems.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we are going to take a look at how we pick certain specify the number of rows that we actually want to return. And this is without the actual where filter and things like that all the even though, we can actually include that. So the first one that we’re going to talk about here is top. Now, top is not standard in SQL, you will only find it in certain database management systems.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-3-single-table-queries-part-2-top/index.xml" rel="self" type="application/rss+xml" />

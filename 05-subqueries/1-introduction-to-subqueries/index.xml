@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Introduction to Subqueries :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/05-subqueries/1-introduction-to-subqueries/</link>
-    <description>Video Transcription Welcome back everyone. In this video we’re going to be focusing on sub queries. Now up to this point, we’ve covered how to do single table queries. Multi table queries with join. So Inner Joins cross joins outer joins. But in this video, we’re going to be focusing on how we can nest queries inside of each other. But before that, let’s review a few things. Remember our processing order of SQL and the order that we write SQL is different.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video we’re going to be focusing on sub queries. Now up to this point, we’ve covered how to do single table queries. Multi table queries with join. So Inner Joins cross joins outer joins. But in this video, we’re going to be focusing on how we can nest queries inside of each other. But before that, let’s review a few things.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/05-subqueries/1-introduction-to-subqueries/index.xml" rel="self" type="application/rss+xml" />

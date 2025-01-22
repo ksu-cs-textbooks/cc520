@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Except :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/08-sets/4-except/</link>
-    <description>Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at the Accept set operator. So accept is going to have similar syntax as we’ve seen so far. Again, input to query one on the left input query two on the right with the except operator in between, and an optional order by to end with. So what does the except operator actually do?</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at the Accept set operator. So accept is going to have similar syntax as we’ve seen so far. Again, input to query one on the left input query two on the right with the except operator in between, and an optional order by to end with. So what does the except operator actually do?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/08-sets/4-except/index.xml" rel="self" type="application/rss+xml" />

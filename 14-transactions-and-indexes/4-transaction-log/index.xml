@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Transaction Log :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/14-transactions-and-indexes/4-transaction-log/</link>
-    <description>Video Transcription This topic I’m going to be mostly skimming through, it’s important to be aware of, but not, I’m not really going to be testing on it. It’s more of a, what happens underneath the hood sort of thing. So we talked about transactions last time, right? Transactions are a essentially a receipt for any, any SQL that we actually execute on our database, including selects, updates, inserts, and deletes.</description>
+    <description>YouTube Video Video Transcription This topic I’m going to be mostly skimming through, it’s important to be aware of, but not, I’m not really going to be testing on it. It’s more of a, what happens underneath the hood sort of thing. So we talked about transactions last time, right? Transactions are a essentially a receipt for any, any SQL that we actually execute on our database, including selects, updates, inserts, and deletes.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/14-transactions-and-indexes/4-transaction-log/index.xml" rel="self" type="application/rss+xml" />

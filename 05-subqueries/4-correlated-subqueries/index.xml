@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Correlated Subqueries :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/05-subqueries/4-correlated-subqueries/</link>
-    <description>Video Transcription Welcome back everyone. And in this video, we’re going to continue our discussion on sub queries. So previously, we learned that we could nest one query inside of another. And that led us to having outer queries and inner queries or sub queries, and the those results of the inner query then being passed back for processing and the outer query. And we also learned that with sub queries, we have two primary variations, self contained and correlated sub queries.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to continue our discussion on sub queries. So previously, we learned that we could nest one query inside of another. And that led us to having outer queries and inner queries or sub queries, and the those results of the inner query then being passed back for processing and the outer query. And we also learned that with sub queries, we have two primary variations, self contained and correlated sub queries.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/05-subqueries/4-correlated-subqueries/index.xml" rel="self" type="application/rss+xml" />

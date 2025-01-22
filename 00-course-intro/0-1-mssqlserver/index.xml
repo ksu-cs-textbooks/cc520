@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>MS SQL Server Access :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/00-course-intro/0-1-mssqlserver/</link>
-    <description>In order to complete homework assignments and practice on your own, you will need access to SQL Server. Your access requires a client tool and a server.&#xA;Client Tools For this course, you will need to use a SQL client tool to access a SQL Server instance.&#xA;All resources are available via remote access on remote.cs.ksu.edu. See https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access for more information on how to utilize the remote resources. If you do not have a CS account, one can be requested here: https://selfserv.</description>
+    <description>Info With the new policies regarding the K-State VPN, I am working on an alternative for those of you who cannot install MS SQL Server on your own machine. I will post updates as soon as possible!&#xA;In order to complete homework assignments and practice on your own, you will need access to SQL Server. Your access requires a client tool and a server.&#xA;Client Tools For this course, you will need to use a SQL client tool to access a SQL Server instance.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/00-course-intro/0-1-mssqlserver/index.xml" rel="self" type="application/rss+xml" />

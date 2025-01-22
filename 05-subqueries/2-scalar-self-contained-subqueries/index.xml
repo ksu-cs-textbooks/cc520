@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Scalar Self-contained Subqueries :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/05-subqueries/2-scalar-self-contained-subqueries/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to focus on self contained sub queries. And specifically examples of self contained sub queries that return only scalar, or single values. So self contained sub queries, if you remember, have no dependency on the outer query. So we can execute these queries in isolation, without any without any information from other queries. Logically, self contained sub queries are only executed once.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to focus on self contained sub queries. And specifically examples of self contained sub queries that return only scalar, or single values. So self contained sub queries, if you remember, have no dependency on the outer query. So we can execute these queries in isolation, without any without any information from other queries. Logically, self contained sub queries are only executed once.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/05-subqueries/2-scalar-self-contained-subqueries/index.xml" rel="self" type="application/rss+xml" />

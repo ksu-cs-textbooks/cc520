@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/05-subqueries/5-multivalue-correlated-subqueries/</link>
-    <description>Video Transcription Welcome back, everyone. So let’s continue our discussion on correlated sub queries. So previously, I showed some examples of a correlated sub queries primarily, though with scalar value return, so correlated subqueries, that only had one value as a result. However, the distinction between that and a self contained valued a self contained single valued sub query is that the correlated version has to be executed for every single row four, the outer query, versus the self contained query is only executed once.</description>
+    <description>YouTube Video Video Transcription Welcome back, everyone. So let’s continue our discussion on correlated sub queries. So previously, I showed some examples of a correlated sub queries primarily, though with scalar value return, so correlated subqueries, that only had one value as a result. However, the distinction between that and a self contained valued a self contained single valued sub query is that the correlated version has to be executed for every single row four, the outer query, versus the self contained query is only executed once.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/05-subqueries/5-multivalue-correlated-subqueries/index.xml" rel="self" type="application/rss+xml" />

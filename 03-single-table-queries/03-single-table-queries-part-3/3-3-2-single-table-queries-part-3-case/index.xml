@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>CASE :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/</link>
-    <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at the case statement in SQL. So the case statement is very, very much like the switch statements in Java, although in Python, they don’t have the language to have a switch statement. But just like a chained if else clause. So in its simple form, it’s going to compare scalar values, so like numbers and things like that, and return a value with its first match.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at the case statement in SQL. So the case statement is very, very much like the switch statements in Java, although in Python, they don’t have the language to have a switch statement. But just like a chained if else clause. So in its simple form, it’s going to compare scalar values, so like numbers and things like that, and return a value with its first match.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/03-single-table-queries/03-single-table-queries-part-3/3-3-2-single-table-queries-part-3-case/index.xml" rel="self" type="application/rss+xml" />

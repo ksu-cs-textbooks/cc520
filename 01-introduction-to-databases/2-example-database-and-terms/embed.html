@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -560,19 +565,19 @@
     <link href="/cc520/01-introduction-to-databases/2-example-database-and-terms/index.print.html" rel="alternate" type="text/html" title="What is a Database? :: CC 520 Textbook">
     <link href="/cc520/01-introduction-to-databases/2-example-database-and-terms/tele.html" rel="alternate" type="text/html" title="What is a Database? :: CC 520 Textbook">
     
-  <link href="/cc520/css/fontawesome-all.min.css?1737135018" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/css/fontawesome-all.min.css?1737135018" rel="stylesheet"></noscript>
-  <link href="/cc520/css/nucleus.css?1737135018" rel="stylesheet">
-  <link href="/cc520/css/auto-complete.css?1737135018" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/css/auto-complete.css?1737135018" rel="stylesheet"></noscript>
-  <link href="/cc520/css/perfect-scrollbar.min.css?1737135018" rel="stylesheet">
-  <link href="/cc520/css/fonts.css?1737135018" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/css/fonts.css?1737135018" rel="stylesheet"></noscript>
-  <link href="/cc520/css/theme.css?1737135018" rel="stylesheet">
+  <link href="/cc520/css/fontawesome-all.min.css?1737579289" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/css/fontawesome-all.min.css?1737579289" rel="stylesheet"></noscript>
+  <link href="/cc520/css/nucleus.css?1737579289" rel="stylesheet">
+  <link href="/cc520/css/auto-complete.css?1737579289" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/css/auto-complete.css?1737579289" rel="stylesheet"></noscript>
+  <link href="/cc520/css/perfect-scrollbar.min.css?1737579289" rel="stylesheet">
+  <link href="/cc520/css/fonts.css?1737579289" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/css/fonts.css?1737579289" rel="stylesheet"></noscript>
+  <link href="/cc520/css/theme.css?1737579289" rel="stylesheet">
   
   
   
-  <link href="/cc520/css/theme-light-theme.css?1737135018" rel="stylesheet" id="R-variant-style">
-  <link href="/cc520/css/chroma-relearn-light.css?1737135018" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc520/css/variant.css?1737135018" rel="stylesheet">
-  <link href="/cc520/css/print.css?1737135018" rel="stylesheet" media="print">
+  <link href="/cc520/css/theme-light-theme.css?1737579289" rel="stylesheet" id="R-variant-style">
+  <link href="/cc520/css/chroma-relearn-light.css?1737579289" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc520/css/variant.css?1737579289" rel="stylesheet">
+  <link href="/cc520/css/print.css?1737579289" rel="stylesheet" media="print">
   
   
   
@@ -595,7 +600,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc520/css/custom.css?1737135018" rel="stylesheet">
+  <link href="/cc520/css/custom.css?1737579289" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc520/01-introduction-to-databases/2-example-database-and-terms/embed.html">
@@ -618,8 +623,8 @@
 </div>
 
 <h2 id="example-data">Example Data</h2>
-<p><a href="#R-image-e9af18aaf79c09f907ac963dac1a28d0" class="lightbox-link"><img alt="Example Data Table" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/full-table.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e9af18aaf79c09f907ac963dac1a28d0"><img alt="Example Data Table" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/full-table.png"></a></p>
+<p><a href="#R-image-0b598bde55302b3fb87bf31f01713e00" class="lightbox-link"><img alt="Example Data Table" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/full-table.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0b598bde55302b3fb87bf31f01713e00"><img alt="Example Data Table" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/full-table.png"></a></p>
 <p>Here we can see some basic information about universities in a table.  Much of the data we use in relational databases resemble this format, except the information is  typically at a much larger scale.  A lot of situations find this data being stored in spreadsheets, comma separated value (csv) files, and alike; however, these formats have limited capability in manipulating and storing data.  Spreadsheet applications can do some of this type of work, but there are limits&hellip;particularly in terms of scalability, accessibility, and reliability.  That is where relational databases come into play!</p>
 <h3 id="operations">Operations</h3>
 <p>In mathematics, when we perform operations on numbers, we get numbers as a result.  So in databases, when we perform operations on datasets, we can get new datasets as a result.  The vast majority of operations we perform on a database will be done in the form of a <strong>query</strong>.  Think of a query as a question that we would like answered about some data or <strong>entity</strong>.  The word <strong>entity</strong> can be used to describe a single record about something contained in a database, like one single student record.  We can extract entities using a query with three primary database operations: <strong>selection</strong>, <strong>projection</strong>, and <strong>join</strong>.</p>
@@ -636,18 +641,18 @@
 <ul>
 <li>
 <p><strong>Selection</strong> is used to extract a specific subset of <strong>rows</strong> that match a certain predicate (condition).  This operation acts like a <em>filter</em> for querying data. The highlighted rows below are from <em>selecting</em> universities where the &lsquo;Year Established&rsquo; is on or before 1863.
-<a href="#R-image-3c08efacf149f3eac293f03c74b8ecc0" class="lightbox-link"><img alt="Selection" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/selection.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3c08efacf149f3eac293f03c74b8ecc0"><img alt="Selection" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/selection.png"></a></p>
+<a href="#R-image-7cbea05c9c83ff0fa54fb94849e58b69" class="lightbox-link"><img alt="Selection" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/selection.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7cbea05c9c83ff0fa54fb94849e58b69"><img alt="Selection" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/selection.png"></a></p>
 </li>
 <li>
 <p><strong>Projection</strong> is used to extract a specific subset of <strong>columns</strong>.  This operation chooses which parts of the data are used.  The columns that are chosen based off of the provided column names.  The highlighted columns in the table below represent the <em>projection</em> of the columns &lsquo;Name&rsquo;, &lsquo;Nickname&rsquo;, &lsquo;Website&rsquo;, and &lsquo;Location&rsquo;.  Note that when <em>projection</em> is used without <em>selection</em>, all rows of data are included.
-<a href="#R-image-a94e7796316a9f16aa4f9455c839703b" class="lightbox-link"><img alt="Projection" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/projection.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a94e7796316a9f16aa4f9455c839703b"><img alt="Projection" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/projection.png"></a></p>
+<a href="#R-image-09661e3e28368c59151e65df210a8551" class="lightbox-link"><img alt="Projection" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/projection.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-09661e3e28368c59151e65df210a8551"><img alt="Projection" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/projection.png"></a></p>
 </li>
 <li>
 <p><strong>Join</strong> is used to combine data from multiple datasets.  There are different types of joins that we will talk about&hellip;but when tables are joined, not all data has to be included in the operation.  In the example below, you can see how the &lsquo;School&rsquo; dataset can be joined with parts of the &lsquo;Conferences&rsquo; dataset to create a new dataset all together.
-<a href="#R-image-1db1dc82ab4162949b9d2dcb44761688" class="lightbox-link"><img alt="Joined Data" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/joined.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1db1dc82ab4162949b9d2dcb44761688"><img alt="Joined Data" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/joined.png"></a></p>
+<a href="#R-image-acc1da6c026e3ae86b3e3a1fc8ee76c6" class="lightbox-link"><img alt="Joined Data" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/joined.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-acc1da6c026e3ae86b3e3a1fc8ee76c6"><img alt="Joined Data" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/joined.png"></a></p>
 </li>
 </ul>
 
@@ -661,8 +666,8 @@
 </div>
 </div>
 <h2 id="relational-vocabulary">Relational Vocabulary</h2>
-<p><a href="#R-image-cd09d919d5a34df9d312a2219c1d4922" class="lightbox-link"><img alt="Relational Terms" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/relationalTerms.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cd09d919d5a34df9d312a2219c1d4922"><img alt="Relational Terms" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/relationalTerms.png"></a></p>
+<p><a href="#R-image-44ed2300f6382db2c4ffcf35cc6565a2" class="lightbox-link"><img alt="Relational Terms" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/relationalTerms.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-44ed2300f6382db2c4ffcf35cc6565a2"><img alt="Relational Terms" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc520/images/01-introduction-to-databases/relationalTerms.png"></a></p>
 <p>There are a lot of terms that are used when working with databases.  Some words can be used interchangeably.</p>
 <ul>
 <li>
@@ -698,10 +703,10 @@
 
 
 
-<script src="/cc520/js/clipboard.min.js?1737135018" defer></script>
-<script src="/cc520/js/perfect-scrollbar.min.js?1737135018" defer></script>
-<script src="/cc520/js/theme.js?1737135018" defer></script>
+<script src="/cc520/js/clipboard.min.js?1737579289" defer></script>
+<script src="/cc520/js/perfect-scrollbar.min.js?1737579289" defer></script>
+<script src="/cc520/js/theme.js?1737579289" defer></script>
 
-<script src="/cc520/js/embed-iframe.js?1737135018" defer></script>
+<script src="/cc520/js/embed-iframe.js?1737579289" defer></script>
 </body>
 </html>

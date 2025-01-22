@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -545,49 +550,49 @@
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/1-general-design-practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/1-general-design-practices/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we’re going to be continuing our discussion on database design. And so to start out, we’re going to really focus on some general best practices when we talk about designing our tables apart from general database theory. So, first off table names should be nouns. And this sounds kind of odd at first, but when we actually start talking about the logical representation of a lot of our data, right, the we typically don’t always talk about our data in just nouns.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be continuing our discussion on database design. And so to start out, we’re going to really focus on some general best practices when we talk about designing our tables apart from general database theory. So, first off table names should be nouns. And this sounds kind of odd at first, but when we actually start talking about the logical representation of a lot of our data, right, the we typically don’t always talk about our data in just nouns.</description>
     </item>
     <item>
       <title>Database Relationship Types</title>
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/2-relationship-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/2-relationship-types/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we’re going to be taking a deeper dive into relationship types between our tables. And we’ve talked about some of these in passing before when we talked about UML diagrams. So we’ve seen these as part of the homework, and throughout our various other videos that we’ve had in this class so far. But let’s take a deeper dive into what these represents.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a deeper dive into relationship types between our tables. And we’ve talked about some of these in passing before when we talked about UML diagrams. So we’ve seen these as part of the homework, and throughout our various other videos that we’ve had in this class so far. But let’s take a deeper dive into what these represents.</description>
     </item>
     <item>
       <title>Relationship Variants</title>
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/3-relationship-variants/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/3-relationship-variants/</guid>
-      <description>Video Transcription Welcome back everyone in this feeder, we’re going to be talking about some variants of our standard relationships that we have inside of our database. So the standard relationships, one, or only 1010, or many, many, many of those sorts of things. So, first one that we’re going to talk about here is how we represent multiple relationships between two tables. So generally speaking, right, we can have a table that has more than one relationship with another.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone in this feeder, we’re going to be talking about some variants of our standard relationships that we have inside of our database. So the standard relationships, one, or only 1010, or many, many, many of those sorts of things. So, first one that we’re going to talk about here is how we represent multiple relationships between two tables. So generally speaking, right, we can have a table that has more than one relationship with another.</description>
     </item>
     <item>
       <title>Database Subclasses</title>
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/4-subclasses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/4-subclasses/</guid>
-      <description>Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at subclasses. Now subclasses seem kind of an odd thing for databases. subclasses are an object oriented programming idea, right? So we have a parent class serves as our base class. And we have child classes that inherit, you know, attributes and behaviors from the parent. But we actually could represent similar ideas inside databases, typically, we’re going to have three different kinds of approaches here, the object oriented approach, which is really one, one direct mapping to what you would expect in like Java, or Python, where you have a table for each class or type.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at subclasses. Now subclasses seem kind of an odd thing for databases. subclasses are an object oriented programming idea, right? So we have a parent class serves as our base class. And we have child classes that inherit, you know, attributes and behaviors from the parent. But we actually could represent similar ideas inside databases, typically, we’re going to have three different kinds of approaches here, the object oriented approach, which is really one, one direct mapping to what you would expect in like Java, or Python, where you have a table for each class or type.</description>
     </item>
     <item>
       <title>Union Types</title>
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/5-union-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/5-union-types/</guid>
-      <description>Video Transcription Welcome back everyone. In this video, we’re going to continue talking about various types of entities, and subclasses, including union types. This is also somewhat of a subclass idea. Generally speaking with Union types, sometimes relationships are mutually exclusive, like we showed just a little bit ago, that can involve all sorts of things, right? Folders, with files, users groups, all of these things are mutually exclusive, right?</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to continue talking about various types of entities, and subclasses, including union types. This is also somewhat of a subclass idea. Generally speaking with Union types, sometimes relationships are mutually exclusive, like we showed just a little bit ago, that can involve all sorts of things, right? Folders, with files, users groups, all of these things are mutually exclusive, right?</description>
     </item>
     <item>
       <title>Weak Entities</title>
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/6-weak-entities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/6-weak-entities/</guid>
-      <description>Video Transcription Welcome back everyone, In this video, we’re gonna be talking about weak entity types. So weak entities are entities where their keys come from other classes. So this example comes from things like order lines, or tracks for an album. So even with a wide world importers database, we’ve seen a lot of examples where the keys, for example, or her lines come from another table. And so typically, we tend to the sets are often used in one to many relationships, where, where we have a minimum of one rather than zero, or many, so one, or many versus zero, or many.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re gonna be talking about weak entity types. So weak entities are entities where their keys come from other classes. So this example comes from things like order lines, or tracks for an album. So even with a wide world importers database, we’ve seen a lot of examples where the keys, for example, or her lines come from another table.</description>
     </item>
     <item>
       <title>The Multiple Path Problem</title>
       <link>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/7-multi-path-problem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc520/10-design-patterns-practices/7-multi-path-problem/</guid>
-      <description>Video Transcription Welcome back everyone. And in this video, we’ll be talking about the multi path problem. So we’ve already talked about multi way relationships where we have multiple relationships between one or more tables. But the multiple path problem can come out of this type of relationship. So when there is more than one path between a single entity to another, we get an issue, right? This provides multiple different ways to do our joins, when we write our SQL queries, and when we have multiple ways of performing our joins when writing our queries, we can actually get different results depending on which direction we actually started joining first.</description>
+      <description>YouTube Video Video Transcription Welcome back everyone. And in this video, we’ll be talking about the multi path problem. So we’ve already talked about multi way relationships where we have multiple relationships between one or more tables. But the multiple path problem can come out of this type of relationship. So when there is more than one path between a single entity to another, we get an issue, right? This provides multiple different ways to do our joins, when we write our SQL queries, and when we have multiple ways of performing our joins when writing our queries, we can actually get different results depending on which direction we actually started joining first.</description>
     </item>
   </channel>
 </rss>

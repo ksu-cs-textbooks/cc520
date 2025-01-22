@@ -28,6 +28,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -535,7 +540,7 @@
   <channel>
     <title>Cross Joins :: CC 520 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc520/04-joins/2-cross-joins/</link>
-    <description>Video Transcription Welcome back everyone, In this video, we’re going to start taking a look at cross join. So cross joins are going to be the first join out of the three that we’re going to be covering. So on here, the syntax is listed on the slide. So from Table A cross join table B. And so the table source is listed here and a little bit of a generic sense, because the table source itself can actually be the result of another join.</description>
+    <description>YouTube Video Video Transcription Welcome back everyone, In this video, we’re going to start taking a look at cross join. So cross joins are going to be the first join out of the three that we’re going to be covering. So on here, the syntax is listed on the slide. So from Table A cross join table B. And so the table source is listed here and a little bit of a generic sense, because the table source itself can actually be the result of another join.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc520/04-joins/2-cross-joins/index.xml" rel="self" type="application/rss+xml" />
