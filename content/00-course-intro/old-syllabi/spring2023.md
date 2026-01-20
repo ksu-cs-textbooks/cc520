@@ -3,7 +3,7 @@ title: "Syllabus"
 weight: 10
 pre: "0. "
 ---
-
+- [Previous Versions]({{% relref "./" %}})
 ## CC 520 - Database Fundamentals - Syllabus
 
 {{% notice info %}}
@@ -36,7 +36,7 @@ These books are **not** required.  I will be providing notes, videos, and walk t
 
 ### Required Software
 
-We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access]({{% relref "00-course-intro/0-1-mssqlserver" %}}). 
+We will be utilizing MS SQL Server for this course.  For information about accessing SQL Server for the course, see [SQL Server Access]({{% ref "00-course-intro/0-1-mssqlserver.md" %}}). 
 
 ### Course Overview
 

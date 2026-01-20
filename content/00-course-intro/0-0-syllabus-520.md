@@ -6,7 +6,8 @@ pre: "0. "
 
 *Content in this syllabus is subject to change*
 - [Link to this Syllabus]({{% ref "./" %}})
-- [Previous Versions]({{% relref "./old-syllabi" %}})
+- [Previous Versions]({{% ref "00-course-intro/old-syllabi/_index.md" %}})
+<!-- - [Previous Versions]({{% relref "./old-syllabi" %}}) -->
 
 ## *CC 520 Spring 2026*
 
@@ -41,7 +42,7 @@ These books are **not** required. I will be providing notes, videos, and walk th
 
 ### Required Software
 
-We will be utilizing MS SQL Server for this course. For information about accessing SQL Server for the course, see [SQL Server Access]({{% relref "00-course-intro/0-1-mssqlserver" %}}). 
+We will be utilizing MS SQL Server for this course. For information about accessing SQL Server for the course, see [SQL Server Access]({{% ref "00-course-intro/0-1-mssqlserver.md" %}}). 
 
 
 <hr/>
