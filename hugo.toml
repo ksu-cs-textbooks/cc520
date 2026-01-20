@@ -44,7 +44,7 @@ cleanDestinationDir = true
   # cards.
   # You can also set `author.email` if you want to publish this information.
   # TODO changeme
-  author.name = "Joshua Weese"
+  author.name = "Josh Weese"
 
   # The social media image of your site.
   # Default: not set
