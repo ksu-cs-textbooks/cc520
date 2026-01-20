@@ -53,13 +53,13 @@ CC 520 Database Essentials is not like your standard programming course. We will
 Here are the 5 **recommended ways to get help** in this course: 
 
 - Review the course materials posted on K-State Canvas and the course website 
-- Check the [Edstem Discussion board](https://k-state.instructure.com/courses/172313/external_tools/23076?display=borderless) to see if a similar question has been asked, otherwise, post a new question.
+- Check the [Edstem Discussion board](https://k-state.instructure.com/courses/191198/external_tools/25887?display=borderless) to see if a similar question has been asked, otherwise, post a new question.
 - Visit your professor's office hours, or the office hours for your TA if available 
 - Send a message to the CIS 520 Help email ([cc520-help@KSUemailProd.onmicrosoft.com](mailto:cc520-help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help))).
 - Ask your teammates for help or advice on assignments or projects (be mindful of the honor code!)
 - Schedule a one-on-one meeting with your professor/TA 
 
-#### More on the [Edstem Discussion board](https://k-state.instructure.com/courses/172313/external_tools/23076?display=borderless)
+#### More on the [Edstem Discussion board](https://k-state.instructure.com/courses/191198/external_tools/25887?display=borderless)
 
 This semester, we will be using edstem.org, specifically, their Ed Discussion platform. Ed Discussion is a reddit/forum style web app that allows students to post and ask questions. This will be our preferred way of communication when it comes to questions/etc. in the course. Please adhere to the following guidelines:
 - Before creating a new thread, please make sure there isn't a similar one already made.
