@@ -90,5 +90,5 @@ Your access to the WideWorldImporters database on the remote server is read only
 
 {{% /notice %}}
 
-### Option 4 **Docker Container:
+### Option 4: Docker Container:
 A full-featured database engine running in a Linux container. To build your own image, the container and the sample database are both  installed by following the steps of the online Microsoft article [Restore a SQL Server database in a Docker container](https://learn.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-ver17&tabs=cli). Walk through the steps described until you complete the section of the online article named [*Verify the restored database*](https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-2017#verify-the-restored-database).
