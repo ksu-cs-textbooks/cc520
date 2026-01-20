@@ -6,6 +6,8 @@ pre: "0. "
 
 - [Link to this Syllabus]({{% ref "./0-0-syllabus-520" %}})
 
+## *CC 520 Spring 2026*
+
 {{% notice info %}}
 The **preferred method of contact** for help will be through the [Edstem Discussion board](https://k-state.instructure.com/courses/172313/external_tools/23076?display=borderless). Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
 
