@@ -1,5 +1,5 @@
 ---
-title: "CC 520 Syllabus - Spring 2025"
+title: "CC 520 Syllabus - Spring 2026"
 weight: 10
 pre: "0. "
 ---
@@ -8,19 +8,18 @@ pre: "0. "
 - [Previous Versions]({{% relref "./old-syllabi" %}})
 
 {{% notice info %}}
-The **preferred method of contact** for help will be through the [Edstem Discussion board](https://k-state.instructure.com/courses/172313/external_tools/23076?display=borderless). Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
+The **preferred method of contact** for help will be through the Edstem Discussion board, linked in the course navigation menu. Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
 
-**All emails** for the course should be sent to [cc520-help@KSUemailProd.onmicrosoft.com](mailto:cc520-help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help) (sorry I know it’s a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
+**All emails** for the course should be sent to [cc520-help@KSUemailProd.onmicrosoft.com](mailto:cc520-help@KSUemailProd.onmicrosoft.com?subject=CC20520%20Help) (sorry I know it's a long address). This will contact the professors and ALL the TAs for the course and guarantee the fastest response time if contacting via email (please allow one full business day for response). You are welcome to send emails that may contain more sensitive information directly to intended recipients.
 
-Communication can also be done through Microsoft Teams. If you have not been invited to join the team for CC 520, please let us know and we will get you added.
+Communication can also be done through Microsoft Teams.
 {{% /notice %}}
 
 ### Contact
 
 **Professor:** Josh Weese – [weeser@ksu.edu](mailto:weeser@ksu.edu)
 
-- **Office:** 2214 Engineering Hall (DUE) 
-- **Phone:** Office - (785) 317-3353 
+- **Office:** 2214 Engineering Hall 
 - **Office Hours:** See my [calendar](http://weeser.net/calendar/). Office hours are always available online and in-person. For online help during office hours, please send a direct message in MS Teams (busy times will utilize [https://officehours.cs.ksu.edu/](https://officehours.cs.ksu.edu/)).
   - **Want to meet with me outside office hours? [https://calendly.com/weeser](https://calendly.com/weeser)** 
 
@@ -45,7 +44,7 @@ We will be utilizing MS SQL Server for this course. For information about access
 <hr/>
 
 ### How to Get Help in this Course
-CC 520 Database Essentials is not like your standard programming course. We will be doing some programming, but our focus will be primarily with data; how to store it, retrieve it, manipulate it, and use it with an application. Some of the topics we will cover are easier than others, but some can be fairly tricky. That, coupled with this being an online course, you are encouraged to seek help whenever you feel you are being overwhelmed or don’t understand a topic. **You are not alone!** We will ***always*** be willing to help students with ***any*** questions you may have about the class or other issues related to Computing Science. So please, don’t be afraid to ask questions. Get help early and often!   
+CC 520 Database Essentials is not like your standard programming course. We will be doing some programming, but our focus will be primarily with data; how to store it, retrieve it, manipulate it, and use it with an application. Some of the topics we will cover are easier than others, but some can be fairly tricky. That, coupled with this being an online course, you are encouraged to seek help whenever you feel you are being overwhelmed or don't understand a topic. **You are not alone!** We will ***always*** be willing to help students with ***any*** questions you may have about the class or other issues related to Computing Science. So please, don't be afraid to ask questions. Get help early and often!   
 
 Here are the 5 **recommended ways to get help** in this course: 
 
@@ -58,7 +57,7 @@ Here are the 5 **recommended ways to get help** in this course:
 
 #### More on the [Edstem Discussion board](https://k-state.instructure.com/courses/172313/external_tools/23076?display=borderless)
 
-This semester, we will be using edstem.org, specifically, there Ed Discussion platform. Ed Discussion is a reddit/forum style web app that allows students to post and ask questions. This will be our preferred way of communication when it comes to questions/etc. in the course. Please adhere to the following guidelines:
+This semester, we will be using edstem.org, specifically, their Ed Discussion platform. Ed Discussion is a reddit/forum style web app that allows students to post and ask questions. This will be our preferred way of communication when it comes to questions/etc. in the course. Please adhere to the following guidelines:
 - Before creating a new thread, please make sure there isn't a similar one already made.
 - If you are asking a question in Ed Discussion, please correctly mark it as such along with the correct tags.
 - Please make your thread public when possible in case others have the same questions.
@@ -84,7 +83,7 @@ The purpose of this course is to introduce concepts, approaches, and techniques 
 ### Student Learning Outcomes
 
 After completing this course, a successful student will be able to:
-* Write and read SQL, including queries, relations, database modifications, constraints, triggers, transactions, and views.
+* Read and Write SQL, including queries, relations, database modifications, constraints, triggers, transactions, and views.
 * Recognize the difference between NoSQL and its philosophy compared to SQL.
 * Design and create databases utilizing entity relationship models, functional dependencies, and normalization.
 * Design queries and databases that are optimized in storage, retrieval, and processing of data.
@@ -107,13 +106,13 @@ This course is being taught 100% online. There may be some bumps in the road as 
 There will be three exams for the course. Students will be evaluated based on exams, homework assignments, and a term project. Assignments are to be completed without any collaboration with classmates or other outside help unless otherwise stated. Any unauthorized aid may result in a 0 for the assignment or an XF for the course and a report submitted to the Academic Honor Council. All assignments will be submitted through Canvas. The specific grading scheme is shown below:
 
 - Exams/Quizzes: 25%
-- Homework assignments: 25%
-- Final Project: 50%
+- Homework assignments: 30%
+- Final Project: 45%
 
-#### Assignments
+### Assignments
 
 {{% notice warning %}}
-All work is expected to be done individually unless otherwise stated. A violation of the Honor Code Policy (see below) will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course. The sanctions will apply to **ALL** parties involved in the violation.
+All work is expected to be done individually unless otherwise stated. Work submitted to canvas must be 100% your own work (without unauthorized assistance, including AI). A violation of the Honor Code Policy (see below) will result in an automatic 0 for the assignment and the violation will be reported to the Honor System. A second violation will result in an XF in the course. The sanctions will apply to **ALL** parties involved in the violation.
 
 **Note that depending on the severity of the first violation, the sanction may be worse than just a 0 for the assignment**
 
@@ -132,6 +131,94 @@ Poor planning/procrastination on your part does not constitute as an emergency o
 
 Every student should strive to turn in work on time. **Late work will receive penalty of 10% of the possible points for each day its late**. Some assignments will NOT be accepted late! Others will be limited to a maximum of three days late (not always 3 days). Note that this penalty is applied on a **per hour basis** (*i.e. if your assignment is 12 hours late, it will receive a ~5% deduction*)
 
+### Artificial Intelligence Usage Policy
+
+This course uses a stoplight approach regarding the use of generative artificial intelligence (GenAI) tools, such as ChatGPT, Claude, Copilot, and others. Each assignment or group of assignments will be clearly labelled with one of three labels, indicating what level of GenAI usage is allowed. If an assignment does not have a label, it should be assumed that GenAI usage is **prohibited**. The three labels are described below:
+
+{{% notice color="red" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+  <!-- HTML/CSS stoplight -->
+  <div style="width: 40px; height: 120px; background: #222; border-radius: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-around; padding: 8px 0; box-shadow: 0 0 4px #000;">
+    <div style="width: 24px; height: 24px; background: #d32f2f; border-radius: 50%; border: 2px solid #b71c1c; box-shadow: 0 0 8px #d32f2f;"></div>
+    <div style="width: 24px; height: 24px; background: #555; border-radius: 50%; border: 2px solid #333;"></div>
+    <div style="width: 24px; height: 24px; background: #555; border-radius: 50%; border: 2px solid #333;"></div>
+  </div>
+</div>
+<div>
+{{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} You may not use any GenAI tools to complete this assignment. This assignment's main goal is to develop your own skills related to a particular task or topic, or to assess your own understanding of the concepts and skills required for this course. GenAI tools are therefore prohibited for these assignments, as they do not reflect or enhance your own learning journey.
+</div>
+</div>
+<div style="clear: both"></div>
+
+**Policy Violations:** Any usage of GenAI for this assignment will be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
+{{% notice color="orange" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+  <!-- HTML/CSS stoplight (yellow) -->
+  <div style="width: 40px; height: 120px; background: #222; border-radius: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-around; padding: 8px 0; box-shadow: 0 0 4px #000;">
+    <div style="width: 24px; height: 24px; background: #555; border-radius: 50%; border: 2px solid #333;"></div>
+    <div style="width: 24px; height: 24px; background: #ffeb3b; border-radius: 50%; border: 2px solid #fbc02d; box-shadow: 0 0 8px #ffeb3b;"></div>
+    <div style="width: 24px; height: 24px; background: #555; border-radius: 50%; border: 2px solid #333;"></div>
+  </div>
+</div>
+<div>
+{{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} You may use GenAI tools in a limited way to complete this assignment. The assignment description may provide additional information about what tools are allowed and how they can be used. The goal of this assignment is to allow you to work with GenAI to complete a task or achieve a goal, but the completed work should still be a majority your own effort. 
+</div>
+</div>
+<div style="clear: both"></div>
+
+**Citations Required:** Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, context provided to the tool (e.g. existing code), and a discussion of how the results were used to complete the assignment. 
+
+**No Direct AI Results:** For this assignment, you **may not** include the GenAI results directly in your submission - it must be used to inform and adapted to fit your own work. For example, you may not prompt GenAI tools to just _write_ your code and submit that directly; instead, you should ask for help performing specific tasks and then use the results within your own work. 
+
+**Understand Your Work:** To ensure compliance with this policy, the instructor reserves the right to request additional discussion or explanation of any work submitted by a student. The student should understand and be able to clearly explain **all** submitted work and code, even materials directly or indirectly produced by GenAI. A student who is unable to explain a submission to the satisfaction of the instructor may be considered to be in violation of this policy. 
+
+**Policy Violations:** Any usage of GenAI that involves direct submission of the GenAI outputs without additional work done by the student, or use of GenAI without proper citation, may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
+{{% notice color="green" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+  <!-- HTML/CSS stoplight (green) -->
+  <div style="width: 40px; height: 120px; background: #222; border-radius: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-around; padding: 8px 0; box-shadow: 0 0 4px #000;">
+    <div style="width: 24px; height: 24px; background: #555; border-radius: 50%; border: 2px solid #333;"></div>
+    <div style="width: 24px; height: 24px; background: #555; border-radius: 50%; border: 2px solid #333;"></div>
+    <div style="width: 24px; height: 24px; background: #43a047; border-radius: 50%; border: 2px solid #1b5e20; box-shadow: 0 0 8px #43a047;"></div>
+  </div>
+</div>
+<div>
+{{% badge style="green" %}}GREEN: GenAI Encouraged {{% /badge %}} You may make unlimited use of GenAI tools to complete this assignment. The goal of this assignment is to ensure you are comfortable with using GenAI tools to specifically meet a need or achieve a goal. 
+</div>
+</div>
+<div style="clear: both"></div>
+
+**Citations Required:** Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, context provided to the tool (e.g. existing code), and a discussion of how the results were used to complete the assignment.
+
+**Direct AI Results Allowed:** For this assignment, you **may** include the GenAI results directly in your submission. It is still your responsibility to ensure the submission meets the assignment's goals and is correct and factual - remember that GenAI is not infallible and may produce incorrect results. You are still solely responsible for ensuring the submission meets the stated assignment goals, and assignments in this category may receive additional scrutiny for correctness and accuracy. 
+
+**Understand Your Work:** To ensure compliance with this policy, the instructor reserves the right to request additional discussion or explanation of any work submitted by a student. The student should understand and be able to clearly explain **all** submitted work and code, even materials directly or indirectly produced by GenAI. A student who is unable to explain a submission to the satisfaction of the instructor may be considered to be in violation of this policy. 
+
+**Policy Violations:** Any usage of GenAI without proper citation may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
+Please contact the instructor if you have any questions about this GenAI policy. It is your responsibility to understand it and proactively ask questions if you are unsure; ignorance of this policy is not an excuse for violating it.
+
+### Artificial Intelligence Disclosure
+
+In keeping with the expectation for transparency and citation regarding the use of generative artificial intelligence (GenAI), the instructors of this course will clearly denote any usage of GenAI tools in the process of teaching this class. Specific policies for the usage of GenAI by the instructors and TAs of this course are given below:
+
+* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Grading and Feedback** - GenAI will **never** be used to review student submissions or produce grading feedback. All grades and feedback will be provided by the instructors and TAs without any GenAI assistance.
+* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Student Communication** - GenAI will **never** be used to when communicating with students. We believe it is important for students to receive real, authentic communication from instructors and TAs
+* {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} **Lesson & Learning Content** - GenAI may be used in a limited way to construct lessons and learning content, such as homework scenarios or simple graphics. All usage of GenAI will be clearly marked and cited. (As of January 2026, no GenAI content exists in the course).
 <hr/>
 
 ## Subject to Change
@@ -146,4 +233,4 @@ I am part of the SafeZone community network of trained K-State faculty/staff/stu
 
 ## Copyright Notification
 
-Copyright 2025 (Joshua L. Weese) as to this syllabus and all lectures. During this course students are prohibited from selling notes to or being paid for taking notes by any person or commercial firm without the express written permission of the professor teaching this course. In addition, students in this class are not authorized to provide class notes or other class-related materials to any other person or entity, other than sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor teaching this course. The digital materials included here come with the legal permissions and releases of the copyright holders. These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course. The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites. Likewise, mentioned brands (products and services) do not suggest endorsement. Students own copyright to what they create.
+Copyright 2026 (Joshua L. Weese) as to this syllabus and all lectures. During this course students are prohibited from selling notes to or being paid for taking notes by any person or commercial firm without the express written permission of the professor teaching this course. In addition, students in this class are not authorized to provide class notes or other class-related materials to any other person or entity, other than sharing them directly with another student taking the class for purposes of studying, without prior written permission from the professor teaching this course. The digital materials included here come with the legal permissions and releases of the copyright holders. These course materials should be used for educational purposes only; the contents should not be distributed electronically or otherwise beyond the confines of this online course. The URLs listed here do not suggest endorsement of either the site owners or the contents found at the sites. Likewise, mentioned brands (products and services) do not suggest endorsement. Students own copyright to what they create.
