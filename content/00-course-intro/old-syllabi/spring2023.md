@@ -3,7 +3,7 @@ title: "Syllabus"
 weight: 10
 pre: "0. "
 ---
-- [Previous Versions]({{% relref "./" %}})
+- [Previous Versions]({{% ref "00-course-intro/old-syllabi/_index.md" %}})
 ## CC 520 - Database Fundamentals - Syllabus
 
 {{% notice info %}}

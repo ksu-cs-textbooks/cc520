@@ -4,7 +4,7 @@ weight: 10
 pre: "0. "
 ---
 
-- [Previous Versions]({{% relref "./" %}})
+- [Previous Versions]({{% ref "00-course-intro/old-syllabi/_index.md" %}})
 
 {{% notice info %}}
 The **preferred method of contact** for help will be through the [Edstem Discussion board](https://k-state.instructure.com/courses/172313/external_tools/23076?display=borderless). Any questions or feedback can be posted there. More detail on using this platform can be found below and in Canvas.
