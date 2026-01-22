@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Obtaining Good Design">
-    <meta property="article:modified_time" content="2022-03-08T11:51:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Anomolies and Armstrong Rules :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at various ways of pulling out more functional dependencies. Inside of our relations. Particularly, we’re going to be focusing on how we can avoid anomalies and pulling more functional dependencies out using the Armstrong rules. So first off, what is an anomaly? Well, anomaly. An anomaly can be defined as essentially a bad functional dependency, and particularly where where a bad functional dependency holds based off of the current data that we have. So typically, we will know some of the functional dependencies just based off of our knowledge of how the data works in the real world. But we really, truly need to find all of the functional dependencies, so we can identify the bad ones, because the bad ones are going to be the things that causes data consistency issues, and integrity issues down the road as more data is added into our database. So how do we find all of these as a whole? Well, there are a few methods that we can look at to find all functional dependencies. The first one here are called the Armstrong girls. Now, this will cover a little bit more into the the heavy theory side of things with databases. But we are going to cover these just as an informative step. But Armstrong’s first rule is called the splitting and combining rule. So if we have a one attributes a one through a n implies B, one through B M, that means these are all equivalent, right?">
-    <meta itemprop="dateModified" content="2022-03-08T11:51:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="857">
     <title>Anomolies and Armstrong Rules :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/6-anomolies-armstrong-rules/" rel="canonical" type="text/html" title="Anomolies and Armstrong Rules :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/6-anomolies-armstrong-rules/index.xml" rel="alternate" type="application/rss+xml" title="Anomolies and Armstrong Rules :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/6-anomolies-armstrong-rules/index.print.html" rel="alternate" type="text/html" title="Anomolies and Armstrong Rules :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/6-anomolies-armstrong-rules/embed.html" rel="alternate" type="text/html" title="Anomolies and Armstrong Rules :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/09-obtaining-good-design/6-anomolies-armstrong-rules/">
     
@@ -154,14 +154,14 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
       
       
       
     </div> 
-  <script src="/cc520/js/tele-scroll.min.js?1768894641" defer></script>
+  <script src="/cc520/js/tele-scroll.min.js?1769097669" defer></script>
   </body>
 </html>

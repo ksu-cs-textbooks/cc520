@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Table-valued Expressions">
-    <meta property="article:modified_time" content="2022-02-21T12:35:03-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Views and Inline Table-valued Functions :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be taking a look at views and table valued functions. And so up here I have both of the syntax for each. So have the syntax for review and the syntax for inline table valued functions. And I will show the Show More examples of these and will hopefully make a little bit more sense then views and inline table valued functions are provide an extra benefits when compared to derive tables and CTS. So when we were using CTS and derived tables Previously, we had to use them within the same outer, the outer query, right, so the the life of a derive table or a CT exists only within the query, it actually executes. Otherwise, that CTE or derive table doesn’t actually exist. So views and inline table valued functions have a much broader scope. And so they provide the benefit that these are actually stored in the database itself. And so we can reference these in multiple queries in multiple occasions without having to recreate them every single time. So that’s the primary benefit here. So they’re available and stay in the database until they’re actually directly dropped from it. So you can really think of these are, from a view, it’s mostly just similar to a derive table, that we can actually reference more than once. And then similar to inline table functions, we can reference those more than once as well. But we can actually pass parameters to them. So they start to behave exactly as they sound, they start to behave more like functions than just something that we can call. So view is basically a function without parameters.">
-    <meta itemprop="dateModified" content="2022-02-21T12:35:03-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="2620">
     <title>Views and Inline Table-valued Functions :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/" rel="canonical" type="text/html" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
     <link href="/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/index.xml" rel="alternate" type="application/rss+xml" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
     <link href="/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/tele.html" rel="alternate" type="text/html" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
     <link href="/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/embed.html" rel="alternate" type="text/html" title="Views and Inline Table-valued Functions :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,12 +106,9 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
-  <body class="mobile-support print" data-url="/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/">
-    
-    <div id="tele" class="tele mirror">
-    
+  <body class="mobile-support embed print" data-url="/cc520/06-table-expressions/4-views-and-inline-table-valued-functions/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       
@@ -159,14 +156,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc520/js/tele-scroll.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

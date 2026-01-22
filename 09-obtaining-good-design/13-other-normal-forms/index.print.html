@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Obtaining Good Design">
-    <meta property="article:modified_time" content="2022-03-08T11:51:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Other Normal Forms :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. In this video, we’ll be taking a look at other normal forms. So so far we’ve only we focused on primarily Boyce Codd Normal Form. And we’ve mentioned third normal form. But if you remember this image here, there’s a lot of other things that we could actually achieve here. So we have normal forms one through five, as well as Boyce Codd Normal form, which is somewhere here in the middle here. So if we are in Boyce Codd Normal form, which is one that we’ve been focusing a lot on so far, then that if your relation R is in Boyce Codd Normal Form, then it is also in third normal second normal and first normal form, but it is not guaranteed to be in fourth or fifth normal form. So typically, what we’re going to be targeting on is hopefully, achieving Boyce Codd Normal Form. In this class, we’re not going to cover the fourth or fifth normal form. These are less common in industry, although you may encounter them and in some situations. But before we continue further into discussing our other normal forms, I do want to cover a couple more vocabulary terms here, particularly candidate keys, which is just another name for a minimal super key. And we call them candidate keys because these are keys that we will use as our primary key for that table. We also have prime attributes, which are attributes of a candidate key name, and non prime attributes. So these attributes do not occur in any candidate key. So basically, we have columns that are part of a key, and then columns that are not part of a key. So let’s keep those in mind as we start discussing our other normal forms.">
-    <meta itemprop="dateModified" content="2022-03-08T11:51:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1325">
     <title>Other Normal Forms :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/13-other-normal-forms/" rel="canonical" type="text/html" title="Other Normal Forms :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/13-other-normal-forms/index.xml" rel="alternate" type="application/rss+xml" title="Other Normal Forms :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/13-other-normal-forms/tele.html" rel="alternate" type="text/html" title="Other Normal Forms :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/13-other-normal-forms/embed.html" rel="alternate" type="text/html" title="Other Normal Forms :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,12 +106,9 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
-  <body class="mobile-support print" data-url="/cc520/09-obtaining-good-design/13-other-normal-forms/">
-    
-    <div id="tele" class="tele mirror">
-    
+  <body class="mobile-support embed print" data-url="/cc520/09-obtaining-good-design/13-other-normal-forms/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       
@@ -155,14 +152,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc520/js/tele-scroll.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

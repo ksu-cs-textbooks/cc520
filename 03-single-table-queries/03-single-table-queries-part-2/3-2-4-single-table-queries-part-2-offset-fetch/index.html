@@ -17,36 +17,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Single Table Queries">
-    <meta property="article:modified_time" content="2022-01-24T21:48:20-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="OFFSET-FETCH :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back everyone. So in this video, we are going to take a look at the offset fetch filter. So the offset fetch filter is the anti standard, equivalent to talk. So before we cover top, but top is going to only be specific to a certain set of database management systems. A SQL Server, for example, supports the top command. But not all, SQL is created equal. But offset fetch is standard. So you’ll find it in the majority of database languages that implement SQL. So that’s a benefit there. But the there is a little bit of a difference here. So top itself doesn’t actually support an offset. Although as offset fetch sounds like it does support that so we can offset by in number of rows. So if we want to skip a certain set certain number of rows, we can do that with the offset. And then we the fetch part is more similar to the top command, where we fetch n number of rows from our SQL results, right? Again, though, this is a filter that is determined that is based off of the ordering of our results.">
-    <meta itemprop="dateModified" content="2022-01-24T21:48:20-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1340">
     <title>OFFSET-FETCH :: CC 520 Textbook</title>
     <link href="/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/index.xml" rel="alternate" type="application/rss+xml" title="OFFSET-FETCH :: CC 520 Textbook">
     <link href="/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/index.print.html" rel="alternate" type="text/html" title="OFFSET-FETCH :: CC 520 Textbook">
     <link href="/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/tele.html" rel="alternate" type="text/html" title="OFFSET-FETCH :: CC 520 Textbook">
     <link href="/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/embed.html" rel="alternate" type="text/html" title="OFFSET-FETCH :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -105,7 +105,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/03-single-table-queries/03-single-table-queries-part-2/3-2-4-single-table-queries-part-2-offset-fetch/">
     <div id="R-body" class="default-animation">
@@ -185,7 +185,7 @@
   <p class="theme-version-footer">8.0.0</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> <a href="mailto:weeser@ksu.edu">Josh Weese</a>
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4a12328b27dfd7cd4dcf5509c8382a5e05ecf2f0">Jan 24, 2022</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4e177e809e0107ae1e163d7643b9b00793fde3b5">Jan 22, 2026</a>
 </p>
 
 </div>
@@ -365,7 +365,7 @@
         </div>
 <div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
 <br/>
-<p><strong><i>© Copyright 2023, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+<p><strong><i>© Copyright 2026, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
 
 </div>
       </div>
@@ -381,9 +381,9 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
   </body>
 </html>

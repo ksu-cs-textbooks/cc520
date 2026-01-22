@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Joins">
-    <meta property="article:modified_time" content="2022-01-31T16:06:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Inner Joins :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back, everyone. So we’ve already started to take a look at some of the joints that are available to us and SQL. So the cross joins is what we first started with. But now we’re going to continue on and explore enter joints. Now, the syntax for an inner join is very similar to the cross join. So from Table A, and then enter, join table B on some condition. And do note that the inner part here is optional. So you can just say from table a join on Table B, generally speaking, I’m going to encourage leaving the keyword enter there. So again, it’s more obvious to which join we’re actually using. So what is an inner join. So inner joins are very similar to the cross join. And since that the first phase of an inner join is the cross join, so it produces the Cartesian product. So remember, the Cartesian product is all the different combinations of rows that you can make between the two tables. But with the inner join, we actually add a filtering phase along with that. So step two of the inner join is going to filter based off of whatever the predicate is, or the join, right, so join a table, a inner join table be on condition. So that predicate, that condition that we’re actually doing typically is going to be some, you know, column XYZ equals column ABC, or something like that, is probably the most common, but I’ll show some examples here in a few minutes. And again, there are two syntaxes that are supported here, SQL 89, and SQL 92. But again, I typically Lin, lean one towards one versus the other. And I’ll show the difference between the two here in just a few moments. Enter join here. So let’s see an example of this as a general table first.">
-    <meta itemprop="dateModified" content="2022-01-31T16:06:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="2009">
     <title>Inner Joins :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/04-joins/3-inner-joins/" rel="canonical" type="text/html" title="Inner Joins :: CC 520 Textbook">
     <link href="/cc520/04-joins/3-inner-joins/index.xml" rel="alternate" type="application/rss+xml" title="Inner Joins :: CC 520 Textbook">
     <link href="/cc520/04-joins/3-inner-joins/tele.html" rel="alternate" type="text/html" title="Inner Joins :: CC 520 Textbook">
     <link href="/cc520/04-joins/3-inner-joins/embed.html" rel="alternate" type="text/html" title="Inner Joins :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support embed print" data-url="/cc520/04-joins/3-inner-joins/">
     <div id="R-body" class="default-animation">
@@ -155,10 +155,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-  <script src="/cc520/js/embed-iframe.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

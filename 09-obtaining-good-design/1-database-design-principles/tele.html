@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Obtaining Good Design">
-    <meta property="article:modified_time" content="2022-03-08T11:51:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Database Design Principles :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be starting our discussion on what makes a database a good database. We’ve talked a lot about so far how we might make a SQL query to retrieve data. And later, we’ll also talk about SQL queries that we can use to actually insert and modify and delete data as well. But what makes a database design a good database. So there’s a couple primary things that we’re after as part of a good design. And we’ve talked about some of these items, when we talked about the motivation for why we need a database over something like an Excel sheet, for example. But data integrity is one of the big ones, right? So the data that we actually store is, is sent, received and stored in the same way that the users are actually translating it as so you know, if we need to store some number, or string or whatever it may be inside of our database, that same number that is transmitted is stored. And then when we retrieve that data, that same data is actually retrieved as well, it didn’t actually change or get corrupted or, or anything like that. But the big point behind data integrity is that we’re trying to avoid unintentional changes of our data, whether that be in transmission, writing, or retrieving our information that we’re actually working with. But that also also kind of helps us with maintaining our data as well. So this includes anything, any data that gets updated, deleted, all those sorts of things, and also the maintenance of our code. A poorly designed database is going to typically impede our ability to maintain a consistent state of information, and especially maintaining that consistent state across a larger period of time. poorly designed databases often include multiple copies of the same information, and summon, some copies get updated, some don’t, some get deleted, some don’t. And a variety of other things in between. And I’ll show some examples of this here in just a little bit.">
-    <meta itemprop="dateModified" content="2022-03-08T11:51:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1032">
     <title>Database Design Principles :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/1-database-design-principles/" rel="canonical" type="text/html" title="Database Design Principles :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/1-database-design-principles/index.xml" rel="alternate" type="application/rss+xml" title="Database Design Principles :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/1-database-design-principles/index.print.html" rel="alternate" type="text/html" title="Database Design Principles :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/1-database-design-principles/embed.html" rel="alternate" type="text/html" title="Database Design Principles :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/09-obtaining-good-design/1-database-design-principles/">
     
@@ -154,14 +154,14 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
       
       
       
     </div> 
-  <script src="/cc520/js/tele-scroll.min.js?1768894641" defer></script>
+  <script src="/cc520/js/tele-scroll.min.js?1769097669" defer></script>
   </body>
 </html>

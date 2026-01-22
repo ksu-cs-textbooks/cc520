@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Joins">
-    <meta property="article:modified_time" content="2022-01-31T16:06:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Introduction to Joins :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back everyone. In this video series, we’re going to be talking about joins with databases. So up to this point, we’ve focused on single table queries. But now we can start working on bringing in data from multiple, multiple tables and more or multiple data sources. joins, we’re going to be talking about overall in this set of videos, cross joins, Inner Joins, and pretty much variations of those. So the primary two types of joins that we’ll be focusing on our cross joins and inner joins. But we’ll also talk about outer joins as well here and a few. First, before we get into looking at multi table queries, let’s review what we’ve done so far. So first off, real big point, real big point to drive home here is the processing order. So remember, SQL is kind of different are kind of weird in comparison to the programming languages that you’re used to. So most programming languages are going to go from execute from top down, even when you’re working inside of individual functions. But with SQL, the the order of which that you actually program your query, and is going to be different from the order that that query is processed. Let’s remember that we don’t start off with the SELECT clause, we actually start with the from, so we have to know what our data sources first. And then we can filter those rows from those tables. Using the where clause, we can optionally group those rows up together based off of a certain number of columns or column expressions. And then we can actually also filter those groups. But remember, the having clause can only be used with the group by cuz having filters group by group, and remember, were filters row by row. So where can only be paired with from and having can only be paired with group by, then our select clause gets executed. So now we pick out which columns we want in our results. And then once our columns are selected, we can then determine distinct or not.">
-    <meta itemprop="dateModified" content="2022-01-31T16:06:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="897">
     <title>Introduction to Joins :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/04-joins/1-introduction-to-joins/" rel="canonical" type="text/html" title="Introduction to Joins :: CC 520 Textbook">
     <link href="/cc520/04-joins/1-introduction-to-joins/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Joins :: CC 520 Textbook">
     <link href="/cc520/04-joins/1-introduction-to-joins/index.print.html" rel="alternate" type="text/html" title="Introduction to Joins :: CC 520 Textbook">
     <link href="/cc520/04-joins/1-introduction-to-joins/tele.html" rel="alternate" type="text/html" title="Introduction to Joins :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc520/04-joins/1-introduction-to-joins/">
     <div id="R-body" class="default-animation">
@@ -153,10 +153,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-  <script src="/cc520/js/embed-iframe.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

@@ -17,36 +17,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Set Operators">
-    <meta property="article:modified_time" content="2022-03-01T13:51:49-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Introduction to Set Operators :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back everyone. And in this video, we’re going to be talking about sets. So everything that we’ve been doing so far in databases has been primarily working with sets. If you remember from data structures, sets are pretty much just an unordered list. But operations on sets work a little bit differently when comparing to other data structures. So set operators that we’ll be covering today, take in on the left side, a query and the right side a query. And so the input query one input query to this is just a fully executed query results. So if we just run a select star from Table B, and set operators select star from Table A, we can combine all those results in a certain way based off of which set operator we use. And that of course, there’s also an optional order by so remember, sets are just unordered lists. And so our query results unless they are actually ordered, are not guaranteed in any particular sorted order. But let’s talk about the general processing order here with our set operators. So first off, our input queries are going to be actually executed before the operator gets a chance to actually execute, of course, because we need our operands in full first, so the input query on the left will be executed first, and then the input query two is going to be executed. And then those two are then combined using the set operator. Now, all the normal logical operating phases here are relatively normal as you would expect, with the individual input queries, except with the order by order by is a little bit different here and inside of or utilizing a set operator. So it doesn’t really matter at all what order the input queries here are to the set operator. Because sets in nature are an unordered data structure. And so order matters not for running our set operators like Union intersect and except that we’ll cover here in a little bit.">
-    <meta itemprop="dateModified" content="2022-03-01T13:51:49-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="760">
     <title>Introduction to Set Operators :: CC 520 Textbook</title>
     <link href="/cc520/08-sets/1-introduction-to-set-operators/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Set Operators :: CC 520 Textbook">
     <link href="/cc520/08-sets/1-introduction-to-set-operators/index.print.html" rel="alternate" type="text/html" title="Introduction to Set Operators :: CC 520 Textbook">
     <link href="/cc520/08-sets/1-introduction-to-set-operators/tele.html" rel="alternate" type="text/html" title="Introduction to Set Operators :: CC 520 Textbook">
     <link href="/cc520/08-sets/1-introduction-to-set-operators/embed.html" rel="alternate" type="text/html" title="Introduction to Set Operators :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -105,7 +105,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/08-sets/1-introduction-to-set-operators/">
     <div id="R-body" class="default-animation">
@@ -181,7 +181,7 @@
   <p class="theme-version-footer">8.0.0</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> <a href="mailto:weeser@ksu.edu">Josh Weese</a>
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/d00352aa9e78d18c2da2a31b650c37759603fe06">Mar 1, 2022</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4e177e809e0107ae1e163d7643b9b00793fde3b5">Jan 22, 2026</a>
 </p>
 
 </div>
@@ -361,7 +361,7 @@
         </div>
 <div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
 <br/>
-<p><strong><i>© Copyright 2023, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+<p><strong><i>© Copyright 2026, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
 
 </div>
       </div>
@@ -377,9 +377,9 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
   </body>
 </html>

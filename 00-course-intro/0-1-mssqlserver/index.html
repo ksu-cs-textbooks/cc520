@@ -20,37 +20,37 @@ In order to complete homework assignments and practice on your own, you will nee
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Introduction">
-    <meta property="article:modified_time" content="2026-01-20T01:21:47-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="MS SQL Server Access :: CC 520 Textbook">
     <meta itemprop="description" content="Info With the new policies regarding the K-State VPN, I am working on an alternative for those of you who cannot install MS SQL Server on your own machine. I will post updates as soon as possible!
 In order to complete homework assignments and practice on your own, you will need access to SQL Server. Your access requires a client tool and a server.">
-    <meta itemprop="dateModified" content="2026-01-20T01:21:47-06:00">
-    <meta itemprop="wordCount" content="999">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
+    <meta itemprop="wordCount" content="667">
     <title>MS SQL Server Access :: CC 520 Textbook</title>
     <link href="/cc520/00-course-intro/0-1-mssqlserver/index.xml" rel="alternate" type="application/rss+xml" title="MS SQL Server Access :: CC 520 Textbook">
     <link href="/cc520/00-course-intro/0-1-mssqlserver/index.print.html" rel="alternate" type="text/html" title="MS SQL Server Access :: CC 520 Textbook">
     <link href="/cc520/00-course-intro/0-1-mssqlserver/tele.html" rel="alternate" type="text/html" title="MS SQL Server Access :: CC 520 Textbook">
     <link href="/cc520/00-course-intro/0-1-mssqlserver/embed.html" rel="alternate" type="text/html" title="MS SQL Server Access :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -109,7 +109,7 @@ In order to complete homework assignments and practice on your own, you will nee
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/00-course-intro/0-1-mssqlserver/">
     <div id="R-body" class="default-animation">
@@ -128,10 +128,8 @@ In order to complete homework assignments and practice on your own, you will nee
     <li><a href="#client-tools">Client Tools</a></li>
     <li><a href="#database-server">Database Server</a>
       <ul>
-        <li><a href="#option-1-install-your-own">Option 1: Install Your Own</a></li>
-        <li><a href="#option-2-github-codespace">Option 2: Github Codespace</a></li>
-        <li><a href="#option-3-ksu-cs-database-server">Option 3: KSU CS Database Server</a></li>
-        <li><a href="#option-4-docker-container">Option 4: Docker Container:</a></li>
+        <li><a href="#option-1-dockergithub-codespace">Option 1: Docker/Github Codespace</a></li>
+        <li><a href="#option-2-install-your-own">Option 2: Install Your Own</a></li>
       </ul>
     </li>
   </ul>
@@ -187,32 +185,27 @@ In order to complete homework assignments and practice on your own, you will nee
 </details>
 <p>In order to complete homework assignments and practice on your own,  you will need access to SQL Server. Your access requires a client tool and a server.</p>
 <h2 id="client-tools">Client Tools</h2>
-<p>For this course, you will need to use a SQL client tool to access a SQL Server instance.</p>
+<p>For this course, you will need to use a SQL client tool to access a SQL Server instance. Here are a few client tools that are available for use; however, we will be focusing our use on VS Code this semester:</p>
 <ul>
-<li>All resources are available via remote access on <strong>remote.cs.ksu.edu</strong>.  See <a href="https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access" rel="external" target="_blank">https://support.cs.ksu.edu/CISDocs/wiki/Remote_Access</a> for more information on how to utilize the remote resources. If you need access to the remote desktop off campus, you will also need access to the K-State VPN. Please inform me as soon as possible if this is the case.</li>
-<li>If you do not have a CS account, one can be requested here: <a href="https://selfserv.cs.ksu.edu/" rel="external" target="_blank">https://selfserv.cs.ksu.edu/</a>
+<li><u>Preferred: <strong>VS Code</strong></u> - Windows, macOS, or Linux: <a href="https://code.visualstudio.com/" rel="external" target="_blank">https://code.visualstudio.com/</a>
 <ul>
-<li>To reset a forgotten password (or unlock an account after too many failed login attempts), see <a href="https://password.cs.ksu.edu/" rel="external" target="_blank">https://password.cs.ksu.edu/</a></li>
+<li>Install the <strong>SQL Server (mssql)</strong> extension from the VS Code marketplace: <a href="https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql" rel="external" target="_blank">https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql</a>
+<ul>
+<li><em>Note:</em> I will also provide a pre-configured VS Code setup via GitHub. The link is available in Canvas.</li>
 </ul>
 </li>
-<li>We will be using two client tools throughout the semester. It is highly encouraged to also install a client on your own computer.
-<ul>
-<li><strong>VS Code</strong> - Windows, macOS, or Linux: <a href="https://code.visualstudio.com/" rel="external" target="_blank">https://code.visualstudio.com/</a>
-<ul>
-<li>Install the <strong>SQL Server (mssql)</strong> extension from the VS Code marketplace: <a href="https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql" rel="external" target="_blank">https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql</a></li>
-<li><em>Note:</em> I will also provide a pre-configured VS Code setup via GitHub.</li>
 </ul>
 </li>
 <li><strong>SQL Server Management Studio</strong> <em>(aka SSMS)</em> - Windows Only: <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms" rel="external" target="_blank">https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms</a></li>
 <li><strong>DataGrip</strong> - Windows, macOS, or Linux. Available for free if you sign up for Jetbrains using your K-State email and get verified as a student. This tool is able to handle more than just SQL Server databases. <a href="https://www.jetbrains.com/datagrip/" rel="external" target="_blank">https://www.jetbrains.com/datagrip/</a></li>
-<li><strong>Azure Data Studio</strong> - Windows, macOS, or Linux. This tool is shown frequently in my videos; however, I do not fully recommend it anymore as Microsoft is retiring the product end of February in favor of VS Code with extensions. <a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download" rel="external" target="_blank">https://docs.microsoft.com/en-us/sql/azure-data-studio/download</a></li>
-</ul>
-</li>
+<li>Archived: <strong>Azure Data Studio</strong> - Windows, macOS, or Linux. This tool is shown frequently in my videos; however, I do not recommend it anymore as Microsoft is retiring the product end of February in favor of VS Code with extensions. <a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download" rel="external" target="_blank">https://docs.microsoft.com/en-us/sql/azure-data-studio/download</a></li>
 <li>Windows Computer Labs: All Windows workstations in the Computer Science department have at least one of these client tools available.</li>
 </ul>
 <h2 id="database-server">Database Server</h2>
 <p>A database server is needed to host a database in addition to client tools which are used to access the database and run queries. In this course, we will use Microsoft SQL Server.</p>
-<h3 id="option-1-install-your-own">Option 1: Install Your Own</h3>
+<h3 id="option-1-dockergithub-codespace">Option 1: Docker/Github Codespace</h3>
+<p>If you are unable to install SQL Server on your own machine, you can use a GitHub Codespace or Docker that has SQL Server already installed. This is provided via a GitHub classroom link in Canvas, along with instructions.</p>
+<h3 id="option-2-install-your-own">Option 2: Install Your Own</h3>
 <p>Installing your own copy of Microsoft SQL Server is <em>highly</em> encouraged. Most versions of SQL Server will work for this  course&hellip;but I recommend the one below for a lightweight option (the full version of MS SQL Server is not needed for this course and can take up quite a bit of resources when installed).</p>
 <ul>
 <li>
@@ -254,40 +247,6 @@ In order to complete homework assignments and practice on your own, you will nee
 <p>Note that since SQL Server Express typically runs under its own user in Windows, you may run into some file permission issues (Access Denied errors) when trying to run the above commands.  If this is the case, move the <strong>.bak</strong> file to the Data folder inside your SQL Server install location.  In most cases, this would be where that folder is located (version might be different): <code>C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA</code>.  Try running the commands above again, but now with the <strong>.bak</strong> file at this location.</p>
   </div>
 </details>
-<h3 id="option-2-github-codespace">Option 2: Github Codespace</h3>
-<p>If you are unable to install SQL Server on your own machine, you can use a GitHub Codespace that has SQL Server already installed. One will be provided by the end of the first week.</p>
-<h3 id="option-3-ksu-cs-database-server">Option 3: KSU CS Database Server</h3>
-
-<details open class=" box cstyle notices info">
-  <summary class="box-label" tabindex="-1">
-    <i class="fa-fw fas fa-info-circle"></i> 
-    Info
-  </summary>
-  <div class="box-content">
-<p>If you are connecting to the remote MS SQL Server instance for the first time, you will need to use SQL Server Management Studio once to reset your password.  After you have set your password, you can then use Azure Data Studio to connect.</p>
-  </div>
-</details>
-<p>Using the following information, you connect to our SQL Server instance from one of the aforementioned client tools. <em>Depending on the tool, not all of this information may be requested.</em> If you are accessing from your own computer, you will need to connect to the <a href="https://www.k-state.edu/it/security/secure-data/vpn/" rel="external" target="_blank">campus network via VPN</a> first.</p>
-<ul>
-<li>Server Type: <strong>Database Engine</strong></li>
-<li>Server Name: <strong>mssql.cs.ksu.edu</strong></li>
-<li>Authentication Type: <strong>SQL Server Authentication</strong></li>
-<li>Login: <em>Your eID</em></li>
-<li>Password: <em>Will be provided as soon as I am given it by our IT folks</em></li>
-</ul>
-<p>Once connected, we will most often use the database <strong>WideWorldImporters</strong>.  You should also have a database named after your EID that you can utilize to explore other examples.</p>
-
-<details open class=" box cstyle notices info">
-  <summary class="box-label" tabindex="-1">
-    <i class="fa-fw fas fa-info-circle"></i> 
-    Info
-  </summary>
-  <div class="box-content">
-<p>Your access to the WideWorldImporters database on the remote server is read only.  If you would like to modify tables, insert, or delete data, you will need to use your own personal installation (see option 2).</p>
-  </div>
-</details>
-<h3 id="option-4-docker-container">Option 4: Docker Container:</h3>
-<p>A full-featured database engine running in a Linux container. To build your own image, the container and the sample database are both  installed by following the steps of the online Microsoft article <a href="https://learn.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-ver17&tabs=cli" rel="external" target="_blank">Restore a SQL Server database in a Docker container</a>. Walk through the steps described until you complete the section of the online article named <a href="https://docs.microsoft.com/en-us/sql/linux/tutorial-restore-backup-in-sql-server-container?view=sql-server-2017#verify-the-restored-database" rel="external" target="_blank"><em>Verify the restored database</em></a>.</p>
 
   <footer class="footline">
   </footer>
@@ -298,7 +257,7 @@ In order to complete homework assignments and practice on your own, you will nee
   <p class="theme-version-footer">8.0.0</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> <a href="mailto:weeser@ksu.edu">Josh Weese</a>
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/954c0f5d8cfdd71230ee67a05cf187ba75486c8f">Jan 20, 2026</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4e177e809e0107ae1e163d7643b9b00793fde3b5">Jan 22, 2026</a>
 </p>
 
 </div>
@@ -478,7 +437,7 @@ In order to complete homework assignments and practice on your own, you will nee
         </div>
 <div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
 <br/>
-<p><strong><i>© Copyright 2023, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+<p><strong><i>© Copyright 2026, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
 
 </div>
       </div>
@@ -494,9 +453,9 @@ In order to complete homework assignments and practice on your own, you will nee
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
   </body>
 </html>

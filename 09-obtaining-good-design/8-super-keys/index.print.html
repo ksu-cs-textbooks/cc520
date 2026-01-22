@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Obtaining Good Design">
-    <meta property="article:modified_time" content="2022-03-08T11:51:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Super Keys :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. In this video, we’re gonna continue our discussions on how we might design a good database. So last time we talked about third normal form Boyce Codd Normal Form, and how those normal forms can be defined using functional dependencies, and keys. And in particular, we’ve spent a lot of time talking about functional dependencies and what that entails. And we also defined how you might calculate the closure sets, and how those closure sets could help us find all functional dependencies, along with some other techniques for finding those as well. But in this video, we’re going to focus on the second part of what makes up our normal forms, particularly with keys. So we’ve talked about primary keys, and what that entails with our database. So if you remember, right, primary keys are a column or set of columns that help uniquely identify a row inside of a relation or table. And so there are I’m going to take that just a little bit further and talk about keys and super keys in particular. So what is a super key? So a super key is a set of attributes a one through a n, such that your, I can spell this out here says such that for any other attribute B, we have a one through a n implies B. And remember from our previous videos, the underline the arrow is the implies symbol, to avoid duplicates, a, it’s a very important notion in a database to refer to or have a key of some kind. And that key being a primary key, or in other words, a super key that helps identify all other columns, that in turn, helps uniquely identify any given row inside that relation. So I have another super key that I want to define here.">
-    <meta itemprop="dateModified" content="2022-03-08T11:51:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1385">
     <title>Super Keys :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/09-obtaining-good-design/8-super-keys/" rel="canonical" type="text/html" title="Super Keys :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/8-super-keys/index.xml" rel="alternate" type="application/rss+xml" title="Super Keys :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/8-super-keys/tele.html" rel="alternate" type="text/html" title="Super Keys :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/8-super-keys/embed.html" rel="alternate" type="text/html" title="Super Keys :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc520/09-obtaining-good-design/8-super-keys/">
     
@@ -156,14 +156,14 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
       
       
       
     </div> 
-  <script src="/cc520/js/tele-scroll.min.js?1768894641" defer></script>
+  <script src="/cc520/js/tele-scroll.min.js?1769097669" defer></script>
   </body>
 </html>

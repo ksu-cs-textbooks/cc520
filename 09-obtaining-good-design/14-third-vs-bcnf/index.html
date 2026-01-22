@@ -17,36 +17,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Obtaining Good Design">
-    <meta property="article:modified_time" content="2022-03-08T11:51:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Third Normal Form vs BCNF :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back everyone. In this video, we’re going to be talking more about the third normal form. And so just read your reiterates our statement that we’ve seen, so far every non key attribute must provide a fact about the key the whole key and nothing but the key. This was famously famously done by William Kinte, who was the database researcher, but this really, really fills out our need for third normal form right we have any any non prime attributes must not be a functional dependency right if we have a non prime attribute that is a functional dependency or implies another column that is not the key, then we have an issue we need to split that out into its own table. So, as a refresher right third normal form, if a relation R is in third normal form, if for every non trivial functional dependency in our where a one through a n implies B, then A one through a n must be a super key if it is not or it is not part of the key then it is not in third normal form. So, if the functional dependency the left hand side of a functional dependency is not a super key, or it is not part of a key, then it is not in third normal form. So let’s talk about some differences here with third normal form versus Boyce Codd Normal form because we’ve covered Boyce Codd Normal Form quite a bit.">
-    <meta itemprop="dateModified" content="2022-03-08T11:51:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="899">
     <title>Third Normal Form vs BCNF :: CC 520 Textbook</title>
     <link href="/cc520/09-obtaining-good-design/14-third-vs-bcnf/index.xml" rel="alternate" type="application/rss+xml" title="Third Normal Form vs BCNF :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/14-third-vs-bcnf/index.print.html" rel="alternate" type="text/html" title="Third Normal Form vs BCNF :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/14-third-vs-bcnf/tele.html" rel="alternate" type="text/html" title="Third Normal Form vs BCNF :: CC 520 Textbook">
     <link href="/cc520/09-obtaining-good-design/14-third-vs-bcnf/embed.html" rel="alternate" type="text/html" title="Third Normal Form vs BCNF :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -105,7 +105,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/09-obtaining-good-design/14-third-vs-bcnf/">
     <div id="R-body" class="default-animation">
@@ -182,7 +182,7 @@
   <p class="theme-version-footer">8.0.0</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> <a href="mailto:weeser@ksu.edu">Josh Weese</a>
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/30fb16d821f3227f87a4b15ee45149dccc991048">Mar 8, 2022</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4e177e809e0107ae1e163d7643b9b00793fde3b5">Jan 22, 2026</a>
 </p>
 
 </div>
@@ -362,7 +362,7 @@
         </div>
 <div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
 <br/>
-<p><strong><i>© Copyright 2023, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+<p><strong><i>© Copyright 2026, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
 
 </div>
       </div>
@@ -378,9 +378,9 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
   </body>
 </html>

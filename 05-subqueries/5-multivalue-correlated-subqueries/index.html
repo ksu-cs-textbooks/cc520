@@ -17,36 +17,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Subqueries">
-    <meta property="article:modified_time" content="2022-02-08T11:34:24-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back, everyone. So let’s continue our discussion on correlated sub queries. So previously, I showed some examples of a correlated sub queries primarily, though with scalar value return, so correlated subqueries, that only had one value as a result. However, the distinction between that and a self contained valued a self contained single valued sub query is that the correlated version has to be executed for every single row four, the outer query, versus the self contained query is only executed once. But without further ado, let’s take a look at some more examples of this. So usually queries solved with multivalued sub queries takes one of two forms. So we’ve already seen the first form which is shown here on the screen. So this is the self contained form, where we have in this case, give me all of the customers who have placed an order between or in 2015. So in, and so this is, these are all the customers and 25th, the all the orders in 2015. So if I run that, there’s all of our customers who placed orders in 2015. And then to get their customer name, I linked that to the outer query. Or I embed that in a sub query and link and have the outer query pulled the customer name, as I talked about last time, write the self contained version here is easily rewritten using a join as we shown before, but we can do a another version of this using the exists predicate.">
-    <meta itemprop="dateModified" content="2022-02-08T11:34:24-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1325">
     <title>Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook</title>
     <link href="/cc520/05-subqueries/5-multivalue-correlated-subqueries/index.xml" rel="alternate" type="application/rss+xml" title="Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook">
     <link href="/cc520/05-subqueries/5-multivalue-correlated-subqueries/index.print.html" rel="alternate" type="text/html" title="Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook">
     <link href="/cc520/05-subqueries/5-multivalue-correlated-subqueries/tele.html" rel="alternate" type="text/html" title="Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook">
     <link href="/cc520/05-subqueries/5-multivalue-correlated-subqueries/embed.html" rel="alternate" type="text/html" title="Multi-value Correlated Subqueries Part 1 :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -105,7 +105,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/05-subqueries/5-multivalue-correlated-subqueries/">
     <div id="R-body" class="default-animation">
@@ -184,7 +184,7 @@
   <p class="theme-version-footer">8.0.0</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> <a href="mailto:weeser@ksu.edu">Josh Weese</a>
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/ee1fa382f92ce59017596d466db8a2aadea695b2">Feb 8, 2022</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4e177e809e0107ae1e163d7643b9b00793fde3b5">Jan 22, 2026</a>
 </p>
 
 </div>
@@ -364,7 +364,7 @@
         </div>
 <div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
 <br/>
-<p><strong><i>© Copyright 2023, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+<p><strong><i>© Copyright 2026, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
 
 </div>
       </div>
@@ -380,9 +380,9 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
   </body>
 </html>

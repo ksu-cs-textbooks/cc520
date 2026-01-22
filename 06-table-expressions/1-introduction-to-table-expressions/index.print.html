@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Table-valued Expressions">
-    <meta property="article:modified_time" content="2022-02-15T09:14:13-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Introduction to Table-valued Expressions :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. In this video series, we’re gonna be taking a look at table expressions. So previously, we talked about sub queries, particularly two types of sub queries self contained and correlated, the self contained sub queries being a sub query that can actually execute in isolation, so on its own without any dependency with the outside query. correlated query is the opposite of that, where we are referencing at least one attribute or column, and the inner query from the outer query. So we also talked about three different types of return values for sub queries that being single valued and multi valued. So those are the two primary ones that we covered. We also briefly talked about table valued returns. So remember, the single valued query is just as it sounds right, one single value that’s actually returned, so like a number or a string of some kind. And then multivalued sub queries are ones who are going to return one single column, but more typically more than one row. So technically, a single valued return is also a multivalued return. But a multivalued return can have more than one value, right? More than one row. But what if we have more than one column. So we really didn’t talk too much about what happens when a sub query returns more than one column. But that’s going to be our focus for today. So a query that or a sub query that returns more than one column is going to be commonly referred to as a table expression.">
-    <meta itemprop="dateModified" content="2022-02-15T09:14:13-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1001">
     <title>Introduction to Table-valued Expressions :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/06-table-expressions/1-introduction-to-table-expressions/" rel="canonical" type="text/html" title="Introduction to Table-valued Expressions :: CC 520 Textbook">
     <link href="/cc520/06-table-expressions/1-introduction-to-table-expressions/index.xml" rel="alternate" type="application/rss+xml" title="Introduction to Table-valued Expressions :: CC 520 Textbook">
     <link href="/cc520/06-table-expressions/1-introduction-to-table-expressions/tele.html" rel="alternate" type="text/html" title="Introduction to Table-valued Expressions :: CC 520 Textbook">
     <link href="/cc520/06-table-expressions/1-introduction-to-table-expressions/embed.html" rel="alternate" type="text/html" title="Introduction to Table-valued Expressions :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc520/06-table-expressions/1-introduction-to-table-expressions/">
     
@@ -155,14 +155,14 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
       
       
       
     </div> 
-  <script src="/cc520/js/tele-scroll.min.js?1768894641" defer></script>
+  <script src="/cc520/js/tele-scroll.min.js?1769097669" defer></script>
   </body>
 </html>

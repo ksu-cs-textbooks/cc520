@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Joins">
-    <meta property="article:modified_time" content="2022-01-31T16:06:59-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Join Variations :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at some more complicated joins. So we’ve covered cross joins and Inner Joins so far. And remember, the inner join is just a cross join, but with a filter. But we haven’t really added a whole lot to these queries yet. So let’s take a look at a few different things that we can actually accomplish with them. In this video, we’re going to be talking a little bit about composite joints, where so far with our predicates that we included in our inner join us just enter join on one column. So our predicates are relatively simple. But we can actually have a little bit more complicated join there as well. So if we have table A and Table B, we can actually match those records on more than one column from each of the tables using Boolean operations. We can also join ourselves. So this sounds kind of weird at first, but there are a lot of good reasons where we would want actually want to join a table with itself in order to extract different kinds of relationships. And then we also have non equal joins, non equal joins are going to use an operator other than equality in inside of an inner join. So instead of matching, inner joining table a table B, where column one and Table A equals table, column one and Table B, maybe we have greater than or less than, or something like that. And then the last thing that we’re going to be working with today is going to be multi join queries. Now multi join queries are just as it sounds, right, we’re going to join more than two tables together. Now, we can actually mix and match joins as well. So we don’t just have to use all exclusively Inner Joins, or cross joins, or outer joins, which we’ll cover here later. But the big point here is that the join operations are executed from left to right.">
-    <meta itemprop="dateModified" content="2022-01-31T16:06:59-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="2697">
     <title>Join Variations :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/04-joins/4-join-variation/" rel="canonical" type="text/html" title="Join Variations :: CC 520 Textbook">
     <link href="/cc520/04-joins/4-join-variation/index.xml" rel="alternate" type="application/rss+xml" title="Join Variations :: CC 520 Textbook">
     <link href="/cc520/04-joins/4-join-variation/index.print.html" rel="alternate" type="text/html" title="Join Variations :: CC 520 Textbook">
     <link href="/cc520/04-joins/4-join-variation/tele.html" rel="alternate" type="text/html" title="Join Variations :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc520/04-joins/4-join-variation/">
     <div id="R-body" class="default-animation">
@@ -160,10 +160,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-  <script src="/cc520/js/embed-iframe.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

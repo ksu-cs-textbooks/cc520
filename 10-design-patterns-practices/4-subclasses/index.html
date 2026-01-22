@@ -17,36 +17,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Design Patterns and Practices">
-    <meta property="article:modified_time" content="2022-03-23T11:46:08-05:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Database Subclasses :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription Welcome back everyone, In this video, we’re gonna be taking a look at subclasses. Now subclasses seem kind of an odd thing for databases. subclasses are an object oriented programming idea, right? So we have a parent class serves as our base class. And we have child classes that inherit, you know, attributes and behaviors from the parent. But we actually could represent similar ideas inside databases, typically, we’re going to have three different kinds of approaches here, the object oriented approach, which is really one, one direct mapping to what you would expect in like Java, or Python, where you have a table for each class or type. So you have a, a table for, let’s say, an animal, a table for a dog, and so on and so forth. You have things like nullable columns. So you can represent the class structure by just having columns that you can know out for certain scenarios. So, you know, you can have, you know, animal as your base class, and you have dog and cat as your sub classes. But a dog does not have all of the same properties as a cat. And so if the, if the animal that we’re representing is a dog, then the things that represent a cat are doled out, and vice versa. So that’s, that’s an approach. And then we have the ER style, which is probably the more complicated representation. And this is the true abstraction setup here where we have a base class or superclass that represents the base information. And then you have child classes that are connected to that table through relationship of some type. But let’s first take a look at the object oriented approach. So generally speaking, when we do this approach, all the common attributes are going to be in all types. So if you have an attribute that’s shared between classes in your data structures, then that common attribute is going to be a column in all of those tables in your database design. In the object oriented approach, we have no keys, or sorry, we have no foreign key. So there is no direct relationship between each of the tables. So we have no connection between the objects, that connection is represented using that that connection is used or created using those common attributes. So the common attributes are those connections between each of the subtypes. And then tuples are only inserted into the applicable type, meaning that there is no base type.">
-    <meta itemprop="dateModified" content="2022-03-23T11:46:08-05:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="2253">
     <title>Database Subclasses :: CC 520 Textbook</title>
     <link href="/cc520/10-design-patterns-practices/4-subclasses/index.xml" rel="alternate" type="application/rss+xml" title="Database Subclasses :: CC 520 Textbook">
     <link href="/cc520/10-design-patterns-practices/4-subclasses/index.print.html" rel="alternate" type="text/html" title="Database Subclasses :: CC 520 Textbook">
     <link href="/cc520/10-design-patterns-practices/4-subclasses/tele.html" rel="alternate" type="text/html" title="Database Subclasses :: CC 520 Textbook">
     <link href="/cc520/10-design-patterns-practices/4-subclasses/embed.html" rel="alternate" type="text/html" title="Database Subclasses :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -105,7 +105,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc520/10-design-patterns-practices/4-subclasses/">
     <div id="R-body" class="default-animation">
@@ -185,7 +185,7 @@
   <p class="theme-version-footer">8.0.0</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> <a href="mailto:weeser@ksu.edu">Josh Weese</a>
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/f9a529bc027092627cb70579a988385fd43cbf86">Mar 23, 2022</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc520/commit/4e177e809e0107ae1e163d7643b9b00793fde3b5">Jan 22, 2026</a>
 </p>
 
 </div>
@@ -365,7 +365,7 @@
         </div>
 <div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
 <br/>
-<p><strong><i>© Copyright 2023, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
+<p><strong><i>© Copyright 2026, <a href="https://www.cs.ksu.edu/about/people/faculty/weese/" target="_">Joshua L. Weese</a> and <a href="https://www.cs.ksu.edu/about/people/faculty/keller/" target="_">John Keller</a>. All rights reserved.</i></strong></p>
 
 </div>
       </div>
@@ -381,9 +381,9 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
   </body>
 </html>

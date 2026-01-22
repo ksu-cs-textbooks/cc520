@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Data Modification">
-    <meta property="article:modified_time" content="2022-03-28T16:03:11-05:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Delete & Truncate :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. In this video, we’re going to be starting our discussion into the Delete clause and our data modification series. So remember, our SQL language has two primary parts, the data manipulation language, which is what we’ve been working with primarily so far, and the data definition language, which involves things like the CREATE TABLE statement, we primarily worked with the SELECT clause for most of this course. But the SELECT clause is one of six statements that we may see in the data manipulation language, or DML. So what we’ve covered with so far with Dave, the DML, as far as data modification goes has been insert so far. And in this video, we’re going to be taking a look at the Delete functionality. And then later, we’ll start looking at how we might update data. And then also combine the Update, Delete and so on and together with into one clause using the MERGE statement. But first, let’s take a look at delete. So primarily in SQL, there are two ways you can delete data. The first one being the Delete clause, this is the most common way to delete information, it does support in T SQL, it does support the from clause as well. So delete from but that is non standard as far as the SQL language is concerned. So you may see different structures or different syntax and different database systems. So a T SQL or Microsoft SQL Server versus things like Postgres, or MySQL, the syntax may vary slightly. But delete is an atomic operation. Meaning that if your Delete clause is going to delete, let’s say five rows from Table A, then either all five rows get deleted, or none of them do. So the the delete operation cannot be interrupted. So it’s either all or nothing. As far as that is concerned. Later in this course, we’ll talk about transactions, which can help help support that animosity as far as the database statements go, but the other way you can delete data from a table and SQL is the truncate command, truncate is more destructive, of course, truncate is going to delete all rows from whatever you’re working with. And this is actually very minimally logged. So truncate is actually, if you were to remove all tables from a table, truncate would actually perform faster than the then the Delete clause, but truncate is, is quite destructive, right? You want to be careful when you use this command, because it does delete everything, it does delete all the rows.">
-    <meta itemprop="dateModified" content="2022-03-28T16:03:11-05:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="2387">
     <title>Delete &amp; Truncate :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/11-data-modification/3-delete-truncate/" rel="canonical" type="text/html" title="Delete &amp; Truncate :: CC 520 Textbook">
     <link href="/cc520/11-data-modification/3-delete-truncate/index.xml" rel="alternate" type="application/rss+xml" title="Delete &amp; Truncate :: CC 520 Textbook">
     <link href="/cc520/11-data-modification/3-delete-truncate/tele.html" rel="alternate" type="text/html" title="Delete &amp; Truncate :: CC 520 Textbook">
     <link href="/cc520/11-data-modification/3-delete-truncate/embed.html" rel="alternate" type="text/html" title="Delete &amp; Truncate :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support embed print" data-url="/cc520/11-data-modification/3-delete-truncate/">
     <div id="R-body" class="default-animation">
@@ -154,10 +154,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-  <script src="/cc520/js/embed-iframe.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

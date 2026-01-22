@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Transactions and Indexes">
-    <meta property="article:modified_time" content="2022-04-27T15:05:52-05:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Transactions & Concurrency 2 :: CC 520 Textbook">
     <meta itemprop="description" content="Video Transcription We’re gonna do a class activity today. And so what you need to do this is on the lecture 27 transactions and concurrency, you just need to download the transactions in currency dash participate dot SQL, zoom in here. So the transactions and currency dash participate dot SQL, that’s the one you need. And it will look like this. So this is the participate dot SQL file. First, the first example that I’m going to showcase is the blocking issues. So the fact that we have remember shared blocks, which are specifically for a read operation, and so multiple transactions can share that lock. And multiple reads can happen at the same time. Or multiple reads can happen within that within that. And then exclusive lock blocks all so an exclusive lock will block all reads and all other rights. So that is what we’ll start off with. Okay, so on the left here is just my my demo as far as what we’re trying to showcase acid for. And you can also download this too, if you want, but you won’t be able to run one of these particular commands. So. So I’m just emptying out my table, from what I had from us testing this.">
-    <meta itemprop="dateModified" content="2022-04-27T15:05:52-05:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="3281">
     <title>Transactions &amp; Concurrency 2 :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/" rel="canonical" type="text/html" title="Transactions &amp; Concurrency 2 :: CC 520 Textbook">
     <link href="/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/index.xml" rel="alternate" type="application/rss+xml" title="Transactions &amp; Concurrency 2 :: CC 520 Textbook">
     <link href="/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/index.print.html" rel="alternate" type="text/html" title="Transactions &amp; Concurrency 2 :: CC 520 Textbook">
     <link href="/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/tele.html" rel="alternate" type="text/html" title="Transactions &amp; Concurrency 2 :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-html.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-html.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc520/14-transactions-and-indexes/3-transactions-concurrency-2/">
     <div id="R-body" class="default-animation">
@@ -166,10 +166,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-  <script src="/cc520/js/embed-iframe.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>

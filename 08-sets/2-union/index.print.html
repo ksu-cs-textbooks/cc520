@@ -18,36 +18,36 @@
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Set Operators">
-    <meta property="article:modified_time" content="2022-03-01T13:51:49-06:00">
+    <meta property="article:modified_time" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="name" content="Union :: CC 520 Textbook">
     <meta itemprop="description" content="YouTube Video Video Transcription Welcome back everyone. And in this video, we’re going to be taking a look at our first set operator union. So the syntax looks very similar to the generic syntax that I’ve shown so far. We have an input query on the left union with an optional all a qualifier. And the right hand side was, which is the input query to add an optional ORDER BY clause. So as remembering as well, the input query, and the two input queries will execute in full and their normal processing order before the union starts to happen. So let’s talk about what union actually contains, the union of two sets is going to create a set containing all members from A and B. So A union B is take everything from a and combine it with B, and then we come and then we end up with one set with everything from both. So what does that mean with our actual operations and databases? Well, in databases, it’s a little more confusing overall. So the mathematical way of representing this is we have A union B here. So the U is the actual relational set operator in algebra. But in databases, we actually have two union operators, we have union all and union distinct. So union distinct is going to be the default. So let’s, this is the default. So if the all keyword is not specified, the distinct union is going to be done. So the actual end result here is going to be the same. So when we union A with union B, we actually get all of a, all of B, and union all gets all of a all of B, and then all of the bits that they share together. So that’s what my Venn diagram here represents. And you should be a little bit familiar with what this Venn diagram looks like. We, we’ve shown this style of Venn diagrams when we were talking about Boolean operators, in CC 110. So the primary difference between the two here is that distinct, does very similar things that you would do a select distinct for. And so union all can actually have duplicate values. So if you have 123, and set A and 123, and set B, then we have double one, two threes, and the result, so we have 123123.">
-    <meta itemprop="dateModified" content="2022-03-01T13:51:49-06:00">
+    <meta itemprop="dateModified" content="2026-01-22T10:00:41-06:00">
     <meta itemprop="wordCount" content="1380">
     <title>Union :: CC 520 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc520/08-sets/2-union/" rel="canonical" type="text/html" title="Union :: CC 520 Textbook">
     <link href="/cc520/08-sets/2-union/index.xml" rel="alternate" type="application/rss+xml" title="Union :: CC 520 Textbook">
     <link href="/cc520/08-sets/2-union/tele.html" rel="alternate" type="text/html" title="Union :: CC 520 Textbook">
     <link href="/cc520/08-sets/2-union/embed.html" rel="alternate" type="text/html" title="Union :: CC 520 Textbook">
-    <link href="/cc520/css/auto-complete/auto-complete.min.css?1768894641" rel="stylesheet">
-    <script src="/cc520/js/auto-complete/auto-complete.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search-lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/search.min.js?1768894641" defer></script>
+    <link href="/cc520/css/auto-complete/auto-complete.min.css?1769097669" rel="stylesheet">
+    <script src="/cc520/js/auto-complete/auto-complete.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search-lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/search.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc520/searchindex.en.js?1768894641";
+      window.relearn.index_js_url="/cc520/searchindex.en.js?1769097669";
     </script>
-    <script src="/cc520/js/lunr/lunr.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.multi.min.js?1768894641" defer></script>
-    <script src="/cc520/js/lunr/lunr.en.min.js?1768894641" defer></script>
+    <script src="/cc520/js/lunr/lunr.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.stemmer.support.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.multi.min.js?1769097669" defer></script>
+    <script src="/cc520/js/lunr/lunr.en.min.js?1769097669" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1768894641" rel="stylesheet"></noscript>
-    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/theme.min.css?1768894641" rel="stylesheet">
-    <link href="/cc520/css/format-print.min.css?1768894641" rel="stylesheet" id="R-format-style">
+    <link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc520/fonts/fontawesome/css/fontawesome-all.min.css?1769097669" rel="stylesheet"></noscript>
+    <link href="/cc520/css/perfect-scrollbar/perfect-scrollbar.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/theme.min.css?1769097669" rel="stylesheet">
+    <link href="/cc520/css/format-print.min.css?1769097669" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -106,7 +106,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc520/css/custom.css?1768894641" rel="stylesheet">
+    <link href="/cc520/css/custom.css?1769097669" rel="stylesheet">
   </head>
   <body class="mobile-support embed print" data-url="/cc520/08-sets/2-union/">
     <div id="R-body" class="default-animation">
@@ -152,10 +152,10 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1768894641"></script>
-    <script src="/cc520/js/clipboard/clipboard.min.js?1768894641" defer></script>
-    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1768894641" defer></script>
-    <script src="/cc520/js/theme.min.js?1768894641" defer></script>
-  <script src="/cc520/js/embed-iframe.min.js?1768894641" defer></script>
+    <script id="MathJax-script" async src="/cc520/js/mathjax/tex-mml-chtml.js?1769097669"></script>
+    <script src="/cc520/js/clipboard/clipboard.min.js?1769097669" defer></script>
+    <script src="/cc520/js/perfect-scrollbar/perfect-scrollbar.min.js?1769097669" defer></script>
+    <script src="/cc520/js/theme.min.js?1769097669" defer></script>
+  <script src="/cc520/js/embed-iframe.min.js?1769097669" defer></script>
   </body>
 </html>
