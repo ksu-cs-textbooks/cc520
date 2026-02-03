@@ -22,8 +22,9 @@ jobs:
           node-version: '24' # Use a stable Node version
 
       - name: Install dependencies
-        run: npm install
-
+        run:  npm install @axe-core/cli browser-driver-manager
+      - name: Install matching ChromeDriver
+        run: npx browser-driver-manager install chrome
       # This step assumes your application is running and accessible at a URL (e.g., http://localhost:3000)
       # You might need to add a step to build and start your application first.
       - name: Run axe-core CLI audit
