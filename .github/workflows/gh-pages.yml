@@ -68,3 +68,4 @@ jobs:
           commit_message: ${{ github.event.head_commit.message }}
           # only for root website, not subdirectories
           # cname: alt.cs.ksu.edu
+          

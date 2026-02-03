@@ -28,12 +28,12 @@ jobs:
       # This step assumes your application is running and accessible at a URL (e.g., http://localhost:3000)
       # You might need to add a step to build and start your application first.
       - name: Run axe-core CLI audit
-        run: npx @axe-core/cli http://localhost:3000 --save axe-results.json --exit
+        run: npx @axe-core/cli https://textbooks.cs.ksu.edu/cc520/ --save axe-results.json --exit
         # The --exit flag ensures the action fails if accessibility issues are found.
       - name: Save accessibility report
         if: always()
         uses: actions/upload-artifact@v4
-        with:
+        with: 
           name: accessibility-report
           path: axe-results.json # or the path to your report file
       - name: Parse axe results and create badge
