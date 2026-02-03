@@ -1,3 +1,6 @@
+![Accessibility Audit](https://github.com/ksu-cs-textbooks/cc520/actions/workflows/accessibility.yml/badge.svg)
+
+
 # K-State CS Hugo Framework
 
 This is a [Hugo](https://gohugo.io/)-based web framework for K-State CS lecture content. It uses a lightly adapted version of the [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html) theme called [K-State CS Hugo Theme](https://ksucs-hugo.russfeld.me/)

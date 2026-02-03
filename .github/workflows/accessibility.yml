@@ -1,0 +1,42 @@
+name: Accessibility Test
+
+on: [push, pull_request]
+
+jobs:
+  accessibility_audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24' # Use a stable Node version
+
+      - name: Install dependencies
+        run: npm install
+
+      # This step assumes your application is running and accessible at a URL (e.g., http://localhost:3000)
+      # You might need to add a step to build and start your application first.
+      - name: Run axe-core CLI audit
+        run: npx @axe-core/cli http://localhost:3000 --save axe-results.json --exit
+        # The --exit flag ensures the action fails if accessibility issues are found.
+      - name: Save accessibility report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: accessibility-report
+          path: axe-results.json # or the path to your report file
+      - name: Parse axe results and create badge
+        run: |
+            npm install -g badgen-cli
+            ISSUE_COUNT=$(jq '.violations | length' axe-results.json)
+            badgen --label "a11y issues" --status "$ISSUE_COUNT" --color "red" > accessibility-badge.svg
+
+      - name: Commit badge
+        uses: EndBug/add-and-commit@v9
+        with:
+            add: 'accessibility-badge.svg'
+            message: 'Update accessibility badge'
+            default_author: github_actions
