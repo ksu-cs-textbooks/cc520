@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@axe-core/cli": "^4.8.2"
+    "@axe-core/cli": "^4.8.2",
+    "browser-driver-manager": "^1.0.0"
   }
 }
