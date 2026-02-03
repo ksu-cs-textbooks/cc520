@@ -25,7 +25,7 @@ cleanDestinationDir = true
 # SEARCH - Search index file for Lunr
 # SEARCHPAGE - Dedicated Search Page
 [outputs]
-  home = ["HTML", "RSS", "PRINT", "SEARCH", "SEARCHPAGE"]
+  home = ["HTML", "RSS", "PRINT"]
   section = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
   page = ["HTML", "RSS", "PRINT", "TELE", "EMBED"]
 
@@ -182,7 +182,7 @@ cleanDestinationDir = true
   # If the search box is disabled, the search functionality is disabled too.
   # This will also cause the keyboard shortcut to be disabled and the dedicated
   # search page is not linked although it mighty be configured.
-  disableSearch = false
+  search.disable = false
 
   # Hide the Home entry.
   # Default: false
@@ -411,7 +411,7 @@ cleanDestinationDir = true
   # you can set `disableMathJax=false` in your frontmatter to force the library to
   # be loaded.
   # This can be overridden in the page's frontmatter.
-  disableMathJax = true
+  math=true
 
   # URL for external MathJax library.
   # Default: not set
@@ -447,7 +447,7 @@ cleanDestinationDir = true
   # you can set `disableMermaid=false` in your frontmatter to force the library to
   # be loaded.
   # This can be overridden in the page's frontmatter.
-  disableMermaid = true
+  mermaid = false
 
   # URL for external Mermaid library.
   # Default: not set
@@ -469,7 +469,7 @@ cleanDestinationDir = true
   # you can set `disableOpenapi=false` in your frontmatter to force the library to
   # be loaded.
   # This can be overridden in the page's frontmatter.
-  disableOpenapi = true
+  openapi=false
 
   # URL for external OpenAPI library.
   # Default: not set
