@@ -32,7 +32,7 @@ jobs:
         # The --exit flag ensures the action fails if accessibility issues are found.
       - name: Save accessibility report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with: 
           name: accessibility-report
           path: axe-results.json # or the path to your report file
