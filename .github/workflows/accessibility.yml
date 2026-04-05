@@ -43,7 +43,7 @@ jobs:
             badgen --label "a11y issues" --status "$ISSUE_COUNT" --color "red" > accessibility-badge.svg
 
       - name: Commit badge
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
             add: 'accessibility-badge.svg'
             message: 'Update accessibility badge'
